@@ -19,8 +19,8 @@ pins = []
 #   4. Run an evaluation of this directory with the Nexus Lifecycle CLI
 #
 
-fileLocation = "onyxcorp/Cartfile.resolved" #UPDATE read file location
-publishDestination = "onyxcorp/Package.resolved" #UPDATE publish destination
+fileLocation = "path/to/Cartfile.resolved" #UPDATE read file location
+publishDestination = "path/to/Package.resolved" #UPDATE publish destination
 
 
 def readCartfiles():
