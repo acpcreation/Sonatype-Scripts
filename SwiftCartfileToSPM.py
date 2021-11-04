@@ -61,8 +61,6 @@ def createPins(e):
 #========== MAIN ==========
 #==========================
 if __name__ == "__main__":
- 
-    print("Running..")
     readCartfiles()
     f = open(publishDestination, "w") #Output: Package.resolved
     writeData = {
@@ -74,4 +72,4 @@ if __name__ == "__main__":
 
     f.write(json.dumps(writeData))
     f.close()
-    print("Carthage written to "+publishDestination+" with "+str(len(pins))+" components!")
+    print("Carthage packages written to "+publishDestination+" with "+str(len(pins))+" components!")
