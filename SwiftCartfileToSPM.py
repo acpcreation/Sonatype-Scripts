@@ -9,6 +9,8 @@ pins = []
 # evaluation. Due to the overlap of libraries between Carthage and the Swift
 # Package Manager we are safely able to do this conversion, giving your team 
 # insight into which open source libraries are being used.
+
+# Both Cartfile and Cartfile.resolvedfiletypes are supported.
 #
 # Steps:
 #   1. Update the read file location
