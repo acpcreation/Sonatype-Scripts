@@ -1,43 +1,45 @@
 #!/usr/bin/env python
 import json
+import csv
 import requests
 from datetime import date
 
 
 # Environment variables
-uri = "localhost"
-port = str(8070)
+url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
 allData = []
+csvReport = []
 
-theurl = "http://%s:%s/api/v2/applications/" % (uri, port)
+theurl = "%sapi/v2/applications/" % (url)
 
 
 def scan_all_IQ_reports():
     # fetch report from uri
-    res = requests.get(theurl, auth=(username, password))
+    res = requests.get(theurl, auth=(username, password)) #, timeout=120
 
     # Load result string to json
     json_data = json.loads(res.text)
     # print(json_data) #All application
+    print("Found "+str(len(json_data['applications']))+" applications..")
 
     # iterate json
     for applications in json_data['applications']:
         app_id_hash = str(applications['id'])
-        theurl2 = "http://%s:%s/api/v2/reports/applications/" % (uri, port) + str(app_id_hash)
+        theurl2 = "%sapi/v2/reports/applications/" % (url) + str(app_id_hash)
         res2 = requests.get(theurl2, auth=(username, password))
         json_data_reps = json.loads(res2.text)
         # print(json_data_reps) #Get all reports
 
-
         # gets url for build stage of app / BOM
         for items in json_data_reps:
             reporturl = items['reportDataUrl']
-            theurl3 = "http://%s:%s/" % (uri, port) + str(reporturl)
+            theurl3 = "%s" % (url) + str(reporturl)
             res3 = requests.get(theurl3, auth=(username, password))
             json_data_comps = json.loads(res3.text)
             # print(json_data_comps['components'][0])
+            print("\t"+str(len(json_data_comps['components'])) +"\t components found for "+items['reportHtmlUrl'].replace('ui/links/application/', '') )
 
             for comps in json_data_comps['components']:
                 if comps['componentIdentifier'] != None:
@@ -129,7 +131,19 @@ def count_security_and_licence(comps):
     # Append to array
     if found == False:
         allData.append(comps)
-   
+
+
+# Convert to CSV Method
+def convert_to_csv():
+    print("Converting to CSV...")
+    #Iterate through full vulnerability report
+    for i in range(len(allData)):
+        d = allData[i]
+        row = [d['displayName'].replace(',', '')] #d['hash'], 
+        row += d['allLicenses']
+        csvReport.append(row)
+
+
 
 #==========================
 #========== MAIN ==========
@@ -137,19 +151,29 @@ def count_security_and_licence(comps):
 if __name__ == "__main__":
  
     print("Running.. This will take a few minutes..")
-    #main method
     scan_all_IQ_reports()
-
     today = date.today()
     t = today.strftime("%b-%d-%Y") #today.strftime("%d/%m/%Y")
-
     f = open("allDataReport-"+t+".json", "w")
     everything = {'all':allData}
     f.write(json.dumps(everything))
-    f.close()   
-
-    print("Done!")
-    print("Report written to allDataReport.json")
-    
+    f.close()
+    print("Done generating report!")
+    print("Data written to allDataReport.json")
 
     
+    
+    #CONVERT TO CSV
+    #Open local report to convert to CSV
+    # f = open('allDataReport.json')
+    # allData = json.load(f)
+    # allData = allData['all']
+
+    convert_to_csv() #Convert to CSV
+
+    #Write to CSV file
+    with open("allDataCSVReport-"+t+".csv","w+") as my_csv:
+        csvWriter = csv.writer(my_csv,delimiter=',')
+        csvWriter.writerows(csvReport)
+
+    print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
