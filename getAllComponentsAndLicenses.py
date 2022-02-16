@@ -139,8 +139,10 @@ def convert_to_csv():
     #Iterate through full vulnerability report
     for i in range(len(allData)):
         d = allData[i]
-        row = [d['displayName'].replace(',', '')] #d['hash'], 
-        row += d['allLicenses']
+        row = [d['displayName'].replace(',', '')] #d['hash'],  
+        row += [d['applications']]
+        row += [d['allLicenses']]
+        row += [d['effectiveLicenseThreats']]
         csvReport.append(row)
 
 
@@ -174,6 +176,8 @@ if __name__ == "__main__":
     #Write to CSV file
     with open("allDataCSVReport-"+t+".csv","w+") as my_csv:
         csvWriter = csv.writer(my_csv,delimiter=',')
+        csvWriter.writerow(["Component","Applications","License(s)","License Threats"])
+        print(csvReport[100])
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
