@@ -177,7 +177,8 @@ if __name__ == "__main__":
     with open("allDataCSVReport-"+t+".csv","w+") as my_csv:
         csvWriter = csv.writer(my_csv,delimiter=',')
         csvWriter.writerow(["Component","Applications","License(s)","License Threats"])
-        print(csvReport[100])
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
+
+   
