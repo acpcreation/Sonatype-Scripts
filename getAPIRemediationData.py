@@ -115,7 +115,11 @@ def get_CVE_details():
     print("Completed getting deeper vulnerability data")
 
 
+# def get_policy_data():
+    # ref: https://help.sonatype.com/iqserver/automating/rest-apis/policy-violation-rest-api---v2
+    # print("Getting Policy Violation Data...")
 
+    
 #==========================
 #========== MAIN ==========
 #==========================
