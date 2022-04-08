@@ -10,16 +10,16 @@ import requests
 #
 # One you create the Label you can add a policy constraint on matching
 # the label to apply policies in the desired fashion.
+#
 
 # ====== EDIT ENVIRONMENT VARIABLES ======
-applicationID = "WaiveAll"
+applicationID = "APP NAME"
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
-stage = "stage-release" #develop, source, build, stage-release, release
+stage = "build" #develop, source, build, stage-release, release
 labelName = "Angular-Component" 
 iqOrganization = "ROOT_ORGANIZATION_ID"
-
 
 
 # =======================================================
@@ -74,8 +74,9 @@ def assign_component_labels():
         sendurl = url+"components/"+i['hash']+"/labels/"+labelName+"/organizations/"+iqOrganization #Organization based label
         # sendurl = url+"components/"+i['hash']+"/labels/"+labelName+"/applications/"+internalAppID #Application based label
         res = requests.post(sendurl, auth=(username, password), data={})
-        # json_data = json.loads(res.text)
-        print("\t"+ res.text)
+        json_data = json.loads(res) #res.text
+        print("..."+ json_data)
+
 
 #==========================
 #========== MAIN ==========
@@ -84,5 +85,4 @@ if __name__ == "__main__":
     get_report_data() #Get SBOM data
 
     print(str(len(componentList)) +" Components have been labeled!")
-
 
