@@ -146,9 +146,17 @@ def convert_to_csv():
     #Iterate through full vulnerability report
     for i in range(len(allData)):
         d = allData[i]
+        
+        #Generate links
+        cveLinks = []
+        for j in d['securityData']:
+            head, sep, tail = j.partition(' ')
+            cveLinks.append(" "+url+"assets/index.html#/vulnerabilities/"+head+" ")
+
         row = [d['displayName'].replace(',', '')] #d['hash'],  
         row += [d['applications']]
         row += [d['securityData']]
+        row += [cveLinks]
         row += [d['allLicenses']]
         row += [d['effectiveLicenseThreats']]
         csvReport.append(row)
@@ -161,8 +169,8 @@ def convert_to_csv():
 if __name__ == "__main__":
  
     print("Running.. This will take a few minutes..")
-    scan_all_IQ_reports()
-    getRepositoryManagerComponents()
+    # scan_all_IQ_reports()
+    # getRepositoryManagerComponents()
 
     today = date.today()
     t = today.strftime("%b-%d-%Y") #today.strftime("%d/%m/%Y")
@@ -170,22 +178,22 @@ if __name__ == "__main__":
     everything = {'all':allData}
     f.write(json.dumps(everything))
     f.close()
-    print("Done generating report!")
-    print("Data written to allDataReport.json")
+    print("Done generating report...")
+    print("Data written to allDataReport.json...")
 
 
     #CONVERT TO CSV
-    #Open local report to convert to CSV
-    # f = open('allDataReport.json')
-    # allData = json.load(f)
-    # allData = allData['all']
+    # Open local report to convert to CSV
+    f = open('allDataReport.json')
+    allData = json.load(f)
+    allData = allData['all']
 
     convert_to_csv() #Convert to CSV
 
     #Write to CSV file
     with open("allDataCSVReport-"+t+".csv","w+") as my_csv:
         csvWriter = csv.writer(my_csv,delimiter=',')
-        csvWriter.writerow(["Component","Applications","CVE Vulnerabilities","License(s)","License Threats"])
+        csvWriter.writerow(["Component","Applications","Vulnerabilities","CVE Links","License(s)","License Threats"])
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
