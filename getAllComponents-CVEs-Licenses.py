@@ -5,16 +5,16 @@ import requests
 from datetime import date
 
 
-# Environment variables
+# ====== Environment variables ======
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
 
+#====================================
+
 allData = []
 csvReport = []
-
 theurl = "%sapi/v2/applications/" % (url)
-
 
 def scan_all_IQ_reports():
     # fetch report from uri
@@ -197,3 +197,4 @@ if __name__ == "__main__":
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
+
