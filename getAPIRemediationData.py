@@ -3,22 +3,21 @@ import json
 import requests
 
 
-# EDIT ENVIRONMENT VARIABLES
+# ========= ENVIRONMENT VARIABLES ========
 applicationID = "Struts2-rce"
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
-stage = "*" # *, develop, source, build, stage-release, release 
+stage = "build" # *, develop, source, build, stage-release, release 
 #Configure the functions in the Main to determine what data to get
 
+# =============================================
 
 
-# =============================================
-# =============================================
+
 #Default variables
 url = url+"api/v2/" #Update base url
 fullReportData = []
-
 
 def get_report_data():
     print("Getting ",applicationID," Reports...")
@@ -112,14 +111,14 @@ def get_CVE_details():
                     json_data = json.loads(res.text)
                     # print(json_data)
                     fullReportData[i]["securityData"]["securityIssues"][j]['deeperData'] = json_data
-    print("Completed getting deeper vulnerability data")
+    print("Completed getting deeper vulnerability data...")
 
 
 # def get_policy_data():
     # ref: https://help.sonatype.com/iqserver/automating/rest-apis/policy-violation-rest-api---v2
     # print("Getting Policy Violation Data...")
 
-    
+
 #==========================
 #========== MAIN ==========
 #==========================
@@ -137,7 +136,8 @@ if __name__ == "__main__":
 
 
     #Write to file
-    f = open("fullReportData.json", "w")
+    f = open("remediation-data.json", "w")
     f.write(json.dumps(fullReportData))
     f.close()
-    print("Results written to \'fullReportData.json\'")
+    print("Results written to \'remediation-data.json\'")
+    
