@@ -9,6 +9,7 @@ from datetime import date
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
+
 allData = []
 csvReport = []
 
@@ -133,6 +134,12 @@ def count_security_and_licence(comps):
         allData.append(comps)
 
 
+# Get components in the repository manager
+def getRepositoryManagerComponents():
+    print("Get components in the repository manager...")
+
+
+
 # Convert to CSV Method
 def convert_to_csv():
     print("Converting to CSV...")
@@ -141,6 +148,7 @@ def convert_to_csv():
         d = allData[i]
         row = [d['displayName'].replace(',', '')] #d['hash'],  
         row += [d['applications']]
+        row += [d['securityData']]
         row += [d['allLicenses']]
         row += [d['effectiveLicenseThreats']]
         csvReport.append(row)
@@ -154,6 +162,8 @@ if __name__ == "__main__":
  
     print("Running.. This will take a few minutes..")
     scan_all_IQ_reports()
+    getRepositoryManagerComponents()
+
     today = date.today()
     t = today.strftime("%b-%d-%Y") #today.strftime("%d/%m/%Y")
     f = open("allDataReport-"+t+".json", "w")
@@ -163,8 +173,7 @@ if __name__ == "__main__":
     print("Done generating report!")
     print("Data written to allDataReport.json")
 
-    
-    
+
     #CONVERT TO CSV
     #Open local report to convert to CSV
     # f = open('allDataReport.json')
@@ -176,9 +185,7 @@ if __name__ == "__main__":
     #Write to CSV file
     with open("allDataCSVReport-"+t+".csv","w+") as my_csv:
         csvWriter = csv.writer(my_csv,delimiter=',')
-        csvWriter.writerow(["Component","Applications","License(s)","License Threats"])
+        csvWriter.writerow(["Component","Applications","CVE Vulnerabilities","License(s)","License Threats"])
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
-
-   
