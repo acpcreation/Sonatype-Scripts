@@ -153,6 +153,7 @@ def convert_to_csv():
             head, sep, tail = j.partition(' ')
             cveLinks.append(" "+url+"assets/index.html#/vulnerabilities/"+head+" ")
 
+        #Create rows
         row = [d['displayName'].replace(',', '')] #d['hash'],  
         row += [d['applications']]
         row += [d['securityData']]
@@ -167,9 +168,8 @@ def convert_to_csv():
 #========== MAIN ==========
 #==========================
 if __name__ == "__main__":
- 
     print("Running.. This will take a few minutes..")
-    # scan_all_IQ_reports()
+    scan_all_IQ_reports()
     # getRepositoryManagerComponents()
 
     today = date.today()
@@ -197,4 +197,3 @@ if __name__ == "__main__":
         csvWriter.writerows(csvReport)
 
     print("Done writing to CSV... check the allDataCSVReport-"+t+".csv file for results.")
-
