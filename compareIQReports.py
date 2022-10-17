@@ -4,9 +4,9 @@ import requests
 import csv
 
 ##########
-# This script takes all the reports across each stage of a sigle application
-# and compares the results of the components to see which components were found 
-# in the various stages of the reports.
+# This script takes all the reports across each stage of any combination of applications
+# and compares the results of the components to see which components were found in the
+# various application stage reports.
 #
 # This will allow us to compare the results of the different stages of reports 
 # for applications.
