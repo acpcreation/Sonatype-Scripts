@@ -13,7 +13,7 @@ import csv
 ##########
 
 # ========= ENVIRONMENT VARIABLES ========
-applicationID = ["AppID"] #List of apps to compare
+applicationID = ["App1ID", "App2ID"] #List of apps to compare
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
