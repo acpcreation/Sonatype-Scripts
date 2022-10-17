@@ -13,7 +13,7 @@ import csv
 ##########
 
 # ========= ENVIRONMENT VARIABLES ========
-applicationID = "Struts2-rce"
+applicationID = ["AppID"] #List of apps to compare
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
@@ -33,34 +33,35 @@ def get_report_data():
     print("Getting ",applicationID," Reports...")
     # ref: https://help.sonatype.com/iqserver/automating/rest-apis/application-rest-apis---v2
 
-    # fetch report from uri
-    sendurl = url+"applications?publicId="+applicationID
-    res = requests.get(sendurl, auth=(username, password)) #, timeout=120
-    # Load result string to json
-    json_data = json.loads(res.text) #Get internal app ID for input
-    
-    global internalAppID
-    internalAppID = json_data['applications'][0]['id'] #Select first internal app ID
-    sendurl = url+"reports/applications/"+internalAppID
-    res = requests.get(sendurl, auth=(username, password))
-    json_data = json.loads(res.text)
-    # print(json_data) #Info for latest reports for each stage
+    for app in applicationID:
+        # fetch report from uri
+        sendurl = url+"applications?publicId="+app
+        res = requests.get(sendurl, auth=(username, password)) #, timeout=120
+        # Load result string to json
+        json_data = json.loads(res.text) #Get internal app ID for input
+        
+        global internalAppID
+        internalAppID = json_data['applications'][0]['id'] #Select first internal app ID
+        sendurl = url+"reports/applications/"+internalAppID
+        res = requests.get(sendurl, auth=(username, password))
+        json_data = json.loads(res.text)
+        # print(json_data) #Info for latest reports for each stage
 
+        #Loop all reports 
+        for item in json_data:
+            if "*" in stages or item['stage'] in stages: #Only select desired stage
+                reportID = item['reportDataUrl'] 
+                reportID = reportID.replace('api/v2/', '')
+                # print(reportID)
+                sendurl = url+reportID
+                res = requests.get(sendurl, auth=(username, password))
+                json_data = json.loads(res.text)
 
-    #Loop all reports 
-    for item in json_data:
-        if "*" in stages or item['stage'] in stages: #Only select desired stage
-            reportID = item['reportDataUrl'] 
-            reportID = reportID.replace('api/v2/', '')
-            # print(reportID)
-            sendurl = url+reportID
-            res = requests.get(sendurl, auth=(username, password))
-            json_data = json.loads(res.text)
-
-            allReports.append({
-                "stage":item['stage'], 
-                "components":json_data['components']
-            })
+                allReports.append({
+                    "stage":item['stage'], 
+                    "components":json_data['components'],
+                    "application": app
+                })
 
 
 #Compare components accross stages
@@ -85,12 +86,14 @@ def compare_stages():
                         if i["hash"] == j["hash"]:
                             data[s["stage"]] = found
 
+                    data["applications"] = selectStage["application"]
+
                     global outputData
                     outputData.append(data)
 
     #Header row
     global headerRow
-    headerRow = ["component"]
+    headerRow = ["component", "applications"]
     for i in allReports:
         headerRow.append(i["stage"])
 
@@ -107,16 +110,23 @@ def clean_duplicates(e):
 
         i = 0
         while i < len(e):
-            # if len(e) < i:
             if item["component"] == e[i]["component"]:
 
+                #Iterate through the headers and match the fields
                 for j in headerRow:
                     if e[i][j] != "":
-                        item[j] = e[i][j]
+                        #Set if found
+                        if type(e[i][j]) == bool:
+                            item[j] = e[i][j]
+                        
+                        #Append apps
+                        elif e[i][j] not in item[j]:
+                            item[j] += " ; "+e[i][j]
 
-                # print("deleting - ", e[i])
                 del e[i]
                 i-=1
+            
+            #Iterate
             i+=1
             
         unique.append(item)
