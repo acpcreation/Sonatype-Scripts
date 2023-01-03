@@ -15,6 +15,7 @@ import requests
 url = "http://localhost:8070/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
+appID = ["*"] # Any applications you want evaluated (* for all applications)
 #====================================
 
 url += "api/v2/"
@@ -49,24 +50,26 @@ def trigger_scm_oboarding(e):
     for i in e:
         # print(i["id"]+"\t - \t"+i["publicId"])
 
-        sendURL = url+"evaluation/applications/"+i["id"]+"/sourceControlEvaluation"
+        if "*" in appID or i["publicId"] in appID:
 
-        payload = json.dumps({
-            "stageId": "source",
-            # "branchName": "main"
-        })
-        headers = {
-            'Content-Type': 'application/json',
-        }
+            sendURL = url+"evaluation/applications/"+i["id"]+"/sourceControlEvaluation"
 
-        response = requests.request("POST", sendURL, headers=headers, auth=(username, password), data=payload)
-        # print(response.text)
+            payload = json.dumps({
+                "stageId": "source",
+                # "branchName": "main"
+            })
+            headers = {
+                'Content-Type': 'application/json',
+            }
 
-        if str(response) == "<Response [200]>":
-            print("\t- "+i["publicId"])
-            scmCount += 1
-        else:
-            noSCM.append(i["publicId"])
+            response = requests.request("POST", sendURL, headers=headers, auth=(username, password), data=payload)
+            # print(response.text)
+
+            if str(response) == "<Response [200]>":
+                print("\t- "+i["publicId"])
+                scmCount += 1
+            else:
+                noSCM.append(i["publicId"])
 
     print(str(scmCount)+" source control evaluations triggered.")
 
@@ -82,4 +85,5 @@ def trigger_scm_oboarding(e):
 if __name__ == "__main__":
     print("Triggering SCM onboarding for all available applications...")
     get_all_applications()
+    print("\nDone!")
     
