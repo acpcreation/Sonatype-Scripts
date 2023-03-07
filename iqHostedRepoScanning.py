@@ -16,7 +16,7 @@ from urllib.parse import urlparse
 
 
 # Environment Variables
-iq_app_name = "Raw-Hosted-NXRM"
+iq_app_name_prefix = "Raw-Hosted-NXRM"
 iq_organization_id = "5a539d42a7734557a93583950010d4f8" #https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
 
 nxrm_url = "http://localhost:8081" #NOT include trailing '/'
@@ -27,7 +27,8 @@ repo_name = "raw-hosted"
 iq_url = "http://localhost:8070" #NOT include trailing '/'
 iq_username = "admin"
 iq_password = "admin!23"
-path_to_cli_jar = '/Users/acpcreation/NexusProducts/IQServer/nexus-iq-cli-1.147.0-01.jar'
+iq_phase = "release"
+path_to_cli_jar = '/Users/acpcreation/NexusProducts/IQServer/nexus-iq-cli-1.156.0-01.jar'
 temp_download_dir = '/Users/acpcreation/NexusProducts/IQ-Scripts/nxrm-scan/' #Include trailing '/'
 createMasterReport = True #Add a final scan containing all the artifacts in the scan directory
 
@@ -73,12 +74,12 @@ def initial_comp_list(page_number):
             
             #Trigger IQ scan
             print('The IQ scanning CLI command to be invoked is')
-            iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name +"-"+ items['name']+ " -s "+ iq_url + " -t source -O "+iq_organization_id +" " + temp_download_dir+items['name']
+            iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name_prefix +"-"+ items['name']+ " -s "+ iq_url + " -t "+iq_phase+" -O "+iq_organization_id +" " + temp_download_dir+items['name']
             print(iq_cli_cmd)
             subprocess.call([iq_cli_cmd], shell=True)
             
             # Get the SBOM
-            # iqurl = iq_url + "/api/v2/applications?publicId="+ iq_app_name +"-"+ items['name']+ 
+            # iqurl = iq_url + "/api/v2/applications?publicId="+ iq_app_name_prefix +"-"+ items['name']+ 
             # print(iqurl)
             # iqres = requests.get(iqurl, auth=(iq_username, iq_password))
 
@@ -109,7 +110,7 @@ def initial_comp_list(page_number):
     
     if createMasterReport == True:
         print('Creating Master Report of all artifacts...')
-        iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name +" -s "+ iq_url + " -t source -O "+iq_organization_id+" " + temp_download_dir
+        iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name_prefix +" -s "+ iq_url + " -t "+iq_phase+" -O "+iq_organization_id+" " + temp_download_dir
         print(iq_cli_cmd)
         subprocess.call([iq_cli_cmd], shell=True)
 
