@@ -11,9 +11,9 @@ from urllib.parse import urlparse
 # REQUIREMENTS:
 #   1. Update all the environment variables below 
 #   2. Turn on automatic applications in IQ
-#   3. In IQ create an Organization, and copy the organization ID
-#      into the iq_organization_id field. Ex: https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
-
+#   3. In IQ create an Organization, and copy the organization ID into the iq_organization_id field. 
+#       a. Documentation: https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
+#   
 
 # Environment Variables
 iq_app_name_prefix = "Raw-Hosted-NXRM"
