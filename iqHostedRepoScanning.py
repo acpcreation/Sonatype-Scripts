@@ -78,35 +78,6 @@ def initial_comp_list(page_number):
             print(iq_cli_cmd)
             subprocess.call([iq_cli_cmd], shell=True)
             
-            # Get the SBOM
-            # iqurl = iq_url + "/api/v2/applications?publicId="+ iq_app_name_prefix +"-"+ items['name']+ 
-            # print(iqurl)
-            # iqres = requests.get(iqurl, auth=(iq_username, iq_password))
-
-            # Load result string to json
-            # json_iq_data = json.loads(iqres.text)
-            # pprint(json_iq_data)
-            # print("Internal App ID")
-
-            # try:
-            #     id = json_iq_data["applications"][0]["id"]
-            #     print(id)
-            #     sbom_url = iq_url + "/api/v2/cycloneDx/1.4/" + str(id) + "/stages/build" 
-            #     print(sbom_url)
-            #     payload={}
-            #     headers = {
-            #         'Accept': 'application/xml',
-            #         'Authorization': 'Basic YWRtaW46TmV4dXMhMjM=',
-            #         'Cookie': 'CLM-CSRF-TOKEN=b302408b-aa15-4c76-8653-11b44fd76f17'
-            #     }
-            #     sbom_response = requests.request("GET", sbom_url, headers=headers, data=payload)
-            #     # print(sbom_response.text)
-            #     sbom_filename = "sbom" + dlfilename + ".json"
-            #     print(sbom_filename)
-            #     with open(sbom_filename,"w") as outfile:
-            #         json.dump( sbom_response.text, outfile)
-            # except:
-            #     pass
     
     if createMasterReport == True:
         print('Creating Master Report of all artifacts...')
