@@ -1,7 +1,17 @@
 #!/usr/bin/env python
 import json
 import requests
-import csv
+
+###############################################################
+# Steps for use:
+#   1. Create a global "Security-Fixable" label in Lifecycle
+#   2. Create or edit a policy with the "Security-Fixable" 
+#      label as a policy constraint along with the CVE severity.
+#   3. Update the Lifeycle variables below
+#   4. All future scans will see this label applied to the relevant 
+#      components. If you want to see the results immediately, go to
+#      the reports and click "Re-Evaluate Report".        
+###############################################################
 
 
 # ========= ENVIRONMENT VARIABLES ========
