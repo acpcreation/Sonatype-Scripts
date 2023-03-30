@@ -3,7 +3,6 @@
 import json
 import requests
 import subprocess
-from pprint import pprint
 import os
 from urllib.parse import urlparse
 
@@ -12,25 +11,27 @@ from urllib.parse import urlparse
 #   1. Update all the environment variables below 
 #   2. Turn on automatic applications in IQ
 #   3. In IQ create an Organization, and copy the organization ID into the iq_organization_id field. 
-#       a. Documentation: https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
-#   
+#       - Ex: https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
+
 
 # Environment Variables
-iq_app_name_prefix = "Raw-Hosted-NXRM"
-iq_organization_id = "5a539d42a7734557a93583950010d4f8" #https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
+iq_app_name_prefix = "Maven-Hosted-NXRM" #Prefix for each app scan
+iq_organization_id = "f9b233f57e994671969baf913f2bf218" #https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
 
 nxrm_url = "http://localhost:8081" #NOT include trailing '/'
 nxrm3_username = "admin"
 nxrm3_password = "admin!23"
-repo_name = "raw-hosted"
+repo_name = "maven-releases"
 
 iq_url = "http://localhost:8070" #NOT include trailing '/'
 iq_username = "admin"
 iq_password = "admin!23"
 iq_phase = "release"
-path_to_cli_jar = '/Users/acpcreation/NexusProducts/IQServer/nexus-iq-cli-1.156.0-01.jar'
-temp_download_dir = '/Users/acpcreation/NexusProducts/IQ-Scripts/nxrm-scan/' #Include trailing '/'
-createMasterReport = True #Add a final scan containing all the artifacts in the scan directory
+path_to_cli_jar = 'nexus-iq-cli-1.156.0-01.jar'
+temp_download_dir = 'nxrm-scan/' #Include trailing '/'
+
+scanEachIndividualArtifact = True #Scan each individual artifact downloaded
+createMasterReport = True #Create a final scan containing ALL the artifacts in the scan directory
 
 # End of user input
 
@@ -48,14 +49,14 @@ def initial_comp_list(page_number):
 
     # Load result string to json
     json_data = json.loads(res.text)
-    # pprint(json_data)
+    # print(json_data)
 
     cont_token = (json_data['continuationToken'])
     print(cont_token)
 
     for items in json_data['items']:
         item_text = (items['assets'][0]['downloadUrl'])
-        #pprint.pprint(item_text)
+        #print(item_text)
         glob_type = item_text[-3:]
         #print(glob_type)
         if glob_type not in ["pom"]:
@@ -72,19 +73,22 @@ def initial_comp_list(page_number):
             download_cmd = "cd " + temp_download_dir + " &&  curl  -u "+nxrm3_username+":"+str(nxrm3_password)+" -X GET " + str(comp_url) + " -O -J"
             subprocess.call([download_cmd], shell=True)
             
-            #Trigger IQ scan
-            print('The IQ scanning CLI command to be invoked is')
-            iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name_prefix +"-"+ items['name']+ " -s "+ iq_url + " -t "+iq_phase+" -O "+iq_organization_id +" " + temp_download_dir+items['name']
-            print(iq_cli_cmd)
-            subprocess.call([iq_cli_cmd], shell=True)
+            if scanEachIndividualArtifact == True:
+                #Trigger IQ scan
+                print('The IQ scanning CLI command to be invoked is')
+                iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name_prefix +"-"+ items['name']+ " -s "+ iq_url + " -t "+iq_phase+" -O "+iq_organization_id +" " + temp_download_dir+dlfilename
+                print("\t"+iq_cli_cmd)
+                print()
+                subprocess.call([iq_cli_cmd], shell=True)
             
     
     if createMasterReport == True:
         print('Creating Master Report of all artifacts...')
         iq_cli_cmd = "java -jar " + path_to_cli_jar + " -a \'" + iq_username + ":" + iq_password + "\' -i " + iq_app_name_prefix +" -s "+ iq_url + " -t "+iq_phase+" -O "+iq_organization_id+" " + temp_download_dir
-        print(iq_cli_cmd)
+        print("\t"+iq_cli_cmd)
+        print()
         subprocess.call([iq_cli_cmd], shell=True)
-
+        
     return cont_token
 
 def continued_comp_list(cont_token, page_number):
