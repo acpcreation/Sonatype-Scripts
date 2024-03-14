@@ -3,6 +3,11 @@ import json
 import requests
 from datetime import date
 
+# ====== README ======
+# This script gets the list of all the components currently in quarantine.
+# The output is a CSV file containing the component, quarantine date, repository, number of policy violations, and link to the component.
+# UPDATE THE VARIABLES BELOW
+#
 
 # ====== Environment variables ======
 url = "http://localhost:8070/" #URL including trailing '/'
