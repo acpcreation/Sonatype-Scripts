@@ -6,7 +6,9 @@ from datetime import date
 # ====== README ======
 # This script gets the list of all the components currently in quarantine.
 # The output is a CSV file containing the component, quarantine date, repository, number of policy violations, and link to the component.
+#
 # UPDATE THE VARIABLES BELOW
+# NOTE: THIS IS A SONATYPE-COMMUNITY SCRIPT AND *NOT* SUPPORTED BY SONATYPE 
 #
 
 # ====== Environment variables ======
@@ -85,3 +87,4 @@ if __name__ == "__main__":
     f.close()
     print("Done! Results written to FW-Quarantine-Report-"+t+".csv !")
 
+# NOTE: THIS IS A SONATYPE-COMMUNITY SCRIPT AND *NOT* SUPPORTED BY SONATYPE 
