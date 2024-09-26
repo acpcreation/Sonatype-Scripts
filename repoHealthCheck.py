@@ -18,7 +18,7 @@ url = "http://localhost:8081/" #URL including trailing '/'
 username = "admin"
 password = "admin!23"
 auditRepository = "npm-malicious"
-repoManager = "nexus" 
+repoManager = "nexus" # Options: [ nexus, artifactory ]
 
 # =============================================
 
