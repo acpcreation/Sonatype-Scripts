@@ -16,9 +16,10 @@ import requests
 # ========= ENVIRONMENT VARIABLES ========
 url = "http://localhost:8081/" #URL including trailing '/'
 username = "admin"
-password = "admin!23"
-auditRepository = "npm-malicious"
+password = "admin123"
+auditRepository = "npm-proxy"
 repoManager = "nexus" # Options: [ nexus, artifactory ]
+
 
 # =============================================
 
@@ -71,13 +72,14 @@ def get_nexus_components():
         components = components + res["items"]
         contToken = res["continuationToken"]
         while contToken != None:
-            print("\t Next page... "+contToken)
+            print("\t Next page... "+contToken+" ("+str(len(res["items"]))+")")
             res = requests.get(url+"service/rest/v1/components?repository="+auditRepository+"&continuationToken="+contToken, auth=(username, password)) #, timeout=120
             # print(res.text)
             res = json.loads(res.text)
             components = components + res["items"]
             contToken = res["continuationToken"]
 
+        print("Found "+str(len(components))+" components")
         convert_nexus_to_cyclonedx(components)
     
     else:
