@@ -1,0 +1,23 @@
+{
+        "license": "LGPL-2.1-only",
+        "srcrev": "82245c0c58add79a8e34ab0917358217a70e5100",
+        "summary": "Library containing NIS functions using TI-RPC (IPv6 enabled)",
+        "homepage": "https://github.com/thkukuk/libnsl",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://github.com/thkukuk/libnsl;branch=master;protocol=https"
+        ],
+        "cve_product": "libnsl2",
+        "cve_version": "2.0.0",
+        "sources": {
+                "patches": {},
+                "git": [
+                        "git://github.com/thkukuk/libnsl;branch=master;protocol=https"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-extended/libnsl/libnsl2_git.bb"
+}

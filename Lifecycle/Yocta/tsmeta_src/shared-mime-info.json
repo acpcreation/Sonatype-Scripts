@@ -1,0 +1,26 @@
+{
+        "license": "GPL-2.0-only",
+        "srcrev": "18e558fa1c8b90b86757ade09a4ba4d6a6cf8f70",
+        "summary": "Shared MIME type database and specification",
+        "homepage": "http://freedesktop.org/wiki/Software/shared-mime-info",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://gitlab.freedesktop.org/xdg/shared-mime-info.git;protocol=https;branch=master",
+                "file://0001-migrate-from-custom-itstool-to-builtin-msgfmt-for-cr.patch"
+        ],
+        "cve_product": "shared-mime-info",
+        "cve_version": "2.1",
+        "sources": {
+                "patches": {
+                        "0001-migrate-from-custom-itstool-to-builtin-msgfmt-for-cr.patch": "/home/andrew/poky/meta/recipes-support/shared-mime-info/files/0001-migrate-from-custom-itstool-to-builtin-msgfmt-for-cr.patch"
+                },
+                "git": [
+                        "git://gitlab.freedesktop.org/xdg/shared-mime-info.git;protocol=https;branch=master"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/shared-mime-info/shared-mime-info_git.bb"
+}

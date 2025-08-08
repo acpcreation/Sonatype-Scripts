@@ -1,0 +1,43 @@
+{
+        "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+        "summary": "eudev is a fork of systemd's udev",
+        "homepage": "https://wiki.gentoo.org/wiki/Eudev",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz",
+                "file://0014-Revert-rules-remove-firmware-loading-rules.patch",
+                "file://Revert-udev-remove-userspace-firmware-loading-suppor.patch",
+                "file://devfs-udev.rules",
+                "file://init",
+                "file://links.conf",
+                "file://local.rules",
+                "file://permissions.rules",
+                "file://run.rules",
+                "file://udev.rules"
+        ],
+        "cve_product": "eudev",
+        "cve_version": "3.2.10",
+        "sources": {
+                "patches": {
+                        "0014-Revert-rules-remove-firmware-loading-rules.patch": "/home/andrew/poky/meta/recipes-core/udev/eudev/0014-Revert-rules-remove-firmware-loading-rules.patch",
+                        "Revert-udev-remove-userspace-firmware-loading-suppor.patch": "/home/andrew/poky/meta/recipes-core/udev/eudev/Revert-udev-remove-userspace-firmware-loading-suppor.patch"
+                },
+                "https": [
+                        "https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz"
+                ],
+                "file": [
+                        "devfs-udev.rules",
+                        "init",
+                        "links.conf",
+                        "local.rules",
+                        "permissions.rules",
+                        "run.rules",
+                        "udev.rules"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/udev/eudev_3.2.10.bb"
+}

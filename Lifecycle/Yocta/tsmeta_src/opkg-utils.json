@@ -1,0 +1,25 @@
+{
+        "license": "GPL-2.0-or-later",
+        "summary": "Additional utilities for the opkg package manager",
+        "homepage": "http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils/snapshot/opkg-utils-0.5.0.tar.gz",
+                "file://0001-update-alternatives-correctly-match-priority.patch"
+        ],
+        "cve_product": "opkg-utils",
+        "cve_version": "0.5.0",
+        "sources": {
+                "patches": {
+                        "0001-update-alternatives-correctly-match-priority.patch": "/home/andrew/poky/meta/recipes-devtools/opkg-utils/opkg-utils/0001-update-alternatives-correctly-match-priority.patch"
+                },
+                "http": [
+                        "http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils/snapshot/opkg-utils-0.5.0.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-devtools/opkg-utils/opkg-utils_0.5.0.bb"
+}

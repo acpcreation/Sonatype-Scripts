@@ -1,0 +1,22 @@
+{
+        "license": "BSD-3-Clause",
+        "summary": "Transport-Independent RPC library",
+        "homepage": "http://sourceforge.net/projects/libtirpc/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://downloads.sourceforge.net/libtirpc/libtirpc-1.3.2.tar.bz2"
+        ],
+        "cve_product": "libtirpc",
+        "cve_version": "1.3.2",
+        "sources": {
+                "patches": {},
+                "https": [
+                        "https://downloads.sourceforge.net/libtirpc/libtirpc-1.3.2.tar.bz2"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-extended/libtirpc/libtirpc_1.3.2.bb"
+}

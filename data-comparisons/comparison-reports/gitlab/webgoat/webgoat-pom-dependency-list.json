@@ -1,0 +1,4486 @@
+{
+    "report": {
+        "status": "ok",
+        "job_path": "/test-group260849/webgoat_pom-comparison/builds/5796936846",
+        "generated_at": "2023-12-20T17:45:02.601Z"
+    },
+    "dependencies": [
+        {
+            "name": "antlr/antlr",
+            "packager": "Java (Maven)",
+            "version": "2.7.7",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "cglib/cglib-nodep",
+            "packager": "Java (Maven)",
+            "version": "2.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "ch.qos.logback/logback-classic",
+            "packager": "Java (Maven)",
+            "version": "1.2.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "logback serialization vulnerability",
+                    "severity": "high",
+                    "id": 103365895,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365895"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "GNU Library General Public License v2 or later",
+                    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+                }
+            ]
+        },
+        {
+            "name": "ch.qos.logback/logback-core",
+            "packager": "Java (Maven)",
+            "version": "1.2.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "logback serialization vulnerability",
+                    "severity": "high",
+                    "id": 103365850,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365850"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "GNU Library General Public License v2 or later",
+                    "url": "https://spdx.org/licenses/LGPL-2.0-or-later.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.beust/jcommander",
+            "packager": "Java (Maven)",
+            "version": "1.81",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-annotations",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-core",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.core/jackson-databind",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365903,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365903"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365922,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365922"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365924,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365924"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.datatype/jackson-datatype-jdk8",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.datatype/jackson-datatype-jsr310",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml.jackson.module/jackson-module-parameter-names",
+            "packager": "Java (Maven)",
+            "version": "2.13.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.fasterxml/classmate",
+            "packager": "Java (Maven)",
+            "version": "1.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.flipkart.zjsonpatch/zjsonpatch",
+            "packager": "Java (Maven)",
+            "version": "0.4.4",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jknack/handlebars",
+            "packager": "Java (Maven)",
+            "version": "4.0.7",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jknack/handlebars-helpers",
+            "packager": "Java (Maven)",
+            "version": "4.0.7",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jffi",
+            "packager": "Java (Maven)",
+            "version": "1.3.9",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-a64asm",
+            "packager": "Java (Maven)",
+            "version": "1.0.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-constants",
+            "packager": "Java (Maven)",
+            "version": "0.10.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-enxio",
+            "packager": "Java (Maven)",
+            "version": "0.32.13",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-ffi",
+            "packager": "Java (Maven)",
+            "version": "2.2.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-netdb",
+            "packager": "Java (Maven)",
+            "version": "1.2.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-posix",
+            "packager": "Java (Maven)",
+            "version": "3.1.15",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                },
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "GNU Lesser General Public License v2.1 only",
+                    "url": "https://spdx.org/licenses/LGPL-2.1-only.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-unixsocket",
+            "packager": "Java (Maven)",
+            "version": "0.38.17",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.jnr/jnr-x86asm",
+            "packager": "Java (Maven)",
+            "version": "1.0.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "com.github.tomakehurst/wiremock",
+            "packager": "Java (Maven)",
+            "version": "2.27.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.code.findbugs/jsr305",
+            "packager": "Java (Maven)",
+            "version": "3.0.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.errorprone/error_prone_annotations",
+            "packager": "Java (Maven)",
+            "version": "2.3.4",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava/failureaccess",
+            "packager": "Java (Maven)",
+            "version": "1.0.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava/guava",
+            "packager": "Java (Maven)",
+            "version": "30.1-jre",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Files or Directories Accessible to External Parties",
+                    "severity": "high",
+                    "id": 103365854,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365854"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.guava/listenablefuture",
+            "packager": "Java (Maven)",
+            "version": "9999.0-empty-to-avoid-conflict-with-guava",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.google.j2objc/j2objc-annotations",
+            "packager": "Java (Maven)",
+            "version": "1.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.headius/backport9",
+            "packager": "Java (Maven)",
+            "version": "1.12",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.headius/invokebinder",
+            "packager": "Java (Maven)",
+            "version": "1.12",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.headius/options",
+            "packager": "Java (Maven)",
+            "version": "1.6",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.jayway.jsonpath/json-path",
+            "packager": "Java (Maven)",
+            "version": "2.7.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.jcraft/jzlib",
+            "packager": "Java (Maven)",
+            "version": "1.1.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD Zero Clause License",
+                    "url": "https://spdx.org/licenses/0BSD.html"
+                }
+            ]
+        },
+        {
+            "name": "com.nulab-inc/zxcvbn",
+            "packager": "Java (Maven)",
+            "version": "1.5.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "com.sun.activation/jakarta.activation",
+            "packager": "Java (Maven)",
+            "version": "1.2.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "com.sun.istack/istack-commons-runtime",
+            "packager": "Java (Maven)",
+            "version": "3.0.12",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "com.thoughtworks.xstream/xstream",
+            "packager": "Java (Maven)",
+            "version": "1.4.5",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365928,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365928"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365930,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365930"
+                },
+                {
+                    "name": "Unrestricted Upload of File with Dangerous Type",
+                    "severity": "high",
+                    "id": 103365931,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365931"
+                },
+                {
+                    "name": "Server-Side Request Forgery (SSRF)",
+                    "severity": "high",
+                    "id": 103365932,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365932"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365933,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365933"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365829,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365829"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365830,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365830"
+                },
+                {
+                    "name": "OS Command Injection",
+                    "severity": "high",
+                    "id": 103365835,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365835"
+                },
+                {
+                    "name": "Denial of Service due to parser crash",
+                    "severity": "unknown",
+                    "id": 103365839,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365839"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365841,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365841"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365853,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365853"
+                },
+                {
+                    "name": "Remote code execution due to insecure XML deserialization",
+                    "severity": "critical",
+                    "id": 103365858,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365858"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365861,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365861"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365863,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365863"
+                },
+                {
+                    "name": "Unrestricted Upload of File with Dangerous Type",
+                    "severity": "critical",
+                    "id": 103365864,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365864"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365865,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365865"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365867,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365867"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365868,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365868"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "medium",
+                    "id": 103365869,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365869"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365873,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365873"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365884,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365884"
+                },
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "high",
+                    "id": 103365887,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365887"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365888,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365888"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365889,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365889"
+                },
+                {
+                    "name": "Server-Side Request Forgery (SSRF)",
+                    "severity": "high",
+                    "id": 103365892,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365892"
+                },
+                {
+                    "name": "Code Injection",
+                    "severity": "high",
+                    "id": 103365896,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365896"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365900,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365900"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365901,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365901"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365902,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365902"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365904,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365904"
+                },
+                {
+                    "name": "Denial of Service",
+                    "severity": "high",
+                    "id": 103365907,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365907"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365908,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365908"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365910,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365910"
+                },
+                {
+                    "name": "OS Command Injection",
+                    "severity": "medium",
+                    "id": 103365915,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365915"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365916,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365916"
+                },
+                {
+                    "name": "Server-Side Request Forgery (SSRF)",
+                    "severity": "high",
+                    "id": 103365919,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365919"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365920,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365920"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "high",
+                    "id": 103365926,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365926"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365935,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365935"
+                },
+                {
+                    "name": "Stack-based Buffer Overflow",
+                    "severity": "high",
+                    "id": 103365936,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365936"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "high",
+                    "id": 103365937,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365937"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "com.vaadin.external.google/android-json",
+            "packager": "Java (Maven)",
+            "version": "0.0.20131108.vaadin1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "com.zaxxer/HikariCP",
+            "packager": "Java (Maven)",
+            "version": "4.0.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "commons-codec/commons-codec",
+            "packager": "Java (Maven)",
+            "version": "1.15",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "commons-fileupload/commons-fileupload",
+            "packager": "Java (Maven)",
+            "version": "1.4",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "high",
+                    "id": 103365828,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365828"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "commons-io/commons-io",
+            "packager": "Java (Maven)",
+            "version": "2.6",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Path Traversal",
+                    "severity": "medium",
+                    "id": 103365923,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365923"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.jsonwebtoken/jjwt",
+            "packager": "Java (Maven)",
+            "version": "0.9.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.micrometer/micrometer-core",
+            "packager": "Java (Maven)",
+            "version": "1.9.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.rest-assured/json-path",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.rest-assured/rest-assured",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.rest-assured/rest-assured-common",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.rest-assured/xml-path",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.undertow/undertow-core",
+            "packager": "Java (Maven)",
+            "version": "2.2.18.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365934,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365934"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365856,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365856"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365876,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365876"
+                },
+                {
+                    "name": "Undertow denial of service vulnerability",
+                    "severity": "high",
+                    "id": 103365890,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365890"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "medium",
+                    "id": 103365891,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365891"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.undertow/undertow-servlet",
+            "packager": "Java (Maven)",
+            "version": "2.2.18.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "io.undertow/undertow-websockets-jsr",
+            "packager": "Java (Maven)",
+            "version": "2.2.18.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.annotation/jakarta.annotation-api",
+            "packager": "Java (Maven)",
+            "version": "1.3.5",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "GNU General Public License v2.0 w/Classpath exception",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.persistence/jakarta.persistence-api",
+            "packager": "Java (Maven)",
+            "version": "2.2.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "jakarta.servlet/jakarta.servlet-api",
+            "packager": "Java (Maven)",
+            "version": "4.0.4",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "GNU General Public License v2.0 w/Classpath exception",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.transaction/jakarta.transaction-api",
+            "packager": "Java (Maven)",
+            "version": "1.3.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "GNU General Public License v2.0 w/Classpath exception",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.validation/jakarta.validation-api",
+            "packager": "Java (Maven)",
+            "version": "2.0.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.websocket/jakarta.websocket-api",
+            "packager": "Java (Maven)",
+            "version": "1.1.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                },
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "jakarta.xml.bind/jakarta.xml.bind-api",
+            "packager": "Java (Maven)",
+            "version": "2.3.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "javax.activation/javax.activation-api",
+            "packager": "Java (Maven)",
+            "version": "1.2.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "javax.servlet/javax.servlet-api",
+            "packager": "Java (Maven)",
+            "version": "4.0.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "GNU General Public License v2.0 w/Classpath exception",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ]
+        },
+        {
+            "name": "javax.xml.bind/jaxb-api",
+            "packager": "Java (Maven)",
+            "version": "2.3.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Common Development and Distribution License 1.1",
+                    "url": "https://spdx.org/licenses/CDDL-1.1.html"
+                },
+                {
+                    "name": "GNU General Public License v2.0 w/Classpath exception",
+                    "url": "https://spdx.org/licenses/GPL-2.0-with-classpath-exception.html"
+                }
+            ]
+        },
+        {
+            "name": "joda-time/joda-time",
+            "packager": "Java (Maven)",
+            "version": "2.10.10",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "me.qmx.jitescript/jitescript",
+            "packager": "Java (Maven)",
+            "version": "0.4.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "net.bytebuddy/byte-buddy",
+            "packager": "Java (Maven)",
+            "version": "1.12.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "net.bytebuddy/byte-buddy-agent",
+            "packager": "Java (Maven)",
+            "version": "1.12.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "net.minidev/accessors-smart",
+            "packager": "Java (Maven)",
+            "version": "2.4.8",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "net.minidev/json-smart",
+            "packager": "Java (Maven)",
+            "version": "2.4.8",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "json-smart Uncontrolled Recursion vulnerabilty",
+                    "severity": "high",
+                    "id": 103365837,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365837"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "net.sf.jopt-simple/jopt-simple",
+            "packager": "Java (Maven)",
+            "version": "5.0.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.antlr/antlr4-runtime",
+            "packager": "Java (Maven)",
+            "version": "4.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons/commons-exec",
+            "packager": "Java (Maven)",
+            "version": "1.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons/commons-lang3",
+            "packager": "Java (Maven)",
+            "version": "3.12.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.commons/commons-text",
+            "packager": "Java (Maven)",
+            "version": "1.9",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+                    "severity": "critical",
+                    "id": 103365917,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365917"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpclient",
+            "packager": "Java (Maven)",
+            "version": "4.5.13",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpcore",
+            "packager": "Java (Maven)",
+            "version": "4.4.15",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.httpcomponents/httpmime",
+            "packager": "Java (Maven)",
+            "version": "4.5.13",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-api",
+            "packager": "Java (Maven)",
+            "version": "2.15.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-core",
+            "packager": "Java (Maven)",
+            "version": "2.15.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Input Validation",
+                    "severity": "medium",
+                    "id": 103365929,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365929"
+                },
+                {
+                    "name": "Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')",
+                    "severity": "critical",
+                    "id": 103365851,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365851"
+                },
+                {
+                    "name": "Improper Input Validation",
+                    "severity": "medium",
+                    "id": 103365886,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365886"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.logging.log4j/log4j-to-slf4j",
+            "packager": "Java (Maven)",
+            "version": "2.17.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apache.tomcat.embed/tomcat-embed-el",
+            "packager": "Java (Maven)",
+            "version": "9.0.64",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.apiguardian/apiguardian-api",
+            "packager": "Java (Maven)",
+            "version": "1.1.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.asciidoctor/asciidoctorj",
+            "packager": "Java (Maven)",
+            "version": "2.5.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.asciidoctor/asciidoctorj-api",
+            "packager": "Java (Maven)",
+            "version": "2.5.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.aspectj/aspectjweaver",
+            "packager": "Java (Maven)",
+            "version": "1.9.7",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.assertj/assertj-core",
+            "packager": "Java (Maven)",
+            "version": "3.22.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.attoparser/attoparser",
+            "packager": "Java (Maven)",
+            "version": "2.0.5.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.bitbucket.b_c/jose4j",
+            "packager": "Java (Maven)",
+            "version": "0.7.6",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "jose4j uses weak cryptographic algorithm",
+                    "severity": "high",
+                    "id": 103365838,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365838"
+                },
+                {
+                    "name": "Chosen Ciphertext Attack in Jose4j",
+                    "severity": "unknown",
+                    "id": 103365912,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365912"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ccil.cowan.tagsoup/tagsoup",
+            "packager": "Java (Maven)",
+            "version": "1.2.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.checkerframework/checker-qual",
+            "packager": "Java (Maven)",
+            "version": "3.5.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.groovy/groovy",
+            "packager": "Java (Maven)",
+            "version": "3.0.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.groovy/groovy-json",
+            "packager": "Java (Maven)",
+            "version": "3.0.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.codehaus.groovy/groovy-xml",
+            "packager": "Java (Maven)",
+            "version": "3.0.11",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-client",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365848,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365848"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365872,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365872"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-continuation",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-http",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365834,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365834"
+                },
+                {
+                    "name": "Jetty accepts \"+\" prefixed value in Content-Length",
+                    "severity": "medium",
+                    "id": 103365882,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365882"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365921,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365921"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-io",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365842,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365842"
+                },
+                {
+                    "name": "Weak Authentication",
+                    "severity": "medium",
+                    "id": 103365875,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365875"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365894,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365894"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-proxy",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-security",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-server",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Weak Authentication",
+                    "severity": "medium",
+                    "id": 103365844,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365844"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "medium",
+                    "id": 103365857,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365857"
+                },
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365859,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365859"
+                },
+                {
+                    "name": "Improper Handling of Length Parameter Inconsistency",
+                    "severity": "medium",
+                    "id": 103365918,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365918"
+                },
+                {
+                    "name": "Improper Neutralization of Quoting Syntax",
+                    "severity": "medium",
+                    "id": 103365925,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365925"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-servlet",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-servlets",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+                    "severity": "medium",
+                    "id": 103365831,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365831"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365855,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365855"
+                },
+                {
+                    "name": "Improper Handling of Length Parameter Inconsistency",
+                    "severity": "medium",
+                    "id": 103365866,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365866"
+                },
+                {
+                    "name": "Weak Authentication",
+                    "severity": "medium",
+                    "id": 103365883,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365883"
+                },
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365897,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365897"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-util",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365827,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365827"
+                },
+                {
+                    "name": "Improper Handling of Length Parameter Inconsistency",
+                    "severity": "medium",
+                    "id": 103365870,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365870"
+                },
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365879,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365879"
+                },
+                {
+                    "name": "Weak Authentication",
+                    "severity": "medium",
+                    "id": 103365893,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365893"
+                },
+                {
+                    "name": "Improper Neutralization of Quoting Syntax",
+                    "severity": "medium",
+                    "id": 103365899,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365899"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-util-ajax",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-webapp",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Quoting Syntax",
+                    "severity": "medium",
+                    "id": 103365849,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365849"
+                },
+                {
+                    "name": "Exposure of Sensitive Information to an Unauthorized Actor",
+                    "severity": "medium",
+                    "id": 103365874,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365874"
+                },
+                {
+                    "name": "Allocation of Resources Without Limits or Throttling",
+                    "severity": "medium",
+                    "id": 103365880,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365880"
+                },
+                {
+                    "name": "Improper Handling of Length Parameter Inconsistency",
+                    "severity": "medium",
+                    "id": 103365885,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365885"
+                },
+                {
+                    "name": "Weak Authentication",
+                    "severity": "medium",
+                    "id": 103365909,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365909"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.eclipse.jetty/jetty-xml",
+            "packager": "Java (Maven)",
+            "version": "9.4.48.v20220622",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+                    "severity": "unknown",
+                    "id": 103365881,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365881"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                },
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.flywaydb/flyway-core",
+            "packager": "Java (Maven)",
+            "version": "8.5.13",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.glassfish.jaxb/jaxb-runtime",
+            "packager": "Java (Maven)",
+            "version": "2.3.6",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.glassfish.jaxb/txw2",
+            "packager": "Java (Maven)",
+            "version": "2.3.6",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.hamcrest/hamcrest",
+            "packager": "Java (Maven)",
+            "version": "2.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.hdrhistogram/HdrHistogram",
+            "packager": "Java (Maven)",
+            "version": "2.1.12",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                },
+                {
+                    "name": "BSD 2-Clause \"Simplified\" License",
+                    "url": "https://spdx.org/licenses/BSD-2-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.hibernate.common/hibernate-commons-annotations",
+            "packager": "Java (Maven)",
+            "version": "5.1.2.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "GNU Library General Public License v2.1 or later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1+.html"
+                }
+            ]
+        },
+        {
+            "name": "org.hibernate.validator/hibernate-validator",
+            "packager": "Java (Maven)",
+            "version": "6.2.3.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.hibernate/hibernate-core",
+            "packager": "Java (Maven)",
+            "version": "5.6.9.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "LGPL-2.1",
+                    "url": "https://spdx.org/licenses/LGPL-2.1.html"
+                },
+                {
+                    "name": "GNU Library General Public License v2.1 or later",
+                    "url": "https://spdx.org/licenses/LGPL-2.1+.html"
+                }
+            ]
+        },
+        {
+            "name": "org.hsqldb/hsqldb",
+            "packager": "Java (Maven)",
+            "version": "2.5.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')",
+                    "severity": "critical",
+                    "id": 103365871,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365871"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.jboss.logging/jboss-logging",
+            "packager": "Java (Maven)",
+            "version": "3.4.3.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jboss.threads/jboss-threads",
+            "packager": "Java (Maven)",
+            "version": "3.1.0.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jboss.xnio/xnio-api",
+            "packager": "Java (Maven)",
+            "version": "3.8.7.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jboss.xnio/xnio-nio",
+            "packager": "Java (Maven)",
+            "version": "3.8.7.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jboss/jandex",
+            "packager": "Java (Maven)",
+            "version": "2.4.2.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby.jcodings/jcodings",
+            "packager": "Java (Maven)",
+            "version": "1.0.57",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby.joni/joni",
+            "packager": "Java (Maven)",
+            "version": "2.1.43",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby/dirgra",
+            "packager": "Java (Maven)",
+            "version": "0.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 1.0",
+                    "url": "https://spdx.org/licenses/EPL-1.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby/jruby",
+            "packager": "Java (Maven)",
+            "version": "9.3.6.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "GPLv2",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                },
+                {
+                    "name": "LGPL-2.1",
+                    "url": "https://spdx.org/licenses/LGPL-2.1.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby/jruby-base",
+            "packager": "Java (Maven)",
+            "version": "9.3.6.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "GPLv2",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                },
+                {
+                    "name": "LGPL-2.1",
+                    "url": "https://spdx.org/licenses/LGPL-2.1.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jruby/jruby-stdlib",
+            "packager": "Java (Maven)",
+            "version": "9.3.6.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "LGPL-2.1",
+                    "url": "https://spdx.org/licenses/LGPL-2.1.html"
+                },
+                {
+                    "name": "GPLv2",
+                    "url": "https://spdx.org/licenses/GPL-2.0.html"
+                },
+                {
+                    "name": "Eclipse Public License 2.0",
+                    "url": "https://spdx.org/licenses/EPL-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.jsoup/jsoup",
+            "packager": "Java (Maven)",
+            "version": "1.14.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+                    "severity": "medium",
+                    "id": 103365843,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365843"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.junit.jupiter/junit-jupiter",
+            "packager": "Java (Maven)",
+            "version": "5.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.junit.jupiter/junit-jupiter-api",
+            "packager": "Java (Maven)",
+            "version": "5.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.junit.jupiter/junit-jupiter-engine",
+            "packager": "Java (Maven)",
+            "version": "5.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.junit.jupiter/junit-jupiter-params",
+            "packager": "Java (Maven)",
+            "version": "5.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.junit.platform/junit-platform-commons",
+            "packager": "Java (Maven)",
+            "version": "1.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.junit.platform/junit-platform-engine",
+            "packager": "Java (Maven)",
+            "version": "1.8.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.latencyutils/LatencyUtils",
+            "packager": "Java (Maven)",
+            "version": "2.0.3",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.mockito/mockito-core",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.mockito/mockito-junit-jupiter",
+            "packager": "Java (Maven)",
+            "version": "4.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.objenesis/objenesis",
+            "packager": "Java (Maven)",
+            "version": "3.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.opentest4j/opentest4j",
+            "packager": "Java (Maven)",
+            "version": "1.2.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ow2.asm/asm",
+            "packager": "Java (Maven)",
+            "version": "9.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ow2.asm/asm-analysis",
+            "packager": "Java (Maven)",
+            "version": "9.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ow2.asm/asm-commons",
+            "packager": "Java (Maven)",
+            "version": "9.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ow2.asm/asm-tree",
+            "packager": "Java (Maven)",
+            "version": "9.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.ow2.asm/asm-util",
+            "packager": "Java (Maven)",
+            "version": "9.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.projectlombok/lombok",
+            "packager": "Java (Maven)",
+            "version": "1.18.24",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.skyscreamer/jsonassert",
+            "packager": "Java (Maven)",
+            "version": "1.5.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.slf4j/jul-to-slf4j",
+            "packager": "Java (Maven)",
+            "version": "1.7.36",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.slf4j/slf4j-api",
+            "packager": "Java (Maven)",
+            "version": "1.7.36",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Boot denial of service vulnerability",
+                    "severity": "medium",
+                    "id": 103365862,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365862"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-actuator",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-actuator-autoconfigure",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Boot Security Bypass with Wildcard Pattern Matching on Cloud Foundry",
+                    "severity": "critical",
+                    "id": 103365832,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365832"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-autoconfigure",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Boot Welcome Page Denial of Service",
+                    "severity": "high",
+                    "id": 103365905,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365905"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-actuator",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-aop",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-data-jpa",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-jdbc",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-json",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-logging",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-security",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-test",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-thymeleaf",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-undertow",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-validation",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-starter-web",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-test",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.boot/spring-boot-test-autoconfigure",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.data/spring-data-commons",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.data/spring-data-jpa",
+            "packager": "Java (Maven)",
+            "version": "2.7.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.security/spring-security-config",
+            "packager": "Java (Maven)",
+            "version": "5.7.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Access Control Bypass in Spring Security",
+                    "severity": "critical",
+                    "id": 103365847,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365847"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.security/spring-security-core",
+            "packager": "Java (Maven)",
+            "version": "5.7.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Handling of Inconsistent Structural Elements",
+                    "severity": "critical",
+                    "id": 103365906,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365906"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.security/spring-security-crypto",
+            "packager": "Java (Maven)",
+            "version": "5.7.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.security/spring-security-test",
+            "packager": "Java (Maven)",
+            "version": "5.7.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework.security/spring-security-web",
+            "packager": "Java (Maven)",
+            "version": "5.7.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Security authorization rules can be bypassed via forward or include dispatcher types",
+                    "severity": "critical",
+                    "id": 103365833,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365833"
+                },
+                {
+                    "name": "Incomplete Cleanup",
+                    "severity": "medium",
+                    "id": 103365898,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365898"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-aop",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-aspects",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-beans",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-context",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-core",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Framework vulnerable to denial of service",
+                    "severity": "medium",
+                    "id": 103365927,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365927"
+                },
+                {
+                    "name": "Spring Framework vulnerable to denial of service via specially crafted SpEL expression",
+                    "severity": "medium",
+                    "id": 103365860,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365860"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-expression",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-jcl",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-jdbc",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-orm",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-test",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-tx",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-web",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365911,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365911"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.springframework/spring-webmvc",
+            "packager": "Java (Maven)",
+            "version": "5.3.21",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Spring Framework is vulnerable to security bypass via mvcRequestMatcher pattern mismatch",
+                    "severity": "high",
+                    "id": 103365878,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365878"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.thymeleaf.extras/thymeleaf-extras-java8time",
+            "packager": "Java (Maven)",
+            "version": "3.0.4.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.thymeleaf.extras/thymeleaf-extras-springsecurity5",
+            "packager": "Java (Maven)",
+            "version": "3.0.4.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.thymeleaf/thymeleaf",
+            "packager": "Java (Maven)",
+            "version": "3.0.15.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.thymeleaf/thymeleaf-spring5",
+            "packager": "Java (Maven)",
+            "version": "3.0.15.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Improper Neutralization of Special Elements used in a Command ('Command Injection')",
+                    "severity": "high",
+                    "id": 103365914,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365914"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.unbescape/unbescape",
+            "packager": "Java (Maven)",
+            "version": "1.1.6.RELEASE",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                }
+            ]
+        },
+        {
+            "name": "org.webjars/bootstrap",
+            "packager": "Java (Maven)",
+            "version": "3.3.7",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.webjars/jquery",
+            "packager": "Java (Maven)",
+            "version": "3.5.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "MIT License",
+                    "url": "https://spdx.org/licenses/MIT.html"
+                }
+            ]
+        },
+        {
+            "name": "org.wildfly.client/wildfly-client-config",
+            "packager": "Java (Maven)",
+            "version": "1.0.1.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.wildfly.common/wildfly-common",
+            "packager": "Java (Maven)",
+            "version": "1.5.4.Final",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.xmlunit/xmlunit-core",
+            "packager": "Java (Maven)",
+            "version": "2.9.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.xmlunit/xmlunit-legacy",
+            "packager": "Java (Maven)",
+            "version": "2.9.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+                    "url": "https://spdx.org/licenses/BSD-3-Clause.html"
+                }
+            ]
+        },
+        {
+            "name": "org.xmlunit/xmlunit-placeholders",
+            "packager": "Java (Maven)",
+            "version": "2.9.0",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "org.yaml/snakeyaml",
+            "packager": "Java (Maven)",
+            "version": "1.30",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "medium",
+                    "id": 103365836,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365836"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "medium",
+                    "id": 103365840,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365840"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "medium",
+                    "id": 103365845,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365845"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "medium",
+                    "id": 103365846,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365846"
+                },
+                {
+                    "name": "Uncontrolled Resource Consumption",
+                    "severity": "high",
+                    "id": 103365852,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365852"
+                },
+                {
+                    "name": "Out-of-bounds Write",
+                    "severity": "medium",
+                    "id": 103365877,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365877"
+                },
+                {
+                    "name": "Deserialization of Untrusted Data",
+                    "severity": "critical",
+                    "id": 103365913,
+                    "url": "https://gitlab.com/test-group260849/webgoat_pom-comparison/-/security/vulnerabilities/103365913"
+                }
+            ],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "xml-resolver/xml-resolver",
+            "packager": "Java (Maven)",
+            "version": "1.2",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Apache License 2.0",
+                    "url": "https://spdx.org/licenses/Apache-2.0.html"
+                }
+            ]
+        },
+        {
+            "name": "xmlpull/xmlpull",
+            "packager": "Java (Maven)",
+            "version": "1.1.3.1",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "Creative Commons Public Domain Dedication and Certification",
+                    "url": "https://spdx.org/licenses/CC-PDDC.html"
+                }
+            ]
+        },
+        {
+            "name": "xpp3/xpp3_min",
+            "packager": "Java (Maven)",
+            "version": "1.1.4c",
+            "location": {
+                "blob_path": "/test-group260849/webgoat_pom-comparison/-/blob/1af29fe274f63129c6dd7615984a80d2b61b8f17/pom.xml",
+                "path": "pom.xml",
+                "top_level": null,
+                "ancestors": null
+            },
+            "vulnerabilities": [],
+            "licenses": [
+                {
+                    "name": "unknown",
+                    "url": null
+                },
+                {
+                    "name": "Creative Commons Public Domain Dedication and Certification",
+                    "url": "https://spdx.org/licenses/CC-PDDC.html"
+                }
+            ]
+        }
+    ]
+}

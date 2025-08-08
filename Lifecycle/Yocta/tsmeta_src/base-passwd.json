@@ -1,0 +1,37 @@
+{
+        "license": "GPL-2.0-only",
+        "summary": "Base system master password/group files",
+        "homepage": "https://launchpad.net/base-passwd",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://launchpad.net/debian/+archive/primary/+files/base-passwd_3.5.29.tar.gz",
+                "file://add_shutdown.patch",
+                "file://nobash.patch",
+                "file://noshadow.patch",
+                "file://input.patch",
+                "file://disable-docs.patch",
+                "file://kvm.patch",
+                "file://disable-shell.patch"
+        ],
+        "cve_product": "base-passwd",
+        "cve_version": "3.5.29",
+        "sources": {
+                "patches": {
+                        "add_shutdown.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/add_shutdown.patch",
+                        "nobash.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/nobash.patch",
+                        "noshadow.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/noshadow.patch",
+                        "input.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/input.patch",
+                        "disable-docs.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/disable-docs.patch",
+                        "kvm.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/kvm.patch",
+                        "disable-shell.patch": "/home/andrew/poky/meta/recipes-core/base-passwd/base-passwd/disable-shell.patch"
+                },
+                "https": [
+                        "https://launchpad.net/debian/+archive/primary/+files/base-passwd_3.5.29.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/base-passwd/base-passwd_3.5.29.bb"
+}

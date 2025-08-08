@@ -1,0 +1,22 @@
+{
+        "license": "BSD-3-Clause",
+        "summary": "Minimal libssp_nonshared.a must needed for ssp to work with gcc on musl",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "file://stack_chk.c"
+        ],
+        "cve_product": "libssp-nonshared",
+        "cve_version": "1.0",
+        "homepage": "",
+        "sources": {
+                "patches": {},
+                "file": [
+                        "stack_chk.c"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/musl/libssp-nonshared.bb"
+}

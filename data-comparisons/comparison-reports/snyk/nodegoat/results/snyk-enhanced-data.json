@@ -1,0 +1,105 @@
+{
+    "TotalAdvisories": 28,
+    "UniqueAdvisories": 17,
+    "Advisories": [
+        {
+            "cve": "CVE-2019-11358",
+            "description": "The `jquery` package is vulnerable to Prototype Pollution. The `jQuery.extend` and `jQuery.fn.extend` functions defined in many files allow an untrusted object to extend `Object.prototype`. An attacker can modify and add prototype properties to JavaScript objects and can potentially leverage those changes to crash the application or execute remote code.\n\n*Advisory Deviation Notice:* The Sonatype security research team has assessed the CVSS score for this vulnerability to be 7.5 given the nature of prototype pollution and the high impact to data integrity, as opposed to a score of 6.1 reported by [NVD](https://nvd.nist.gov/vuln/detail/CVE-2019-11358)."
+        },
+        {
+            "cve": "CVE-2022-24999",
+            "description": "The `qs` package, as used by `express`, is vulnerable to Prototype Pollution. The `parseObject()` function in the `parse.js` file allows for modification of object prototype properties via `__proto__`. A remote attacker can exploit this vulnerability to override the prototyped behavior of objects by requesting a URL that leverages arrays containing prototype accessors. Depending on how the tampered object is used by the application, this may result in a Denial of Service (DoS), Remote Code Execution (RCE), or other unexpected behavior.\n\nExample:\n`categories[_proto__]&categories[_proto__]&categories[length]=100000000`\n\nReference: [https://github.com/n8tz/CVE-2022-24999](https://github.com/n8tz/CVE-2022-24999)\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced into `qs` in version 1.0.0 and therefore does not affect all versions prior to 6.2.4 as stated in the advisory. Additionally, it was discovered that `express` began using vulnerable versions of `qs` in version 1.0.4."
+        },
+        {
+            "cve": "CVE-2020-7598",
+            "description": "The `minimist` package is vulnerable to Prototype Pollution. The `setKey` function in `index.js` modifies JavaScript objects based on user input. An attacker can exploit this behavior to modify the behavior of `Object.prototype`, causing all other objects in the code to behave in unexpected and malicious ways.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the fix for this vulnerability was backported to 0.2.1 for the 0.X versions."
+        },
+        {
+            "cve": "CVE-2021-43138",
+            "description": "The `async` package is vulnerable to Prototype Pollution. The `createObjectIterator()` function in the `internal/iterator.js` file allows for modification of object prototype properties via certain accessors, such as `__proto__`. A remote attacker who can influence data propagated to the affected function, via `mapValues()` or other means, can exploit this vulnerability to alter the prototyped behavior of objects. Depending on the application's usage of the modified object, this may result in a Denial of Service (DoS), Remote Code Execution (RCE), or other unexpected behavior.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 2.0.0-rc.2 and therefore does not affect all versions prior to 2.6.4 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2022-29167",
+            "description": "The `hawk` package is vulnerable to Regular expression Denial of Service (ReDoS) attacks. The `parseHost()` function in the `utils.js` file uses an unsafe regular expression to parse the user-supplied `Host` header. A remote attacker can exploit this vulnerability by providing a header that leverages a long string of characters to cause catastrophic backtracking and ultimately a Denial of Service (DoS) condition.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that User Interaction is not required to exploit this vulnerability and the scope doesn't change; hence the CVSS Base score is 7.5 instead of 7.4 as the advisory stated."
+        },
+        {
+            "cve": "CVE-2019-20149",
+            "description": "The `kind-of` package is vulnerable to Improper Input Validation. The `ctorName` function in `index.js` does not properly verify or sanitize user input, specifically with regards to the `constructor.name` attribute. An attacker can exploit this vulnerability by providing a conflicting function name within the input to overwrite this internal attribute, and override type detection result in the application leading to inconsistencies.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present in versions 6.0.0 and above of the package, with a fix having been released in version 6.0.3. Whereas, the [NVD advisory](https://nvd.nist.gov/vuln/detail/CVE-2019-20149) originally stated only version 6.0.2 being vulnerable."
+        },
+        {
+            "cve": "sonatype-2019-0410",
+            "description": "The `helmet-csp` package is vulnerable to Cross-Site Scripting (XSS). The `transformDirectivesForBrowser` function in `browser.js` allows for the deletion of the `default-src` Content Security Policy (CSP). A remote attacker can exploit this behavior by removing an application's default CSP, thereby making it susceptible to XSS.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the fix for this vulnerability was actually introduced in version 2.9.2 instead of 2.9.1 as stated in the advisory.\n"
+        },
+        {
+            "cve": "sonatype-2016-0091",
+            "description": "The `boom` package is vulnerable to Cross-Site Scripting (XSS), as the `reformat()` method in `index.js` allows malicious JavaScript in the error response message. A remote attacker can exploit this vulnerability by enticing a user to click on a maliciously crafted URL with a JavaScript payload, resulting in script execution once the victim navigates to the page.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that this vulnerability was fixed in version 0.3.8 and reintroduced in version 2.2.0. It is developers responsibility to escape the message that is returned using boom."
+        },
+        {
+            "cve": "CVE-2022-33987",
+            "description": "The `got` package is vulnerable to Open Redirect attacks. The functions and files listed below allow for redirects to a UNIX socket. A remote attacker can exploit this behavior by crafting a URL containing a UNIX socket and enticing a victim into submitting the request. This will result in the victim being redirected to an attacker-controlled URL.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the fix for this vulnerability was backported to the 11.x branch and is also present in 11.8.5 instead of just 12.1.0 as stated in the advisory.\n\n*Vulnerable File(s) and Function(s)*:\n\npackage/dist/source/core/index.js - Version 12.0.0-beta.1 to 12.1.0\n- _onResponseBase()\n\npackage/source/request-as-event-emitter.js - Version 9.0.0 to 10.0.0-alpha.1.1\n- const get = async options => {\n\npackage/dist/source/core/index.js - Version 11.0.0-beta.1 to 11.8.5\n- _onResponseBase()\n\npackage/dist/source/request-as-event-emitter.js - Version 10.0.0-alpha.3.1 to 11.0.0-beta.1\n- get()\n\npackage/dist/request-as-event-emitter.js - Version 10.0.0-alpha.1.1 to 10.0.0-alpha.3.1\n- get()\n\npackage/index.js - Versions prior to 9.0.0\n- get()"
+        },
+        {
+            "cve": "CVE-2022-24785",
+            "description": "The `moment` package is vulnerable to Path Traversal. The `loadLocale()` function in the `locales.js` file fails to sanitize traversal characters from user-supplied locale names before using them to load modules from the file system. A remote attacker who can influence locale names loaded by the affected function can exploit this vulnerability to traverse beyond the intended directory in order to exfiltrate information or cause other unexpected behavior.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 2.8.0 and not 1.0.1 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2020-28500",
+            "description": "The `lodash` package contains a Regular Expression Denial of Service (ReDoS) vulnerability. The `lodash.js`, `trimEnd.js`, `trim.js`, `toNumber.js`, and `parseInt.js` files contain a vulnerable regular expression used for trimming whitespace on strings. An attacker can exploit this with a large input string that would take an exponentially long amount of time to parse, resulting in a Denial of Service (DoS).\n\n*Advisory Deviation Notice:* The Sonatype security research team has discovered that the root cause of the vulnerability is in version 4.0.0, not in all versions as the advisory implies. In other words, versions prior to 4.0.0 are not vulnerable to this flaw."
+        },
+        {
+            "cve": "CVE-2022-1537",
+            "description": "The `grunt` package contains an Arbitrary File Write vulnerability. The `copy()` function in the `file.js` file is susceptible to a Time-of-check Time-of-use (TOCTOU) Race Condition in the time between the deletion of the destination symbolic link and writing to the symbolic link. A local attacker with write access to both the `srcpath` and `destpath` directories provided to the affected function can exploit this vulnerability to overwrite arbitrary files or escalate their privileges by leveraging a symlink to the victim's `.bashrc` or `/etc/shadow` files.\n\nNote: This vulnerability exists due to an insufficient fix for CVE-2022-0436.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 1.0.0-rc1 and therefore does not affect all versions prior to 1.5.3 as stated in the advisory."
+        },
+        {
+            "cve": "sonatype-2020-0292",
+            "description": "The `lodash` and `lodash.zipobjectdeep` packages are vulnerable to Prototype Pollution. The `baseSet`, `set` and `setWith` functions in `lodash.js` and the `zipObjectDeep` function in the `lodash.zipobjectdeep` package, fail to restrict the addition or modification of properties of `Object` prototypes. A remote attacker can exploit this behavior to modify `Object` prototype properties which, depending on the behavior of the object within the application, can result in a Denial of Service (DoS) or potentially Remote Code Execution (RCE).\n\nNOTE #1: This vulnerability has been assigned CVE-2020-8203.\n\nNOTE #2: The following HackerOne reports are also addressed by the fix for this CVE.\n* https://hackerone.com/reports/841380\n* https://hackerone.com/reports/864701\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the fix for this vulnerability was actually introduced in version 4.17.17 as opposed to the 4.17.19 version stated by the [npm advisory](https://www.npmjs.com/advisories/1523). However, versions 4.17.16 to 4.17.18 [were corrupted](https://github.com/lodash/lodash/wiki/Changelog#v41719) and we recommend upgrading to version 4.17.19."
+        },
+        {
+            "cve": "sonatype-2019-0058",
+            "description": "The `handlebars` package is vulnerable to Prototype Pollution. The `nameLookup()` function in the `javascript-compiler.js` file and the `lookup()` function in the `lookup.js` file fail to restrict access to the `constructor` from templates. A remote attacker who can inject templates into the `handlebars` setup can exploit this vulnerability by supplying a template containing malicious JavaScript. The attacker can then leverage this issue to alter the `constructor` property, and execute arbitrary code on an affected machine.\n\nExample:\n```\n{{#with 'alert(1)|'}}\n{{#with (split '|' 1)}}\n{{#> p constructor.constructor}}\n{{> (apply 0 ../this)}}\n{{/p}}\n{{/with}}\n{{/with}}\n```\nReference: [https://github.com/wycats/handlebars.js/issues/1267#issue-187151586](https://github.com/wycats/handlebars.js/issues/1267#issue-187151586)\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability was fixed in version 4.1.2-0 in the 4.1.x branch instead of 4.1.2 as the advisory states."
+        },
+        {
+            "cve": "CVE-2021-23362",
+            "description": "The `hosted-git-info` package is vulnerable to Regular expression Denial of Service (ReDoS) attacks. The `fromUrl()` function in the `index.js` file uses an unsafe regular expression to parse user-supplied Git URLs. A remote attacker can exploit this vulnerability by providing a URL that leverages a long string of repeating characters to cause catastrophic backtracking and ultimately a Denial of Service (DoS) condition.\n\nExample:  \n`'a:' + ['a' * 10000] + '/'`\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 2.3.1 and therefore does not affect all versions before 3.0.8 as stated in the advisory."
+        },
+        {
+            "cve": "sonatype-2018-0436",
+            "description": "The `underscore.string` package is vulnerable to a Regular expression Denial of Service (ReDoS) attack. The `unescapeHTML()` function in files, `unescapeHTML.js`, `underscore.string.js` and `underscore.string.min.js`, uses an insecure regular expression to replace certain HTML characters. A remote attacker can exploit this vulnerability by submitting large crafted input that exploits this issue. This will result in a DoS when the application attempts to process the supplied data.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present all versions of the package with no fix having been released yet. Contrary to what the advisory states, version 3.3.5 contains the vulnerable regex in `underscore.string.js` and `underscore.string.min.js`, even if not in `unescapeHTML.js`. Therefore, version 3.3.5 is vulnerable as well."
+        },
+        {
+            "cve": "CVE-2020-15366",
+            "description": "The `ajv` package is vulnerable to Prototype Pollution. The `dependencies.jst` file attempts to validate `__proto__` property fields in JSON data objects incorrectly. An attacker with control over JSON objects that are validated by the `ajv` library can craft a malicious object leading to Denial of Service (DoS) and potentially Remote Code Execution (RCE) in a limited context.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present in version 0.1.13 until 6.12.3, not just 6.12.2 as the advisory states."
+        }
+    ],
+    "TotalWorkarounds": 7,
+    "Workarounds": [
+        {
+            "cve": "CVE-2020-11023",
+            "remediation": "\nAlternatively, a workaround is provided by [jQuery](https://github.com/jquery/jquery/security/advisories/GHSA-jpcq-cgw6-v4j6):\n>To workaround this issue without upgrading, use DOMPurify with its `SAFE_FOR_JQUERY` option to sanitize the HTML string before passing it to a jQuery method.\n\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2019-0410",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. If upgrading is not an option, the vulnerability can be mitigated by setting the `browserSniff` configuration to `false`.\n\nReference: [https://www.npmjs.com/advisories/1176](https://www.npmjs.com/advisories/1176)"
+        },
+        {
+            "cve": "CVE-2020-11023",
+            "remediation": "\nAlternatively, a workaround is provided by [jQuery](https://github.com/jquery/jquery/security/advisories/GHSA-jpcq-cgw6-v4j6):\n>To workaround this issue without upgrading, use DOMPurify with its `SAFE_FOR_JQUERY` option to sanitize the HTML string before passing it to a jQuery method.\n\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2020-1018",
+            "remediation": "Alternatively, a potential workaround is provided at [https://www.npmjs.com/advisories/1572#workarounds](https://www.npmjs.com/advisories/1572#workarounds).  \n\n\"Restrict the character length to a reasonable degree before passing a value to .emal(); Also, consider doing a more rigorous sanitizing/validation beforehand.\"\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-32804",
+            "remediation": "If upgrading is not a viable option, the project has provided a potential workaround. \n```\nUsers may work around this vulnerability without upgrading by creating a custom onentry method which sanitizes the entry.path or a filter method which removes entries with absolute paths.\n```\nReference:[https://github.com/npm/node-tar/security/advisories/GHSA-3jfq-g458-7qm9](https://github.com/npm/node-tar/security/advisories/GHSA-3jfq-g458-7qm9)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2020-11023",
+            "remediation": "\nAlternatively, a workaround is provided by [jQuery](https://github.com/jquery/jquery/security/advisories/GHSA-jpcq-cgw6-v4j6):\n>To workaround this issue without upgrading, use DOMPurify with its `SAFE_FOR_JQUERY` option to sanitize the HTML string before passing it to a jQuery method.\n\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-41184",
+            "remediation": "\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.\n\n```\nA workaround is to not accept the value of the of option from untrusted sources.\n```\nReference: [https://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327](https://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327)"
+        }
+    ]
+}

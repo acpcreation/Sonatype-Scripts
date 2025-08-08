@@ -1,0 +1,35 @@
+{
+        "license": "GPL-2.0-only",
+        "summary": "Sanitized set of kernel headers for the C library's use",
+        "homepage": "https://www.kernel.org/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.tar.xz",
+                "file://0001-libc-compat.h-fix-some-issues-arising-from-in6.h.patch",
+                "file://0003-remove-inclusion-of-sysinfo.h-in-kernel.h.patch",
+                "file://0001-libc-compat.h-musl-_does_-define-IFF_LOWER_UP-DORMAN.patch",
+                "file://0001-include-linux-stddef.h-in-swab.h-uapi-header.patch",
+                "file://0001-scripts-Use-fixed-input-and-output-files-instead-of-.patch",
+                "file://0001-kbuild-install_headers.sh-Strip-_UAPI-from-if-define.patch"
+        ],
+        "cve_product": "linux-libc-headers",
+        "cve_version": "5.16",
+        "sources": {
+                "patches": {
+                        "0001-libc-compat.h-fix-some-issues-arising-from-in6.h.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0001-libc-compat.h-fix-some-issues-arising-from-in6.h.patch",
+                        "0003-remove-inclusion-of-sysinfo.h-in-kernel.h.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0003-remove-inclusion-of-sysinfo.h-in-kernel.h.patch",
+                        "0001-libc-compat.h-musl-_does_-define-IFF_LOWER_UP-DORMAN.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0001-libc-compat.h-musl-_does_-define-IFF_LOWER_UP-DORMAN.patch",
+                        "0001-include-linux-stddef.h-in-swab.h-uapi-header.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0001-include-linux-stddef.h-in-swab.h-uapi-header.patch",
+                        "0001-scripts-Use-fixed-input-and-output-files-instead-of-.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0001-scripts-Use-fixed-input-and-output-files-instead-of-.patch",
+                        "0001-kbuild-install_headers.sh-Strip-_UAPI-from-if-define.patch": "/home/andrew/poky/meta/recipes-kernel/linux-libc-headers/linux-libc-headers/0001-kbuild-install_headers.sh-Strip-_UAPI-from-if-define.patch"
+                },
+                "https": [
+                        "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.tar.xz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-kernel/linux-libc-headers/linux-libc-headers_5.16.bb"
+}

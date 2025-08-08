@@ -1,0 +1,207 @@
+{
+    "componentsFoundByBoth": 144,
+    "uniqueComponentsFoundBySonatype": 162,
+    "uniqueComponentsFoundByCompetitor": 176,
+    "componentMissedByCompetitor": [
+        "jquery:1.5.1 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/jquery-2.1.4.min.js'",
+        "com.github.jnr:jffi:jar:native:1.3.9 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/jffi-1.3.9-native.jar'",
+        "org.apache.tomcat.embed:tomcat-embed-el:9.0.64 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/tomcat-embed-el-9.0.64.jar'",
+        "org.webjars:jquery:1.10.2 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/jquery/jquery-1.10.2.min.js'",
+        "jquery-timepicker:1.3.2 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/jquery/jquery-ui-1.10.4.custom.min.js'",
+        "underscore:1.10.2 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/underscore-min.js'",
+        "backbone:1.4.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/backbone-min.js'",
+        "org.springframework.boot:spring-boot-jarmode-layertools:2.7.1 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/spring-boot-jarmode-layertools-2.7.1.jar'",
+        "org.jruby:jruby-stdlib:9.2.9.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/jruby-stdlib-9.3.6.0.jar/META-INF/jruby.home/lib/ruby/stdlib/rdoc/generator/template/darkfish/js/search.js'",
+        "ace-builds:1.4.1 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/ace.js'",
+        "node-polyglot:0.4.3 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/polyglot.min.js'",
+        "@para-snack/core:0.0.8 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/require.min.js'",
+        "Red:Hat\u901f,:Inc./Jansi:-:Java:library:for:generating:and:interpreting:ANSI:escape:sequences.:jansi:1.5.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/jruby-stdlib-9.3.6.0.jar/META-INF/jruby.home/lib/ruby/stdlib/jline/jline/2.14.6/jline-2.14.6.jar/META-INF/native/windows64/jansi.dll'",
+        "jquery-form:3.50.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/jquery_form/jquery.form.js'",
+        "org.webjars:jquery-ui:1.12.1 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/libs/jquery-ui.min.js'",
+        "http://www.jruby.org//JRubyjruby.exe1.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/jruby-stdlib-9.3.6.0.jar/META-INF/jruby.home/bin/jrubyw.exe'",
+        "org.owasp.webgoat:webgoat-container:7.0 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/js/goatApp/model/FlagModel.js'",
+        "org.webjars:nanoScrollerJS:0.7.6 -> LOCATION:'webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/classes/webgoat/static/plugins/nanoScroller/jquery.nanoscroller.min.js'"
+    ],
+    "componentMissedByCompetitorLength": 18,
+    "additionalCompetitorComponents": [
+        "jruby_cache_backend.jar:",
+        "mavenEcjBootstrapAgent.jar:",
+        "rubygems:jruby-openssl:0.13.0",
+        "concurrent_ruby.jar:",
+        "parser.jar:",
+        "spm-jquery:2.1.4",
+        "@flexem/jquery-ui:1.12.1",
+        "cparse-jruby.jar:",
+        "data.tar.gz:",
+        "tomcat-embed-el-9.0.64.jar:",
+        "jopenssl.jar:",
+        "org.owasp.webgoat:webgoat:8.2.3-SNAPSHOT",
+        "generator.jar:",
+        "spring-boot-jarmode-layertools-2.7.1.jar:",
+        "rubygems:jruby-readline:1.3.7",
+        "webgoat:webgoat:8.2.3-20230105.152039-1",
+        "psych.jar:"
+    ],
+    "additionalCompetitorComponentsLength": 17,
+    "potentialMatches": [
+        {
+            "level": 4,
+            "comp": "spring-boot-jarmode-layertools-2.7.1.jar:",
+            "sona": "org.springframework.boot:spring-boot-jarmode-layertools:2.7.1",
+            "sonatype-location": "webgoat-8.2.3-SNAPSHOT.jar/BOOT-INF/lib/spring-boot-jarmode-layertools-2.7.1.jar"
+        }
+    ],
+    "cveFoundByBoth": 79,
+    "cveMissingCompetitor": [
+        "sonatype-2020-0926 - com.google.guava:guava:30.1-jre",
+        "CVE-2020-8908 - com.google.guava:guava:30.1-jre",
+        "CVE-2020-11023 - jquery:1.5.1",
+        "sonatype-2020-0187 - jquery:1.5.1",
+        "CVE-2020-11022 - jquery:1.5.1",
+        "CVE-2019-11358 - jquery:1.5.1",
+        "sonatype-2014-0026 - jquery:1.5.1",
+        "sonatype-2016-0107 - jquery:1.5.1",
+        "CVE-2015-9251 - jquery:1.5.1",
+        "sonatype-2016-0133 - jquery:1.5.1",
+        "CVE-2016-10707 - jquery:1.5.1",
+        "sonatype-2016-0129 - bootstrap:3.3.7",
+        "sonatype-2017-0695 - bootstrap:3.3.7",
+        "CVE-2018-14040 - bootstrap:3.3.7",
+        "sonatype-2018-0607 - bootstrap:3.3.7",
+        "CVE-2016-7954 - org.jruby:jruby-stdlib:9.3.6.0",
+        "CVE-2021-28965 - org.jruby:jruby-stdlib:9.3.6.0",
+        "CVE-2021-31799 - org.jruby:jruby-stdlib:9.3.6.0",
+        "CVE-2021-43809 - org.jruby:jruby-stdlib:9.3.6.0",
+        "sonatype-2013-0074 - org.jruby:jruby-stdlib:9.3.6.0",
+        "sonatype-2019-0673 - org.jruby:jruby-stdlib:9.3.6.0",
+        "sonatype-2021-4916 - org.jruby:jruby-stdlib:9.3.6.0",
+        "sonatype-2022-4124 - org.jruby:jruby-stdlib:9.3.6.0",
+        "sonatype-2022-6090 - org.jruby:jruby-stdlib:9.3.6.0",
+        "CVE-2020-5408 - org.springframework.security:spring-security-crypto:5.7.2",
+        "CVE-2019-11358 - org.webjars:jquery:1.10.2",
+        "CVE-2020-11023 - org.webjars:jquery:1.10.2",
+        "sonatype-2014-0026 - org.webjars:jquery:1.10.2",
+        "sonatype-2020-0187 - org.webjars:jquery:1.10.2",
+        "CVE-2020-11022 - org.webjars:jquery:1.10.2",
+        "sonatype-2019-0673 - org.bouncycastle:bcprov-jdk15on:1.68",
+        "sonatype-2021-4916 - org.bouncycastle:bcprov-jdk15on:1.68",
+        "CVE-2017-9793 - com.thoughtworks.xstream:xstream:1.4.5",
+        "CVE-2021-23358 - underscore:1.10.2",
+        "CVE-2015-3649 - org.asciidoctor:asciidoctorj:2.5.3",
+        "sonatype-2015-0247 - org.asciidoctor:asciidoctorj:2.5.3",
+        "sonatype-2018-0601 - org.asciidoctor:asciidoctorj:2.5.3",
+        "sonatype-2018-0705 - commons-io:commons-io:2.6",
+        "sonatype-2020-0492 - org.thymeleaf.extras:thymeleaf-extras-springsecurity5:3.0.4.RELEASE",
+        "CVE-2016-6311 - io.undertow:undertow-core:2.2.18.Final",
+        "sonatype-2015-0356 - jquery-form:3.50.0",
+        "CVE-2022-0084 - org.jboss.xnio:xnio-api:3.8.7.Final",
+        "sonatype-2022-6438 - com.fasterxml.jackson.core:jackson-core:2.13.3",
+        "CVE-2018-14040 - org.webjars:bootstrap:3.1.1",
+        "sonatype-2016-0129 - org.webjars:bootstrap:3.1.1",
+        "sonatype-2017-0695 - org.webjars:bootstrap:3.1.1",
+        "sonatype-2018-0607 - org.webjars:bootstrap:3.1.1",
+        "sonatype-2021-4560 - org.apache.logging.log4j:log4j-core:2.15.0",
+        "CVE-2021-41182 - org.webjars:jquery-ui:1.12.1",
+        "CVE-2021-41183 - org.webjars:jquery-ui:1.12.1",
+        "CVE-2021-41184 - org.webjars:jquery-ui:1.12.1",
+        "CVE-2022-31160 - org.webjars:jquery-ui:1.12.1",
+        "CVE-2018-14040 - org.webjars:bootstrap:3.3.7",
+        "sonatype-2016-0129 - org.webjars:bootstrap:3.3.7",
+        "sonatype-2017-0695 - org.webjars:bootstrap:3.3.7",
+        "sonatype-2018-0607 - org.webjars:bootstrap:3.3.7"
+    ],
+    "cveMissingCompetitorLength": 56,
+    "additionalCompetitorCVEs": [
+        "CVE-2019-10173, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39141, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39145, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39148, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39146, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39150, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-29505, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39153, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39147, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39144, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39151, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39154, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39149, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39139, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39152, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2021-39140, (1), com.thoughtworks.xstream:xstream",
+        "CVE-2022-1259, (1), io.undertow:undertow-core",
+        "CVE-2018-14041, (2), bootstrap",
+        "CVE-2018-14041, (2), org.webjars:bootstrap"
+    ],
+    "additionalCompetitorCVEsLength": 19,
+    "sonatypeFoundLaterUpdatedCVEs": [
+        "sonatype-2020-0926 -> CVE-2020-8908",
+        "sonatype-2020-0187 -> CVE-2020-11022",
+        "sonatype-2016-0107 -> CVE-2015-9251",
+        "sonatype-2016-0133 -> CVE-2016-10707",
+        "sonatype-2017-0695 -> CVE-2016-10735",
+        "sonatype-2020-0187 -> CVE-2020-11022",
+        "CVE-2017-7957 -> CVE-2017-9793",
+        "sonatype-2018-0705 -> CVE-2021-29425",
+        "sonatype-2017-0695 -> CVE-2016-10735",
+        "sonatype-2017-0695 -> CVE-2016-10735"
+    ],
+    "10WorstCompontnentsMissedByCompetitor": [
+        {
+            "score": 58.1,
+            "component": "jquery:1.5.1",
+            "cves": [
+                "CVE-2020-11023 : 6.1",
+                "sonatype-2020-0187 : 6.1",
+                "CVE-2020-11022 : 6.1",
+                "CVE-2019-11358 : 6.1",
+                "sonatype-2014-0026 : 6.5",
+                "sonatype-2016-0107 : 6.1",
+                "CVE-2015-9251 : 6.1",
+                "sonatype-2016-0133 : 7.5",
+                "CVE-2016-10707 : 7.5"
+            ]
+        },
+        {
+            "score": 30.9,
+            "component": "org.webjars:jquery:1.10.2",
+            "cves": [
+                "CVE-2019-11358 : 6.1",
+                "CVE-2020-11023 : 6.1",
+                "sonatype-2014-0026 : 6.5",
+                "sonatype-2020-0187 : 6.1",
+                "CVE-2020-11022 : 6.1"
+            ]
+        },
+        {
+            "score": 24.4,
+            "component": "org.webjars:jquery-ui:1.12.1",
+            "cves": [
+                "CVE-2021-41182 : 6.1",
+                "CVE-2021-41183 : 6.1",
+                "CVE-2021-41184 : 6.1",
+                "CVE-2022-31160 : 6.1"
+            ]
+        },
+        {
+            "score": 7.2,
+            "component": "underscore:1.10.2",
+            "cves": [
+                "CVE-2021-23358 : 7.2"
+            ]
+        },
+        {
+            "score": 6.1,
+            "component": "jquery-form:3.50.0",
+            "cves": [
+                "sonatype-2015-0356 : 6.1"
+            ]
+        }
+    ],
+    "badLicenseInComponentsMissedByCompetitor": [
+        "['Copyleft'] : jquery-timepicker:1.3.2",
+        "['Copyleft'] : org.jruby:jruby-stdlib:9.2.9.0",
+        "['Copyleft'] : jquery-form:3.50.0",
+        "['Copyleft'] : org.owasp.webgoat:webgoat-container:7.0"
+    ],
+    "badLicenseInComponentsMissedByCompetitorLength": 4
+}

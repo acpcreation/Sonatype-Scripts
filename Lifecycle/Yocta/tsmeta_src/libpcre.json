@@ -1,0 +1,28 @@
+{
+        "cve_product": "pcre",
+        "license": "BSD-3-Clause",
+        "summary": "Perl Compatible Regular Expressions",
+        "homepage": "http://www.pcre.org",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://downloads.sourceforge.net/pcre/pcre-8.45.tar.bz2",
+                "file://run-ptest",
+                "file://Makefile"
+        ],
+        "cve_version": "8.45",
+        "sources": {
+                "patches": {},
+                "https": [
+                        "https://downloads.sourceforge.net/pcre/pcre-8.45.tar.bz2"
+                ],
+                "file": [
+                        "run-ptest",
+                        "Makefile"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/libpcre/libpcre_8.45.bb"
+}

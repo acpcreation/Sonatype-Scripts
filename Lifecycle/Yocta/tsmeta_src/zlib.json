@@ -1,0 +1,33 @@
+{
+        "license": "Zlib",
+        "summary": "Zlib Compression Library",
+        "homepage": "http://zlib.net/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://downloads.sourceforge.net/libpng/zlib/1.2.11/zlib-1.2.11.tar.xz",
+                "file://ldflags-tests.patch",
+                "file://0001-configure-Pass-LDFLAGS-to-link-tests.patch",
+                "file://CVE-2018-25032.patch",
+                "file://run-ptest"
+        ],
+        "cve_product": "zlib",
+        "cve_version": "1.2.11",
+        "sources": {
+                "patches": {
+                        "ldflags-tests.patch": "/home/andrew/poky/meta/recipes-core/zlib/zlib/ldflags-tests.patch",
+                        "0001-configure-Pass-LDFLAGS-to-link-tests.patch": "/home/andrew/poky/meta/recipes-core/zlib/zlib/0001-configure-Pass-LDFLAGS-to-link-tests.patch",
+                        "CVE-2018-25032.patch": "/home/andrew/poky/meta/recipes-core/zlib/zlib/CVE-2018-25032.patch"
+                },
+                "https": [
+                        "https://downloads.sourceforge.net/libpng/zlib/1.2.11/zlib-1.2.11.tar.xz"
+                ],
+                "file": [
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/zlib/zlib_1.2.11.bb"
+}

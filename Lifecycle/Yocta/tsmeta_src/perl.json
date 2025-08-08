@@ -1,0 +1,45 @@
+{
+        "license": "Artistic-1.0 | GPL-1.0-or-later",
+        "summary": "Perl scripting language",
+        "homepage": "http://www.perl.org/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://www.cpan.org/src/5.0/perl-5.34.1.tar.gz;name=perl",
+                "file://perl-rdepends.txt",
+                "file://0001-Somehow-this-module-breaks-through-the-perl-wrapper-.patch",
+                "file://errno_ver.diff",
+                "file://native-perlinc.patch",
+                "file://perl-dynloader.patch",
+                "file://0002-Constant-Fix-up-shebang.patch",
+                "file://determinism.patch",
+                "file://0001-cpan-Sys-Syslog-Makefile.PL-Fix-_PATH_LOG-for-determ.patch",
+                "file://run-ptest",
+                "file://encodefix.patch"
+        ],
+        "cve_product": "perl",
+        "cve_version": "5.34.1",
+        "sources": {
+                "patches": {
+                        "0001-Somehow-this-module-breaks-through-the-perl-wrapper-.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/0001-Somehow-this-module-breaks-through-the-perl-wrapper-.patch",
+                        "errno_ver.diff": "/home/andrew/poky/meta/recipes-devtools/perl/files/errno_ver.diff",
+                        "native-perlinc.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/native-perlinc.patch",
+                        "perl-dynloader.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/perl-dynloader.patch",
+                        "0002-Constant-Fix-up-shebang.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/0002-Constant-Fix-up-shebang.patch",
+                        "determinism.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/determinism.patch",
+                        "0001-cpan-Sys-Syslog-Makefile.PL-Fix-_PATH_LOG-for-determ.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/0001-cpan-Sys-Syslog-Makefile.PL-Fix-_PATH_LOG-for-determ.patch",
+                        "encodefix.patch": "/home/andrew/poky/meta/recipes-devtools/perl/files/encodefix.patch"
+                },
+                "https": [
+                        "https://www.cpan.org/src/5.0/perl-5.34.1.tar.gz;name=perl"
+                ],
+                "file": [
+                        "perl-rdepends.txt",
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-devtools/perl/perl_5.34.1.bb"
+}

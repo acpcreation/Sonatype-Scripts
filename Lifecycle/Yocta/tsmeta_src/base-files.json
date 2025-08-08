@@ -1,0 +1,46 @@
+{
+    "license": "GPL-2.0-only",
+    "summary": "Miscellaneous files for the base system",
+    "cve_check_whitelist": [],
+    "filesextrapaths": [
+            "__default:"
+    ],
+    "src_uri": [
+            "file://rotation",
+            "file://nsswitch.conf",
+            "file://motd",
+            "file://hosts",
+            "file://host.conf",
+            "file://profile",
+            "file://shells",
+            "file://fstab",
+            "file://issue.net",
+            "file://issue",
+            "file://share/dot.bashrc",
+            "file://share/dot.profile",
+            "file://licenses/GPL-2"
+    ],
+    "cve_product": "base-files",
+    "cve_version": "3.0.14",
+    "homepage": "",
+    "sources": {
+            "patches": {},
+            "file": [
+                    "rotation",
+                    "nsswitch.conf",
+                    "motd",
+                    "hosts",
+                    "host.conf",
+                    "profile",
+                    "shells",
+                    "fstab",
+                    "issue.net",
+                    "issue",
+                    "share/dot.bashrc",
+                    "share/dot.profile",
+                    "licenses/GPL-2"
+            ]
+    },
+    "layer": "core",
+    "recipe": "recipes-core/base-files/base-files_3.0.14.bb"
+}

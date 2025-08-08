@@ -1,0 +1,17 @@
+{
+        "license": "MIT",
+        "summary": "Minimal boot requirements",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [],
+        "cve_product": "packagegroup-core-boot",
+        "cve_version": "1.0",
+        "homepage": "",
+        "sources": {
+                "patches": {}
+        },
+        "layer": "core",
+        "recipe": "recipes-core/packagegroups/packagegroup-core-boot.bb"
+}

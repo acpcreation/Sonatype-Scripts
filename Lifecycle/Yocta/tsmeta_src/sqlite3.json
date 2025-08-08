@@ -1,0 +1,22 @@
+{
+        "cve_product": "sqlite",
+        "license": "PD",
+        "summary": "Embeddable SQL database engine",
+        "homepage": "http://www.sqlite.org",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "http://www.sqlite.org/2022/sqlite-autoconf-3380500.tar.gz"
+        ],
+        "cve_version": "3.38.5",
+        "sources": {
+                "patches": {},
+                "http": [
+                        "http://www.sqlite.org/2022/sqlite-autoconf-3380500.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/sqlite/sqlite3_3.38.5.bb"
+}

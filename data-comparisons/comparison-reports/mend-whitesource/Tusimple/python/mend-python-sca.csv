@@ -1,0 +1,22 @@
+﻿Library Type,CVE,Components,Source File,Organization,Product,Project,Severity,CVSS,CVSS Type,Status,Creation Date,Modified Date,Top Fix,Changed Status - Comment,Changed Status  - User
+Python,CVE-2022-23491,certifi-2022.9.24-py3-none-any.whl,,TuSimple.ai,CLI,infra-vts2-dev,HIGH,7.5,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version certifi - 2022.12.07
+Message: Upgrade to version
+Details: https://www.cve.org/CVERecord?id=CVE-2022-23491",,
+javascript/Node.js,CVE-2021-23337,lodash-4.17.20.tgz,,TuSimple.ai,CLI,infra-vts2-dev,HIGH,7.2,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version lodash - 4.17.21
+Message: Upgrade to version
+Details: https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c",,
+javascript/Node.js,CVE-2020-28500,lodash-4.17.20.tgz,,TuSimple.ai,CLI,infra-vts2-dev,MEDIUM,5.3,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version lodash - 4.17.21
+Message: Upgrade to version
+Details: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28500",,
+javascript/Node.js,CVE-2022-31129,moment-2.29.1.tgz,,TuSimple.ai,CLI,infra-vts2-dev,HIGH,7.5,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version moment - 2.29.4
+Message: Upgrade to version
+Details: https://github.com/moment/moment/security/advisories/GHSA-wc69-rhjr-hc9g",,
+javascript/Node.js,CVE-2022-24785,moment-2.29.1.tgz,,TuSimple.ai,CLI,infra-vts2-dev,HIGH,7.5,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version moment - 2.29.2
+Message: Upgrade to version
+Details: https://github.com/moment/moment/security/advisories/GHSA-8hfj-j24r-96c4",,
+javascript/Node.js,WS-2022-0280,moment-timezone-0.5.34.tgz,,TuSimple.ai,CLI,infra-vts2-dev,CRITICAL,9.8,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version moment-timezone - 0.5.35
+Message: Upgrade to version
+Details: https://github.com/advisories/GHSA-56x4-j7p9-fcf9",,
+javascript/Node.js,WS-2022-0284,moment-timezone-0.5.34.tgz,,TuSimple.ai,CLI,infra-vts2-dev,CRITICAL,9.1,CVSS_3,Active,00:44.0,00:44.0,"Upgrade to version moment-timezone - 0.5.35
+Message: Upgrade to version
+Details: https://github.com/advisories/GHSA-v78c-4p63-2j6c",,

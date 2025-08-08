@@ -1,0 +1,3061 @@
+{
+    "additionalCompetitorComponents": [
+        "com.liferay:com.liferay.users.admin.web:2.4.9",
+        "org.glassfish.web:javax.servlet.jsp:2.3.3-b02",
+        "org.jruby:joda-timezones:2013d",
+        "biz.aQute.bnd:org.osgi.impl.bundle.repoindex.ant:3.4.0",
+        "org.osgi:org.osgi.util.function:1.0.0",
+        "com.liferay:com.liferay.portal.scheduler:4.0.7",
+        "org.webjars.bower:bourbon:4.2.3",
+        "com.liferay:com.liferay.portal.scheduler.single:2.0.9",
+        "com.liferay:com.liferay.layout.item.selector.web:1.1.11",
+        "com.microsoft.sqlserver:sqljdbc4:4.0.2206.100",
+        "com.liferay:com.liferay.exportimport.api:2.2.2",
+        "com.liferay:com.liferay.dynamic.data.mapping.form.evaluator:2.0.6",
+        "org.apache.chemistry.opencmis:chemistry-opencmis-client-impl:0.14.0",
+        "org.jodd:jodd-upload:3.6.1",
+        "com.liferay:com.liferay.site.my.sites.web:2.0.6",
+        "com.liferay:com.liferay.portal.output.stream.container.api:1.0.1",
+        "asm:asm:3.1",
+        "com.liferay:com.liferay.message.boards.api:3.1.8",
+        "javax.validation:validation-api:1.1.0.Final",
+        "com.liferay:com.liferay.frontend.image.editor.capability.resize:1.0.16",
+        "liferay-frontend-css-common:4.0.0-alpha.1552930218378",
+        "com.liferay:com.liferay.exportimport.service:4.0.9",
+        "com.liferay:com.liferay.frontend.image.editor.capability.saturation:1.0.16",
+        "com.liferay:com.liferay.staging.taglib:3.1.20",
+        "com.liferay:com.liferay.product.navigation.control.menu.web:2.0.29",
+        "org.apache.lucene:lucene-core:5.2.1",
+        "com.liferay:com.liferay.portal.remote.axis.extender:1.0.12",
+        "com.liferay:com.liferay.document.library.web:2.0.9",
+        "kXML:2.3.0",
+        "com.liferay:com.liferay.petra.model.adapter:1.0.4",
+        "biz.aQute.bnd:biz.aQute.bnd:3.5.0",
+        "com.liferay:com.liferay.portal.configuration.persistence:2.1.2",
+        "org.apache.httpcomponents:httpclient:4.1",
+        "com.google.code.gson:gson:1.4-atlassian-1",
+        "apache-httpclient:commons-httpclient:3.1",
+        "com.liferay:com.liferay.portal.log4j.extender:2.0.6",
+        "com.liferay:com.liferay.portal.security.service.access.policy.api:2.0.13",
+        "com.liferay:com.liferay.frontend.editor.lang:2.0.1",
+        "jline:jline:2.12",
+        "com.liferay:com.liferay.layout.type.controller.full.page.application:2.0.9",
+        "com.liferay:com.liferay.contacts.api:2.0.10",
+        "com.liferay:com.liferay.dynamic.data.mapping.data.provider.impl:1.0.8",
+        "com.liferay:com.liferay.layout.type.controller.node:2.0.7",
+        "com.liferay:com.liferay.contacts.web:1.0.35",
+        "com.liferay:javax.servlet.jsp:2.3.3-b02.LIFERAY-PATCHED-7",
+        "com.liferay:com.liferay.frontend.editor.alloyeditor.accessibility.web:1.0.7",
+        "org.osgi:org.osgi.service.url:1.0.0",
+        "org.hibernate:hibernate-core:3.6.10.Final",
+        "biz.aQute.bnd:biz.aQute.remote.api:3.4.0",
+        "com.liferay:com.liferay.product.navigation.user.personal.bar.web:4.0.10",
+        "com.liferay:com.sun.xml.ws:2.1.7.LIFERAY-PATCHED-1",
+        "com.google.code.findbugs:annotations:2.0.3",
+        "commons-cli:commons-cli:1.3.1",
+        "org.apache.lucene:lucene-memory:5.5.2",
+        "com.liferay:com.liferay.dynamic.data.lists.web:2.0.10",
+        "com.liferay:com.liferay.journal.terms.of.use:2.0.27",
+        "com.liferay:com.liferay.portal.settings.api:2.0.5",
+        "org.glassfish:javax.el:3.0.1-b05",
+        "com.liferay:com.liferay.social.activity.web:2.0.12",
+        "bcel:bcel:5.0",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.elasticsearch-client:6.1.1_2",
+        "com.liferay:com.liferay.asset.tags.navigation.web:3.0.8",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-aop:4.1.9.RELEASE_1",
+        "com.liferay:com.liferay.portal.configuration.extender:3.0.2",
+        "com.liferay:com.liferay.polls.web:2.0.24",
+        "org.apache.karaf.services:org.apache.karaf.services.staticcm:4.1.1",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.comments:1.0.10",
+        "io.netty:netty-tcnative:2.0.1.Final",
+        "com.liferay:com.liferay.frontend.image.editor.capability.brightness:1.0.16",
+        "com.liferay:com.liferay.dynamic.data.mapping.api:3.8.3",
+        "com.liferay:com.liferay.portal.search.web:2.0.2",
+        "com.liferay:com.liferay.portal.security.auto.login:2.1.8",
+        "org.apache.abdera:abdera-extensions-json:1.1.2",
+        "com.liferay:com.liferay.wiki.navigation.web:2.0.15",
+        "com.liferay:com.liferay.frontend.image.editor.capability.effects:1.0.18",
+        "com.liferay:com.liferay.ratings.page.ratings.web:2.0.10",
+        "com.liferay:com.liferay.portal.osgi.web.wab.generator:2.1.46",
+        "com.liferay:com.liferay.portal.security.sso.opensso.impl:1.0.2",
+        "org.apache.httpcomponents:httpcomponents-core:4.0.1",
+        "com.liferay:com.liferay.dynamic.data.mapping.data.provider.web:1.0.15",
+        "com.liferay:com.liferay.site.navigation.breadcrumb.web:3.0.4",
+        "com.liferay:com.liferay.hello.soy.web:1.0.16",
+        "com.liferay:com.liferay.roles.selector.web:1.0.13",
+        "com.liferay:com.liferay.portal.upgrade:2.8.9",
+        "com.liferay:com.liferay.login.authentication.openid.web:2.0.8",
+        "com.liferay:org.osgi.service.http:3.5.0-20150611.165350-3.LIFERAY-PATCHED-2",
+        "xerces:xmlParserAPIs:2.11.0",
+        "com.liferay:com.liferay.portal.instances.api:1.0.4",
+        "com.liferay:com.liferay.dynamic.data.mapping.service:2.5.6",
+        "com.liferay:com.liferay.petra.string:1.1.2",
+        "com.liferay:com.liferay.blogs.item.selector.web:2.0.1",
+        "com.liferay:com.liferay.frontend.theme.contributor.extender:2.0.3",
+        "org.jboss.spec.javax.servlet:jboss-servlet-api_3.1_spec:1.0.0.Final",
+        "com.liferay:com.liferay.microblogs.service:2.1.18",
+        "com.liferay:com.liferay.wiki.engine.html:2.0.7",
+        "Bootstrap(Twitter):3.2.0",
+        "com.liferay:com.liferay.dynamic.data.mapping.lang:2.0.7",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.captcha:2.0.8",
+        "com.liferay:com.liferay.portal.osgi.web.servlet.context.helper:2.1.17",
+        "args4j:args4j:2.0.16",
+        "com.liferay:com.liferay.portal.cache:2.4.12",
+        "com.squareup.okhttp:mockwebserver:1.6.0",
+        "com.liferay:com.liferay.portal.spring.extender:2.1.7",
+        "com.liferay:com.liferay.document.library.item.selector.web:1.0.10",
+        "com.liferay:com.liferay.site.item.selector.api:1.0.4",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.key.value:2.0.7",
+        "com.liferay:com.liferay.blogs.api:3.1.1",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-context:4.1.9.RELEASE_1",
+        "com.github.fge:json-schema-core:1.2.0",
+        "com.liferay:com.liferay.license.manager.web:2.0.9",
+        "com.liferay:com.liferay.portal.security.sso.cas.api:1.0.2",
+        "XStream:1.4.7",
+        "com.liferay:com.liferay.portal.weblogic.support:2.0.4",
+        "org.apache.geronimo.bundles:jstl:1.2_1",
+        "com.liferay:com.liferay.portal.settings.web:1.2.5",
+        "com.liferay:com.liferay.portal.workflow.instance.web:1.0.13",
+        "com.liferay:com.liferay.portal.store.cmis:2.0.18",
+        "com.liferay:com.liferay.portal.security.sso.openid.impl:1.0.2",
+        "org.apache:axis:1.4.0-kelio",
+        "com.liferay:com.liferay.frontend.js.polyfill.babel.web:1.0.5",
+        "com.liferay:com.liferay.message.boards.web:1.3.1",
+        "com.liferay:com.liferay.directory.web:1.0.23",
+        "com.liferay:com.liferay.product.navigation.user:2.0.8",
+        "EnyWare:4.0.0",
+        "com.liferay:com.liferay.imageio.plugins:5.0.5",
+        "javax.mail:mailapi:1.4.3-rc1",
+        "org.glassfish.web:javax.servlet.jsp.jstl:1.2.3",
+        "com.liferay:com.liferay.portal.jmx.api:1.0.1",
+        "com.liferay:com.liferay.portal.remote.rest.extender:2.0.16",
+        "com.liferay:com.liferay.portal.osgi.web.wab.extender:2.0.29",
+        "com.liferay:com.liferay.portal.settings.lang:1.0.9",
+        "JCL1.2ImplementedOverSLF4J:1.7.1",
+        "org.osgi:org.osgi.service.repository:1.1.0",
+        "Woodstox:3.2.4",
+        "com.liferay:com.liferay.social.user.statistics.api:1.0.1",
+        "com.liferay:com.liferay.notifications.web:1.0.38",
+        "net.sf.jali:guava:24.3",
+        "com.liferay:com.liferay.portal.remote.http.tunnel.extender:2.0.12",
+        "com.liferay.webjars:com.liferay.webjars.clay:2.0.0-alpha.4",
+        "com.liferay:com.liferay.staging.bar.web:1.0.24",
+        "com.liferay.portal:com.liferay.util.bridges:2.0.2",
+        "com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2",
+        "com.liferay:com.liferay.comment.ratings.definition:2.0.3",
+        "com.liferay:com.liferay.user.groups.admin.api:2.0.1",
+        "org.apache.commons:commons-lang3:3.4",
+        "org.fusesource.jansi:jansi:1.11",
+        "com.liferay:com.liferay.frontend.taglib.util.freemarker.contributor:1.0.4",
+        "velocity.apache.org/tools/devel:1.6.4",
+        "com.liferay:com.liferay.portal.security.audit.wiring:2.0.7",
+        "com.github.fge:uri-template:0.9",
+        "org.apache.felix:org.apache.felix.utils:1.4.2",
+        "com.liferay:com.liferay.portal.profile.api:1.0.2",
+        "com.liferay:com.liferay.wiki.api:2.5.6",
+        "liferay:liferay-portal:7.2.0-rc2",
+        "com.liferay:com.liferay.marketplace.store.web:2.0.11",
+        "com.liferay:com.liferay.dynamic.data.lists.form.web:2.0.15",
+        "com.liferay:com.liferay.sync.service:1.6.4",
+        "biz.aQute.bnd:biz.aQute.bnd.annotation:3.3.0",
+        "pdf-reader:2.8.0",
+        "org.apache.httpcomponents:httpcore:4.1",
+        "com.twelvemonkeys.common:common-image:3.3.2",
+        "com.liferay:com.liferay.ratings.service:1.0.11",
+        "com.liferay.portal:com.liferay.util.slf4j:2.0.1",
+        "com.liferay:com.liferay.modules.compat:2.0.8",
+        "com.liferay:com.liferay.portal.pop.notifications:2.0.6",
+        "com.liferay:com.liferay.portal.configuration.module.configuration:2.0.12",
+        "org.apache.chemistry.opencmis:chemistry-opencmis-client-bindings:0.14.0",
+        "org.osgi:org.osgi.service.metatype.annotations:1.3.0",
+        "com.liferay:com.liferay.portal.security.sso.openid:4.0.1",
+        "com.liferay:com.liferay.asset.publisher.layout.prototype:1.0.15",
+        "org.eclipse.osgi:3.11.3",
+        "net.sf.ehcache:ehcache:2.8.3",
+        "com.liferay:com.liferay.portlet.configuration.toolbar.contributor.locator.api:2.0.3",
+        "org.codehaus.woodstox:woodstox-core-asl:4.4.0",
+        "com.liferay.portal:com.liferay.support.tomcat:1.0.1",
+        "commons-codec:commons-codec:1.6",
+        "org.apache.lucene:lucene-analyzers-common:5.2.1",
+        "com.liferay:com.liferay.layout.admin.web:2.0.50",
+        "org.apache.ws.xmlschema:xmlschema-core:2.1.0",
+        "com.liferay:com.liferay.frontend.editor.ckeditor.web:1.0.44",
+        "com.ibm.icu:icu4j:51.1",
+        "com.liferay:com.liferay.portal.security.exportimport.api:2.0.2",
+        "com.liferay:com.liferay.journal.service:3.24.8",
+        "com.liferay:com.liferay.users.admin.impl:1.0.16",
+        "com.liferay:com.liferay.message.boards.layout.set.prototype:1.0.15",
+        "com.liferay:com.liferay.portal.security.sso.token.impl:1.0.3",
+        "com.github.fge:json-schema-validator:2.2.4",
+        "org.eclipse.osgi:3.10.101",
+        "com.liferay.portal:com.liferay.util.taglib:2.10.8",
+        "com.liferay:com.liferay.login.authentication.google.web:2.0.11",
+        "org.meeuw:mihxil-json-formatter:0.7",
+        "com.twelvemonkeys.imageio:imageio-tiff:3.3.2",
+        "com.liferay:com.liferay.portal.workflow.kaleo.definition.api:2.1.1",
+        "com.liferay:com.liferay.portal.cache.ehcache:2.1.19",
+        "sun-jaxws:jaxws-rt:2.1.7",
+        "com.liferay:org.freemarker:2.3.23.LIFERAY-PATCHED-4",
+        "biz.aQute:biz.aQute.openapi.provider:1.2.0",
+        "org.apache.httpcomponents:httpcore:4.4.9",
+        "com.twelvemonkeys.imageio:imageio-metadata:3.3.2",
+        "javax.servlet.jsp:javax.servlet.jsp-api:2.3.2-b01",
+        "org.apache.felix:org.apache.felix.eventadmin:1.4.6",
+        "org.yaml:snakeyaml:1.15",
+        "com.liferay:com.liferay.marketplace.deployer:2.0.9",
+        "com.liferay:com.liferay.announcements.web:2.0.9",
+        "org.sonatype.sisu.inject:cglib:2.2.1-v20090111",
+        "com.liferay:com.liferay.recent.documents.web:2.0.16",
+        "com.twelvemonkeys.imageio:imageio-iff:3.3.2",
+        "JavaxPersistenceAPI2.0:2.1.1",
+        "com.liferay:com.liferay.frontend.editor.alloyeditor.web:1.0.37",
+        "com.liferay:com.liferay.portal.security.antisamy:2.0.19",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.password:1.0.4",
+        "com.liferay:com.liferay.product.navigation.control.menu.theme.contributor:2.0.13",
+        "com.liferay:com.liferay.portal.settings.authentication.ntlm.web:1.0.9",
+        "com.liferay:com.liferay.portal.configuration.metatype:2.0.12",
+        "com.liferay:com.liferay.portal.cache.ehcache.provider:2.0.7",
+        "com.liferay:com.liferay.frontend.js.node.shims:1.0.4",
+        "com.liferay:com.liferay.osgi.felix.util:1.0.0",
+        "com.liferay:com.liferay.portal.profile.impl:1.0.3",
+        "com.liferay:com.liferay.layout.taglib:2.2.2",
+        "com.liferay.plugins:admin-theme:1.0.40",
+        "org.jgrapht:jgrapht-core:0.9.1",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.radio:2.0.17",
+        "com.liferay:com.liferay.frontend.image.editor.web:1.0.24",
+        "com.fasterxml.jackson.core:jackson-annotations:2.5.0",
+        "com.liferay:com.liferay.portlet.configuration.css.web:2.0.19",
+        "org.osgi:org.osgi.service.coordinator:1.0.2",
+        "com.liferay:com.liferay.journal.api:2.12.8",
+        "com.liferay:com.liferay.expando.taglib:1.0.10",
+        "biz.aQute.bnd:biz.aQute.repository:3.3.0",
+        "com.liferay:com.liferay.portal.scripting.groovy:2.0.5",
+        "YUICompressor:2.4.7",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-beans:4.1.9.RELEASE_1",
+        "com.liferay:com.liferay.dynamic.data.mapping.web:1.0.59",
+        "org.apache.lucene:lucene-grouping:5.5.2",
+        "biz.aQute:biz.aQute.openapi.api:1.0.0",
+        "org.apache.chemistry.opencmis:chemistry-opencmis-client-api:0.14.0",
+        "com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.1",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.print:2.0.5",
+        "org.wso2.carbon.extension.identity.x509certificate:org.wso2.carbon.extension.identity.x509Certificate.validation:1.0.3",
+        "com.liferay:com.liferay.map.google.maps:1.0.17",
+        "com.liferay:com.liferay.portal.settings.authentication.google.web:1.0.8",
+        "com.liferay:com.liferay.password.policies.admin.web:1.0.26",
+        "com.liferay:com.liferay.registry.api:1.3.1",
+        "com.liferay:com.liferay.ant.bnd:2.0.47",
+        "com.liferay:com.liferay.frontend.editor.simple.web:1.0.11",
+        "com.liferay:com.liferay.blogs.web:2.0.5",
+        "com.liferay:com.liferay.frontend.js.web:1.0.71",
+        "com.liferay:com.liferay.portlet.configuration.web:1.0.28",
+        "com.liferay:com.liferay.bookmarks.api:2.0.13",
+        "com.liferay:com.liferay.expando.web:1.0.14",
+        "de.schlichtherle.io:truezip:6.6",
+        "StAX:1.0.1",
+        "com.liferay:com.liferay.user.groups.admin.web:1.0.20",
+        "org.joda:joda-convert:1.2",
+        "org.apache.directory.api:api-ldap-client-all:1.0.0-M32",
+        "com.liferay:com.liferay.portal.lpkg.deployer:2.1.7",
+        "com.liferay:com.liferay.portal.settings.authentication.ldap.web:1.0.22",
+        "com.liferay:com.liferay.blogs.recent.bloggers.api:1.0.1",
+        "org.apache.lucene:lucene-suggest:5.5.2",
+        "com.fasterxml.jackson.core:jackson-core:2.2.3",
+        "org.apache.sling:org.apache.sling.jcr.registration:1.0.6",
+        "org.wso2.eclipse.equinox:org.eclipse.equinox.console:1.1.100.v20141023-1406",
+        "com.liferay:com.liferay.site.navigation.directory.web:2.0.10",
+        "org.apache.lucene:lucene-misc:5.5.2",
+        "com.liferay:com.liferay.portlet.configuration.icon.print:2.0.3",
+        "com.helger:ph-css:4.1.0",
+        "com.liferay:com.liferay.osgi.service.tracker.collections:2.0.16",
+        "com.liferay:com.liferay.frontend.css.common:2.0.4",
+        "com.liferay:com.liferay.exportimport.web:1.0.38",
+        "com.liferay:com.liferay.portal.osgi.web.wab.reference.support:1.0.8",
+        "com.google.inject.extensions:guice-multibindings:3.0",
+        "com.liferay:com.liferay.portal.upgrade.api:1.0.2",
+        "com.liferay:com.liferay.portal.upgrade.impl:1.0.2",
+        "com.liferay:com.liferay.portal.cluster.single:2.0.4",
+        "com.twelvemonkeys.imageio:imageio-hdr:3.3.2",
+        "com.liferay:com.liferay.portlet.display.template.web:2.0.8",
+        "com.liferay:com.liferay.frontend.js.metal.web:1.0.20",
+        "com.liferay:com.liferay.portlet.configuration.icon.help:2.0.3",
+        "com.liferay:com.liferay.asset.service:1.1.4",
+        "org.apache.felix:org.apache.felix.utils:1.8.4",
+        "org.osgi:org.osgi.util.tracker:1.5.1",
+        "org.osgi:org.osgi.resource:1.0.0",
+        "org.apache.lucene:lucene-queries:5.5.2",
+        "com.liferay:com.liferay.journal.item.selector.web:1.0.6",
+        "com.liferay:com.liferay.portal.workflow.kaleo.service:2.0.37",
+        "asm:asm-commons:4.1",
+        "org.osgi:osgi.promise:6.0.0",
+        "org.apache.xmlbeans:xmlbeans:2.5.0",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.text:2.0.12",
+        "com.liferay:com.liferay.portal.license.deployer:1.0.7",
+        "com.liferay:com.liferay.blogs.api:1.0.1",
+        "com.liferay:com.liferay.xstream.configurator.api:2.1.2",
+        "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:r239",
+        "com.liferay:com.liferay.hello.velocity.web:2.0.8",
+        "com.liferay:com.liferay.site.navigation.menu.web:2.0.21",
+        "xfire:saaj-impl:1.3",
+        "org.apache.geronimo.bundles:axiom-all:1.2.12_1",
+        "org.webjars.npm:datatables.net-dt:1.10.24",
+        "com.liferay:com.liferay.portal.jmx:4.0.1",
+        "org.apache.lucene:lucene-queryparser:5.5.2",
+        "com.liferay:com.liferay.portal.search.elasticsearch:2.1.29",
+        "com.liferay:com.liferay.message.boards.comment:2.0.20",
+        "com.liferay:com.liferay.portal.store.s3:2.0.20",
+        "com.amazonaws:aws-java-sdk-s3:1.11.277",
+        "org.apache.ws:com.springsource.org.apache.ws.commons.schema:2.0.3",
+        "com.liferay:com.liferay.dynamic.data.mapping.validator:2.1.9",
+        "com.liferay:com.liferay.announcements.api:1.0.1",
+        "com.liferay:com.liferay.portal.remote.json.web.service.extender:2.0.6",
+        "com.liferay:com.liferay.frontend.image.editor.api:1.0.5",
+        "com.liferay:com.liferay.mentions.service:2.0.17",
+        "com.liferay:com.liferay.portal.template.freemarker:3.0.9",
+        "org.apache.felix:org.apache.felix.shell:1.4.2",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.conversions:2.0.9",
+        "com.liferay:com.liferay.portal.component.blacklist.impl:1.0.3",
+        "xmlpull:xmlpull:1.1.3.1",
+        "com.liferay:com.liferay.frontend.editor.tinymce.web:1.0.23",
+        "com.liferay:com.liferay.portal.init.servlet.filter:2.0.6",
+        "com.liferay:com.liferay.item.selector.criteria.api:2.1.2",
+        "com.liferay:com.liferay.application.list.user.personal.site.permissions:2.0.7",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.paragraph:2.0.11",
+        "org.apache.felix:org.apache.felix.gogo.shell:0.10.0",
+        "com.twelvemonkeys.imageio:imageio-pcx:3.3.2",
+        "com.liferay:com.liferay.document.library.layout.set.prototype:2.0.14",
+        "alloy-ui:3.1.0-deprecated.25",
+        "xuggle:xuggle-xuggler:5.4",
+        "com.liferay:com.liferay.layout.type.controller.control.panel:2.0.5",
+        "com.google.guava:guava:16.0.1",
+        "com.liferay:com.liferay.hello.soy.navigation.web:1.0.4",
+        "com.liferay:com.liferay.frontend.js.aui.web:1.0.24",
+        "org.springframework:spring-aop:4.1.8.RELEASE",
+        "com.liferay:com.liferay.portal.monitoring:5.0.3",
+        "org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:0.14.0",
+        "com.liferay:com.liferay.portal.language.extender:2.0.9",
+        "org.apache.felix:org.apache.felix.dependencymanager.shell:3.2.0",
+        "org.apache.lucene:lucene-sandbox:5.5.2",
+        "com.liferay:com.liferay.portal.scripting.executor:3.0.3",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.related.assets:2.0.5",
+        "com.liferay:com.liferay.comment.page.comments.web:1.0.12",
+        "com.liferay:com.liferay.item.selector.web:3.0.8",
+        "org.osgi:org.osgi.service.http.whiteboard:1.0.0",
+        "com.liferay:com.liferay.websocket.whiteboard:1.0.3",
+        "woodstox:stax2:2.1",
+        "com.liferay:com.liferay.portal.compound.session.id:2.0.2",
+        "com.liferay:com.liferay.portal.security.sso.opensso:4.0.1",
+        "com.liferay:com.liferay.osgi.felix.file.install.configuration.cleaner:1.0.4",
+        "com.liferay:com.liferay.portal.tools.target.platform.indexer.client:1.0.3",
+        "com.liferay:com.liferay.petra.io:1.3.0",
+        "io.netty:netty:3.10.6.Final",
+        "com.liferay:com.liferay.frontend.css.web:1.0.38",
+        "com.liferay:com.liferay.social.activities.api:1.0.1",
+        "net.sf.jopt-simple:jopt-simple:4.6",
+        "com.liferay:com.liferay.portal.instances.web:1.0.14",
+        "com.liferay:com.liferay.dynamic.data.lists.api:2.1.10",
+        "com.pojosontheweb:monte-repack:1.0.1",
+        "org.apache.felix:org.apache.felix.resolver:1.4.0",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.date:2.0.11",
+        "com.liferay:com.liferay.portal.workflow.kaleo.runtime.api:2.2.4",
+        "org.slf4j:slf4j-api:1.7.13",
+        "com.liferay:com.liferay.dynamic.data.mapping.taglib:2.1.11",
+        "com.liferay:com.liferay.portlet.display.template:2.2.3",
+        "biz.aQute.bnd:aQute.libg:3.5.0",
+        "javax.annotation:javax.annotation-api:1.2",
+        "com.liferay:com.liferay.frontend.theme.unstyled:2.0.9",
+        "com.liferay:com.liferay.portal.bundle.blacklist:1.1.5",
+        "com.liferay:com.liferay.alloy.mvc:2.3.2",
+        "com.liferay:com.liferay.portal.remote.soap.extender.api:1.0.1",
+        "JavaMessageService:1.1",
+        "org.codehaus.woodstox:stax2-api:3.1.4",
+        "com.liferay:com.liferay.blogs.item.selector.api:1.1.1",
+        "com.github.fge:jackson-coreutils:1.6",
+        "com.liferay:com.liferay.calendar.web:1.0.54",
+        "net.sourceforge.nekohtml:com.springsource.org.cyberneko.html:1.9.13",
+        "com.liferay:com.liferay.map.openstreetmap:2.0.16",
+        "com.google.template:soy:2015-04-10",
+        "xml-apis:xml-apis:1.3.03",
+        "com.octo.captcha:jcaptcha-all:1.0-RC-2.0.1",
+        "com.liferay:com.liferay.blogs.editor.configuration:1.0.11",
+        "com.liferay:com.liferay.product.navigation.site.administration:3.0.8",
+        "com.liferay:com.liferay.dynamic.data.mapping.expression:2.0.9",
+        "com.liferay:com.liferay.portlet.configuration.css.web:3.0.14",
+        "ddf.catalog.core:catalog-core-localstorageprovider:2.10.0",
+        "javax.media:jai_codec:1.1.3",
+        "com.liferay:com.liferay.microblogs.web:2.0.27",
+        "org.apache.lucene:lucene-queries:5.2.1",
+        "com.google.code.findbugs:jsr305:2.0.3",
+        "com.liferay:com.liferay.trash.service:1.0.3",
+        "com.liferay:com.liferay.users.admin.web:2.5.2",
+        "com.liferay:com.liferay.petra.memory:1.0.9",
+        "com.liferay:com.liferay.document.library.repository.external.api:1.0.3",
+        "axis:axis-wsdl4j:1.5.1",
+        "org.hamcrest:hamcrest-core:1.3-redhat-1",
+        "org.apache.lucene:lucene-queryparser:5.2.1",
+        "com.liferay:com.liferay.message.boards.parser.bbcode:2.0.13",
+        "com.liferay:com.liferay.password.policies.admin.impl:1.0.7",
+        "org.apache.lucene:lucene-spatial:5.5.2",
+        "org.apache.cxf:cxf-api:2.7.11",
+        "com.artofsolving:jodconverter:2.2.1",
+        "com.liferay:com.liferay.sync.web:1.0.19",
+        "org.hsqldb:hsqldb:2.3.3",
+        "com.liferay:com.liferay.wiki.engine.creole:2.0.17",
+        "com.liferay:com.liferay.layout.impl:2.0.5",
+        "org.apache.lucene:lucene-core:5.5.2",
+        "com.liferay:com.liferay.dynamic.data.mapping.form.values.query:2.0.13",
+        "com.liferay:com.liferay.staging.portlet.data.handler:3.0.1",
+        "com.sun.xml.bind:jaxb-impl:2.1.10",
+        "net.sf.trove4j:trove4j:3.0.3",
+        "com.liferay:com.liferay.osgi.util:3.2.1",
+        "com.liferay:com.liferay.upload.web:1.0.7",
+        "net.sourceforge.nekohtml:nekohtml:1.9.16",
+        "com.liferay:com.liferay.frontend.taglib:3.2.7",
+        "com.liferay:com.liferay.product.navigation.control.panel:2.0.3",
+        "com.liferay:com.liferay.calendar.api:2.3.3",
+        "com.liferay:com.liferay.layout.prototype.impl:1.0.6",
+        "org.apache.cxf:cxf-rt-frontend-simple:3.1.9",
+        "com.sun.syndication:com.springsource.com.sun.syndication:1.0.0",
+        "ddf.security.core:security-core-impl:2.9.1",
+        "com.liferay:com.liferay.wiki.editor.configuration:1.0.10",
+        "com.liferay:com.liferay.frontend.css.rtl.servlet:1.0.9",
+        "com.liferay:com.liferay.comment.sanitizer:2.0.6",
+        "com.liferay:com.liferay.portal.security.sso.facebook.connect.api:1.0.2",
+        "com.liferay:com.liferay.layout.prototype.web:1.0.15",
+        "com.liferay:com.liferay.portlet.configuration.icon.refresh:2.0.3",
+        "com.liferay:com.liferay.portal.search.api:1.1.2",
+        "com.liferay:com.liferay.invitation.invite.members.web:1.0.29",
+        "org.apache.felix:org.apache.felix.metatype:1.2.4",
+        "com.liferay:com.liferay.mentions.web:2.0.4",
+        "com.liferay:com.liferay.document.library.repository.cmis.impl:2.0.28",
+        "org.apache.abdera:abdera-i18n:1.1.2",
+        "com.liferay:com.liferay.dynamic.data.mapping.form.values.factory:2.0.10",
+        "ddf.platform.util:platform-util:2.10.1",
+        "com.liferay:com.liferay.journal.taglib:1.0.7",
+        "com.liferay:com.liferay.product.navigation.control.menu.web:2.0.19",
+        "com.liferay:com.liferay.petra.content:1.0.5",
+        "com.liferay:com.liferay.portal.workflow.kaleo.definition.impl:2.0.12",
+        "org.apache.abdera:abdera-extensions-main:1.1.3",
+        "org.abego.treelayout:org.abego.treelayout.core:1.0.1",
+        "com.liferay:com.liferay.portal.osgi.debug.declarative.service:1.0.5",
+        "com.liferay:com.liferay.dynamic.data.mapping.form.renderer:2.1.16",
+        "com.liferay:com.liferay.login.web:2.0.6",
+        "org.apache.lucene:lucene-analyzers-common:5.5.2",
+        "com.liferay:com.liferay.product.navigation.simulation.api:1.1.0",
+        "com.liferay:com.liferay.product.navigation.product.menu.theme.contributor:2.0.8",
+        "com.liferay:com.liferay.portal.background.task.service:3.0.10",
+        "com.liferay:org.apache.felix.bundlerepository:2.0.2.LIFERAY-PATCHED-1",
+        "com.fasterxml.jackson.core:jackson-core:2.5.3",
+        "com.liferay:com.liferay.portal.custom.jsp.bag.api:1.0.2",
+        "com.liferay:com.liferay.dynamic.data.mapping.service:2.1.8",
+        "com.liferay:com.liferay.trash.web:1.0.26",
+        "com.liferay:com.liferay.captcha.taglib:1.0.7",
+        "javax.json:javax.json-api:1.0",
+        "com.liferay:com.liferay.quick.note.web:2.0.6",
+        "com.google.guava:guava:19.0.20150826",
+        "com.liferay:com.liferay.mobile.device.rules.service:1.2.28",
+        "commons-codec:commons-codec:1.4",
+        "com.liferay:com.liferay.microsoft.translator:1.0.7",
+        "commons-io:commons-io:2.4",
+        "com.liferay:com.liferay.product.navigation.product.menu.web:2.0.24",
+        "com.liferay:com.liferay.exportimport.resources.importer:2.0.3",
+        "com.liferay:com.liferay.layout.item.selector.api:1.0.4",
+        "com.liferay:com.liferay.frontend.css.rtl.converter:1.0.6",
+        "javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1",
+        "com.liferay:com.liferay.journal.editor.configuration:1.0.3",
+        "com.wordnik:swagger-codegen-distribution:2.1.2-M1",
+        "biz.aQute.bnd:biz.aQute.repository:3.5.0",
+        "com.liferay:com.liferay.marketplace.service:2.1.28",
+        "com.liferay:com.liferay.site.item.selector.web:2.0.21",
+        "io.netty:netty-transport-native-kqueue:4.1.11.Final",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-expression:4.1.9.RELEASE_1",
+        "com.liferay:com.liferay.staging.configuration.web:1.0.21",
+        "com.liferay:com.liferay.petra.doulos:3.5.3",
+        "com.liferay:com.liferay.sync.security:2.0.9",
+        "com.liferay:com.liferay.social.activities.web:2.0.9",
+        "com.liferay:com.liferay.portal.settings.authentication.facebook.connect.web:1.0.9",
+        "biz.aQute.bnd:aQute.libg:3.3.0",
+        "org.apache.abdera:abdera-extensions-serializer:1.1.3",
+        "com.liferay:com.liferay.asset.categories.service:1.0.12",
+        "com.liferay:com.liferay.portal.search.web.api:1.0.2",
+        "com.liferay:com.liferay.web.proxy.web:1.0.15",
+        "com.liferay:com.liferay.flags.service:2.0.14",
+        "com.liferay:com.liferay.frontend.theme.styled:2.1.3",
+        "com.liferay:com.liferay.comment.api:2.0.2",
+        "com.liferay:com.liferay.modules.compat.data:1.2.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.5.3",
+        "com.liferay:com.liferay.portal.security.service.access.policy.service:2.1.7",
+        "org.eclipse.core.runtime:eclipse-core-runtime:20070801",
+        "biz.aQute.bnd:biz.aQute.launcher:3.3.0",
+        "com.liferay:com.liferay.application.list.taglib:2.0.14",
+        "com.liferay:com.liferay.sync.api:3.0.4",
+        "org.osgi:org.osgi.service.component.annotations:1.3.0",
+        "com.liferay:com.liferay.rss.web:3.0.2",
+        "com.liferay:com.liferay.item.selector.url.web:2.0.9",
+        "com.liferay:com.liferay.journal.web:1.10.17",
+        "org.springframework:spring-aspects:4.1.7.RELEASE",
+        "com.liferay:com.liferay.notifications.web:1.0.33",
+        "com.liferay:com.liferay.portal.settings.authentication.opensso.web:1.0.11",
+        "com.liferay:com.liferay.portal.security.sso.openid.api:1.0.3",
+        "com.liferay:com.liferay.portal.portlet.bridge.soy:3.1.7",
+        "org.codehaus.groovy:groovy:2.4.5",
+        "com.liferay:com.liferay.site.teams.web:1.0.18",
+        "com.liferay:com.liferay.blogs.layout.prototype:2.0.14",
+        "ApacheTomcatNativeLibrary:1.2.4",
+        "com.github.yuchi:npm-semver:1.0.0",
+        "com.liferay:com.liferay.product.navigation.simulation.theme.contributor:2.0.4",
+        "com.liferay:com.liferay.marketplace.app.manager.web:1.0.17",
+        "com.liferay:javax.servlet.jsp.jstl:1.2.3.LIFERAY-PATCHED-2",
+        "com.liferay:com.liferay.item.selector.api:2.4.3",
+        "com.liferay:com.liferay.portal.template.soy.context.contributor:1.0.2",
+        "com.liferay:com.liferay.portal.rules.engine.api:2.0.6",
+        "com.liferay:com.liferay.asset.tags.api:1.0.3",
+        "javax.jcr:javax.jcr:2.0.0",
+        "com.liferay:com.liferay.application.list.api:2.2.5",
+        "jfreechart:jfreechart:1.0.13",
+        "com.liferay:com.liferay.asset.taglib:2.0.11",
+        "org.apache.abdera:abdera-spring:1.1.1",
+        "org.apache.felix:org.apache.felix.configadmin:1.8.8",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.xstream:1.4.7_1",
+        "com.liferay:com.liferay.portlet.configuration.icon.close:2.0.3",
+        "org.apache.karaf.services:org.apache.karaf.services.eventadmin:4.0.6",
+        "com.fasterxml.jackson.core:jackson-databind:2.2.3",
+        "com.liferay:com.liferay.journal.content.search.web:1.0.17",
+        "com.liferay:com.liferay.portal.settings.authentication.cas.web:1.0.10",
+        "com.liferay:org.apache.felix.fileinstall:3.5.4.LIFERAY-PATCHED-2",
+        "org.clojars.kjw:geronimo-stax:1.0.1",
+        "org.codehaus.woodstox:woodstox-core-asl:4.4.1",
+        "com.liferay:com.liferay.portal.store.jcr:2.0.18",
+        "org.apache.sling:org.apache.sling.jcr.jcr-wrapper:2.0.0",
+        "org.apache.portals:portlet-api_2.0_spec:1.0",
+        "JUnit:4.11",
+        "org.elasticsearch.client:x-pack-transport:5.5.3",
+        "com.liferay:com.liferay.frontend.theme.favicon.servlet:1.0.2",
+        "joda-time:joda-time:2.9.4",
+        "com.liferay:com.liferay.portal.security.sso.ntlm.api:1.0.3",
+        "javax.xml:jaxrpc:1.1",
+        "org.codehaus.woodstox:com.springsource.com.ctc.wstx:3.2.7",
+        "org.apache.felix:org.apache.felix.gogo.command:0.12.0",
+        "com.liferay:com.liferay.contacts.service:2.0.20",
+        "org.openoffice:ridl:2.3.1",
+        "com.liferay:com.liferay.portal.scripting.api:1.1.2",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.xerces:2.11.0_1",
+        "com.google.apis:google-api-services-oauth2:v2-rev110-1.21.0",
+        "com.liferay:com.liferay.portal.scheduler.quartz:3.0.4",
+        "commons-jrcs:commons-jrcs:diff-0.1.7",
+        "org.aspectj:aspectjrt:1.8.5",
+        "org.osgi:osgi.enroute.base.api:2.0.0",
+        "com.liferay:com.liferay.wiki.layout.prototype:1.0.17",
+        "com.helger.photon:ph-oton-datatables:8.3.2",
+        "com.liferay:com.liferay.flags.web:2.0.14",
+        "com.liferay:com.liferay.portlet.configuration.icon.maximize:2.0.3",
+        "com.liferay:com.liferay.image.uploader.web:1.0.18",
+        "com.liferay:com.liferay.social.requests.web:1.0.8",
+        "com.liferay:com.liferay.portal.messaging:4.0.7",
+        "com.liferay:com.liferay.asset.tags.compiler.web:2.0.7",
+        "com.liferay:com.liferay.site.api:2.1.9",
+        "com.liferay:com.liferay.polls.api:4.0.4",
+        "com.liferay:com.liferay.hello.world.web:2.0.7",
+        "joda-time:joda-time:2.3",
+        "com.liferay.webjars:com.liferay.webjars.lexicon:1.0.4",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.options:2.0.12",
+        "com.liferay:com.liferay.wiki.engine.input.editor.common:3.0.2",
+        "com.ning:compress-lzf:1.0.2",
+        "biz.aQute.bnd:bnd-export-maven-plugin:3.5.0",
+        "org.apache.felix:org.apache.felix.resolver:1.12.0",
+        "com.liferay:com.liferay.frontend.editor.alloyeditor.link.browse.web:1.0.8",
+        "com.liferay:com.liferay.frontend.theme.admin.web:1.0.2",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.lucene-analyzers-common:5.3.1_2",
+        "org.eclipse.birt.runtime.3_7_1:org.apache.xml.resolver:1.2.0",
+        "org.antlr:antlr4-runtime:4.3",
+        "org.apache.lucene:lucene-highlighter:5.5.2",
+        "org.apache.felix:org.apache.felix.gogo.runtime:0.10.0",
+        "com.liferay:com.liferay.portal.ccpp.impl:1.0.0",
+        "com.liferay:com.liferay.comment.web:2.0.5",
+        "com.liferay:com.liferay.ratings.api:2.0.1",
+        "com.liferay:com.liferay.map.api:2.1.1",
+        "com.google.collections:google-collections:1.0",
+        "asm:asm:4.1",
+        "org.apache.felix:org.apache.felix.http.api:3.0.0",
+        "com.google.oauth-client:google-oauth-client:1.21.0",
+        "org.slf4j:slf4j-api:1.7.10",
+        "org.ow2.asm:asm-util:4.1",
+        "com.liferay:com.liferay.imageio.plugins:1.0.2",
+        "com.liferay:com.liferay.portal.template.xsl:2.0.10",
+        "com.liferay:com.liferay.portal.cache.ehcache.impl:1.0.0",
+        "org.apache.abdera:abdera-extensions-gdata:1.1.2",
+        "com.liferay:com.liferay.login.authentication.facebook.connect.web:2.0.11",
+        "com.liferay:com.liferay.site.admin.web:1.0.39",
+        "com.liferay:com.liferay.site.navigation.language.api:1.0.1",
+        "com.liferay:com.liferay.portal.workflow.kaleo.runtime.impl:2.0.21",
+        "com.liferay:com.liferay.portlet.configuration.icon.edit.guest:2.0.3",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.common:2.0.4",
+        "org.osgi:org.osgi.service.log:1.3.0",
+        "com.twelvemonkeys.common:common-io:3.3.2",
+        "com.liferay:com.liferay.map.taglib:1.1.9",
+        "com.liferay:com.liferay.frontend.js.loader.modules.extender.api:1.0.2",
+        "com.liferay:com.liferay.journal.web:1.10.40",
+        "org.primefaces.extensions:resources-ckeditor:6.1.1",
+        "RecursiveSearchandReplace:sandr.jar",
+        "com.liferay:com.liferay.frontend.theme.classic.web:2.0.2",
+        "com.twelvemonkeys.imageio:imageio-sgi:3.3.2",
+        "com.ibm.db2.jcc:db2jcc4:10.1",
+        "org.apache.abdera:abdera-extensions-media:1.1.3",
+        "com.liferay:com.liferay.portal.security.sso.google:3.0.1",
+        "com.liferay:com.liferay.frontend.image.editor.capability.rotate:1.0.16",
+        "biz.aQute.bnd:biz.aQute.resolve:3.4.0",
+        "org.elasticsearch:elasticsearch:2.4.0",
+        "com.liferay:com.liferay.portal.configuration.metatype.definitions.equinox:2.0.6",
+        "com.liferay:com.liferay.asset.categories.admin.web:1.1.15",
+        "org.osgi:osgi.cmpn:5.0.0",
+        "com.liferay:com.liferay.portal.workflow.definition.web:1.0.13",
+        "com.google.http-client:google-http-client-jackson2:1.21.0",
+        "com.liferay:com.liferay.portal.workflow.kaleo.api:2.2.3",
+        "com.liferay:com.liferay.dynamic.data.mapping.io:2.0.15",
+        "com.liferay:com.liferay.portal.workflow.kaleo.runtime.scripting.impl:1.0.6",
+        "com.liferay:com.liferay.dynamic.data.mapping.data.provider:2.0.4",
+        "com.liferay:com.liferay.iframe.web:1.0.17",
+        "org.homunculusframework:hcf-api-spring:0.0.97",
+        "com.liferay:com.liferay.nested.portlets.web:2.0.17",
+        "biz.aQute:biz.aQute.json.util:1.0.0",
+        "org.apache.abdera:abdera-extensions-geo:1.1.3",
+        "javax.el:javax.el-api:3.0.1-b04",
+        "com.liferay:com.liferay.portal.reports.engine.api:3.0.2",
+        "org.jabsorb:jabsorb:1.3.1",
+        "com.liferay:com.liferay.roles.admin.api:2.0.1",
+        "com.googlecode.libphonenumber:libphonenumber:6.0",
+        "ckeditor-awv:4.6.0-1",
+        "com.liferay:com.liferay.flags.taglib:2.0.11",
+        "org.jasig.cas.client:cas-client-core:3.1.12",
+        "org.apache.jackrabbit:jackrabbit-jcr-commons:2.2.0",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.xmlbeans:2.5.0_2",
+        "com.liferay:com.liferay.invitation.invite.members.service:3.0.6",
+        "com.google.code.findbugs:annotations:2.0.2",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.checkbox.multiple:1.0.8",
+        "com.ibm.db2.jcc:db2jcc:db2jcc4",
+        "com.liferay:com.liferay.product.navigation.simulation.web:3.0.3",
+        "com.liferay:com.liferay.asset.entry.query.processor.custom.user.attributes:2.0.9",
+        "com.liferay:com.liferay.asset.publisher.web:1.8.12",
+        "com.liferay:com.liferay.marketplace.api:4.2.0",
+        "com.liferay:com.liferay.map.common:2.0.1",
+        "org.json:json:20140107",
+        "io.netty:netty-transport-native-unix-common:4.1.11.Final",
+        "com.liferay:com.liferay.asset.web:2.0.6",
+        "com.liferay:com.liferay.document.library.repository.cmis.api:1.1.12",
+        "com.liferay:com.liferay.layout.set.prototype.api:1.0.2",
+        "com.liferay:com.liferay.portal.osgi.web.portlet.tracker:2.0.14",
+        "com.liferay:com.liferay.mobile.device.rules.web:1.0.25",
+        "com.liferay:com.liferay.trash.taglib:2.0.10",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.checkbox:2.0.14",
+        "ddf.security.certificate:security-certificate-generator:2.10.3",
+        "com.liferay:com.liferay.portal.security.service.access.policy.web:1.0.17",
+        "com.liferay:com.liferay.portal.osgi.debug.spring.extender:1.0.8",
+        "org.apache.xbean:xbean-spring-v2:fuse-2.7.0.0",
+        "com.liferay:com.liferay.registry.api:1.3.6",
+        "javax.servlet.jsp.jstl.wso2:jstl:1.2.1.wso2v1",
+        "com.spatial4j:spatial4j:0.5",
+        "com.liferay:com.liferay.portal.security.ldap.impl:2.0.27",
+        "com.liferay:com.liferay.roles.admin.impl:1.0.10",
+        "org.osgi:org.osgi.util.promise:1.0.0",
+        "org.jodd:jodd-json:3.6.3",
+        "com.twelvemonkeys.imageio:imageio-jpeg:3.3.2",
+        "ckeditor:ckeditor-releases:full:4.6.2",
+        "org.apache.lucene:lucene-sandbox:5.2.1",
+        "org.apache.felix:org.apache.felix.utils:1.6.0",
+        "biz.aQute.bnd:biz.aQute.remote.api:3.2.0",
+        "com.liferay:com.liferay.portal.osgi.web.servlet.jsp.compiler:2.0.29",
+        "com.amazonaws:aws-java-sdk-kms:1.11.277",
+        "xml-apis:xml-apis-ext:1.3.04",
+        "org.opensaml:opensaml:1.1",
+        "com.liferay.plugins:classic-theme:1.0.43",
+        "com.liferay:com.liferay.site.navigation.language.web:3.0.5",
+        "com.liferay:com.liferay.mentions.api:2.2.2",
+        "com.liferay:com.liferay.document.library.service:2.0.9",
+        "com.liferay:com.liferay.upload.api:1.0.2",
+        "com.liferay:com.liferay.blogs.recent.bloggers.web:2.0.2",
+        "com.liferay:com.liferay.server.admin.web:1.0.32",
+        "com.liferay.plugins:user-profile-theme:1.0.41",
+        "JakartaActivation:1.1",
+        "com.liferay:com.liferay.ip.geocoder.sample.web:2.0.11",
+        "io.netty:netty-codec-smtp:4.1.9.Final-redhat-2",
+        "commons-io:commons-io:2.2",
+        "twbs:bootstrap-sass:v3.3.7",
+        "org.apache.portals.bridges:portals-bridges-common:1.0",
+        "com.amazonaws:aws-java-sdk-core:1.11.277",
+        "org.apache.abdera:abdera-extensions-opensearch:1.1.3",
+        "backport-util-concurrent:backport-util-concurrent:3.1",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.junit:4.11_2",
+        "org.apache.neethi:neethi:3.0.3",
+        "javax.wsdl:com.springsource.javax.wsdl:1.6.1",
+        "com.liferay:com.liferay.configuration.admin.web:1.0.45",
+        "com.liferay:com.liferay.product.navigation.user.personal.bar.web:2.0.10",
+        "com.liferay:com.liferay.asset.display.web:1.0.9",
+        "fernandezpablo85'sscribe:1.0.8",
+        "com.maxmind.geoip:geoip-api:1.2.14",
+        "com.liferay:com.liferay.frontend.js.spa.web:1.0.50",
+        "com.liferay:com.liferay.portal.servlet.jsp.compiler:1.0.4",
+        "com.liferay:com.liferay.portlet.configuration.icon.minimize:2.0.3",
+        "org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:0.14.0",
+        "com.twelvemonkeys.imageio:imageio-pict:3.3.2",
+        "org.rapidpm.microservice:rapidpm-microservice-modules-core:0.0.4",
+        "com.liferay:com.liferay.frontend.image.editor.integration.document.library:1.0.19",
+        "com.liferay:com.liferay.item.selector.taglib:1.1.18",
+        "com.liferay:com.liferay.portal.lock.service:2.0.19",
+        "com.liferay.plugins:user-dashboard-theme:1.0.41",
+        "com.liferay:org.eclipse.equinox.http.servlet:1.2.2-LIFERAY-CACHED-1",
+        "jboss.web:jsp-api:3.0.0-beta-1",
+        "de.l3s.boilerpipe:boilerpipe:1.1.0-jahia1",
+        "net.sourceforge.nekohtml:nekohtml:1.9.10",
+        "com.liferay:com.liferay.portal.lock.api:2.1.4",
+        "org.slf4j:slf4j-simple:1.7.11",
+        "com.liferay:com.liferay.frontend.js.soyutils.web:1.0.4",
+        "com.liferay:com.liferay.asset.tags.service:2.0.4",
+        "dom4j:flexibleXMLframeworkforJava:1.6.1",
+        "com.orientechnologies:orientdb-spatial:2.2.33",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.validation:2.0.8",
+        "com.twelvemonkeys.imageio:imageio-pnm:3.3.2",
+        "com.github.fge:json-schema-validator:2.2.5",
+        "com.liferay:com.liferay.portal.instance.lifecycle:3.1.1",
+        "org.osgi:org.osgi.service.metatype:1.3.0",
+        "com.liferay:com.liferay.wiki.engine.lang:1.0.4",
+        "com.google.http-client:google-http-client:1.21.0",
+        "com.liferay:com.liferay.wiki.service:1.6.24",
+        "com.liferay:com.liferay.portal.security.sso.facebook.connect:4.0.1",
+        "com.liferay:com.liferay.portal.background.task.api:2.1.4",
+        "org.openid4java:openid4java:0.9.8",
+        "org.apache.felix:org.apache.felix.connect:0.2.0",
+        "MSSQLServerJDBCDriver:4.1.5605.100",
+        "joda-time:joda-time:2.8.1",
+        "com.liferay:com.liferay.portal.template.soy:2.4.14",
+        "com.liferay:com.liferay.portal.template.freemarker:2.0.8",
+        "com.liferay:com.liferay.portal.security.sso.opensso.api:1.0.2",
+        "com.liferay:com.liferay.rss.api:1.0.1",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.editor:2.0.9",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.locales:1.0.8",
+        "com.liferay:com.liferay.portal.rules.engine.wiring:2.0.4",
+        "tinymce-dist:4.1.0",
+        "com.liferay:com.liferay.dynamic.data.lists.service:1.1.49",
+        "com.liferay:com.liferay.asset.tags.admin.web:1.0.15",
+        "velocity.apache.org/tools/devel:1.4",
+        "com.liferay:com.liferay.site.navigation.site.map.web:2.0.18",
+        "org.fusesource.jansi:jansi-native:1.5",
+        "com.liferay:com.liferay.portal.output.stream.container:3.0.1",
+        "com.liferay:com.liferay.rss.util:1.0.12",
+        "com.liferay:com.liferay.frontend.theme.unstyled:2.2.10",
+        "com.helger:ph-commons:6.2.4",
+        "com.liferay:com.liferay.frontend.taglib.soy:1.0.10",
+        "com.liferay:com.liferay.frontend.compatibility.ie:1.0.2",
+        "com.liferay:com.liferay.document.library.repository.authorization.api:1.0.3",
+        "org.quartz-scheduler:quartz:2.1.7",
+        "com.liferay:com.liferay.journal.item.selector.api:1.0.3",
+        "org.apache.felix:org.apache.felix.gogo.runtime:0.10.0.v201209301036",
+        "org.eclipse.core:runtime:20070801",
+        "org.apache.abdera:abdera-extensions-html:1.1.3",
+        "com.liferay:com.liferay.asset.tags.navigation.api:1.0.1",
+        "com.liferay:org.apache.felix.configadmin:1.8.8.LIFERAY-PATCHED-1",
+        "com.twelvemonkeys.imageio:imageio-tga:3.3.2",
+        "com.liferay:com.liferay.frontend.js.bundle.config.extender:1.0.12",
+        "org.bouncycastle:bcpg-fips:1.0.1",
+        "com.liferay:com.liferay.xsl.content.web:2.0.11",
+        "com.liferay:com.liferay.flags.api:2.0.11",
+        "com.liferay:com.liferay.journal.lang:2.0.16",
+        "org.apache.abdera:abdera-core:1.1",
+        "ApacheRegexp:1.5",
+        "com.liferay:com.liferay.product.navigation.site.administration:2.0.15",
+        "com.liferay:com.liferay.portal.template.freemarker:2.0.27",
+        "com.liferay:com.liferay.item.selector.editor.configuration:2.0.5",
+        "com.liferay:com.liferay.portal.store.ignore.duplicates.wrapper:1.0.3",
+        "com.liferay:com.liferay.portal.security.sso.ntlm:4.0.3",
+        "com.liferay:com.liferay.ip.geocoder:3.0.1",
+        "com.liferay:com.liferay.dynamic.data.mapping.service:2.5.0",
+        "org.apache.felix:org.apache.felix.fileinstall:3.5.4",
+        "com.liferay:com.liferay.staging.lang:2.0.16",
+        "com.liferay:com.liferay.portal.remote.cxf.common:3.0.9",
+        "com.liferay:com.liferay.portal.verify.extender:3.0.1",
+        "com.liferay:com.liferay.wiki.engine.text:2.0.8",
+        "org.apache.felix:org.apache.felix.scr:2.0.6",
+        "com.liferay:com.liferay.asset.browser.web:1.0.25",
+        "org.jasig.cas:com.springsource.org.jasig.cas.client:3.1.12",
+        "com.liferay:com.liferay.portal.dao.orm.custom.sql:1.0.14",
+        "com.liferay:com.liferay.portlet.configuration.icon.locator.api:2.0.4",
+        "com.liferay:com.liferay.frontend.taglib:2.2.16",
+        "com.liferay:com.liferay.product.navigation.taglib:2.0.14",
+        "com.liferay:com.liferay.portal.executor:2.0.4",
+        "com.liferay:com.liferay.dynamic.data.mapping.type.select:2.0.16",
+        "com.liferay:com.liferay.comment.editor.configuration:1.0.3",
+        "com.liferay:com.liferay.social.group.statistics.web:2.0.15",
+        "com.liferay.portal:com.liferay.portal.test.integration:4.1.2",
+        "com.liferay:com.liferay.users.admin.api:2.0.1",
+        "biz.aQute.bnd:aQute.libg:3.2.0",
+        "com.liferay:com.liferay.portal.language.servlet.filter:2.0.8",
+        "com.liferay:com.liferay.product.navigation.simulation.device:2.0.13",
+        "com.liferay:com.liferay.portal.store.safe.file.name.wrapper:1.0.4",
+        "org.bouncycastle.wso2:bcprov-jdk16:1.45.wso2v1",
+        "com.liferay:com.liferay.portal.instances.service:1.0.8",
+        "com.liferay:com.liferay.portal.classloader.tracker:1.0.3",
+        "com.liferay:com.liferay.portal.configuration.metatype.definitions.annotations:2.0.4",
+        "software.amazon.ion:ion-java:1.1.0",
+        "org.glassfish:javax.json:1.0.4.redhat-1",
+        "com.liferay:com.liferay.portal.workflow.lang:2.0.7",
+        "com.twelvemonkeys.imageio:imageio-thumbsdb:3.3.2",
+        "com.liferay:com.liferay.layout.set.prototype.impl:2.0.2",
+        "org.scribe:scribe:1.3.6",
+        "io.netty:netty-codec-redis:4.1.9.Final-redhat-2",
+        "com.twelvemonkeys.imageio:imageio-core:3.3.2",
+        "com.liferay:com.liferay.layout.admin.web:1.0.65",
+        "Gif89Encoder:0.9.0b",
+        "com.liferay:com.ctc.wstx:3.2.4.LIFERAY-PATCHED-1",
+        "com.liferay:com.liferay.staging.security:2.0.29",
+        "com.github.fge:msg-simple:1.1",
+        "com.liferay:com.liferay.message.boards.service:1.0.17",
+        "com.liferay:com.liferay.portal.component.blacklist.api:1.0.1",
+        "com.google.guava:guava:18.0",
+        "org.jdom:jdom:1.1.1",
+        "org.netbeans.external:kxml2-2.3.0:RELEASE65",
+        "org.mnode.ical4j:ical4j:1.0.2",
+        "com.liferay:com.liferay.portal.store.file.system:2.0.13",
+        "com.liferay:com.liferay.monitoring.web:1.0.15",
+        "JavaDevelopmentToolsCore:3.8.2",
+        "com.liferay:com.liferay.portal.configuration.metatype:1.0.0",
+        "com.liferay:com.liferay.portal.security.sso.token.api:1.0.2",
+        "org.apache.abdera:abdera-security:1.1.1",
+        "javax.ws.rs:javax.ws.rs-api:2.0.1",
+        "com.liferay:com.liferay.journal.content.asset.addon.entry.ratings:2.0.5",
+        "com.liferay:com.liferay.blogs.service:1.1.12",
+        "com.liferay:com.liferay.portal.security.sso.cas:4.0.2",
+        "com.liferay:com.liferay.portal.workflow.definition.link.web:1.0.12",
+        "com.liferay:com.liferay.portal.mobile.device.recognition.api:1.0.4",
+        "com.liferay:com.liferay.asset.categories.navigation.api:1.0.1",
+        "com.liferay:com.liferay.portal.background.task.web:2.0.4",
+        "com.liferay:com.liferay.portal.remote.cxf.jaxrs.common:3.1.3",
+        "com.liferay:com.liferay.bookmarks.web:1.0.36",
+        "ddf.platform.osgi:platform-osgi-configadmin:2.13.0-RC1",
+        "org.jabsorb:jabsorb:1.3.2",
+        "com.googlecode.jsontoken:jsontoken:1.1",
+        "com.liferay:com.liferay.asset.categories.navigation.web:2.0.7",
+        "com.liferay:com.liferay.document.library.api:3.5.1",
+        "org.eclipse.hudson.main:hudson-war:3.0.0-M1",
+        "biz.aQute.bnd:biz.aQute.bnd.annotation:3.1.0",
+        "com.liferay:com.liferay.portal.settings.authentication.openid.web:1.0.8",
+        "com.liferay:com.liferay.frontend.taglib.form.navigator:1.0.10",
+        "rhino:js:1.6R7",
+        "wsdl4j:wsdl4j:1.6.3",
+        "com.liferay:com.liferay.frontend.image.editor.capability.crop:1.0.16",
+        "com.liferay:com.liferay.invitation.invite.members.api:2.1.5",
+        "org.osgi:org.osgi.service.component:1.3.0",
+        "org.eclipse.scout.sdk.deps:org.eclipse.osgi:3.10.100.v20150529-1857",
+        "com.liferay:com.liferay.site.browser.web:2.0.18",
+        "com.liferay:com.liferay.frontend.image.editor.capability.contrast:1.0.16",
+        "com.liferay:com.liferay.roles.admin.web:1.0.42",
+        "com.liferay:com.liferay.dynamic.data.mapping.form.field.type:2.0.11",
+        "com.liferay:com.liferay.portlet.configuration.icon.locator.impl:1.0.2",
+        "org.sonarsource.orchestrator:sonar-orchestrator:3.13",
+        "com.liferay:com.liferay.staging.processes.web:1.0.27",
+        "com.liferay:com.liferay.message.boards.editor.configuration:1.0.3",
+        "com.liferay:com.liferay.journal.ratings.definition:2.0.3",
+        "com.udojava:EvalEx:1.1",
+        "org.outerj.daisy:daisydiff:1.1",
+        "com.liferay:com.liferay.portlet.configuration.icon.edit.defaults:2.0.3",
+        "com.liferay:com.liferay.microblogs.api:2.1.5",
+        "com.liferay:com.liferay.portal.configuration.settings:2.0.16",
+        "com.liferay.webjars:com.liferay.webjars.lexicon:1.0.25",
+        "com.liferay:com.liferay.document.library.repository.search:3.0.3",
+        "com.liferay:com.liferay.social.user.statistics.web:3.0.5",
+        "com.liferay:com.liferay.site.memberships.web:1.0.28",
+        "org.apache.abdera:abdera-server:1.1.3",
+        "com.liferay:com.liferay.product.navigation.control.menu.api:3.0.1",
+        "tinymce-dist:4.3.12",
+        "org.apache.karaf.system:org.apache.karaf.system.core:3.0.3",
+        "com.liferay:com.liferay.captcha.api:1.1.3",
+        "com.liferay:com.liferay.layout.prototype:2.0.0",
+        "com.liferay:com.liferay.bookmarks.service:1.1.27",
+        "com.liferay:com.liferay.item.selector.upload.web:2.0.10",
+        "biz.aQute.bnd:biz.aQute.bnd:3.3.0",
+        "org.codehaus.jettison:jettison:1.3.3",
+        "com.liferay:com.liferay.layout.prototype.api:1.0.1",
+        "com.liferay:com.liferay.portal.security.ldap:2.2.22",
+        "com.liferay:com.liferay.site.navigation.taglib:2.1.9",
+        "com.liferay:com.liferay.portlet.configuration.sharing.web:2.0.11",
+        "jcifs:jcifs:1.3.17",
+        "com.google.guava:guava:17.0",
+        "net.fortuna.ical4j:ical4j:1.0-rc3",
+        "com.liferay:com.liferay.portal.template.velocity:2.0.28",
+        "com.liferay:com.liferay.layout.set.prototype.web:1.0.16",
+        "com.liferay:com.liferay.petra.log4j:4.1.3",
+        "net.sourceforge.owlapi:owlapi-api:4.0.1",
+        "org.corehunter:corehunter-base:3.0.0",
+        "com.liferay:com.liferay.staging.api:2.1.1",
+        "com.liferay:com.liferay.journal.content.web:2.0.9",
+        "org.apache.lucene:lucene-join:5.5.2",
+        "com.liferay:com.liferay.portal.remote.soap.extender.impl:1.0.4",
+        "com.liferay.portal:com.liferay.portal.web:1.0.9",
+        "hu.blackbelt.bundles.lucene:lucene-analyzers-icu:7.0.1_1",
+        "org.osgi:org.osgi.core:6.0.0",
+        "com.liferay:com.liferay.calendar.service:2.7.3",
+        "javax.transaction:transaction-api:1.1",
+        "com.liferay:com.liferay.portlet.configuration.icon.edit:2.0.3",
+        "com.liferay:com.liferay.portal.security.auth.verifier:2.1.8",
+        "org.apache.servicemix.bundles:org.apache.servicemix.bundles.abdera-parser:1.1.2_1",
+        "com.twelvemonkeys.imageio:imageio-icns:3.3.2",
+        "javax.jcr:jcr:2.0",
+        "joda-time:joda-time:1.6",
+        "org.apache.abdera:abdera-extensions-sharing:1.1.2",
+        "com.liferay:com.liferay.portal.search:4.0.7",
+        "com.liferay.portal:com.liferay.portal.web:7.0.2",
+        "com.liferay:com.liferay.portal.security.audit.api:2.0.7",
+        "org.apache.taglibs:taglibs-standard-jstlel:1.2.1",
+        "org.bouncycastle:bcprov-jdk15on:1.54",
+        "com.google.inject:guice:2.0",
+        "com.liferay:com.liferay.user.groups.admin.impl:1.0.9",
+        "ApacheTaglibs:2004.02.06",
+        "org.owasp.antisamy:antisamy:1.5.3",
+        "org.apache.abdera:abdera-client:1.1",
+        "com.google.api-client:google-api-client:1.21.0",
+        "com.liferay:com.liferay.password.policies.admin.api:2.0.1",
+        "org.openoffice:jurt:2.2.0",
+        "com.liferay:com.liferay.mobile.device.rules.api:2.1.4",
+        "com.liferay:com.liferay.petra.process:1.0.11",
+        "com.liferay:com.liferay.social.activity.api:1.0.7",
+        "com.fasterxml.jackson.core:jackson-annotations:2.2.1",
+        "com.liferay:com.liferay.portal.security.sso.google.api:1.0.1",
+        "com.liferay:com.liferay.portal.workflow.task.web:1.0.33",
+        "com.twelvemonkeys.imageio:imageio-psd:3.3.2",
+        "com.liferay:com.liferay.polls.service:3.0.27",
+        "com.liferay:com.liferay.ip.geocoder.api:1.0.2",
+        "org.eclipse.platform:org.eclipse.equinox.http.servlet:1.3.1",
+        "com.liferay:com.liferay.portal.cache.single:2.0.4",
+        "com.liferay:com.liferay.plugins.admin.web:1.0.19",
+        "com.liferay:com.liferay.petra.io.delta:1.1.2",
+        "com.twelvemonkeys.imageio:imageio-bmp:3.3.2",
+        "JakartaORO:2.0.8",
+        "com.liferay:com.liferay.wiki.web:3.0.12",
+        "xerces:xercesImpl:2.8.1",
+        "com.liferay:com.liferay.portal.configuration.cluster:3.0.1",
+        "com.liferay:com.liferay.portal.workflow.kaleo.runtime.integration.impl:1.0.15",
+        "com.liferay:com.liferay.layout.type.controller.shared.portlet:2.0.6",
+        "Hessian:4.0.3",
+        "com.liferay:com.liferay.my.account.web:1.0.13",
+        "org.apache.xmlgraphics:batik-css:1.7",
+        "javax.inject:javax.inject:1-redhat-3",
+        "com.twelvemonkeys.common:common-lang:3.3.2",
+        "com.liferay:com.liferay.frontend.js.loader.modules.extender:2.0.2",
+        "org.bouncycastle:bcpkix-jdk15on:1.54",
+        "com.liferay:com.liferay.portal.store.db:2.0.4",
+        "com.google.code.findbugs:jsr305:1.3.9",
+        "com.liferay.portal:com.liferay.util.bridges:3.0.3",
+        "org.noggit:noggit:0.6",
+        "org.freemarker:freemarker:2.3.23"
+    ],
+    "componentMissedByCompetitor": [
+        "org.openoffice:jurt:2.3.0 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jurt.jar'",
+        "org.bouncycastle:bcprov-jdk16:1.45 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/bcprov.jar'",
+        "org.springframework:spring-context:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-context.jar'",
+        "org.apache.tomcat:tomcat-api:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-api.jar'",
+        "org.hsqldb:hsqldb:jar:jdk6debug:2.3.3 - LOCATION:'./tomcat-8.0.32/lib/ext/hsql.jar'",
+        "org.apache.tomcat:tomcat-util-scan:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-util-scan.jar'",
+        "org.apache.tomcat:tomcat-tribes:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/catalina-tribes.jar'",
+        "org.apache.tomcat:tomcat-util:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-util.jar'",
+        "org.apache.tomcat:tomcat-el-api:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/el-api.jar'",
+        "org.springframework:spring-tx:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-tx.jar'",
+        "javax.transaction:jta:1.1 - LOCATION:'./tomcat-8.0.32/lib/ext/jta.jar'",
+        "org.apache.tomcat:tomcat-catalina:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/catalina.jar'",
+        "org.springframework:spring-web:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-web.jar'",
+        "com.sun:jai_codec:1.1.3 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jai_codec.jar'",
+        "org.slf4j:jcl-over-slf4j:1.7.2 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jcl-over-slf4j.jar'",
+        "xml-apis:xml-apis:1.4.01 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/xml-apis.jar'",
+        "org.springframework:spring-expression:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-expression.jar'",
+        "org.apache.struts:struts-tiles:1.3.10 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/struts-tiles.jar'",
+        "superstartup-closure-compiler0.1.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/closure-compiler.jar/externs.zip/gecko_css.js'",
+        "org.apache.tomcat:tomcat-i18n-ja:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-i18n-ja.jar'",
+        "org.springframework:spring-jms:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-jms.jar'",
+        "com.strapdata.elasticsearch.plugin:analysis-stempel:6.2.3.24 - LOCATION:'./osgi/modules/com.liferay.portal.search.elasticsearch6.impl.jar/plugins/org.elasticsearch.plugin.analysis.stempel-6.1.3.zip/elasticsearch/analysis-stempel-6.1.3.jar'",
+        "org.springframework:spring-context-support:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-context-support.jar'",
+        "org.eclipse.persistence:javax.persistence:2.1.1 - LOCATION:'./tomcat-8.0.32/lib/ext/persistence.jar'",
+        "stax:stax-api:1.0.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/stax.jar'",
+        "org.antlr:antlr-runtime:3.0.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/antlr3-runtime.jar'",
+        "org.apache.tomcat:tomcat-jdbc:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-jdbc.jar'",
+        "oro:oro:2.0.8 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/oro.jar'",
+        "org.apache.tomcat:tomcat-storeconfig:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/catalina-storeconfig.jar'",
+        "dom4j:dom4j:1.6.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/dom4j.jar'",
+        "javax.jms:jms:1.1 - LOCATION:'./tomcat-8.0.32/lib/ext/jms.jar'",
+        "datatables1.10.17 - LOCATION:'./osgi/war/riteaid-portal-theme.war/js/datatable.js'",
+        "org.apache.tomcat:tomcat-i18n-es:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-i18n-es.jar'",
+        "com.sun.xml.bind:jaxb-impl:2.1.11 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jaxb-impl.jar'",
+        "org.monte:screen-recorder:0.7.7 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/monte-cc.jar'",
+        "org.apache.tomcat:tomcat-juli:8.0.32 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/tomcat-juli.jar'",
+        "com.sun.xml.messaging.saaj:saaj-impl:1.3 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/saaj-impl.jar'",
+        "org.apache.tomcat:tomcat-dbcp:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-dbcp.jar'",
+        "org.jodd:jodd-json:3.6.4 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jodd-json.jar'",
+        "org.apache.tomcat:tomcat-websocket-api:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/websocket-api.jar'",
+        "biz.aQute.bnd:biz.aQute.remote.launcher:3.5.0 - LOCATION:'./tools/portal-tools-target-platform-indexer-client/com.liferay.portal.target.platform.indexer.jar/embedded-repo.jar/biz.aQute.remote.launcher/biz.aQute.remote.launcher-3.5.0.jar'",
+        "org.apache.tomcat:tomcat-websocket:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-websocket.jar'",
+        "RedHat\u901f,Inc./Jansi-JavalibraryforgeneratingandinterpretingANSIescapesequences.jansi1.5.0 - LOCATION:'./tools/portal-tools-db-upgrade-client/com.liferay.portal.tools.db.upgrade.client.jar/META-INF/native/windows64/jansi.dll'",
+        "org.openoffice:ridl:2.3.0 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/ridl.jar'",
+        "org.springframework:spring-core:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-core.jar'",
+        "org.aspectj:aspectjrt:1.8.9 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/aspectj-rt.jar'",
+        "Java(TM)NativeAccess(JNA)/Java(TM)NativeAccessjnidispatch4.0.0 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jna.jar/com/sun/jna/win32-x86/jnidispatch.dll'",
+        "com.yahoo.platform.yui:yuicompressor:2.4.7 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/yui-compressor.jar'",
+        "org.apache.tomcat:tomcat-jasper-el:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/jasper-el.jar'",
+        "org.apache.tomcat.extras:tomcat-extras-juli-adapters:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-juli-adapters.jar'",
+        "commons-httpclient:commons-httpclient:3.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/commons-httpclient.jar'",
+        "org.apache.poi:poi:3.15 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/poi.jar'",
+        "RedHat\u901f,Inc./Jansi-JavalibraryforgeneratingandinterpretingANSIescapesequences.jansi1.5.0 - LOCATION:'./tools/portal-tools-db-upgrade-client/com.liferay.portal.tools.db.upgrade.client.jar/META-INF/native/windows64/jansi.dll'",
+        "org.jopendocument:jdom:1.1.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jdom.jar'",
+        "org.apache.tomcat:tomcat-coyote:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-coyote.jar'",
+        "org.apache.struts:struts-taglib:1.3.10 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/struts-taglib.jar'",
+        "datatables.net-bs1.10.21 - LOCATION:'./osgi/modules/riteaid-searchadminapp-web.jar/META-INF/resources/Datatables-1.10.24/js/dataTables.bootstrap.js'",
+        "org.apache.tomcat:tomcat-annotations-api:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/annotations-api.jar'",
+        "org.codehaus.woodstox:wstx-asl:3.2.4 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/wstx.jar'",
+        "org.springframework:spring-beans:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-beans.jar'",
+        "org.apache.tika:tika-core:1.14 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/tika-core.jar'",
+        "axis:axis-jaxrpc:1.4 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jaxrpc.jar'",
+        "clover0.1 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/closure-compiler.jar/externs.zip/w3c_css3d.js'",
+        "jfree:jfreechart:1.0.13 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jfreechart.jar'",
+        "org.apache.tomcat:tomcat-i18n-fr:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-i18n-fr.jar'",
+        "org.apache.struts:struts-extras:1.3.10 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/struts-extras.jar'",
+        "com.thoughtworks.xstream:xstream:1.4.7 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/xstream.jar'",
+        "Java(TM)NativeAccess(JNA)/Java(TM)NativeAccessjnidispatch4.0.0 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jna.jar/com/sun/jna/win32-x86/jnidispatch.dll'",
+        "org.apache.pdfbox:pdfbox:2.0.3 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/pdfbox.jar'",
+        "org.springframework:spring-webmvc:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-webmvc.jar'",
+        "com.strapdata.elasticsearch.plugin:analysis-smartcn:6.2.3.17 - LOCATION:'./osgi/modules/com.liferay.portal.search.elasticsearch6.impl.jar/plugins/org.elasticsearch.plugin.analysis.smartcn-6.1.3.zip/elasticsearch/analysis-smartcn-6.1.3.jar'",
+        "org.jodd:jodd-upload:3.6.4 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/jodd-upload.jar'",
+        "net.sf.kxml:kxml2:2.3.0 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/kxml2.jar'",
+        "org.springframework:spring-webmvc-portlet:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-webmvc-portlet.jar'",
+        "org.springframework:spring-aspects:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-aspects.jar'",
+        "org.apache.tomcat:tomcat-servlet-api:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/servlet-api.jar'",
+        "org.springframework:spring-orm:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-orm.jar'",
+        "org.springframework:spring-oxm:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-oxm.jar'",
+        "datatables1.10.7 - LOCATION:'./osgi/modules/riteaid-searchadminapp-web.jar/META-INF/resources/Datatables-1.10.24/js/jquery.dataTables.min.js'",
+        "org.apache.struts:struts-el:1.3.10 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/struts-el.jar'",
+        "org.springframework:spring-aop:4.1.9.RELEASE - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/spring-aop.jar'",
+        "org.apache.lucene:lucene-analyzers-kuromoji:5.5.2 - LOCATION:'./data/elasticsearch/plugins/analysis-kuromoji/lucene-analyzers-kuromoji-5.5.2.jar'",
+        "org.apache.tomcat:tomcat-jni:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/tomcat-jni.jar'",
+        "org.webjarsdatatables1.10.24 - LOCATION:'./osgi/modules/riteaid-searchadminapp-web.jar/META-INF/resources/Datatables-1.10.24/js/dataTables.jqueryui.min.js'",
+        "javax.activation:activation:1.1 - LOCATION:'./tomcat-8.0.32/lib/ext/activation.jar'",
+        "org.apache.tomcat.extras:tomcat-extras-juli:8.0.32 - LOCATION:'./tomcat-8.0.32/bin/tomcat-juli.jar'",
+        "org.apache.tomcat:tomcat-jasper:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/jasper.jar'",
+        "org.apache.tomcat:tomcat-catalina-ha:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/catalina-ha.jar'",
+        "org.scribe:scribe:1.0.8 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/scribe.jar'",
+        "org.apache.tomcat:tomcat-catalina-ant:8.0.32 - LOCATION:'./tomcat-8.0.32/lib/catalina-ant.jar'",
+        "datatables.net1.10.24 - LOCATION:'./osgi/modules/riteaid-searchadminapp-web.jar/META-INF/resources/Datatables-1.10.24/js/jquery.dataTables.js'",
+        "commons-daemon:commons-daemon:tar.gz:native-src:1.0.15 - LOCATION:'./tomcat-8.0.32/bin/commons-daemon-native.tar.gz'",
+        "com.liferay.portal:com.liferay.util.slf4j:2.0.2 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/portal-impl.jar/com/liferay/portal/deploy/dependencies/util-slf4j.jar'",
+        "com.strapdata.elasticsearch.plugin:analysis-kuromoji:6.2.3.15 - LOCATION:'./osgi/modules/com.liferay.portal.search.elasticsearch6.impl.jar/plugins/org.elasticsearch.plugin.analysis.kuromoji-6.1.3.zip/elasticsearch/analysis-kuromoji-6.1.3.jar'",
+        "com.liferay:com.liferay.modules.compat.data:1.2.3 - LOCATION:'./osgi/compat/com.liferay.modules.compat.data.jar'",
+        "com.liferay.portal:com.liferay.util.taglib:2.11.0 - LOCATION:'./osgi/state/org.eclipse.osgi/3/0/bundleFile'",
+        "com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3 - LOCATION:'./osgi/modules/com.liferay.portal.search.elasticsearch6.impl.jar'",
+        "com.liferay:com.liferay.petra.process:1.0.4 - LOCATION:'./tomcat-8.0.32/lib/ext/com.liferay.petra.process.jar'",
+        "com.caucho:hessian:4.0.7 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/hessian.jar'",
+        "com.liferay:com.liferay.registry.api:1.2.2 - LOCATION:'./tomcat-8.0.32/lib/ext/com.liferay.registry.api.jar'",
+        "com.liferay:com.liferay.osgi.service.tracker.collections:2.0.5 - LOCATION:'./osgi/core/com.liferay.osgi.service.tracker.collections.jar'",
+        "com.liferay:com.liferay.petra.memory:1.0.4 - LOCATION:'./tomcat-8.0.32/lib/ext/com.liferay.petra.memory.jar'",
+        "com.liferay:com.liferay.petra.io:1.2.5 - LOCATION:'./tomcat-8.0.32/lib/ext/com.liferay.petra.io.jar'",
+        "net.oschina.zcx7878:cicada.chardet:1.0.6.5 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/chardet.jar'",
+        "com.liferay:com.liferay.portal.tools.target.platform.indexer.client:1.0.2 - LOCATION:'./tools/portal-tools-target-platform-indexer-client/com.liferay.portal.tools.target.platform.indexer.client.jar'",
+        "com.hynnet:sqljdbc4-chs:4.0.2206.100 - LOCATION:'./tomcat-8.0.32/lib/ext/sqljdbc.jar'",
+        "com.strapdata.elasticsearch.plugin:analysis-icu:6.2.3.16 - LOCATION:'./osgi/modules/com.liferay.portal.search.elasticsearch6.impl.jar/plugins/org.elasticsearch.plugin.analysis.icu-6.1.3.zip/elasticsearch/analysis-icu-6.1.3.jar'",
+        "com.liferay.portal:com.liferay.portal.test.integration:4.1.3 - LOCATION:'./osgi/test/com.liferay.portal.test.integration.jar'",
+        "com.liferay.portal:com.liferay.support.tomcat:1.0.0 - LOCATION:'./tomcat-8.0.32/lib/ext/support-tomcat.jar'",
+        "com.liferay.portal:com.liferay.util.bridges:2.0.9 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/portal-impl.jar/com/liferay/portal/deploy/dependencies/util-bridges.jar'",
+        "com.liferay:com.liferay.petra.string:1.1.1 - LOCATION:'./tomcat-8.0.32/lib/ext/com.liferay.petra.string.jar'",
+        "com.liferay:com.liferay.petra.log4j:1.0.8 - LOCATION:'./tomcat-8.0.32/webapps/assoc/WEB-INF/lib/com.liferay.petra.log4j.jar'"
+    ],
+    "componentFoundByBoth": 241,
+    "uniqueComponentsFoundBySonatype": 353,
+    "uniqueComponentsFoundByCompetitor": 1191,
+    "additionalCompetitorComponentsLength": 944,
+    "componentMissedByCompetitorLength": 112,
+    "potentialMatches": [
+        "Confidence Level : Sonatype Component ~= Competitor Component",
+        "LEVEL 4 - com.liferay.portal:com.liferay.portal.impl:2.30.3 ~= com.liferay.portal:com.liferay.portal.test.integration:4.1.2",
+        "LEVEL 4 - com.liferay.portal:com.liferay.portal.kernel:2.64.1 ~= com.liferay.portal:com.liferay.portal.test.integration:4.1.2",
+        "LEVEL 4 - com.liferay.portal:com.liferay.util.java:2.5.11 ~= com.liferay.portal:com.liferay.util.bridges:2.0.2",
+        "LEVEL 4 - com.liferay:com.liferay.petra.lang:1.1.2 ~= com.liferay:com.liferay.petra.model.adapter:1.0.4",
+        "LEVEL 4 - com.liferay:com.liferay.petra.mail:1.1.6 ~= com.liferay:com.liferay.petra.model.adapter:1.0.4",
+        "LEVEL 4 - com.liferay:com.liferay.petra.nio:1.0.2 ~= com.liferay:com.liferay.petra.model.adapter:1.0.4",
+        "LEVEL 4 - com.liferay:com.liferay.petra.xml:1.0.13 ~= com.liferay:com.liferay.petra.model.adapter:1.0.4",
+        "LEVEL 4 - com.liferay:com.liferay.registry.impl:1.0.6 ~= com.liferay:com.liferay.registry.api:1.3.1",
+        "LEVEL 4 - javax.transaction:jta:1.1 ~= javax.transaction:transaction-api:1.1",
+        "LEVEL 4 - org.antlr:antlr:3.0.1 ~= org.antlr:antlr4-runtime:4.3",
+        "LEVEL 4 - org.apache.commons:commons-exec:1.3 ~= org.apache.commons:commons-lang3:3.4",
+        "LEVEL 4 - org.apache.commons:commons-math:2.0 ~= org.apache.commons:commons-lang3:3.4",
+        "LEVEL 4 - org.apache.portals:portlet-api_2.1.0_spec:1.0 ~= org.apache.portals:portlet-api_2.0_spec:1.0",
+        "LEVEL 4 - org.elasticsearch:elasticsearch-cli:6.1.3 ~= org.elasticsearch:elasticsearch:2.4.0",
+        "LEVEL 5 - org.apache.httpcomponents:httpmime:4.5 ~= org.apache.httpcomponents:httpclient:4.1",
+        "LEVEL 5 - org.apache.lucene:lucene-analyzers-icu:5.5.2 ~= org.apache.lucene:lucene-analyzers-common:5.2.1",
+        "LEVEL 5 - org.apache.lucene:lucene-analyzers-icu:7.1.0 ~= org.apache.lucene:lucene-analyzers-common:5.2.1",
+        "LEVEL 5 - org.json:json:20190722 ~= org.json:json:20140107",
+        "LEVEL 5 - org.springframework:spring-aop:4.1.9.RELEASE ~= org.springframework:spring-aop:4.1.8.RELEASE",
+        "LEVEL 5 - org.springframework:spring-aspects:4.1.9.RELEASE ~= org.springframework:spring-aspects:4.1.7.RELEASE",
+        "LEVEL 6 - javax.mail:mail:1.4 ~= javax.mail:mailapi:1.4.3-rc1",
+        "LEVEL 6 - org.bouncycastle:bcprov-jdk16:1.45 ~= org.bouncycastle:bcprov-jdk15on:1.54",
+        "LEVEL 7 - com.google.code.gson:gson:2.8.1 ~= com.google.code.gson:gson:1.4-atlassian-1",
+        "LEVEL 7 - com.liferay:com.liferay.portal.search.elasticsearch6.api:1.0.3 ~= com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.1",
+        "LEVEL 7 - xerces:xercesImpl:2.11.0 ~= xerces:xercesImpl:2.8.1",
+        "LEVEL 7 - xml-apis:xml-apis:1.4.01 ~= xml-apis:xml-apis:1.3.03",
+        "LEVEL 8 - net.sf.jopt-simple:jopt-simple:5.0.2 ~= net.sf.jopt-simple:jopt-simple:4.6",
+        "LEVEL 8 - org.apache.lucene:lucene-core:7.1.0 ~= org.apache.lucene:lucene-core:5.2.1",
+        "LEVEL 8 - org.apache.lucene:lucene-join:7.1.0 ~= org.apache.lucene:lucene-join:5.5.2",
+        "LEVEL 8 - org.apache.lucene:lucene-misc:7.1.0 ~= org.apache.lucene:lucene-misc:5.5.2",
+        "LEVEL 9 - biz.aQute.bnd:biz.aQute.bnd:3.1.0 ~= biz.aQute.bnd:biz.aQute.bnd:3.5.0",
+        "LEVEL 9 - biz.aQute.bnd:biz.aQute.launcher:3.1.0 ~= biz.aQute.bnd:biz.aQute.launcher:3.3.0",
+        "LEVEL 9 - biz.aQute.bnd:biz.aQute.launcher:3.5.0 ~= biz.aQute.bnd:biz.aQute.launcher:3.3.0",
+        "LEVEL 9 - com.fasterxml.jackson.core:jackson-core:2.8.10 ~= com.fasterxml.jackson.core:jackson-core:2.2.3",
+        "LEVEL 9 - com.fasterxml.jackson.core:jackson-databind:2.9.3 ~= com.fasterxml.jackson.core:jackson-databind:2.5.3",
+        "LEVEL 9 - com.ibm.icu:icu4j:54.1 ~= com.ibm.icu:icu4j:51.1",
+        "LEVEL 9 - com.ibm.icu:icu4j:59.1 ~= com.ibm.icu:icu4j:51.1",
+        "LEVEL 9 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3 ~= com.liferay.portal:com.liferay.portal.test.integration:4.1.2",
+        "LEVEL 9 - com.liferay.portal:com.liferay.portal.test:4.0.4 ~= com.liferay.portal:com.liferay.portal.test.integration:4.1.2",
+        "LEVEL 9 - com.liferay.portal:com.liferay.support.tomcat:1.0.0 ~= com.liferay.portal:com.liferay.support.tomcat:1.0.1",
+        "LEVEL 9 - com.liferay.portal:com.liferay.util.bridges:2.0.9 ~= com.liferay.portal:com.liferay.util.bridges:2.0.2",
+        "LEVEL 9 - com.liferay.portal:com.liferay.util.slf4j:2.0.2 ~= com.liferay.portal:com.liferay.util.slf4j:2.0.1",
+        "LEVEL 9 - com.liferay.portal:com.liferay.util.taglib:2.11.0 ~= com.liferay.portal:com.liferay.util.taglib:2.10.8",
+        "LEVEL 9 - com.liferay:com.liferay.frontend.css.rtl.converter:1.0.0 ~= com.liferay:com.liferay.frontend.css.rtl.converter:1.0.6",
+        "LEVEL 9 - com.liferay:com.liferay.modules.compat.data:1.2.3 ~= com.liferay:com.liferay.modules.compat.data:1.2.4",
+        "LEVEL 9 - com.liferay:com.liferay.osgi.felix.util:1.0.3 ~= com.liferay:com.liferay.osgi.felix.util:1.0.0",
+        "LEVEL 9 - com.liferay:com.liferay.osgi.service.tracker.collections:2.0.5 ~= com.liferay:com.liferay.osgi.service.tracker.collections:2.0.16",
+        "LEVEL 9 - com.liferay:com.liferay.petra.io:1.2.5 ~= com.liferay:com.liferay.petra.io:1.3.0",
+        "LEVEL 9 - com.liferay:com.liferay.petra.log4j:1.0.8 ~= com.liferay:com.liferay.petra.log4j:4.1.3",
+        "LEVEL 9 - com.liferay:com.liferay.petra.memory:1.0.4 ~= com.liferay:com.liferay.petra.memory:1.0.9",
+        "LEVEL 9 - com.liferay:com.liferay.petra.process:1.0.4 ~= com.liferay:com.liferay.petra.process:1.0.11",
+        "LEVEL 9 - com.liferay:com.liferay.petra.string:1.1.1 ~= com.liferay:com.liferay.petra.string:1.1.2",
+        "LEVEL 9 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3 ~= com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.1",
+        "LEVEL 9 - com.liferay:com.liferay.portal.tools.target.platform.indexer.client:1.0.2 ~= com.liferay:com.liferay.portal.tools.target.platform.indexer.client:1.0.3",
+        "LEVEL 9 - com.liferay:com.liferay.registry.api:1.2.2 ~= com.liferay:com.liferay.registry.api:1.3.1",
+        "LEVEL 9 - com.sun.xml.bind:jaxb-impl:2.1.11 ~= com.sun.xml.bind:jaxb-impl:2.1.10",
+        "LEVEL 9 - commons-codec:commons-codec:1.9 ~= commons-codec:commons-codec:1.6",
+        "LEVEL 9 - commons-io:commons-io:2.0 ~= commons-io:commons-io:2.4",
+        "LEVEL 9 - commons-io:commons-io:2.5 ~= commons-io:commons-io:2.4",
+        "LEVEL 9 - commons-io:commons-io:2.6 ~= commons-io:commons-io:2.4",
+        "LEVEL 9 - joda-time:joda-time:2.9.5 ~= joda-time:joda-time:2.9.4",
+        "LEVEL 9 - net.sourceforge.nekohtml:nekohtml:1.9.14 ~= net.sourceforge.nekohtml:nekohtml:1.9.16",
+        "LEVEL 9 - org.apache.chemistry.opencmis:chemistry-opencmis-client-api:0.13.0 ~= org.apache.chemistry.opencmis:chemistry-opencmis-client-api:0.14.0",
+        "LEVEL 9 - org.apache.chemistry.opencmis:chemistry-opencmis-client-bindings:0.13.0 ~= org.apache.chemistry.opencmis:chemistry-opencmis-client-bindings:0.14.0",
+        "LEVEL 9 - org.apache.chemistry.opencmis:chemistry-opencmis-client-impl:0.13.0 ~= org.apache.chemistry.opencmis:chemistry-opencmis-client-impl:0.14.0",
+        "LEVEL 9 - org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:0.13.0 ~= org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:0.14.0",
+        "LEVEL 9 - org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:0.13.0 ~= org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:0.14.0",
+        "LEVEL 9 - org.apache.commons:commons-lang3:3.9 ~= org.apache.commons:commons-lang3:3.4",
+        "LEVEL 9 - org.apache.httpcomponents:httpclient:4.4 ~= org.apache.httpcomponents:httpclient:4.1",
+        "LEVEL 9 - org.apache.httpcomponents:httpclient:4.5 ~= org.apache.httpcomponents:httpclient:4.1",
+        "LEVEL 9 - org.apache.httpcomponents:httpcore:4.4.1 ~= org.apache.httpcomponents:httpcore:4.1",
+        "LEVEL 9 - org.apache.lucene:lucene-analyzers-common:7.1.0 ~= org.apache.lucene:lucene-analyzers-common:5.2.1",
+        "LEVEL 9 - org.apache.lucene:lucene-grouping:7.1.0 ~= org.apache.lucene:lucene-grouping:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-highlighter:7.1.0 ~= org.apache.lucene:lucene-highlighter:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-memory:7.1.0 ~= org.apache.lucene:lucene-memory:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-queries:7.1.0 ~= org.apache.lucene:lucene-queries:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-queryparser:7.1.0 ~= org.apache.lucene:lucene-queryparser:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-sandbox:7.1.0 ~= org.apache.lucene:lucene-sandbox:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-spatial:7.1.0 ~= org.apache.lucene:lucene-spatial:5.5.2",
+        "LEVEL 9 - org.apache.lucene:lucene-suggest:7.1.0 ~= org.apache.lucene:lucene-suggest:5.5.2",
+        "LEVEL 9 - org.apache.xbean:xbean-spring:2.8 ~= org.apache.xbean:xbean-spring-v2:fuse-2.7.0.0",
+        "LEVEL 9 - org.aspectj:aspectjrt:1.8.9 ~= org.aspectj:aspectjrt:1.8.5",
+        "LEVEL 9 - org.bouncycastle:bcpkix-jdk15on:1.49 ~= org.bouncycastle:bcpkix-jdk15on:1.54",
+        "LEVEL 9 - org.bouncycastle:bcprov-jdk15on:1.49 ~= org.bouncycastle:bcprov-jdk15on:1.54",
+        "LEVEL 9 - org.elasticsearch:elasticsearch:6.1.3 ~= org.elasticsearch:elasticsearch:2.4.0",
+        "LEVEL 9 - org.jodd:jodd-json:3.6.4 ~= org.jodd:jodd-json:3.6.3",
+        "LEVEL 9 - org.jodd:jodd-upload:3.6.4 ~= org.jodd:jodd-upload:3.6.1",
+        "LEVEL 9 - org.openoffice:jurt:2.3.0 ~= org.openoffice:jurt:2.2.0",
+        "LEVEL 9 - org.openoffice:ridl:2.3.0 ~= org.openoffice:ridl:2.3.1",
+        "LEVEL 9 - org.scribe:scribe:1.0.8 ~= org.scribe:scribe:1.3.6",
+        "LEVEL 9 - org.slf4j:slf4j-api:1.7.2 ~= org.slf4j:slf4j-api:1.7.13",
+        "LEVEL 9 - org.yaml:snakeyaml:1.17 ~= org.yaml:snakeyaml:1.15",
+        "LEVEL 9 - wsdl4j:wsdl4j:1.6.1 ~= wsdl4j:wsdl4j:1.6.3"
+    ],
+    "additionalCompetitorCVEs": [
+        "TEST - velocity.apache.org/tools/devel:1.4",
+        "CVE-TEST1 - velocity.apache.org/tools/devel:1.4"
+    ],
+    "cveMissingCompetitor": [
+        "CVE-2021-21295 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2014-0093 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2017-0356 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2018-0119 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2020-0026 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2020-0029 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2020-0103 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2020-1031 - io.netty:netty-all:4.0.23.Final",
+        "sonatype-2021-1694 - com.google.code.gson:gson:2.8.1",
+        "CVE-2013-1624 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2015-7940 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2016-1000338 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2016-1000341 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2016-1000343 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2016-1000345 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2018-5382 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2020-0187 - org.bouncycastle:bcprov-jdk16:1.45",
+        "CVE-2020-26939 - org.bouncycastle:bcprov-jdk16:1.45",
+        "sonatype-2019-0673 - org.bouncycastle:bcprov-jdk16:1.45",
+        "sonatype-2020-0770 - org.bouncycastle:bcprov-jdk16:1.45",
+        "sonatype-2022-3061 - com.redhat.qe:json-java:20110202",
+        "CVE-2014-0114 - org.apache.struts:struts-core:1.3.10",
+        "CVE-2015-0899 - org.apache.struts:struts-core:1.3.10",
+        "CVE-2016-1181 - org.apache.struts:struts-core:1.3.10",
+        "CVE-2016-1182 - org.apache.struts:struts-core:1.3.10",
+        "CVE-2022-22968 - org.springframework:spring-context:4.1.9.RELEASE",
+        "sonatype-2014-0257 - org.javassist:javassist:3.18.2-GA",
+        "CVE-2020-15250 - biz.aQute.bnd:biz.aQute.junit:3.5.0",
+        "CVE-2016-6794 - org.apache.tomcat:tomcat-util-scan:8.0.32",
+        "CVE-2017-17485 - com.fasterxml.jackson.core:jackson-databind:2.9.3",
+        "CVE-2018-5968 - com.fasterxml.jackson.core:jackson-databind:2.9.3",
+        "CVE-2020-25649 - com.fasterxml.jackson.core:jackson-databind:2.9.3",
+        "CVE-2020-36518 - com.fasterxml.jackson.core:jackson-databind:2.9.3",
+        "sonatype-2017-0492 - javax.mail:mail:1.4",
+        "CVE-2020-28491 - com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10",
+        "CVE-2018-1336 - org.apache.tomcat:tomcat-util:8.0.32",
+        "sonatype-2018-0705 - commons-io:commons-io:2.5",
+        "CVE-2018-1000134 - com.unboundid:unboundid-ldapsdk:4.0.2",
+        "CVE-2016-0762 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2016-6797 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2017-12617 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2017-5648 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2017-5664 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2017-7674 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2018-11784 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2018-1304 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2018-1305 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2018-8014 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2019-0221 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2019-0232 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2019-17563 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2020-9484 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2021-24122 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2021-30640 - org.apache.tomcat:tomcat-catalina:8.0.32",
+        "CVE-2016-1000027 - org.springframework:spring-web:4.1.9.RELEASE",
+        "CVE-2018-11039 - org.springframework:spring-web:4.1.9.RELEASE",
+        "CVE-2018-11040 - org.springframework:spring-web:4.1.9.RELEASE",
+        "CVE-2018-1272 - org.springframework:spring-web:4.1.9.RELEASE",
+        "CVE-2020-5421 - org.springframework:spring-web:4.1.9.RELEASE",
+        "CVE-2018-1257 - org.springframework:spring-expression:4.1.9.RELEASE",
+        "CVE-2018-1270 - org.springframework:spring-expression:4.1.9.RELEASE",
+        "CVE-2022-22950 - org.springframework:spring-expression:4.1.9.RELEASE",
+        "CVE-2019-12401 - org.apache.abdera:abdera-bundle:1.1.2",
+        "sonatype-2018-0624 - org.apache.abdera:abdera-bundle:1.1.2",
+        "CVE-2018-8036 - org.apache.pdfbox:fontbox:2.0.3",
+        "CVE-2019-12401 - org.codehaus.woodstox:wstx-asl:3.2.6",
+        "sonatype-2018-0624 - org.codehaus.woodstox:wstx-asl:3.2.6",
+        "sonatype-2020-1349 - commons-dbcp:commons-dbcp:1.2.2",
+        "sonatype-2021-4949 - com.drewnoakes:metadata-extractor:2.9.1",
+        "CVE-2019-17571 - log4j:log4j:1.2.17",
+        "CVE-2021-4104 - log4j:log4j:1.2.17",
+        "CVE-2022-23302 - log4j:log4j:1.2.17",
+        "CVE-2022-23305 - log4j:log4j:1.2.17",
+        "CVE-2022-23307 - log4j:log4j:1.2.17",
+        "sonatype-2010-0053 - log4j:log4j:1.2.17",
+        "CVE-2018-1000632 - dom4j:dom4j:1.6.1",
+        "CVE-2020-10683 - dom4j:dom4j:1.6.1",
+        "CVE-2016-1000031 - commons-fileupload:commons-fileupload:1.3.2",
+        "sonatype-2014-0173 - commons-fileupload:commons-fileupload:1.3.2",
+        "sonatype-2020-0988 - datatables1.10.17",
+        "CVE-2015-0254 - org.glassfish.web:jstl-impl:1.2",
+        "CVE-2020-13956 - org.apache.httpcomponents:httpclient:4.4",
+        "sonatype-2017-0359 - org.apache.httpcomponents:httpclient:4.4",
+        "CVE-2018-18928 - com.ibm.icu:icu4j:59.1",
+        "CVE-2020-15250 - biz.aQute.bnd:biz.aQute.junit:3.1.0",
+        "CVE-2022-24839 - net.sourceforge.nekohtml:nekohtml:1.9.14",
+        "CVE-2017-18640 - org.yaml:snakeyaml:1.17",
+        "CVE-2014-0114 - commons-beanutils:commons-beanutils:1.9.2",
+        "CVE-2019-10086 - commons-beanutils:commons-beanutils:1.9.2",
+        "CVE-2018-21234 - org.jodd:jodd-json:3.6.4",
+        "sonatype-2018-0705 - commons-io:commons-io:2.0",
+        "CVE-2018-8034 - org.apache.tomcat:tomcat-websocket:8.0.32",
+        "CVE-2020-13935 - org.apache.tomcat:tomcat-websocket:8.0.32",
+        "sonatype-2018-0705 - commons-io:commons-io:2.6",
+        "CVE-2018-11771 - org.apache.commons:commons-compress:1.12",
+        "CVE-2018-1324 - org.apache.commons:commons-compress:1.12",
+        "CVE-2021-35515 - org.apache.commons:commons-compress:1.12",
+        "CVE-2021-35516 - org.apache.commons:commons-compress:1.12",
+        "CVE-2021-35517 - org.apache.commons:commons-compress:1.12",
+        "CVE-2021-36090 - org.apache.commons:commons-compress:1.12",
+        "sonatype-2018-0590 - com.yahoo.platform.yui:yuicompressor:2.4.7",
+        "CVE-2018-10936 - org.postgresql:postgresql:42.0.0",
+        "CVE-2020-13692 - org.postgresql:postgresql:42.0.0",
+        "CVE-2022-21724 - org.postgresql:postgresql:42.0.0",
+        "CVE-2022-26520 - org.postgresql:postgresql:42.0.0",
+        "sonatype-2022-4402 - org.postgresql:postgresql:42.0.0",
+        "CVE-2007-2353 - com.liferay:org.apache.axis:1.4.LIFERAY-PATCHED-2",
+        "CVE-2018-8032 - com.liferay:org.apache.axis:1.4.LIFERAY-PATCHED-2",
+        "CVE-2019-0227 - com.liferay:org.apache.axis:1.4.LIFERAY-PATCHED-2",
+        "CVE-2012-5783 - commons-httpclient:commons-httpclient:3.1",
+        "sonatype-2007-0004 - commons-httpclient:commons-httpclient:3.1",
+        "CVE-2017-12626 - org.apache.poi:poi:3.15",
+        "sonatype-2016-0580 - org.apache.poi:poi:3.15",
+        "CVE-2021-33813 - org.jopendocument:jdom:1.1.1",
+        "CVE-2012-0881 - xerces:xercesImpl:2.11.0",
+        "CVE-2013-4002 - xerces:xercesImpl:2.11.0",
+        "CVE-2022-23437 - xerces:xercesImpl:2.11.0",
+        "sonatype-2017-0348 - xerces:xercesImpl:2.11.0",
+        "sonatype-2012-0050 - commons-codec:commons-codec:1.9",
+        "CVE-2016-3092 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2016-6816 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2016-8745 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2017-5647 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2020-1935 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2020-1938 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2021-33037 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2022-25762 - org.apache.tomcat:tomcat-coyote:8.0.32",
+        "CVE-2020-13956 - org.apache.httpcomponents:httpclient:4.5",
+        "sonatype-2017-0359 - org.apache.httpcomponents:httpclient:4.5",
+        "CVE-2018-3826 - org.elasticsearch:elasticsearch:6.1.3",
+        "CVE-2018-3831 - org.elasticsearch:elasticsearch:6.1.3",
+        "CVE-2019-7614 - org.elasticsearch:elasticsearch:6.1.3",
+        "CVE-2019-12401 - org.codehaus.woodstox:wstx-asl:3.2.4",
+        "sonatype-2018-0624 - org.codehaus.woodstox:wstx-asl:3.2.4",
+        "CVE-2022-22965 - org.springframework:spring-beans:4.1.9.RELEASE",
+        "sonatype-2022-1764 - org.springframework:spring-beans:4.1.9.RELEASE",
+        "CVE-2016-4434 - org.apache.tika:tika-core:1.14",
+        "CVE-2018-11761 - org.apache.tika:tika-core:1.14",
+        "CVE-2018-1338 - org.apache.tika:tika-core:1.14",
+        "CVE-2018-17197 - org.apache.tika:tika-core:1.14",
+        "CVE-2019-10088 - org.apache.tika:tika-core:1.14",
+        "CVE-2019-10094 - org.apache.tika:tika-core:1.14",
+        "CVE-2019-9518 - io.netty:netty-all:4.1.11.Final",
+        "CVE-2021-21295 - io.netty:netty-all:4.1.11.Final",
+        "CVE-2021-37136 - io.netty:netty-all:4.1.11.Final",
+        "sonatype-2020-0026 - io.netty:netty-all:4.1.11.Final",
+        "sonatype-2020-0029 - io.netty:netty-all:4.1.11.Final",
+        "sonatype-2020-0103 - io.netty:netty-all:4.1.11.Final",
+        "sonatype-2020-1031 - io.netty:netty-all:4.1.11.Final",
+        "sonatype-2021-0789 - io.netty:netty-all:4.1.11.Final",
+        "CVE-2016-3674 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2017-7957 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2020-26217 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2020-26258 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2020-26259 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21341 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21342 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21343 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21344 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21345 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21346 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21347 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21348 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21349 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21350 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-21351 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2021-43859 - com.thoughtworks.xstream:xstream:1.4.7",
+        "sonatype-2022-5225 - com.thoughtworks.xstream:xstream:1.4.7",
+        "CVE-2018-11797 - org.apache.pdfbox:pdfbox:2.0.3",
+        "CVE-2021-27807 - org.apache.pdfbox:pdfbox:2.0.3",
+        "CVE-2021-27906 - org.apache.pdfbox:pdfbox:2.0.3",
+        "CVE-2021-31811 - org.apache.pdfbox:pdfbox:2.0.3",
+        "CVE-2021-31812 - org.apache.pdfbox:pdfbox:2.0.3",
+        "CVE-2016-9878 - org.springframework:spring-webmvc:4.1.9.RELEASE",
+        "CVE-2018-11040 - org.springframework:spring-webmvc:4.1.9.RELEASE",
+        "CVE-2018-1271 - org.springframework:spring-webmvc:4.1.9.RELEASE",
+        "CVE-2021-22060 - org.springframework:spring-webmvc:4.1.9.RELEASE",
+        "sonatype-2017-0651 - org.springframework:spring-webmvc:4.1.9.RELEASE",
+        "CVE-2015-2575 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2017-3523 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2017-3586 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2017-3589 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2018-3258 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2019-2692 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2020-2934 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2022-21363 - mysql:mysql-connector-java:5.1.23",
+        "CVE-2021-23926 - com.liferay:org.apache.xmlbeans:2.5.0.LIFERAY-PATCHED-1",
+        "sonatype-2021-0802 - com.rometools:rome:1.5.1",
+        "CVE-2021-40690 - org.apache.santuario:xmlsec:1.5.8",
+        "CVE-2018-1339 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2018-17197 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2018-8017 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2020-1950 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2020-1951 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2020-9489 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2021-28657 - org.apache.tika:tika-parsers:1.14",
+        "CVE-2022-25169 - org.apache.tika:tika-parsers:1.14",
+        "sonatype-2019-0096 - com.mchange:c3p0:0.9.5",
+        "CVE-2020-25638 - com.liferay:org.hibernate.core:3.6.10.LIFERAY-PATCHED-3",
+        "CVE-2019-12415 - org.apache.poi:poi-ooxml:3.15",
+        "CVE-2021-37714 - org.jsoup:jsoup:1.11.2",
+        "CVE-2013-5816 - com.sun.xml.ws:jaxws-rt:2.1.7",
+        "sonatype-2018-0590 - org.mozilla:rhino:1.7R4",
+        "CVE-2016-5018 - org.apache.tomcat:tomcat-jasper:8.0.32",
+        "CVE-2016-6796 - org.apache.tomcat:tomcat-jasper:8.0.32",
+        "CVE-2017-18640 - biz.aQute.bnd:biz.aQute.bnd:3.1.0",
+        "CVE-2020-15250 - biz.aQute.bnd:biz.aQute.bnd:3.1.0",
+        "CVE-2017-12626 - org.apache.poi:poi-scratchpad:3.15",
+        "CVE-2022-26336 - org.apache.poi:poi-scratchpad:3.15",
+        "CVE-2017-7525 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "CVE-2018-10237 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "CVE-2020-36518 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "sonatype-2016-0593 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "sonatype-2017-0355 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "sonatype-2018-0590 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "sonatype-2020-0926 - com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+        "CVE-2015-6644 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2015-7940 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000338 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000339 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000341 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000342 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000343 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000344 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000345 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000346 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2016-1000352 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2020-0187 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2020-26939 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "sonatype-2015-0270 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "sonatype-2019-0673 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "sonatype-2020-0770 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "sonatype-2021-4916 - org.bouncycastle:bcprov-jdk15on:1.49",
+        "CVE-2021-23445 - datatables.net1.10.24",
+        "CVE-2012-2098 - org.apache.ant:ant:1.8.2",
+        "CVE-2020-1945 - org.apache.ant:ant:1.8.2",
+        "CVE-2021-36374 - org.apache.ant:ant:1.8.2",
+        "sonatype-2018-0330 - org.apache.ant:ant:1.8.2",
+        "sonatype-2019-0870 - com.liferay:com.liferay.modules.compat.data:1.2.3",
+        "CVE-2020-15840 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2020-7961 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2021-29040 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2021-33321 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2021-33322 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2021-33325 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "sonatype-2019-0387 - com.liferay.portal:com.liferay.portal.impl:2.30.3",
+        "CVE-2020-15250 - com.liferay.portal:com.liferay.portal.test:4.0.4",
+        "CVE-2015-6644 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2015-7940 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000338 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000339 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000341 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000342 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000343 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000344 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000345 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000346 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2016-1000352 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2017-18640 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2017-5645 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2018-1000134 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2018-18928 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2018-3826 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2018-3831 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2019-7614 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2019-9518 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2020-0187 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2020-13956 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2020-26939 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2020-28491 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2020-9488 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-21295 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-37136 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-44228 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-44832 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-45046 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2021-45105 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2015-0270 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2017-0359 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2018-0705 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2019-0673 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2020-0026 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2020-0029 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2020-0103 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2020-0770 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2020-1031 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2021-0789 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2021-4560 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "sonatype-2021-4916 - com.liferay:com.liferay.portal.search.elasticsearch6.impl:1.0.3",
+        "CVE-2017-18640 - com.liferay:com.liferay.portal.target.platform.indexer:4.0.6",
+        "CVE-2020-15250 - com.liferay:com.liferay.portal.target.platform.indexer:4.0.6",
+        "CVE-2017-12626 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2018-11771 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2018-1324 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2020-13956 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2021-35515 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2021-35516 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2021-35517 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "CVE-2021-36090 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "sonatype-2016-0580 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3",
+        "sonatype-2017-0359 - com.liferay.portal:com.liferay.portal.test.integration:4.1.3"
+    ],
+    "cveFoundByBoth": 23,
+    "licensingDiscrepencies": [
+        {
+            "Component": "aopalliance:aopalliance:1.0",
+            "FoundBySonatype": [
+                "PUBLIC-DOMAIN",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Public Domain"
+            ]
+        },
+        {
+            "Component": "io.netty:netty-all:4.0.23.Final",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.incava:java-diff:1.1",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-UNSPECIFIED",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.json:json:20190722",
+            "FoundBySonatype": [
+                "JSON"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "com.redhat.qe:json-java:20110202",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "Unknown License"
+            ]
+        },
+        {
+            "Component": "org.antlr:antlr-runtime:3.5",
+            "FoundBySonatype": [
+                "BSD-3-Clause",
+                "BSD-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "truezip:truezip:6.7",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "License Not Found"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.ibm.icu4j:54.1.1.LIFERAY-PATCHED-2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.javassist:javassist:3.18.2-GA",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "MPL-1.1",
+                "Apache-1.1",
+                "Apache-2.0",
+                "Apache-1.0",
+                "Apache-2.0-LGPL-2.1+-MPL-1.1"
+            ],
+            "FoundByCompetitor": [
+                "MPL-1.1",
+                "Apache-2.0",
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.junit:3.5.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.jodd:jodd-core:3.6.8",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "com.fasterxml.jackson.core:jackson-databind:2.9.3",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "xpp3:xpp3_min:1.1.4c",
+            "FoundBySonatype": [
+                "XPP-1.1.1",
+                "XPP-1.2"
+            ],
+            "FoundByCompetitor": [
+                "Indiana University Extreme! Lab Software License",
+                "Public Domain"
+            ]
+        },
+        {
+            "Component": "org.tuckey:urlrewritefilter:4.0.3",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-UNSPECIFIED",
+                "BSD-3-Clause",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "javax.mail:mail:1.4",
+            "FoundBySonatype": [
+                "CDDL-1.1",
+                "GPL-2.0-with-classpath-exception",
+                "CDDL-1.0",
+                "Sun-IP"
+            ],
+            "FoundByCompetitor": [
+                "Sun JavaMail 1.4 License"
+            ]
+        },
+        {
+            "Component": "net.java.dev.jna:jna:4.1.0",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "Apache-1.1",
+                "Apache-2.0",
+                "Apache-1.0",
+                "UNKNOWN",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0",
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.8.10",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "concurrent:concurrent:1.3.4",
+            "FoundBySonatype": [
+                "Identity-Clause",
+                "PUBLIC-DOMAIN",
+                "Sun-Doug-Lea-JDK-Classes",
+                "MIT",
+                "Sun-IP"
+            ],
+            "FoundByCompetitor": [
+                "Oswego.util.concurrent License"
+            ]
+        },
+        {
+            "Component": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.8.10",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-analyzers-icu:5.5.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.twitter:jsr166e:1.1.0",
+            "FoundBySonatype": [
+                "CC0-1.0",
+                "PUBLIC-DOMAIN"
+            ],
+            "FoundByCompetitor": [
+                "CC0-1.0"
+            ]
+        },
+        {
+            "Component": "xalan:serializer:2.7.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "W3C"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "net.sf.jazzy:jazzy:0.5.2-rtext-1.4.1-2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "commons-daemon:commons-daemon:1.0.15",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.unboundid:unboundid-ldapsdk:4.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "GPL-2.0",
+                "UNKNOWN",
+                "UnboundID-LDAP-SDK-Free-Use-License",
+                "GPL-2.0-LGPL-2.1"
+            ],
+            "FoundByCompetitor": [
+                "GPL-2.0+",
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-analyzers-stempel:7.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "Apache-1.1"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.apache.httpcomponents:httpasyncclient:4.1.3",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "jfree:jcommon:1.0.16",
+            "FoundBySonatype": [
+                "LGPL-3.0",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.vividsolutions:jts:1.13",
+            "FoundBySonatype": [
+                "LGPL-3.0",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "commons-digester:commons-digester:1.8.1",
+            "FoundBySonatype": [
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-1.1"
+            ]
+        },
+        {
+            "Component": "com.ibm.icu:icu4j:54.1",
+            "FoundBySonatype": [
+                "ICU",
+                "UNKNOWN",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "ICU"
+            ]
+        },
+        {
+            "Component": "org.apache.abdera:abdera-bundle:1.1.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "axis:axis-ant:1.4",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.jodd:jodd-bean:3.6.4",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.codehaus.woodstox:wstx-asl:3.2.6",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "See-License-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0",
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "org.jodd:jodd-servlet:3.6.4",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "javax.xml.soap:saaj-api:1.3",
+            "FoundBySonatype": [
+                "CDDL-1.0",
+                "Sun-IP"
+            ],
+            "FoundByCompetitor": [
+                "CDDL-1.0"
+            ]
+        },
+        {
+            "Component": "commons-dbcp:commons-dbcp:1.2.2",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.beetstra.jutf7:jutf7:1.0.0",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "com.adobe.xmp:xmpcore:5.1.2",
+            "FoundBySonatype": [
+                "BSD-3-Clause",
+                "BSD-UNSPECIFIED",
+                "Adobe"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.ccil.cowan.tagsoup:tagsoup:1.2.1",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "AFL-2.1-GPL-2.0+"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "cglib:cglib-nodep:2.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.sun.syndication:1.0.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.google.javascript:closure-compiler:v20131014",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "GPL-2.0+-MPL-1.1"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:org.jabsorb:1.3.2.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "Apache-2.0",
+                "JSON"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.frontend.css.rtl.converter:1.0.0",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "odmg:odmg:3.0",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "E. Wray Johnson License"
+            ]
+        },
+        {
+            "Component": "org.glassfish.web:jstl-impl:1.2",
+            "FoundBySonatype": [
+                "CDDL-1.1-GPL-2.0-CPE",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "CDDL-1.1",
+                "GPL-2.0-with-classpath-exception"
+            ]
+        },
+        {
+            "Component": "bsf:bsf:2.4.0",
+            "FoundBySonatype": [
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-1.1"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.tester:3.5.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.tallison:jmatio:1.2",
+            "FoundBySonatype": [
+                "BSD-UNSPECIFIED",
+                "COMMERCIAL-Generic-Open-Source-Clause",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.jaxws.osgi.bridge:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.ibm.icu:icu4j:59.1",
+            "FoundBySonatype": [
+                "ICU-Unicode",
+                "UNKNOWN",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "ICU"
+            ]
+        },
+        {
+            "Component": "org.ow2.asm:asm-debug-all:5.0.4",
+            "FoundBySonatype": [
+                "BSD-3-Clause",
+                "BSD-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.junit:3.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "soap:soap:2.2",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "org.yaml:snakeyaml:1.17",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "Apache-2.0+-BSD-UNSPECIFIED-EPL-1.0+-GPL-2.0+-LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "antlr:antlr:2.7.7",
+            "FoundBySonatype": [
+                "ANTLR-PD",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "ANTLR-PD"
+            ]
+        },
+        {
+            "Component": "org.jvnet:mimepull:1.3",
+            "FoundBySonatype": [
+                "GPL-2.0-with-classpath-exception",
+                "CDDL-1.0",
+                "CDDL-1.1-GPL-2.0-CPE"
+            ],
+            "FoundByCompetitor": [
+                "CDDL-1.0",
+                "GPL-2.0-with-classpath-exception"
+            ]
+        },
+        {
+            "Component": "log4j:apache-log4j-extras:1.2.17",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:nl.captcha.simplecaptcha:1.1.1",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "License Not Found"
+            ]
+        },
+        {
+            "Component": "displaytag:displaytag:1.2",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "Artistic-UNSPECIFIED",
+                "Artistic-1.0"
+            ],
+            "FoundByCompetitor": [
+                "Artistic-1.0"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-suggest:7.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.jodd:jodd-http:3.6.4",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-3-Clause",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.bouncycastle:bcpkix-jdk15on:1.49",
+            "FoundBySonatype": [
+                "MIT",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "org.postgresql:postgresql:42.0.0",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "BSD-2-Clause"
+            ]
+        },
+        {
+            "Component": "org.antlr:stringtemplate:3.0",
+            "FoundBySonatype": [
+                "BSD-3-Clause",
+                "BSD-UNSPECIFIED",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "com.liferay:org.apache.axis:1.4.LIFERAY-PATCHED-2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "Apache-1.1",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.bouncycastle:bcmail-jdk16:1.45",
+            "FoundBySonatype": [
+                "MIT",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "xerces:xercesImpl:2.11.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "W3C"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.tukaani:xz:1.5",
+            "FoundBySonatype": [
+                "Nonsensical-Clause",
+                "PUBLIC-DOMAIN",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Public Domain"
+            ]
+        },
+        {
+            "Component": "commons-discovery:commons-discovery:0.4",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.htmlparser:htmlparser:1.6",
+            "FoundBySonatype": [
+                "CPL-1.0",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "CPL-1.0"
+            ]
+        },
+        {
+            "Component": "wsdl4j:wsdl4j:1.6.1",
+            "FoundBySonatype": [
+                "CPL-1.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "CPL-1.0"
+            ]
+        },
+        {
+            "Component": "jaxen:jaxen:1.1.1",
+            "FoundBySonatype": [
+                "UNKNOWN",
+                "BSD-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.jvnet.staxex:stax-ex:1.2",
+            "FoundBySonatype": [
+                "CDDL-1.0",
+                "CDDL-1.1-GPL-2.0-CPE"
+            ],
+            "FoundByCompetitor": [
+                "GPL-2.0+",
+                "CDDL-1.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.startup.monitor:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-analyzers-common:7.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "ISO-8879",
+                "BSD-2-Clause",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.jhlabs:imaging:01012005",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "License Not Found"
+            ]
+        },
+        {
+            "Component": "org.elasticsearch:elasticsearch:6.1.3",
+            "FoundBySonatype": [
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Elastic License",
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.jodd:jodd-proxetta:3.6.4",
+            "FoundBySonatype": [
+                "BSD-2-Clause",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "com.pff:java-libpst:0.8.1",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "LGPL-3.0+"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.equinox.log.bridge:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "javax.media:jai-core:1.1.3",
+            "FoundBySonatype": [
+                "JDL-1.1.X",
+                "Nonsensical-Clause",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "Java Advanced Imaging Distribution License (JDL) 1.1.x"
+            ]
+        },
+        {
+            "Component": "io.netty:netty-all:4.1.11.Final",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.launcher:3.5.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.samba.jcifs:jcifs:1.3.14-kohsuke-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+",
+                "LGPL-2.0+",
+                "BSD-2-Clause"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "net.htmlparser.jericho:jericho-html:3.1",
+            "FoundBySonatype": [
+                "EPL-1.0",
+                "LGPL-3.0",
+                "EPL-UNSPECIFIED",
+                "LGPL-2.1+",
+                "LGPL-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+",
+                "EPL-1.0"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.tester:3.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:javax.ccpp.ccpp-ri:1.0",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "License Not Found"
+            ]
+        },
+        {
+            "Component": "mysql:mysql-connector-java:5.1.23",
+            "FoundBySonatype": [
+                "See-License-Clause",
+                "GPL-2.0"
+            ],
+            "FoundByCompetitor": [
+                "GPL-2.0+"
+            ]
+        },
+        {
+            "Component": "biz.aQute.bnd:biz.aQute.launcher:3.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.openoffice:juh:2.3.0",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-3.0",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "javax.ccpp:ccpp:1.0",
+            "FoundBySonatype": [
+                "UNKNOWN",
+                "Sun-BCLA",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "JNDI Sun Binary Code License"
+            ]
+        },
+        {
+            "Component": "org.apache.commons:commons-math:2.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:org.apache.xmlbeans:2.5.0.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.googlecode.mp4parser:isoparser:1.1.18",
+            "FoundBySonatype": [
+                "Generic-Open-Source-Clause",
+                "Apache-2.0",
+                "EPL-1.0",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.googlecode.json-simple:json-simple:1.1.1",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.googlecode.juniversalchardet:juniversalchardet:1.0.3",
+            "FoundBySonatype": [
+                "MPL-1.1",
+                "GPL-2.0+-LGPL-2.1+-MPL-1.1"
+            ],
+            "FoundByCompetitor": [
+                "MPL-1.1",
+                "GPL-2.0+",
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.liferay:de.l3s.boilerpipe:1.1.0.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.openoffice:unoil:2.3.0",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-3.0",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "org.hibernate:hibernate-commons-annotations:3.2.0.Final",
+            "FoundBySonatype": [
+                "LGPL-3.0",
+                "LGPL-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "org.apache.santuario:xmlsec:1.5.8",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "W3C"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "edu.ucar:netcdf:4.2.20",
+            "FoundBySonatype": [
+                "Unidata",
+                "Generic-Liberal-Clause",
+                "LGPL-2.1+",
+                "LGPL-2.0+",
+                "W3C",
+                "Apache-1.1"
+            ],
+            "FoundByCompetitor": [
+                "NetCDF"
+            ]
+        },
+        {
+            "Component": "com.mchange:c3p0:0.9.5",
+            "FoundBySonatype": [
+                "EPL-1.0",
+                "LGPL-2.1",
+                "EPL-1.0-LGPL-2.1"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+",
+                "EPL-1.0"
+            ]
+        },
+        {
+            "Component": "xalan:xalan:2.7.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "W3C"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:org.hibernate.core:3.6.10.LIFERAY-PATCHED-3",
+            "FoundBySonatype": [
+                "LGPL-2.1"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-analyzers-stempel:5.5.2",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "Apache-1.1"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-analyzers-icu:7.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.antlr:antlr:3.0.1",
+            "FoundBySonatype": [
+                "BSD-3-Clause",
+                "BSD-UNSPECIFIED"
+            ],
+            "FoundByCompetitor": [
+                "BSD-3-Clause"
+            ]
+        },
+        {
+            "Component": "org.aspectj:aspectjweaver:1.8.9",
+            "FoundBySonatype": [
+                "EPL-1.0",
+                "Apache-1.1"
+            ],
+            "FoundByCompetitor": [
+                "EPL-1.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.collection:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.apache.lucene:lucene-core:7.1.0",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "BSD-3-Clause",
+                "MIT"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.apache.poi:poi-ooxml-schemas:3.15",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.mariadb.jdbc:mariadb-java-client:1.1.9",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.jsoup:jsoup:1.11.2",
+            "FoundBySonatype": [
+                "MIT",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "org.hdrhistogram:HdrHistogram:2.1.9",
+            "FoundBySonatype": [
+                "CC0-1.0",
+                "PUBLIC-DOMAIN"
+            ],
+            "FoundByCompetitor": [
+                "CC0-1.0",
+                "Public Domain",
+                "BSD-2-Clause"
+            ]
+        },
+        {
+            "Component": "com.sun.xml.ws:jaxws-rt:2.1.7",
+            "FoundBySonatype": [
+                "CDDL-1.1",
+                "GPL-2.0",
+                "GPL-2.0-with-classpath-exception",
+                "CDDL-1.0",
+                "CDDL-1.1-GPL-2.0-CPE"
+            ],
+            "FoundByCompetitor": [
+                "Sun GPL With Classpath Exception v2.0",
+                "CDDL-1.0"
+            ]
+        },
+        {
+            "Component": "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.8.10",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "org.mozilla:rhino:1.7R4",
+            "FoundBySonatype": [
+                "MPL-2.0",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "MPL-2.0"
+            ]
+        },
+        {
+            "Component": "com.fasterxml.jackson.core:jackson-core:2.8.10",
+            "FoundBySonatype": [
+                "Apache-2.0",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.mchange:mchange-commons-java:0.2.9",
+            "FoundBySonatype": [
+                "EPL-1.0",
+                "LGPL-2.1",
+                "EPL-1.0-LGPL-2.1"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+",
+                "EPL-1.0"
+            ]
+        },
+        {
+            "Component": "org.im4java:im4java:1.2.0",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.github.fge.json.schema.validator:2.2.3.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.sun.xml.stream.buffer:streambuffer:0.9",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "Apache-2.0",
+                "CDDL-1.0"
+            ],
+            "FoundByCompetitor": [
+                "CDDL-1.0"
+            ]
+        },
+        {
+            "Component": "org.bouncycastle:bcprov-jdk15on:1.49",
+            "FoundBySonatype": [
+                "MIT",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "MIT"
+            ]
+        },
+        {
+            "Component": "net.sf.jsr107cache:jsr107cache:1.0",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Source-License"
+            ],
+            "FoundByCompetitor": [
+                "GPL-2.0+"
+            ]
+        },
+        {
+            "Component": "javax.servlet.jsp.jstl:jstl-api:1.2",
+            "FoundBySonatype": [
+                "CDDL-1.1",
+                "Generic-Open-Source-Clause",
+                "GPL-2.0-with-classpath-exception",
+                "CDDL-1.1-GPL-2.0-CPE",
+                "Apache-2.0"
+            ],
+            "FoundByCompetitor": [
+                "Sun GPL With Classpath Exception v2.0",
+                "CDDL-1.1"
+            ]
+        },
+        {
+            "Component": "ecs:ecs:1.4.2",
+            "FoundBySonatype": [
+                "Apache-1.1",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.tools.db.upgrade.client:1.0.5",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.registry.impl:1.0.6",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay.portal:com.liferay.portal.impl:2.30.3",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:org.eclipse.osgi:3.10.200-20150904.172142-1.LIFERAY-PATCHED-1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "EPL-1.0"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay.portal:com.liferay.portal.test:4.0.4",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.concurrent:1.2.3",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay.portal:com.liferay.portal.kernel:2.64.1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+",
+                "BSD-3-Clause"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.target.platform.indexer:4.0.6",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.liferay.portal:com.liferay.util.java:2.5.11",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "org.apache.portals.bridges:portals-bridges-struts:1.2.7-1.0",
+            "FoundBySonatype": [
+                "Not-Declared",
+                "No-Sources"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.lang:1.1.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.search.elasticsearch6.api:1.0.3",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.mail:1.1.6",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.portal.osgi.web.jasper.plugins.taglib:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1+"
+            ]
+        },
+        {
+            "Component": "com.github.jsqlparser:jsqlparser:0.9.3",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "Apache-2.0",
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.osgi.felix.util:1.0.3",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.function:1.0.1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.xml:1.0.13",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.executor:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.reflect:1.1.1",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.nio:1.0.2",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        },
+        {
+            "Component": "com.liferay:com.liferay.petra.encryptor:1.0.11",
+            "FoundBySonatype": [
+                "LGPL-2.1",
+                "LGPL-2.1+"
+            ],
+            "FoundByCompetitor": [
+                "LGPL-2.1"
+            ]
+        }
+    ],
+    "licensingDiscrepenciesCount": 151
+}

@@ -1,0 +1,29 @@
+{
+        "license": "GPL-3.0-only",
+        "summary": "Key/value database library with extensible hashing",
+        "homepage": "http://www.gnu.org/software/gdbm/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://ftp.gnu.org/gnu/gdbm/gdbm-1.23.tar.gz",
+                "file://run-ptest",
+                "file://ptest.patch"
+        ],
+        "cve_product": "gdbm",
+        "cve_version": "1.23",
+        "sources": {
+                "patches": {
+                        "ptest.patch": "/home/andrew/poky/meta/recipes-support/gdbm/files/ptest.patch"
+                },
+                "https": [
+                        "https://ftp.gnu.org/gnu/gdbm/gdbm-1.23.tar.gz"
+                ],
+                "file": [
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/gdbm/gdbm_1.23.bb"
+}

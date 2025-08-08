@@ -1,0 +1,32 @@
+{
+        "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+        "srcrev": "b6ecfc916a17eab8f93be5b09f4e4f845aabd3d1",
+        "summary": "Tools for managing Linux kernel modules",
+        "homepage": "http://kernel.org/pub/linux/utils/kernel/kmod/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git;branch=master",
+                "file://depmod-search.conf",
+                "file://avoid_parallel_tests.patch",
+                "file://0001-depmod-Add-support-for-excluding-a-directory.patch"
+        ],
+        "cve_product": "kmod",
+        "cve_version": "29",
+        "sources": {
+                "patches": {
+                        "avoid_parallel_tests.patch": "/home/andrew/poky/meta/recipes-kernel/kmod/kmod/avoid_parallel_tests.patch",
+                        "0001-depmod-Add-support-for-excluding-a-directory.patch": "/home/andrew/poky/meta/recipes-kernel/kmod/kmod/0001-depmod-Add-support-for-excluding-a-directory.patch"
+                },
+                "git": [
+                        "git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git;branch=master"
+                ],
+                "file": [
+                        "depmod-search.conf"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-kernel/kmod/kmod_29.bb"
+}

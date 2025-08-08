@@ -1,0 +1,17 @@
+{
+        "license": "MIT",
+        "summary": "A small image just capable of allowing a device to boot.",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [],
+        "cve_product": "core-image-minimal",
+        "cve_version": "1.0",
+        "homepage": "",
+        "sources": {
+                "patches": {}
+        },
+        "layer": "core",
+        "recipe": "recipes-core/images/core-image-minimal.bb"
+}

@@ -1,0 +1,26 @@
+{
+        "license": "BSD-3-Clause & BSD-2-Clause",
+        "summary": "BSD compatible headers",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "file://sys-queue.h",
+                "file://sys-tree.h",
+                "file://sys-cdefs.h"
+        ],
+        "cve_product": "bsd-headers",
+        "cve_version": "1.0",
+        "homepage": "",
+        "sources": {
+                "patches": {},
+                "file": [
+                        "sys-queue.h",
+                        "sys-tree.h",
+                        "sys-cdefs.h"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/musl/bsd-headers.bb"
+}

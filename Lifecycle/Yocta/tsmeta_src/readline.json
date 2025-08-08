@@ -1,0 +1,31 @@
+{
+        "license": "GPL-3.0-or-later",
+        "summary": "Library for editing typed command lines",
+        "homepage": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://ftp.gnu.org/gnu/readline/readline-8.1.2.tar.gz;name=archive",
+                "file://inputrc",
+                "file://configure-fix.patch",
+                "file://norpath.patch"
+        ],
+        "cve_product": "readline",
+        "cve_version": "8.1.2",
+        "sources": {
+                "patches": {
+                        "configure-fix.patch": "/home/andrew/poky/meta/recipes-core/readline/readline/configure-fix.patch",
+                        "norpath.patch": "/home/andrew/poky/meta/recipes-core/readline/readline/norpath.patch"
+                },
+                "https": [
+                        "https://ftp.gnu.org/gnu/readline/readline-8.1.2.tar.gz;name=archive"
+                ],
+                "file": [
+                        "inputrc"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/readline/readline_8.1.2.bb"
+}

@@ -1,0 +1,15 @@
+
+Report topics:
+- How many false positives/false negatives do we see competitors have on average?
+
+
+To Do:
+- deeperDataStats.py: 
+    - Get list of components with deep dive label and get quantity
+    - count_components_with_version_fix: Add number of components with version fixed that can be triggered by automation.
+
+- compareData.py
+    - Fix finding the CVEs from .json competitor file
+    - Count number of Sonatype vs competitor CVEs there are in the reports
+
+

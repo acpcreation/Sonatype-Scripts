@@ -1,0 +1,3575 @@
+{
+    "initiator": "admin",
+    "applicationEvaluation": {
+        "application": {},
+        "policyEvaluationId": "8c6121d646294bb98cbed32f74c0e473",
+        "stage": "build",
+        "ownerId": "ce0308feb8954135b37b737e5d5315f3",
+        "evaluationDate": "2024-04-23T16:36:32.995+00:00",
+        "affectedComponentCount": 26,
+        "criticalComponentCount": 14,
+        "severeComponentCount": 12,
+        "moderateComponentCount": 0,
+        "outcome": "fail",
+        "reportId": "f372c55bff68464e808ac2e83ba8943c",
+        "isForLatestScan": true
+    },
+    "application": {
+        "id": "ce0308feb8954135b37b737e5d5315f3",
+        "publicId": "test",
+        "name": "test",
+        "organizationId": "c984af80e62941c9be828fea6e24cab3"
+    },
+    "policyAlerts": [
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "1fcd052518e04fa3e5c5",
+                    "displayName": "express : 4.18.2",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "express",
+                            "version": "4.18.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./node_modules/express/History.md",
+                        "./node_modules/express/LICENSE",
+                        "./node_modules/express/Readme.md",
+                        "./node_modules/express/index.js",
+                        "./node_modules/express/lib/application.js",
+                        "./node_modules/express/lib/express.js",
+                        "./node_modules/express/lib/middleware/init.js",
+                        "./node_modules/express/lib/middleware/query.js",
+                        "./node_modules/express/lib/request.js",
+                        "./node_modules/express/lib/response.js",
+                        "./node_modules/express/lib/router/index.js",
+                        "./node_modules/express/lib/router/layer.js",
+                        "./node_modules/express/lib/router/route.js",
+                        "./node_modules/express/lib/utils.js",
+                        "./node_modules/express/lib/view.js",
+                        "./node_modules/express/package.json"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2024-29041 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2024-29041 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "98d1f221ac004f0499374b9b89e45f6b"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "1fcd052518e04fa3e5c5",
+                    "displayName": "express : 4.18.2",
+                    "componentIdentifier": {
+                        "format": "npm",
+                        "coordinates": {
+                            "packageId": "express",
+                            "version": "4.18.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./node_modules/express/History.md",
+                        "./node_modules/express/LICENSE",
+                        "./node_modules/express/Readme.md",
+                        "./node_modules/express/index.js",
+                        "./node_modules/express/lib/application.js",
+                        "./node_modules/express/lib/express.js",
+                        "./node_modules/express/lib/middleware/init.js",
+                        "./node_modules/express/lib/middleware/query.js",
+                        "./node_modules/express/lib/request.js",
+                        "./node_modules/express/lib/response.js",
+                        "./node_modules/express/lib/router/index.js",
+                        "./node_modules/express/lib/router/layer.js",
+                        "./node_modules/express/lib/router/route.js",
+                        "./node_modules/express/lib/utils.js",
+                        "./node_modules/express/lib/view.js",
+                        "./node_modules/express/package.json"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2021-0078 with severity >= 4 (severity = 5.9)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2021-0078 with severity < 7 (severity = 5.9)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "fe0b04b2de04438a8b0645249d605030"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37081687a930b9a4a29c",
+                    "displayName": "org.webjars jquery 1.10.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery",
+                            "qualifier": "",
+                            "version": "1.10.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery/jquery-1.10.2.min.js",
+                        "./target/classes/webgoat/static/js/jquery/jquery-1.10.2.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2019-11358 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2019-11358 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "141f68f809de49b2abba38c0732803da"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37081687a930b9a4a29c",
+                    "displayName": "org.webjars jquery 1.10.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery",
+                            "qualifier": "",
+                            "version": "1.10.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery/jquery-1.10.2.min.js",
+                        "./target/classes/webgoat/static/js/jquery/jquery-1.10.2.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "8e14767cb065405e9c21a38ed6da8df0"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37081687a930b9a4a29c",
+                    "displayName": "org.webjars jquery 1.10.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery",
+                            "qualifier": "",
+                            "version": "1.10.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery/jquery-1.10.2.min.js",
+                        "./target/classes/webgoat/static/js/jquery/jquery-1.10.2.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2014-0026 with severity >= 4 (severity = 6.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2014-0026 with severity < 7 (severity = 6.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "b6ddbced404441b4aafd1404a4559399"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37081687a930b9a4a29c",
+                    "displayName": "org.webjars jquery 1.10.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery",
+                            "qualifier": "",
+                            "version": "1.10.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery/jquery-1.10.2.min.js",
+                        "./target/classes/webgoat/static/js/jquery/jquery-1.10.2.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "e02c90695b5846fd9dbb88054782fb57"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2019-11358 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2019-11358 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "284488df8d3245f4ad8e91bd8c0c5f79"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9bf6986d97e540bd8dfcfedd252ab1ab"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "abd40301d16347fca8884889949b42dd"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2014-0026 with severity >= 4 (severity = 6.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2014-0026 with severity < 7 (severity = 6.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "de67bb6e941741ac9ad66757045978f0"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2016-0107 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2016-0107 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "ba9d098c93894abb9c5aba728a1b5d29"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "da5c6050035144c68f5de38508373c3b"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "4685155beaabc2fd6718",
+                    "displayName": "org.bitbucket.b_c : jose4j : 0.7.6",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jose4j",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.bitbucket.b_c",
+                            "version": "0.7.6"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.bitbucket.b_c\\jose4j@0.7.6?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2023-1971 with severity >= 4 (severity = 5.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2023-1971 with severity < 7 (severity = 5.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "f6116f317e864c719362a6c87ee9d374"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "4685155beaabc2fd6718",
+                    "displayName": "org.bitbucket.b_c : jose4j : 0.7.6",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jose4j",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.bitbucket.b_c",
+                            "version": "0.7.6"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.bitbucket.b_c\\jose4j@0.7.6?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2023-2023 with severity >= 4 (severity = 5.9)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2023-2023 with severity < 7 (severity = 5.9)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "3ad90269bdaf4e72be8df52b04a52411"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "4ec95b60d4e86b5c95a0",
+                    "displayName": "org.apache.commons : commons-compress : 1.21",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "commons-compress",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.commons",
+                            "version": "1.21"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.commons\\commons-compress@1.21?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2024-25710 with severity >= 4 (severity = 5.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2024-25710 with severity < 7 (severity = 5.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "4b8c9d0f032d43b0912a185cb0dfe2c2"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "4ec95b60d4e86b5c95a0",
+                    "displayName": "org.apache.commons : commons-compress : 1.21",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "commons-compress",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.commons",
+                            "version": "1.21"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.commons\\commons-compress@1.21?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2024-26308 with severity >= 4 (severity = 5.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2024-26308 with severity < 7 (severity = 5.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "407f8bfdc6814c348d7c4ddfe6a2f5cf"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "54d2abfc3e63a28824d3",
+                    "displayName": "io.jsonwebtoken : jjwt : 0.9.1",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jjwt",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "io.jsonwebtoken",
+                            "version": "0.9.1"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\io.jsonwebtoken\\jjwt@0.9.1?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2024-31033 with severity >= 4 (severity = 5.9)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2024-31033 with severity < 7 (severity = 5.9)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "7b5e98eb4dba4b0badc3dde9ae6ec21a"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-26259 with severity >= 4 (severity = 6.8)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-26259 with severity < 7 (severity = 6.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "78dfd73ee03d4e47910cb41b4548b276"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-25031 with severity >= 4 (severity = 4.3)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-25031 with severity < 7 (severity = 4.3)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "f1d30e49774a4be58b372836abfd11f4"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "8dae0df394e043ee93ee70a230b2eceb"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9199352ae0384cf28061e08c4c9de51f"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "2f6f2a09546c4ff5b48bfe0f8dbb7d51"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2020-0532 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2020-0532 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "6e35ff144613403d9cf9d93fb24dfd8b"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2021-4711 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2021-4711 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "0cbe66992b91427f8b542911fe39b77b"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "7b9c451b5c37c9038881",
+                    "displayName": "org.asciidoctor : asciidoctorj : 2.5.3",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "asciidoctorj",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.asciidoctor",
+                            "version": "2.5.3"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.asciidoctor\\asciidoctorj@2.5.3?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2015-0247 with severity >= 4 (severity = 5.4)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2015-0247 with severity < 7 (severity = 5.4)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "74956624845b49738a5d6c8af0ef5743"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "7b9c451b5c37c9038881",
+                    "displayName": "org.asciidoctor : asciidoctorj : 2.5.3",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "asciidoctorj",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.asciidoctor",
+                            "version": "2.5.3"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.asciidoctor\\asciidoctorj@2.5.3?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2018-0601 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2018-0601 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "0133be60584748d28843b214765652d2"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "815893df5f31da2ece40",
+                    "displayName": "commons-io : commons-io : 2.6",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "commons-io",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "commons-io",
+                            "version": "2.6"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\commons-io\\commons-io@2.6?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2018-0705 with severity >= 4 (severity = 5.3)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2018-0705 with severity < 7 (severity = 5.3)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "58a0a0b21653487eb752a6f6d5c7ea04"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "9c06887e03feb6c996ab",
+                    "displayName": "jquery-form 3.50.0",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery-form",
+                            "qualifier": "",
+                            "version": "3.50.0"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery_form/jquery.form.js",
+                        "./src/main/resources/webgoat/static/js/libs/jquery.form.js",
+                        "./target/classes/webgoat/static/js/jquery_form/jquery.form.js",
+                        "./target/classes/webgoat/static/js/libs/jquery.form.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2015-0356 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2015-0356 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "c3aa66a5a59444c4a1cb09ccfc9ecd5f"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-14040 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-14040 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "dcd42786270c4855a1be4fbe739a7085"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-14042 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-14042 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "d0f511d0547a4629b089d931a4c1ef90"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-20676 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-20676 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "8ad8a87a61724b0e9c4ff5fe6fd54fa4"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2019-8331 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2019-8331 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "16c0850b19774fe9b722ad54907a09ad"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2016-0129 with severity >= 4 (severity = 5.4)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2016-0129 with severity < 7 (severity = 5.4)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "69c66733206d43438c93005f7cdf3de8"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2017-0695 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2017-0695 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "cbb7358f6262471487b58fc9f07e8507"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "b72e6b076e32fb3a87f6",
+                    "displayName": "org.webjars bootstrap 3.1.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars bootstrap",
+                            "qualifier": "",
+                            "version": "3.1.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/lessons/challenges/js/bootstrap.min.js",
+                        "./target/classes/lessons/challenges/js/bootstrap.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2018-0607 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2018-0607 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "c502650a6bee4a4e93e4750ff28fe68d"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ba55c13d7ac2fd44df9c",
+                    "displayName": "org.apache.logging.log4j : log4j-core : 2.15.0",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "log4j-core",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.logging.log4j",
+                            "version": "2.15.0"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.logging.log4j\\log4j-core@2.15.0?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2021-44832 with severity >= 4 (severity = 6.6)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2021-44832 with severity < 7 (severity = 6.6)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "b6050e75ec1f4449969a0648ac04eb04"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ba55c13d7ac2fd44df9c",
+                    "displayName": "org.apache.logging.log4j : log4j-core : 2.15.0",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "log4j-core",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.logging.log4j",
+                            "version": "2.15.0"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.logging.log4j\\log4j-core@2.15.0?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2021-45105 with severity >= 4 (severity = 5.9)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2021-45105 with severity < 7 (severity = 5.9)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "d32d2b7f51284610adb7de978087fb14"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "c43a81e18e6d0eb71951",
+                    "displayName": "org.jsoup : jsoup : 1.14.3",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jsoup",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.jsoup",
+                            "version": "1.14.3"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.jsoup\\jsoup@1.14.3?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2022-36033 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2022-36033 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "25a190f9ab604a84905bdd5b1817feeb"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ccd02828be70182e7a6d",
+                    "displayName": "org.webjars jquery-ui 1.12.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery-ui",
+                            "qualifier": "",
+                            "version": "1.12.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-ui.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-ui.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2021-41182 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2021-41182 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "6fe75b90999b426c9d3e1c6d519ec24f"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ccd02828be70182e7a6d",
+                    "displayName": "org.webjars jquery-ui 1.12.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery-ui",
+                            "qualifier": "",
+                            "version": "1.12.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-ui.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-ui.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2021-41183 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2021-41183 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "66784b1e19484520a754db2f9f0ae667"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ccd02828be70182e7a6d",
+                    "displayName": "org.webjars jquery-ui 1.12.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery-ui",
+                            "qualifier": "",
+                            "version": "1.12.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-ui.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-ui.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2021-41184 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2021-41184 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "2628694f577b40488543f0ce35b414f4"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "ccd02828be70182e7a6d",
+                    "displayName": "org.webjars jquery-ui 1.12.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.webjars jquery-ui",
+                            "qualifier": "",
+                            "version": "1.12.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-ui.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-ui.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2022-31160 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2022-31160 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "2289a3ac0e0f4930b08ea2e4349c4f5d"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-14040 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-14040 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "dfaf1ab5081e44459c1425899be1d16d"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-14042 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-14042 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "e9b85dc61c02450ca98dafcd50359ac1"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-20676 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-20676 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "f22643a11d1d4430bf6148d77292bdd6"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2018-20677 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2018-20677 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "f3f9a94b798345b3862cda4908e992b0"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2019-8331 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2019-8331 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "8e2d7df1ec6b46e297bce6248e76907c"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2016-0129 with severity >= 4 (severity = 5.4)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2016-0129 with severity < 7 (severity = 5.4)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "35950c6669f24bf5b2c775c62073e3f9"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2017-0695 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2017-0695 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "cde4804457a2415abeac362077f7d9d0"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "d6aeba80236573ed585b",
+                    "displayName": "org.webjars : bootstrap : 3.3.7",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "bootstrap",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.webjars",
+                            "version": "3.3.7"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.webjars\\bootstrap@3.3.7?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2018-0607 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2018-0607 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "4a4cd46c464544a0841a982caedbd6cc"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "e3b755f9a43dfa0d9bb4",
+                    "displayName": "com.nulab-inc : zxcvbn : 1.5.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "zxcvbn",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.nulab-inc",
+                            "version": "1.5.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.nulab-inc\\zxcvbn@1.5.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2023-2654 with severity >= 4 (severity = 5.3)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2023-2654 with severity < 7 (severity = 5.3)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "a40274718ff3416c803a0593d59daf2e"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "e7c380e22aeaffae68ce",
+                    "displayName": "jquery 3.4.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "3.4.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-11023 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "5fc17d59fb014b5f88bb52dc9202d28c"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "e7c380e22aeaffae68ce",
+                    "displayName": "jquery 3.4.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "3.4.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability CVE-2020-23064 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9db7484407da4344ae18ff34cd17f3cb"
+        },
+        {
+            "policyId": "3d452044dde84c728469dfecc9cfcd85",
+            "policyName": "Security-Medium",
+            "threatLevel": 7,
+            "componentFacts": [
+                {
+                    "hash": "e7c380e22aeaffae68ce",
+                    "displayName": "jquery 3.4.1",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "3.4.1"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Medium risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 4",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity >= 4 (severity = 6.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 7",
+                                    "reason": "Found security vulnerability sonatype-2020-0187 with severity < 7 (severity = 6.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "a49ff2577264416f935dffd6d2ca7f0b"
+        },
+        {
+            "policyId": "56a34c33009446909ecc407878d347b6",
+            "policyName": "License-Copyleft",
+            "threatLevel": 8,
+            "componentFacts": [
+                {
+                    "hash": "459038f2b3a096115f62",
+                    "displayName": "jquery-timepicker 1.3.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery-timepicker",
+                            "qualifier": "",
+                            "version": "1.3.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery/jquery-ui-1.10.4.custom.min.js",
+                        "./target/classes/webgoat/static/js/jquery/jquery-ui-1.10.4.custom.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "License containing Copyleft terms detected",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "License Threat Group is 'Copyleft'",
+                                    "reason": "Found licenses in the 'Copyleft' license threat group ('GPL-2.0')"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "e94c86946bd24b158e12e8abea95f960"
+        },
+        {
+            "policyId": "56a34c33009446909ecc407878d347b6",
+            "policyName": "License-Copyleft",
+            "threatLevel": 8,
+            "componentFacts": [
+                {
+                    "hash": "7934767ba2df50ff1aa5",
+                    "displayName": "org.jruby : jruby : 9.3.6.0",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jruby",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.jruby",
+                            "version": "9.3.6.0"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.jruby\\jruby@9.3.6.0?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "License containing Copyleft terms detected",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "License Threat Group is 'Copyleft'",
+                                    "reason": "Found licenses in the 'Copyleft' license threat group ('GPL-2.0')"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "a21383b289f641fbafaa63fd3dba74fe"
+        },
+        {
+            "policyId": "56a34c33009446909ecc407878d347b6",
+            "policyName": "License-Copyleft",
+            "threatLevel": 8,
+            "componentFacts": [
+                {
+                    "hash": "9c06887e03feb6c996ab",
+                    "displayName": "jquery-form 3.50.0",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery-form",
+                            "qualifier": "",
+                            "version": "3.50.0"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/jquery_form/jquery.form.js",
+                        "./src/main/resources/webgoat/static/js/libs/jquery.form.js",
+                        "./target/classes/webgoat/static/js/jquery_form/jquery.form.js",
+                        "./target/classes/webgoat/static/js/libs/jquery.form.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "License containing Copyleft terms detected",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "License Threat Group is 'Copyleft'",
+                                    "reason": "Found licenses in the 'Copyleft' license threat group ('GPL-2.0')"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9431d6d667ab41ce9d32964ea22553d5"
+        },
+        {
+            "policyId": "56a34c33009446909ecc407878d347b6",
+            "policyName": "License-Copyleft",
+            "threatLevel": 8,
+            "componentFacts": [
+                {
+                    "hash": "cf589d4746179e58dc8e",
+                    "displayName": "org.owasp.webgoat webgoat-container 7.0",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "org.owasp.webgoat webgoat-container",
+                            "qualifier": "",
+                            "version": "7.0"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/goatApp/model/FlagModel.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/model/HintModel.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/model/LessonInfoModel.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/model/MenuData.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/model/MenuModel.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/support/GoatUtils.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/support/goatConstants.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/view/MenuItemView.js",
+                        "./src/main/resources/webgoat/static/js/goatApp/view/UserAndInfoView.js",
+                        "./target/classes/webgoat/static/js/goatApp/model/FlagModel.js",
+                        "./target/classes/webgoat/static/js/goatApp/model/HintModel.js",
+                        "./target/classes/webgoat/static/js/goatApp/model/LessonInfoModel.js",
+                        "./target/classes/webgoat/static/js/goatApp/model/MenuData.js",
+                        "./target/classes/webgoat/static/js/goatApp/model/MenuModel.js",
+                        "./target/classes/webgoat/static/js/goatApp/support/GoatUtils.js",
+                        "./target/classes/webgoat/static/js/goatApp/support/goatConstants.js",
+                        "./target/classes/webgoat/static/js/goatApp/view/MenuItemView.js",
+                        "./target/classes/webgoat/static/js/goatApp/view/UserAndInfoView.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "License containing Copyleft terms detected",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "License Threat Group is 'Copyleft'",
+                                    "reason": "Found licenses in the 'Copyleft' license threat group ('GPL-2.0')"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "0240de49b77d4cdd8709a81419537d6f"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "00d0c3ce2311c9e36e73",
+                    "displayName": "com.google.guava : guava : 30.1-jre",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "guava",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.google.guava",
+                            "version": "30.1-jre"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.google.guava\\guava@30.1-jre?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2023-2976 with severity >= 7 (severity = 7.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2023-2976 with severity < 9 (severity = 7.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "8f0604ef4105459ea5692933010212b2"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "224ae9b45e138034980a",
+                    "displayName": "org.springframework : spring-web : 5.3.16",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "spring-web",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.springframework",
+                            "version": "5.3.16"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.springframework\\spring-web@5.3.16?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2024-22243 with severity >= 7 (severity = 8.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2024-22243 with severity < 9 (severity = 8.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "ccc1a5e57e6f4d92b9a8364e621b3122"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "224ae9b45e138034980a",
+                    "displayName": "org.springframework : spring-web : 5.3.16",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "spring-web",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.springframework",
+                            "version": "5.3.16"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.springframework\\spring-web@5.3.16?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2024-22262 with severity >= 7 (severity = 8.1)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2024-22262 with severity < 9 (severity = 8.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "e1c4b6163065429b9905f728e23c528c"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "37da25aeb3ac361a1964",
+                    "displayName": "jquery 2.1.4",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "jquery",
+                            "qualifier": "",
+                            "version": "2.1.4"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/jquery-2.1.4.min.js",
+                        "./target/classes/webgoat/static/js/libs/jquery-2.1.4.min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability sonatype-2016-0133 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability sonatype-2016-0133 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "099a0dcbcb614a889237a6789661128a"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "4685155beaabc2fd6718",
+                    "displayName": "org.bitbucket.b_c : jose4j : 0.7.6",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jose4j",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.bitbucket.b_c",
+                            "version": "0.7.6"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.bitbucket.b_c\\jose4j@0.7.6?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2023-31582 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2023-31582 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "c663a3e648d544969a37fc35513fbf18"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "4685155beaabc2fd6718",
+                    "displayName": "org.bitbucket.b_c : jose4j : 0.7.6",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "jose4j",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.bitbucket.b_c",
+                            "version": "0.7.6"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.bitbucket.b_c\\jose4j@0.7.6?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2023-51775 with severity >= 7 (severity = 8.6)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2023-51775 with severity < 9 (severity = 8.6)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "547e1375268447d8a87c4388297786e5"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2016-3674 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2016-3674 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "036c829310c041de8f6417631e19b981"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2017-7957 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2017-7957 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "29c00937944143ca890fa949e25ac986"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2020-26217 with severity >= 7 (severity = 8.8)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2020-26217 with severity < 9 (severity = 8.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "b3a23fe9e65b4def930df11488229bc8"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2020-26258 with severity >= 7 (severity = 7.7)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2020-26258 with severity < 9 (severity = 7.7)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "17e63470d71a416a97bdeb79c93c561a"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-21341 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-21341 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "290f660176e7452bb137e5d08243faf9"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-21343 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-21343 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "d8bd35437bc5460fa86d0d45ac717abe"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-21348 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-21348 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "52b53bb609a24e3594f80203a7af80f6"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-21349 with severity >= 7 (severity = 8.6)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-21349 with severity < 9 (severity = 8.6)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "37fa095af5e6431aaa4a84c13b1eb56d"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-43859 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-43859 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "b74b2feb6a4e4449af7504fa27675b16"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2022-40151 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2022-40151 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "5c4dde0d2f69446ca070fdf3f6c02ff9"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2022-41966 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2022-41966 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9e7b2149cf814427959289ec3c059f42"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "6e27fcb901943b36046d",
+                    "displayName": "underscore 1.10.2",
+                    "componentIdentifier": {
+                        "format": "a-name",
+                        "coordinates": {
+                            "name": "underscore",
+                            "qualifier": "",
+                            "version": "1.10.2"
+                        }
+                    },
+                    "pathNames": [
+                        "./src/main/resources/webgoat/static/js/libs/underscore-min.js",
+                        "./target/classes/webgoat/static/js/libs/underscore-min.js"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2021-23358 with severity >= 7 (severity = 7.2)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2021-23358 with severity < 9 (severity = 7.2)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "1e91b990af774c32b241a9e745e2d65b"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "74edb6867d58e6f2f5cb",
+                    "displayName": "com.github.tomakehurst : wiremock : 2.27.2",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "wiremock",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.github.tomakehurst",
+                            "version": "2.27.2"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.github.tomakehurst\\wiremock@2.27.2?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability sonatype-2023-3603 with severity >= 7 (severity = 7.5)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability sonatype-2023-3603 with severity < 9 (severity = 7.5)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "5656d988409e44ada2fb2f1a964d3a55"
+        },
+        {
+            "policyId": "6fd7a79bb182476d95b299697a7ee10e",
+            "policyName": "Security-High",
+            "threatLevel": 9,
+            "componentFacts": [
+                {
+                    "hash": "7b9c451b5c37c9038881",
+                    "displayName": "org.asciidoctor : asciidoctorj : 2.5.3",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "asciidoctorj",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.asciidoctor",
+                            "version": "2.5.3"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.asciidoctor\\asciidoctorj@2.5.3?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "High risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 7",
+                                    "reason": "Found security vulnerability CVE-2015-3649 with severity >= 7 (severity = 7.8)"
+                                },
+                                {
+                                    "summary": "Security Vulnerability Severity < 9",
+                                    "reason": "Found security vulnerability CVE-2015-3649 with severity < 9 (severity = 7.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "de265ff8ca27424da59f68cf40d4cc93"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "224ae9b45e138034980a",
+                    "displayName": "org.springframework : spring-web : 5.3.16",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "spring-web",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.springframework",
+                            "version": "5.3.16"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.springframework\\spring-web@5.3.16?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2016-1000027 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "9f552cc7cbd841b484f8c146afe69246"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2013-7285 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "1343c4156d6e44e3ad2992a2f1c1db0a"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21342 with severity >= 9 (severity = 9.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "81e6376fb7154cf38b0caef1b4ae862f"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21344 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "48469b3d4248425ba7832938adab6764"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21345 with severity >= 9 (severity = 9.9)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "3bed7167abde44d6b9df15250c6412be"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21346 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "d82b21ed20b148fcbec9bc9cd2a9e5a9"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21347 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "779d27685789467eb7d9c9ad41e980e7"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21350 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "d18d01e3ee174f0dad6dfc2aa83b2483"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "61c0a127b237182fdf2c",
+                    "displayName": "com.thoughtworks.xstream : xstream : 1.4.5",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "xstream",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "com.thoughtworks.xstream",
+                            "version": "1.4.5"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\com.thoughtworks.xstream\\xstream@1.4.5?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-21351 with severity >= 9 (severity = 9.1)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "2763419b370048609e4e44f6ab3f0570"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "ba55c13d7ac2fd44df9c",
+                    "displayName": "org.apache.logging.log4j : log4j-core : 2.15.0",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "log4j-core",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.logging.log4j",
+                            "version": "2.15.0"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.logging.log4j\\log4j-core@2.15.0?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2021-45046 with severity >= 9 (severity = 9.0)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "6a3c4c934d324cf596fe11c77077fdd6"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "ba55c13d7ac2fd44df9c",
+                    "displayName": "org.apache.logging.log4j : log4j-core : 2.15.0",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "log4j-core",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.logging.log4j",
+                            "version": "2.15.0"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.logging.log4j\\log4j-core@2.15.0?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability sonatype-2021-4560 with severity >= 9 (severity = 9.0)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "a1fcd1f0089d4cec83ecb6123b42543f"
+        },
+        {
+            "policyId": "a4f59dca36b74801a411296221daeb0d",
+            "policyName": "Security-Critical",
+            "threatLevel": 10,
+            "componentFacts": [
+                {
+                    "hash": "ba6ac8c2807490944a0a",
+                    "displayName": "org.apache.commons : commons-text : 1.9",
+                    "componentIdentifier": {
+                        "format": "maven",
+                        "coordinates": {
+                            "artifactId": "commons-text",
+                            "classifier": "",
+                            "extension": "jar",
+                            "groupId": "org.apache.commons",
+                            "version": "1.9"
+                        }
+                    },
+                    "pathNames": [
+                        "dependency:/./pom.xml/pkg:maven\\org.apache.commons\\commons-text@1.9?type=jar"
+                    ],
+                    "constraintFacts": [
+                        {
+                            "constraintName": "Critical risk CVSS score",
+                            "satisfiedConditions": [
+                                {
+                                    "summary": "Security Vulnerability Severity >= 9",
+                                    "reason": "Found security vulnerability CVE-2022-42889 with severity >= 9 (severity = 9.8)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "policyViolationId": "b65664061c3046daae85496fa09aea0d"
+        }
+    ]
+}

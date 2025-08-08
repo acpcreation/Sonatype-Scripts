@@ -1,0 +1,22 @@
+{
+        "license": "GPL-2.0-only",
+        "summary": "Basic TCP/IP networking support",
+        "homepage": "http://packages.debian.org/netbase",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "http://ftp.debian.org/debian/pool/main/n/netbase/netbase_6.3.tar.xz"
+        ],
+        "cve_product": "netbase",
+        "cve_version": "6.3",
+        "sources": {
+                "patches": {},
+                "http": [
+                        "http://ftp.debian.org/debian/pool/main/n/netbase/netbase_6.3.tar.xz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/netbase/netbase_6.3.bb"
+}

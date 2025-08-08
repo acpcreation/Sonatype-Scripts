@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79" version="1">
+  <metadata>
+    <component type="application" bom-ref="acme-app">
+      <name>Acme Application</name>
+      <version>9.1.1</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="library">
+      <name>jackson-databind</name>
+      <version>2.8.0</version>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.8.0?type=jar</purl>
+    </component>
+    <component type="library">
+      <name>python3</name>
+      <version>3.10.4</version>
+      <purl>pkg:pypi/python3@3.10.4?extension=tar.gz</purl>
+    </component>
+
+  </components>
+  
+</bom>

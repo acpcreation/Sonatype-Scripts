@@ -1,0 +1,362 @@
+{
+    "version": "2.5",
+    "srId": "41860",
+    "svsId": 13400,
+    "questionnaire": {
+        "vulnerability": "",
+        "attacker": {
+            "remote": false,
+            "authenticated": false
+        },
+        "exploit": "",
+        "fix": "",
+        "impact": ""
+    },
+    "global": {
+        "id": {
+            "type": "cve",
+            "year": "2019",
+            "id": "CVE-2019-12416",
+            "cwe": "79"
+        },
+        "cvss": {
+            "score": 6.1,
+            "string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "description": "Apache DeltaSpike - Cross-Site Scripting (XSS)",
+        "explanation": "The `deltaspike-jsf-module-impl` package is vulnerable to Cross-site Scripting. The `sanitiseWindowId()` method in the `AbstractClientWindowStrategy` class and the `sendWindowHandlerHtml()` method in the `ClientSideWindowStrategy` class fail to properly sanitize  the `dswid` parameter in the url of an instance using the `ClientSideWindowStrategy` feature. A remote attacker may craft a link to execute arbitrary javascript on a remote DeltaSpike instance.",
+        "detection": "The application is vulnerable by using this component.",
+        "recommendation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+        "researchState": "DONE",
+        "category": [
+            "DATA",
+            "FUNCTIONAL"
+        ],
+        "additionalResources": [
+            {
+                "type": "project",
+                "value": "https://lists.apache.org/thread.html/r8f327712b2b07f867fde1e77cbafcf8cc6a3facaa693ffdd2c3285e3%40%3Cdev.deltaspike.apache.org%3E"
+            },
+            {
+                "type": "project",
+                "value": "https://issues.apache.org/jira/browse/DELTASPIKE-1389"
+            },
+            {
+                "type": "project",
+                "value": "https://issues.apache.org/jira/browse/DELTASPIKE-1401"
+            }
+        ],
+        "cveDescription": "we got reports for 2 injection attacks against the DeltaSpike windowhandler.js. This is only active if a developer selected the ClientSideWindowStrategy which is not the default.\n\nResearcher Notes:\n-> There are two different JIRA issues with a similar issue and these two issues got fixed in different files and different versions. As per the official Apache mail thread, both these issues have been associated with this CVE. Hence we have implicated them under a single component.\n-> For the file \"AbstractClientWindowStrategy.java\", there is an incomplete fix in version 1.8.1, for which a CVE-2017-17837 has been assigned. This has already been covered in SR-13980. Hence we have marked the version range for this particular file accordingly and linked the tickets."
+    },
+    "packages": [
+        {
+            "format": "maven",
+            "name": "deltaspike-jsf-module-impl",
+            "namespace": "org.apache.deltaspike.modules",
+            "explanation": "",
+            "detection": "",
+            "recommendation": "",
+            "commits": [
+                {
+                    "type": "fix",
+                    "url": "https://github.com/apache/deltaspike.git",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1584980619344,
+                            "commitHash": "diff-fb7df4f2006dba61bb28d781dc516974R108"
+                        }
+                    ],
+                    "comment": "In this commit, they have used the `removeSpecialChars()` method from `StringUtils.java` to properly sanitize the `windowId`.",
+                    "commit": "beae6e12f64e1a0066c3add17a4bfcca2ee0fb2c"
+                },
+                {
+                    "type": "introduction",
+                    "url": "https://github.com/apache/deltaspike/commit/72e607f3be66c30c72b32c24b44e9deaa8e54608",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1584980619344,
+                            "commitHash": "diff-fb7df4f2006dba61bb28d781dc516974R106"
+                        }
+                    ],
+                    "comment": "We have chosen this as the introduction commit, as this happens to the fix for CVE-2017-17837 which is covered in SR-13980."
+                },
+                {
+                    "type": "fix",
+                    "url": "https://github.com/apache/deltaspike.git",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1585051770451,
+                            "commitHash": "diff-1abc021d86d5fe289d69219e31d279ffR121"
+                        }
+                    ],
+                    "comment": "In this commit, they have implemented a proper encoding mechanism for the `windowId` and `externalContext` parameters.",
+                    "commit": "5383f44b117a31d9fc9fcd3c156e1e801e24aedd"
+                },
+                {
+                    "type": "relocation",
+                    "url": "https://github.com/apache/deltaspike/commit/ff4c502f23ae36143923e00cea7c6e57da8a97f5",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1585052003211,
+                            "commitHash": "diff-4bed175bada50079497674b097e7ca65L296",
+                            "relocation": "from"
+                        },
+                        {
+                            "key": 1585051770451,
+                            "commitHash": "diff-1abc021d86d5fe289d69219e31d279ffR119",
+                            "relocation": "to"
+                        }
+                    ],
+                    "comment": "Relocation from  \"deltaspike/modules/jsf/impl/src/main/java/org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.java\" to \"deltaspike/modules/jsf/impl/src/main/java/org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.java\" happened in version 1.4.2."
+                },
+                {
+                    "type": "extraInfo",
+                    "url": "https://github.com/apache/deltaspike/commit/45770596d64be289e202339bbc02ebb22aed3758",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1585052003211,
+                            "commitHash": "diff-4bed175bada50079497674b097e7ca65R166"
+                        }
+                    ],
+                    "comment": "This is the point of the introduction of the exact vulnerable piece of code. But even before this commit, the windowID is being fetched from the `facesContext` argument which contains all of the per-request state information related to the processing of a single request.\nHence we trace further back."
+                },
+                {
+                    "type": "introduction",
+                    "url": "https://github.com/apache/deltaspike/commit/30661b0551940cf7e40b3db2dd3263b3d8b23c2a",
+                    "coordinateAssociations": [
+                        {
+                            "key": 1585052003211,
+                            "commitHash": "diff-4bed175bada50079497674b097e7ca65R69"
+                        }
+                    ],
+                    "comment": "This is the point where the windowID is being fetched and there is no form of sanitization in place."
+                }
+            ],
+            "coordinates": [
+                {
+                    "key": 1584980619344,
+                    "svsId": 93680,
+                    "versionRange": "[1.8.1 , 1.9.2)",
+                    "vulnFilePath": "org/apache/deltaspike/jsf/impl/scope/window/strategy/AbstractClientWindowStrategy.class",
+                    "methodSignatures": [
+                        {
+                            "name": "protected String sanitiseWindowId(String windowId)",
+                            "vulnerableParameters": [
+                                "1"
+                            ],
+                            "byteCode": "org/apache/deltaspike/jsf/impl/scope/window/strategy/AbstractClientWindowStrategy.sanitiseWindowId(Ljava/lang/String;)Ljava/lang/String;"
+                        }
+                    ],
+                    "extraInfo": "* As per the fix commit, the vulnerability got fixed in version 1.9.2 of both GitHub and Maven downloads. Hence marked the upper bound.\n\n* As per the introduction commit, it happens to be the fix for CVE-2017-17837 which is covered in SR-13980. Hence marked the lower bound.",
+                    "grep": [
+                        {
+                            "type": "Fix",
+                            "command": "grep -r \"return StringUtils.removeSpecialChars(windowId);\" | sort"
+                        },
+                        {
+                            "type": "Vulnerable",
+                            "command": "grep -r \"return windowId.replace(\" | sort"
+                        }
+                    ],
+                    "path": "org/apache/deltaspike/jsf/impl/scope/window/strategy/AbstractClientWindowStrategy.class"
+                },
+                {
+                    "key": 1585051770451,
+                    "svsId": 94179,
+                    "versionRange": "[1.4.2 , 1.9.3)",
+                    "vulnFilePath": "org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.class",
+                    "methodSignatures": [
+                        {
+                            "name": "protected void sendWindowHandlerHtml(ExternalContext externalContext, String windowId)",
+                            "vulnerableParameters": [
+                                "2"
+                            ],
+                            "byteCode": "org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.sendWindowHandlerHtml(Ljavax/faces/context/ExternalContext;Ljava/lang/String;)V"
+                        }
+                    ],
+                    "extraInfo": "* As per the fix commit, the vulnerability got fixed in version 1.9.3 of both GitHub and Maven downloads. Hence marked the upper bound.\n\n* As per the relocation commit, \"deltaspike/modules/jsf/impl/src/main/java/org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.java\" to \"deltaspike/modules/jsf/impl/src/main/java/org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.java\" happened in version 1.4.2 of both GitHub and Maven downloads. Hence marked the lower bound.",
+                    "grep": [
+                        {
+                            "type": "Fix",
+                            "command": "grep -r \"org.owasp.encoder.Encode.forJavaScriptBlock(windowId));\" | sort"
+                        },
+                        {
+                            "type": "Vulnerable",
+                            "command": "grep -r \"windowHandlerHtml.replace(WINDOW_ID_REPLACE_PATTERN,\" | sort"
+                        }
+                    ],
+                    "path": "org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.class"
+                },
+                {
+                    "key": 1585052003211,
+                    "svsId": 94180,
+                    "versionRange": "( , 1.4.2)",
+                    "vulnFilePath": "org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.class",
+                    "methodSignatures": [
+                        {
+                            "name": "private void sendWindowHandlerHtml(ExternalContext externalContext, String windowId)",
+                            "vulnerableParameters": [
+                                "2"
+                            ],
+                            "byteCode": "org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.sendWindowHandlerHtml(Ljavax/faces/context/ExternalContext;Ljava/lang/String;)V"
+                        }
+                    ],
+                    "extraInfo": "* As per the relocation commit, the vulnerable file got introduced in version 0.4 of both GitHub and downloads. There are lower versions available in GitHub. Since 0.4 is the initial version of Maven downloads, we left the lower bound open.",
+                    "grep": [
+                        {
+                            "type": "Vulnerable",
+                            "command": "grep -r \"windowHandlerHtml.replace(WINDOW_ID_REPLACE_PATTERN,\" | sort"
+                        }
+                    ],
+                    "path": "org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.class"
+                }
+            ],
+            "subComps": [],
+            "extraInfo": "* Marked the identifier from the below pom references.\nReferences: https://github.com/apache/deltaspike/blob/beae6e12f64e1a0066c3add17a4bfcca2ee0fb2c/deltaspike/modules/jsf/impl/pom.xml#L30\nhttps://github.com/apache/deltaspike/blob/5383f44b117a31d9fc9fcd3c156e1e801e24aedd/deltaspike/modules/jsf/impl/pom.xml#L30\n\n** The relevant identifier was found in Maven and RPM ecosystems. Hence implicated them accordingly.\n\n* Releases in Maven repo:\nFirst version: 0.4\nLatest version: 1.9.3\n\n* Commands used generate BCS:\n--> java -jar BytecodeGenerator.jar -f /root/Sonatype/maven/org.apache.deltaspike.modules_deltaspike-jsf-module-impl/1.9.1/deltaspike-jsf-module-impl-1.9.1/org/apache/deltaspike/jsf/impl/scope/window/strategy/AbstractClientWindowStrategy.class | grep \"sanitiseWindowId(\"\n--> java -jar BytecodeGenerator.jar -f /root/Sonatype/maven/org.apache.deltaspike.modules_deltaspike-jsf-module-impl/1.9.2/deltaspike-jsf-module-impl-1.9.2/org/apache/deltaspike/jsf/impl/scope/window/strategy/ClientSideWindowStrategy.class | grep \"sendWindowHandlerHtml(\"\n--> java -jar BytecodeGenerator.jar -f /root/Sonatype/maven/org.apache.deltaspike.modules_deltaspike-jsf-module-impl//1.4.1/deltaspike-jsf-module-impl-1.4.1/org/apache/deltaspike/jsf/impl/scope/window/DefaultClientWindow.class | grep \"sendWindowHandlerHtml(\"",
+            "extension": "jar"
+        },
+        {
+            "format": "rpm",
+            "name": "deltaspike",
+            "namespace": "",
+            "explanation": "",
+            "detection": "",
+            "recommendation": "",
+            "commits": [
+                {
+                    "type": "fix",
+                    "url": "https://github.com/apache/deltaspike.git",
+                    "coordinateAssociations": [],
+                    "comment": "",
+                    "commit": "beae6e12f64e1a0066c3add17a4bfcca2ee0fb2c#diff-fb7df4f2006dba61bb28d781dc516974R108"
+                },
+                {
+                    "type": "introduction",
+                    "url": "https://github.com/apache/deltaspike/commit/72e607f3be66c30c72b32c24b44e9deaa8e54608#diff-fb7df4f2006dba61bb28d781dc516974R106",
+                    "coordinateAssociations": [],
+                    "comment": ""
+                },
+                {
+                    "type": "fix",
+                    "url": "https://github.com/apache/deltaspike.git",
+                    "coordinateAssociations": [],
+                    "comment": "",
+                    "commit": "5383f44b117a31d9fc9fcd3c156e1e801e24aedd#diff-1abc021d86d5fe289d69219e31d279ffR121"
+                },
+                {
+                    "type": "relocation",
+                    "url": "https://github.com/apache/deltaspike/commit/ff4c502f23ae36143923e00cea7c6e57da8a97f5#diff-4bed175bada50079497674b097e7ca65L296",
+                    "coordinateAssociations": [],
+                    "comment": ""
+                },
+                {
+                    "type": "introduction",
+                    "url": "https://github.com/apache/deltaspike/commit/30661b0551940cf7e40b3db2dd3263b3d8b23c2a#diff-4bed175bada50079497674b097e7ca65R69",
+                    "coordinateAssociations": [],
+                    "comment": ""
+                }
+            ],
+            "coordinates": [
+                {
+                    "key": 1585052241614,
+                    "svsId": 94181,
+                    "versionRange": "( , )",
+                    "vulnFilePath": "",
+                    "methodSignatures": [],
+                    "extraInfo": "",
+                    "grep": [
+                        {
+                            "type": "Fix",
+                            "command": "grep -r \"return StringUtils.removeSpecialChars(windowId);\" | sort"
+                        },
+                        {
+                            "type": "Fix",
+                            "command": "grep -r \"org.owasp.encoder.Encode.forJavaScriptBlock(windowId));\" | sort"
+                        },
+                        {
+                            "type": "Vulnerable",
+                            "command": "grep -r \"return windowId.replace(\" | sort"
+                        },
+                        {
+                            "type": "Vulnerable",
+                            "command": "grep -r \"windowHandlerHtml.replace(WINDOW_ID_REPLACE_PATTERN,\" | sort"
+                        }
+                    ],
+                    "path": ""
+                }
+            ],
+            "subComps": [],
+            "extraInfo": "** This is made completely based on downloads.\n\n** As per RPM downloads, all available versions are vulnerable. Hence left the upper and lower bounds open.\n\n* Releases available in Fedora repo:\nFirst version: 1.2.1-2.fc22\nLatest version: 1.2.1-11.fc30\n",
+            "subComponentGroups": [
+                {
+                    "format": "rpm",
+                    "versionRange": "(,)",
+                    "releaseRange": "",
+                    "subComp": [
+                        {
+                            "name": "deltaspike",
+                            "id": 94182
+                        },
+                        {
+                            "name": "deltaspike-bean-validation-module",
+                            "id": 94183
+                        },
+                        {
+                            "name": "deltaspike-cdictrl",
+                            "id": 94184
+                        },
+                        {
+                            "name": "deltaspike-core",
+                            "id": 94185
+                        },
+                        {
+                            "name": "deltaspike-data-module",
+                            "id": 94186
+                        },
+                        {
+                            "name": "deltaspike-javadoc",
+                            "id": 94187
+                        },
+                        {
+                            "name": "deltaspike-jpa-module",
+                            "id": 94188
+                        },
+                        {
+                            "name": "deltaspike-jsf-module",
+                            "id": 94189
+                        },
+                        {
+                            "name": "deltaspike-modules",
+                            "id": 94190
+                        },
+                        {
+                            "name": "deltaspike-partial-bean-module",
+                            "id": 94191
+                        },
+                        {
+                            "name": "deltaspike-scheduler-module",
+                            "id": 94192
+                        },
+                        {
+                            "name": "deltaspike-security-module",
+                            "id": 94193
+                        },
+                        {
+                            "name": "deltaspike-servlet-module",
+                            "id": 94194
+                        },
+                        {
+                            "name": "deltaspike-test-control-module",
+                            "id": 94195
+                        },
+                        {
+                            "name": "deltaspike-test-utils",
+                            "id": 94196
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "component": []
+}

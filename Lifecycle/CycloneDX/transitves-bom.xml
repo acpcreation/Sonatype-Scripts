@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" version="1">
+  <metadata>    
+    <component type="application" bom-ref="acme-app">
+      <name>Acme Application</name>
+      <version>9.1.1</version>
+      <purl>pkg:maven/org.acme/acme-app@9.1.1?type=jar</purl>
+    </component>
+  </metadata>
+
+  <!-- Components -->
+  <components>
+    <component type="framework" bom-ref="pkg:maven/org.acme/web-framework@1.0.0?type=jar">
+      <group>org.acme</group>
+      <name>web-framework</name>
+      <version>1.0.0</version>
+      <purl>pkg:maven/org.acme/web-framework@1.0.0?type=jar</purl>
+    </component>
+
+    <component type="framework" bom-ref="cf79d3c8-46a0-4d99-973a-9fc587886596">
+      <name>curl</name>
+      <version>7.38.0</version>
+      <purl>pkg:generic/curl@7.38.0</purl>
+    </component>
+
+    <component type="library" bom-ref="pkg:maven/org.acme/persistence@3.1.0?type=jar">
+      <group>org.acme</group>
+      <name>persistence</name>
+      <version>3.1.0</version>
+      <purl>pkg:maven/org.acme/persistence@3.1.0?type=jar</purl>
+    </component>
+
+    <component type="library" bom-ref="9d957423-bd63-45e2-979a-d4f3de3cacbd">
+      <!-- <group>org.acme</group> -->
+      <!-- <name>common-util</name>
+      <version>3.0.0</version> -->
+      <name>curl</name>
+      <version>7.79.1</version> 
+      <purl>pkg:generic/curl@7.79.1</purl>
+    </component>
+
+    <component type="library" bom-ref="pkg:npm/dot-prop@4.2.0">
+      <name>dot-prop</name>
+      <version>4.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:npm/dot-prop@4.2.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8dacfb545e80471caa07</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+  </components>
+  <dependencies>
+
+    <!-- Top level in the graph -->
+    <dependency ref="acme-app">
+      <dependency ref="pkg:maven/org.acme/web-framework@1.0.0?type=jar"/>
+      <dependency ref="pkg:maven/org.acme/persistence@3.1.0?type=jar"/>
+      <dependency ref="pkg:npm/dot-prop@4.2.0"/>
+    </dependency> 
+
+    <!-- Sub dependencies -->
+    <dependency ref="pkg:maven/org.acme/web-framework@1.0.0?type=jar">
+      <dependency ref="pkg:generic/curl@7.79.1"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.acme/persistence@3.1.0?type=jar">
+      <dependency ref="pkg:generic/curl@7.79.1"/>
+    </dependency>
+    <dependency ref="pkg:generic/curl@7.79.1">
+      <dependency ref="pkg:npm/dot-prop@4.2.0"/>
+    </dependency>
+
+    
+  </dependencies>
+</bom>

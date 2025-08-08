@@ -1,0 +1,257 @@
+{
+    "layers": {
+        "core": {
+            "head": "00c04394cbc5ecaced7cc1bc8bc8787e621f987d",
+            "remote": "origin",
+            "url": "git://git.yoctoproject.org/poky",
+            "branch": "my-kirkstone",
+            "upstream": "kirkstone",
+            "path": "../meta"
+        },
+        "yoctobsp": {
+            "head": "00c04394cbc5ecaced7cc1bc8bc8787e621f987d",
+            "remote": "origin",
+            "url": "git://git.yoctoproject.org/poky",
+            "branch": "my-kirkstone",
+            "upstream": "kirkstone",
+            "path": "../meta-yocto-bsp"
+        },
+        "yocto": {
+            "head": "00c04394cbc5ecaced7cc1bc8bc8787e621f987d",
+            "remote": "origin",
+            "url": "git://git.yoctoproject.org/poky",
+            "branch": "my-kirkstone",
+            "upstream": "kirkstone",
+            "path": "../meta-poky"
+        },
+        "timesys": {
+            "head": "6b231e9cc5cd674e27698164aa846cb68ff5d67f",
+            "remote": "origin",
+            "url": "https://github.com/TimesysGit/meta-timesys.git",
+            "branch": "master",
+            "upstream": "master",
+            "path": "../../meta-timesys"
+        }
+    },
+    "image": "core-image-minimal",
+    "distro_version": "4.0.1",
+    "machine": "qemux86-64",
+    "manifest_name": "core-image-minimal",
+    "manifest_version": "1.16",
+    "date": "2022-06-08T18:01:25.730932",
+    "packages": {
+        "busybox": {
+            "cpe_id": [
+                "cpe:2.3:a:*:busybox:1.35.0:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "busybox",
+            "license": "GPL-2.0-only & bzip2-1.0.4",
+            "download_location": "https://busybox.net/downloads/busybox-1.35.0.tar.bz2;name=tarball",
+            "recipe": "recipes-core/busybox/busybox_1.35.0.bb",
+            "summary": "Tiny versions of many common UNIX utilities in a single small executable",
+            "version": "1.35.0",
+            "cve_version": "1.35.0",
+            "patched_cves": {
+                "CVE-2022-28391": [
+                    "0001-libbb-sockaddr2str-ensure-only-printable-characters-.patch",
+                    "0002-nslookup-sanitize-all-printed-strings-with-printable.patch"
+                ]
+            },
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "https://www.busybox.net",
+            "patches": [
+                "0001-depmod-Ignore-.debug-directories.patch",
+                "0001-du-l-works-fix-to-use-145-instead-of-144.patch",
+                "0001-libbb-sockaddr2str-ensure-only-printable-characters-.patch",
+                "0001-sysctl-ignore-EIO-of-stable_secret-below-proc-sys-ne.patch",
+                "0001-testsuite-check-uudecode-before-using-it.patch",
+                "0001-testsuite-use-www.example.org-for-wget-test-cases.patch",
+                "0002-nslookup-sanitize-all-printed-strings-with-printable.patch",
+                "busybox-cross-menuconfig.patch",
+                "busybox-udhcpc-no_deconfig.patch",
+                "fail_on_no_media.patch",
+                "makefile-libbb-race.patch",
+                "recognize_connmand.patch"
+            ],
+            "cve_product": "busybox"
+        },
+        "eudev": {
+            "cpe_id": [
+                "cpe:2.3:a:*:eudev:3.2.10:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "eudev",
+            "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+            "download_location": "https://dev.gentoo.org/~blueness/eudev/eudev-3.2.10.tar.gz",
+            "recipe": "recipes-core/udev/eudev_3.2.10.bb",
+            "summary": "eudev is a fork of systemd's udev",
+            "version": "3.2.10",
+            "cve_version": "3.2.10",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "https://wiki.gentoo.org/wiki/Eudev",
+            "patches": [
+                "0014-Revert-rules-remove-firmware-loading-rules.patch",
+                "Revert-udev-remove-userspace-firmware-loading-suppor.patch"
+            ],
+            "cve_product": "eudev"
+        },
+        "musl": {
+            "cpe_id": [
+                "cpe:2.3:a:*:musl:1.2.3:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "srcrev": "7a43f6fea9081bdd53d8a11cef9e9fab0348c53d",
+            "name": "musl",
+            "license": "MIT",
+            "download_location": "git://git.musl-libc.org/musl;branch=master",
+            "recipe": "recipes-core/musl/musl_git.bb",
+            "summary": "An implementation of the standard library for Linux-based systems",
+            "version": "1.2.3+gitAUTOINC+7a43f6fea9",
+            "cve_version": "1.2.3",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "http://www.musl-libc.org/",
+            "patches": [
+                "0001-Make-dynamic-linker-a-relative-symlink-to-libc.patch",
+                "0002-ldso-Use-syslibdir-and-libdir-as-default-pathes-to-l.patch"
+            ],
+            "cve_product": "musl"
+        },
+        "busybox-inittab": {
+            "cpe_id": [
+                "cpe:2.3:a:*:busybox-inittab:1.35.0:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "busybox-inittab",
+            "license": "GPL-2.0-only",
+            "download_location": "UNKNOWN",
+            "recipe": "recipes-core/busybox/busybox-inittab_1.35.0.bb",
+            "summary": "inittab configuration for BusyBox",
+            "version": "1.35.0",
+            "cve_version": "1.35.0",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "",
+            "cve_product": "busybox-inittab"
+        },
+        "netbase": {
+            "cpe_id": [
+                "cpe:2.3:a:*:netbase:6.3:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "netbase",
+            "license": "GPL-2.0-only",
+            "download_location": "http://ftp.debian.org/debian/pool/main/n/netbase/netbase_6.3.tar.xz",
+            "recipe": "recipes-core/netbase/netbase_6.3.bb",
+            "summary": "Basic TCP/IP networking support",
+            "version": "6.3",
+            "cve_version": "6.3",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "http://packages.debian.org/netbase",
+            "cve_product": "netbase"
+        },
+        "base-files": {
+            "cpe_id": [
+                "cpe:2.3:a:*:base-files:3.0.14:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "base-files",
+            "license": "GPL-2.0-only",
+            "download_location": "UNKNOWN",
+            "recipe": "recipes-core/base-files/base-files_3.0.14.bb",
+            "summary": "Miscellaneous files for the base system",
+            "version": "3.0.14",
+            "cve_version": "3.0.14",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "",
+            "cve_product": "base-files"
+        },
+        "linux-yocto-tiny": {
+            "cpe_id": [
+                "cpe:2.3:a:*:linux_kernel:5.15.36:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "linux-yocto-tiny",
+            "license": "GPL-2.0-only",
+            "download_location": "git://git.yoctoproject.org/linux-yocto.git;branch=v5.15/standard/tiny/base;name=machine",
+            "recipe": "recipes-kernel/linux/linux-yocto-tiny_5.15.bb",
+            "summary": "Linux kernel",
+            "version": "5.15.36+gitAUTOINC+fcf48627ea_9107fb1e04",
+            "cve_version": "5.15.36",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "https://www.yoctoproject.org/",
+            "cve_product": "linux_kernel"
+        },
+        "opkg-utils": {
+            "cpe_id": [
+                "cpe:2.3:a:*:opkg-utils:0.5.0:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "opkg-utils",
+            "license": "GPL-2.0-or-later",
+            "download_location": "http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils/snapshot/opkg-utils-0.5.0.tar.gz",
+            "recipe": "recipes-devtools/opkg-utils/opkg-utils_0.5.0.bb",
+            "summary": "Additional utilities for the opkg package manager",
+            "version": "0.5.0",
+            "cve_version": "0.5.0",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "http://git.yoctoproject.org/cgit/cgit.cgi/opkg-utils",
+            "patches": [
+                "0001-update-alternatives-correctly-match-priority.patch"
+            ],
+            "cve_product": "opkg-utils"
+        },
+        "base-passwd": {
+            "cpe_id": [
+                "cpe:2.3:a:*:base-passwd:3.5.29:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "base-passwd",
+            "license": "GPL-2.0-only",
+            "download_location": "https://launchpad.net/debian/+archive/primary/+files/base-passwd_3.5.29.tar.gz",
+            "recipe": "recipes-core/base-passwd/base-passwd_3.5.29.bb",
+            "summary": "Base system master password/group files",
+            "version": "3.5.29",
+            "cve_version": "3.5.29",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "https://launchpad.net/base-passwd",
+            "patches": [
+                "add_shutdown.patch",
+                "disable-docs.patch",
+                "disable-shell.patch",
+                "input.patch",
+                "kvm.patch",
+                "nobash.patch",
+                "noshadow.patch"
+            ],
+            "cve_product": "base-passwd"
+        },
+        "packagegroup-core-boot": {
+            "cpe_id": [
+                "cpe:2.3:a:*:packagegroup-core-boot:1.0:*:*:*:*:*:*:*"
+            ],
+            "layer": "core",
+            "name": "packagegroup-core-boot",
+            "license": "MIT",
+            "download_location": "UNKNOWN",
+            "recipe": "recipes-core/packagegroups/packagegroup-core-boot.bb",
+            "summary": "Minimal boot requirements",
+            "version": "1.0",
+            "cve_version": "1.0",
+            "cve_check_whitelist": [],
+            "package_supplier": "Organization: OpenEmbedded ()",
+            "homepage": "",
+            "cve_product": "packagegroup-core-boot"
+        }
+    },
+    "whitelist": [],
+    "distro": "kirkstone"
+}

@@ -1,0 +1,1331 @@
+{
+    "TotalDescriptions": 212,
+    "Descriptions": [
+        {
+            "displayName": "org.springframework : spring-beans : 5.3.8",
+            "cve": "CVE-2022-22965",
+            "description": "A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : mailer : hpi : 1.32.1",
+            "cve": "CVE-2022-20613",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : mailer : hpi : 1.32.1",
+            "cve": "CVE-2022-20614",
+            "description": "A missing permission check in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers with Overall/Read access to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2022-30946",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Script Security Plugin 1158.v7c1b_73a_69a_08 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-specified webserver."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2022-43401",
+            "description": "A sandbox bypass vulnerability involving various casts performed implicitly by the Groovy language runtime in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2022-43403",
+            "description": "A sandbox bypass vulnerability involving casting an array-like value to an array type in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2022-43404",
+            "description": "A sandbox bypass vulnerability involving crafted constructor bodies and calls to sandbox-generated synthetic constructors in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2022-45379",
+            "description": "Jenkins Script Security Plugin 1189.vb_a_b_7c8fd5fde and earlier stores whole-script approvals as the SHA-1 hash of the script, making it vulnerable to collision attacks."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : 1.75",
+            "cve": "CVE-2023-24422",
+            "description": "A sandbox bypass vulnerability involving map constructors in Jenkins Script Security Plugin 1228.vd93135a_2fb_25 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : matrix-project : 1.18",
+            "cve": "CVE-2022-20615",
+            "description": "Jenkins Matrix Project Plugin 1.19 and earlier does not escape HTML metacharacters in node and label names, and label descriptions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : matrix-project : 1.18",
+            "cve": "CVE-2024-23900",
+            "description": "Jenkins Matrix Project Plugin 822.v01b_8c85d16d2 and earlier does not sanitize user-defined axis names of multi-configuration projects, allowing attackers with Item/Configure permission to create or replace any config.xml files on the Jenkins controller file system with content not controllable by the attackers."
+        },
+        {
+            "displayName": "com.thoughtworks.xstream : xstream : 1.4.18",
+            "cve": "CVE-2021-43859",
+            "description": "XStream is an open source java library to serialize objects to XML and back again. Versions prior to 1.4.19 may allow a remote attacker to allocate 100% CPU time on the target system depending on CPU type or parallel execution of such a payload resulting in a denial of service only by manipulating the processed input stream. XStream 1.4.19 monitors and accumulates the time it takes to add elements to collections and throws an exception if a set threshold is exceeded. Users are advised to upgrade as soon as possible. Users unable to upgrade may set the NO_REFERENCE mode to prevent recursion. See GHSA-rmr5-cpv2-vgjf for further details on a workaround if an upgrade is not possible."
+        },
+        {
+            "displayName": "com.thoughtworks.xstream : xstream : 1.4.18",
+            "cve": "CVE-2022-40151",
+            "description": "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+        },
+        {
+            "displayName": "com.thoughtworks.xstream : xstream : 1.4.18",
+            "cve": "CVE-2022-41966",
+            "description": "XStream serializes Java objects to XML and back again. Versions prior to 1.4.20 may allow a remote attacker to terminate the application with a stack overflow error, resulting in a denial of service only via manipulation the processed input stream. The attack uses the hash code implementation for collections and maps to force recursive hash calculation causing a stack overflow. This issue is patched in version 1.4.20 which handles the stack overflow and raises an InputManipulationException instead. A potential workaround for users who only use HashMap or HashSet and whose XML refers these only as default map or set, is to change the default implementation of java.util.Map and java.util per the code example in the referenced advisory. However, this implies that your application does not care about the implementation of the map and all elements are comparable."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : windows-slaves : hpi : 1.0",
+            "cve": "CVE-2022-30950",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library which has a buffer overflow vulnerability that may allow users able to connect to a named pipe to execute commands on the Windows agent machine."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : windows-slaves : hpi : 1.0",
+            "cve": "CVE-2022-30951",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library does not implement access control, potentially allowing users to start processes even if they're not allowed to log in."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : bouncycastle-api : hpi : 2.20",
+            "cve": "CVE-2023-33201",
+            "description": "Bouncy Castle For Java before 1.74 is affected by an LDAP injection vulnerability. The vulnerability only affects applications that use an LDAP CertStore from Bouncy Castle to validate X.509 certificates. During the certificate validation process, Bouncy Castle inserts the certificate's Subject Name into an LDAP search filter without any escaping, which leads to an LDAP injection vulnerability."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : bouncycastle-api : hpi : 2.20",
+            "cve": "CVE-2023-33202",
+            "description": "Bouncy Castle for Java before 1.73 contains a potential Denial of Service (DoS) issue within the Bouncy Castle org.bouncycastle.openssl.PEMParser class. This class parses OpenSSL PEM encoded streams containing X.509 certificates, PKCS8 encoded keys, and PKCS7 objects. Parsing a file that has crafted ASN.1 data through the PEMParser causes an OutOfMemoryError, which can enable a denial of service attack. (For users of the FIPS Java API: BC-FJA 1.0.2.3 and earlier are affected; BC-FJA 1.0.2.4 is fixed.)"
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : bouncycastle-api : hpi : 2.20",
+            "cve": "CVE-2024-29857",
+            "description": "An issue was discovered in ECCurve.java and ECCurve.cs in Bouncy Castle Java (BC Java) before 1.78, BC Java LTS before 2.73.6, BC-FJA before 1.0.2.5, and BC C# .Net before 2.3.1. Importing an EC certificate with crafted F2m parameters can lead to excessive CPU consumption during the evaluation of the curve parameters."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : bouncycastle-api : hpi : 2.20",
+            "cve": "CVE-2024-30171",
+            "description": "An issue was discovered in Bouncy Castle Java TLS API and JSSE Provider before 1.78. Timing-based leakage may occur in RSA based handshakes because of exception processing."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : 1.29",
+            "cve": "CVE-2022-34176",
+            "description": "Jenkins JUnit Plugin 1119.va_a_5e9068da_d7 and earlier does not escape descriptions of test results, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Run/Update permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : 1.29",
+            "cve": "CVE-2022-45380",
+            "description": "Jenkins JUnit Plugin 1159.v0b_396e1e07dd and earlier converts HTTP(S) URLs in test report output to clickable links in an unsafe manner, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : 1.29",
+            "cve": "CVE-2023-25761",
+            "description": "Jenkins JUnit Plugin 1166.va_436e268e972 and earlier does not escape test case class names in JavaScript expressions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control test case class names in the JUnit resources processed by the plugin."
+        },
+        {
+            "displayName": "org.apache.sshd : sshd-core : 1.7.0",
+            "cve": "CVE-2021-30129",
+            "description": "A vulnerability in sshd-core of Apache Mina SSHD allows an attacker to overflow the server causing an OutOfMemory error. This issue affects the SFTP and port forwarding features of Apache Mina SSHD version 2.0.0 and later versions. It was addressed in Apache Mina SSHD 2.7.0"
+        },
+        {
+            "displayName": "org.apache.sshd : sshd-core : 1.7.0",
+            "cve": "CVE-2022-45047",
+            "description": "Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD <= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server."
+        },
+        {
+            "displayName": "org.apache.sshd : sshd-core : 1.7.0",
+            "cve": "CVE-2023-35887",
+            "description": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Software Foundation Apache MINA.\n\nIn SFTP servers implemented using Apache MINA SSHD that use a RootedFileSystem, logged users may be able to discover \"exists/does not exist\" information about items outside the rooted tree via paths including parent navigation (\"..\") beyond the root, or involving symlinks.\n\nThis issue affects Apache MINA: from 1.0 before 2.10. Users are recommended to upgrade to 2.10\n"
+        },
+        {
+            "displayName": "org.apache.sshd : sshd-core : 1.7.0",
+            "cve": "CVE-2024-41909",
+            "description": "Like many other SSH implementations, Apache MINA SSHD suffered from the issue that is more widely known as CVE-2023-48795. An attacker that can intercept traffic between client and server could drop certain packets from the stream, potentially causing client and server to consequently end up with a connection for which \nsome security features have been downgraded or disabled, aka a Terrapin \nattack\n\nThe mitigations to prevent this type of attack were implemented in Apache MINA SSHD 2.12.0, both client and server side. Users are recommended to upgrade to at least this version. Note that both the client and the server implementation must have mitigations applied against this issue, otherwise the connection may still be affected."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2022-30946",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Script Security Plugin 1158.v7c1b_73a_69a_08 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-specified webserver."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2022-43401",
+            "description": "A sandbox bypass vulnerability involving various casts performed implicitly by the Groovy language runtime in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2022-43403",
+            "description": "A sandbox bypass vulnerability involving casting an array-like value to an array type in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2022-43404",
+            "description": "A sandbox bypass vulnerability involving crafted constructor bodies and calls to sandbox-generated synthetic constructors in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2022-45379",
+            "description": "Jenkins Script Security Plugin 1189.vb_a_b_7c8fd5fde and earlier stores whole-script approvals as the SHA-1 hash of the script, making it vulnerable to collision attacks."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : script-security : hpi : 1.75",
+            "cve": "CVE-2023-24422",
+            "description": "A sandbox bypass vulnerability involving map constructors in Jenkins Script Security Plugin 1228.vd93135a_2fb_25 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : structs : 1.20",
+            "cve": "CVE-2024-39458",
+            "description": "When Jenkins Structs Plugin 337.v1b_04ea_4df7c8 and earlier fails to configure a build step, it logs a warning message containing diagnostic information that may contain secrets passed as step parameters, potentially resulting in accidental exposure of secrets through the default system log."
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-crypto : 5.5.1",
+            "cve": "CVE-2020-5408",
+            "description": "Spring Security versions 5.3.x prior to 5.3.2, 5.2.x prior to 5.2.4, 5.1.x prior to 5.1.10, 5.0.x prior to 5.0.16 and 4.2.x prior to 4.2.16 use a fixed null initialization vector with CBC Mode in the implementation of the queryable text encryptor. A malicious user with access to the data that has been encrypted using such an encryptor may be able to derive the unencrypted values using a dictionary attack."
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-crypto : 5.5.1",
+            "cve": "CVE-2022-22976",
+            "description": "Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error. The default settings are not affected by this CVE."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2022-2047",
+            "description": "In Eclipse Jetty versions 9.4.0 thru 9.4.46, and 10.0.0 thru 10.0.9, and 11.0.0 thru 11.0.9 versions, the parsing of the authority segment of an http scheme URI, the Jetty HttpURI class improperly detects an invalid input as a hostname. This can lead to failures in a Proxy scenario."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2022-2048",
+            "description": "In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2023-26048",
+            "description": "Jetty is a java based web server and servlet engine. In affected versions servlets with multipart support (e.g. annotated with `@MultipartConfig`) that call `HttpServletRequest.getParameter()` or `HttpServletRequest.getParts()` may cause `OutOfMemoryError` when the client sends a multipart request with a part that has a name but no filename and very large content. This happens even with the default settings of `fileSizeThreshold=0` which should stream the whole part content to disk. An attacker client may send a large multipart request and cause the server to throw `OutOfMemoryError`. However, the server may be able to recover after the `OutOfMemoryError` and continue its service -- although it may take some time. This issue has been patched in versions 9.4.51, 10.0.14, and 11.0.14. Users are advised to upgrade. Users unable to upgrade may set the multipart parameter `maxRequestSize` which must be set to a non-negative value, so the whole multipart content is limited (although still read into memory)."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2023-26049",
+            "description": "Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `\"` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE=\"b; JSESSIONID=1337; c=d\"` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2023-36478",
+            "description": "Eclipse Jetty provides a web server and servlet container. In versions 11.0.0 through 11.0.15, 10.0.0 through 10.0.15, and 9.0.0 through 9.4.52, an integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to\nexceed their size limit. `MetaDataBuilder.java` determines if a header name or value exceeds the size limit, and throws an exception if the limit is exceeded. However, when length is very large and huffman is true, the multiplication by 4 in line 295\nwill overflow, and length will become negative. `(_size+length)` will now be negative, and the check on line 296 will not be triggered. Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be negative, potentially leading to a very large buffer allocation later on when the user-entered size is multiplied by 2. This means that if a user provides a negative length value (or, more precisely, a length value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a very large positive number when multiplied by 2, then the user can cause a very large buffer to be allocated on the server. Users of HTTP/2 can be impacted by a remote denial of service attack. The issue has been fixed in versions 11.0.16, 10.0.16, and 9.4.53. There are no known workarounds."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2023-40167",
+            "description": "Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario."
+        },
+        {
+            "displayName": "org.jenkins-ci : winstone : 5.21",
+            "cve": "CVE-2024-22201",
+            "description": "Jetty is a Java based web server and servlet engine. An HTTP/2 SSL connection that is established and TCP congested will be leaked when it times out. An attacker can cause many connections to end up in this state, and the server may run out of file descriptors, eventually causing the server to stop accepting new connections from valid clients. The vulnerability is patched in 9.4.54, 10.0.20, 11.0.20, and 12.0.6.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2016-1000027",
+            "description": "Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2018-10237",
+            "description": "Unbounded memory allocation in Google Guava 11.0 through 24.x before 24.1.1 allows remote attackers to conduct denial of service attacks against servers that depend on this library and deserialize attacker-provided data, because the AtomicDoubleArray class (when serialized with Java serialization) and the CompoundOrdering class (when serialized with GWT serialization) perform eager allocation without appropriate checks on what a client has sent and whether the data size is reasonable."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2019-12401",
+            "description": "Solr versions 1.3.0 to 1.4.1, 3.1.0 to 3.6.2 and 4.0.0 to 4.10.4 are vulnerable to an XML resource consumption attack (a.k.a. Lol Bomb) via it\u2019s update handler.?By leveraging XML DOCTYPE and ENTITY type elements, the attacker can create a pattern that will expand when the server parses the XML causing OOMs."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2020-17521",
+            "description": "Apache Groovy provides extension methods to aid with creating temporary directories. Prior to this fix, Groovy's implementation of those extension methods was using a now superseded Java JDK method call that is potentially not secure on some operating systems in some contexts. Users not using the extension methods mentioned in the advisory are not affected, but may wish to read the advisory for further details. Versions Affected: 2.0 to 2.4.20, 2.5.0 to 2.5.13, 3.0.0 to 3.0.6, and 4.0.0-alpha-1. Fixed in versions 2.4.21, 2.5.14, 3.0.7, 4.0.0-alpha-2."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2020-5408",
+            "description": "Spring Security versions 5.3.x prior to 5.3.2, 5.2.x prior to 5.2.4, 5.1.x prior to 5.1.10, 5.0.x prior to 5.0.16 and 4.2.x prior to 4.2.16 use a fixed null initialization vector with CBC Mode in the implementation of the queryable text encryptor. A malicious user with access to the data that has been encrypted using such an encryptor may be able to derive the unencrypted values using a dictionary attack."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21685",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create parent directories in FilePath#mkdirs."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21686",
+            "description": "File path filters in the agent-to-controller security subsystem of Jenkins 2.318 and earlier, LTS 2.303.2 and earlier do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21687",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create symbolic links when unarchiving a symbolic link in FilePath#untar."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21688",
+            "description": "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo)."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21689",
+            "description": "FilePath#unzip and FilePath#untar were not subject to any agent-to-controller access control in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21690",
+            "description": "Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21691",
+            "description": "Creating symbolic links is possible without the 'symlink' agent-to-controller access control permission in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21692",
+            "description": "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21693",
+            "description": "When creating temporary files, agent-to-controller access to create those files is only checked after they've been created in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21694",
+            "description": "FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21695",
+            "description": "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21696",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-21697",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier allows any agent to read and write the contents of any build directory stored in Jenkins with very few restrictions."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-22096",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.10, 5.2.0 - 5.2.17, and older unsupported versions, it is possible for a user to provide malicious input to cause the insertion of additional log entries."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-30129",
+            "description": "A vulnerability in sshd-core of Apache Mina SSHD allows an attacker to overflow the server causing an OutOfMemory error. This issue affects the SFTP and port forwarding features of Apache Mina SSHD version 2.0.0 and later versions. It was addressed in Apache Mina SSHD 2.7.0"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2021-43859",
+            "description": "XStream is an open source java library to serialize objects to XML and back again. Versions prior to 1.4.19 may allow a remote attacker to allocate 100% CPU time on the target system depending on CPU type or parallel execution of such a payload resulting in a denial of service only by manipulating the processed input stream. XStream 1.4.19 monitors and accumulates the time it takes to add elements to collections and throws an exception if a set threshold is exceeded. Users are advised to upgrade as soon as possible. Users unable to upgrade may set the NO_REFERENCE mode to prevent recursion. See GHSA-rmr5-cpv2-vgjf for further details on a workaround if an upgrade is not possible."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-0538",
+            "description": "Jenkins 2.333 and earlier, LTS 2.319.2 and earlier defines custom XStream converters that have not been updated to apply the protections for the vulnerability CVE-2021-43859 and allow unconstrained resource usage."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-2047",
+            "description": "In Eclipse Jetty versions 9.4.0 thru 9.4.46, and 10.0.0 thru 10.0.9, and 11.0.0 thru 11.0.9 versions, the parsing of the authority segment of an http scheme URI, the Jetty HttpURI class improperly detects an invalid input as a hostname. This can lead to failures in a Proxy scenario."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-2048",
+            "description": "In Eclipse Jetty HTTP/2 server implementation, when encountering an invalid HTTP/2 request, the error handling has a bug that can wind up not properly cleaning up the active connections and associated resources. This can lead to a Denial of Service scenario where there are no enough resources left to process good requests."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-20612",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins 2.329 and earlier, LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-20613",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-20614",
+            "description": "A missing permission check in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers with Overall/Read access to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-20615",
+            "description": "Jenkins Matrix Project Plugin 1.19 and earlier does not escape HTML metacharacters in node and label names, and label descriptions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-22950",
+            "description": "n Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial of service condition."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-22965",
+            "description": "A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-22968",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupported versions, the patterns for disallowedFields on a DataBinder are case sensitive which means a field is not effectively protected unless it is listed with both upper and lower case for the first character of the field, including upper and lower case for the first character of all nested fields within the property path."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-22976",
+            "description": "Spring Security versions 5.5.x prior to 5.5.7, 5.6.x prior to 5.6.4, and earlier unsupported versions contain an integer overflow vulnerability. When using the BCrypt class with the maximum work factor (31), the encoder does not perform any salt rounds, due to an integer overflow error. The default settings are not affected by this CVE."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-22978",
+            "description": "In spring security versions prior to 5.4.11+, 5.5.7+ , 5.6.4+ and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-30946",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Script Security Plugin 1158.v7c1b_73a_69a_08 and earlier allows attackers to have Jenkins send an HTTP request to an attacker-specified webserver."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-30950",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library which has a buffer overflow vulnerability that may allow users able to connect to a named pipe to execute commands on the Windows agent machine."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-30951",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library does not implement access control, potentially allowing users to start processes even if they're not allowed to log in."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-31692",
+            "description": "Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via forward or include dispatcher types. Specifically, an application is vulnerable when all of the following are true: The application expects that Spring Security applies security to forward and include dispatcher types. The application uses the AuthorizationFilter either manually or via the authorizeHttpRequests() method. The application configures the FilterChainProxy to apply to forward and/or include requests (e.g. spring.security.filter.dispatcher-types = request, error, async, forward, include). The application may forward or include the request to a higher privilege-secured endpoint.The application configures Spring Security to apply to every dispatcher type via authorizeHttpRequests().shouldFilterAllDispatcherTypes(true)"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-34174",
+            "description": "In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-34176",
+            "description": "Jenkins JUnit Plugin 1119.va_a_5e9068da_d7 and earlier does not escape descriptions of test results, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Run/Update permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-40151",
+            "description": "Those using Xstream to seralize XML data may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow. This effect may support a denial of service attack."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-41966",
+            "description": "XStream serializes Java objects to XML and back again. Versions prior to 1.4.20 may allow a remote attacker to terminate the application with a stack overflow error, resulting in a denial of service only via manipulation the processed input stream. The attack uses the hash code implementation for collections and maps to force recursive hash calculation causing a stack overflow. This issue is patched in version 1.4.20 which handles the stack overflow and raises an InputManipulationException instead. A potential workaround for users who only use HashMap or HashSet and whose XML refers these only as default map or set, is to change the default implementation of java.util.Map and java.util per the code example in the referenced advisory. However, this implies that your application does not care about the implementation of the map and all elements are comparable."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-43401",
+            "description": "A sandbox bypass vulnerability involving various casts performed implicitly by the Groovy language runtime in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-43403",
+            "description": "A sandbox bypass vulnerability involving casting an array-like value to an array type in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-43404",
+            "description": "A sandbox bypass vulnerability involving crafted constructor bodies and calls to sandbox-generated synthetic constructors in Jenkins Script Security Plugin 1183.v774b_0b_0a_a_451 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-45047",
+            "description": "Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD <= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-45379",
+            "description": "Jenkins Script Security Plugin 1189.vb_a_b_7c8fd5fde and earlier stores whole-script approvals as the SHA-1 hash of the script, making it vulnerable to collision attacks."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2022-45380",
+            "description": "Jenkins JUnit Plugin 1159.v0b_396e1e07dd and earlier converts HTTP(S) URLs in test report output to clickable links in an unsafe manner, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-20861",
+            "description": "In Spring Framework versions 6.0.0 - 6.0.6, 5.3.0 - 5.3.25, 5.2.0.RELEASE - 5.2.22.RELEASE, and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-20862",
+            "description": "In Spring Security, versions 5.7.x prior to 5.7.8, versions 5.8.x prior to 5.8.3, and versions 6.0.x prior to 6.0.3, the logout support does not properly clean the security context if using serialized versions. Additionally, it is not possible to explicitly save an empty security context to the HttpSessionSecurityContextRepository. This vulnerability can keep users authenticated even after they performed logout. Users of affected versions should apply the following mitigation. 5.7.x users should upgrade to 5.7.8. 5.8.x users should upgrade to 5.8.3. 6.0.x users should upgrade to 6.0.3."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-20863",
+            "description": "In spring framework versions prior to 5.2.24 release+ ,5.3.27+ and 6.0.8+ , it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-24422",
+            "description": "A sandbox bypass vulnerability involving map constructors in Jenkins Script Security Plugin 1228.vd93135a_2fb_25 and earlier allows attackers with permission to define and run sandboxed scripts, including Pipelines, to bypass the sandbox protection and execute arbitrary code in the context of the Jenkins controller JVM."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-24998",
+            "description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-25761",
+            "description": "Jenkins JUnit Plugin 1166.va_436e268e972 and earlier does not escape test case class names in JavaScript expressions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control test case class names in the JUnit resources processed by the plugin."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-26048",
+            "description": "Jetty is a java based web server and servlet engine. In affected versions servlets with multipart support (e.g. annotated with `@MultipartConfig`) that call `HttpServletRequest.getParameter()` or `HttpServletRequest.getParts()` may cause `OutOfMemoryError` when the client sends a multipart request with a part that has a name but no filename and very large content. This happens even with the default settings of `fileSizeThreshold=0` which should stream the whole part content to disk. An attacker client may send a large multipart request and cause the server to throw `OutOfMemoryError`. However, the server may be able to recover after the `OutOfMemoryError` and continue its service -- although it may take some time. This issue has been patched in versions 9.4.51, 10.0.14, and 11.0.14. Users are advised to upgrade. Users unable to upgrade may set the multipart parameter `maxRequestSize` which must be set to a non-negative value, so the whole multipart content is limited (although still read into memory)."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-26049",
+            "description": "Jetty is a java based web server and servlet engine. Nonstandard cookie parsing in Jetty may allow an attacker to smuggle cookies within other cookies, or otherwise perform unintended behavior by tampering with the cookie parsing mechanism. If Jetty sees a cookie VALUE that starts with `\"` (double quote), it will continue to read the cookie string until it sees a closing quote -- even if a semicolon is encountered. So, a cookie header such as: `DISPLAY_LANGUAGE=\"b; JSESSIONID=1337; c=d\"` will be parsed as one cookie, with the name DISPLAY_LANGUAGE and a value of b; JSESSIONID=1337; c=d instead of 3 separate cookies. This has security implications because if, say, JSESSIONID is an HttpOnly cookie, and the DISPLAY_LANGUAGE cookie value is rendered on the page, an attacker can smuggle the JSESSIONID cookie into the DISPLAY_LANGUAGE cookie and thereby exfiltrate it. This is significant when an intermediary is enacting some policy based on cookies, so a smuggled cookie can bypass that policy yet still be seen by the Jetty server or its logging system. This issue has been addressed in versions 9.4.51, 10.0.14, 11.0.14, and 12.0.0.beta0 and users are advised to upgrade. There are no known workarounds for this issue."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27898",
+            "description": "Jenkins 2.270 through 2.393 (both inclusive), LTS 2.277.1 through 2.375.3 (both inclusive) does not escape the Jenkins version a plugin depends on when rendering the error message stating its incompatibility with the current version of Jenkins, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to provide plugins to the configured update sites and have this message shown by Jenkins instances."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27899",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a plugin for installation, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used, potentially resulting in arbitrary code execution."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27900",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in hudson.util.MultipartFormDataParser, allowing attackers to trigger a denial of service."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27901",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in org.kohsuke.stapler.RequestImpl, allowing attackers to trigger a denial of service."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27902",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier shows temporary directories related to job workspaces, which allows attackers with Item/Workspace permission to access their contents."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27903",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a file parameter through the CLI, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-27904",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier prints an error stack trace on agent-related pages when agent connections are broken, potentially revealing information about Jenkins configuration that is otherwise inaccessible to attackers."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-2976",
+            "description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-33201",
+            "description": "Bouncy Castle For Java before 1.74 is affected by an LDAP injection vulnerability. The vulnerability only affects applications that use an LDAP CertStore from Bouncy Castle to validate X.509 certificates. During the certificate validation process, Bouncy Castle inserts the certificate's Subject Name into an LDAP search filter without any escaping, which leads to an LDAP injection vulnerability."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-33202",
+            "description": "Bouncy Castle for Java before 1.73 contains a potential Denial of Service (DoS) issue within the Bouncy Castle org.bouncycastle.openssl.PEMParser class. This class parses OpenSSL PEM encoded streams containing X.509 certificates, PKCS8 encoded keys, and PKCS7 objects. Parsing a file that has crafted ASN.1 data through the PEMParser causes an OutOfMemoryError, which can enable a denial of service attack. (For users of the FIPS Java API: BC-FJA 1.0.2.3 and earlier are affected; BC-FJA 1.0.2.4 is fixed.)"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-34034",
+            "description": "Using \"**\" as a pattern in Spring Security configuration \nfor WebFlux creates a mismatch in pattern matching between Spring \nSecurity and Spring WebFlux, and the potential for a security bypass.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-35141",
+            "description": "In Jenkins 2.399 and earlier, LTS 2.387.3 and earlier, POST requests are sent in order to load the list of context actions. If part of the URL includes insufficiently escaped user-provided values, a victim may be tricked into sending a POST request to an unexpected endpoint by opening a context menu."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-35887",
+            "description": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Software Foundation Apache MINA.\n\nIn SFTP servers implemented using Apache MINA SSHD that use a RootedFileSystem, logged users may be able to discover \"exists/does not exist\" information about items outside the rooted tree via paths including parent navigation (\"..\") beyond the root, or involving symlinks.\n\nThis issue affects Apache MINA: from 1.0 before 2.10. Users are recommended to upgrade to 2.10\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-36478",
+            "description": "Eclipse Jetty provides a web server and servlet container. In versions 11.0.0 through 11.0.15, 10.0.0 through 10.0.15, and 9.0.0 through 9.4.52, an integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to\nexceed their size limit. `MetaDataBuilder.java` determines if a header name or value exceeds the size limit, and throws an exception if the limit is exceeded. However, when length is very large and huffman is true, the multiplication by 4 in line 295\nwill overflow, and length will become negative. `(_size+length)` will now be negative, and the check on line 296 will not be triggered. Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be negative, potentially leading to a very large buffer allocation later on when the user-entered size is multiplied by 2. This means that if a user provides a negative length value (or, more precisely, a length value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a very large positive number when multiplied by 2, then the user can cause a very large buffer to be allocated on the server. Users of HTTP/2 can be impacted by a remote denial of service attack. The issue has been fixed in versions 11.0.16, 10.0.16, and 9.4.53. There are no known workarounds."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-39151",
+            "description": "Jenkins 2.415 and earlier, LTS 2.401.2 and earlier does not sanitize or properly encode URLs in build logs when transforming them into hyperlinks, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control build log contents."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-40167",
+            "description": "Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-43494",
+            "description": "Jenkins 2.50 through 2.423 (both inclusive), LTS 2.60.1 through 2.414.1 (both inclusive) does not exclude sensitive build variables (e.g., password parameter values) from the search in the build history widget, allowing attackers with Item/Read permission to obtain values of sensitive variables used in builds by iteratively testing different characters until the correct sequence is discovered."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-43495",
+            "description": "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier does not escape the value of the 'caption' constructor parameter of 'ExpandableDetailsNote', resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control this parameter."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-43496",
+            "description": "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier creates a temporary file in the system temporary directory with the default permissions for newly created files when installing a plugin from a URL, potentially allowing attackers with access to the system temporary directory to replace the file before it is installed in Jenkins, potentially resulting in arbitrary code execution."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-43497",
+            "description": "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using the Stapler web framework creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-43498",
+            "description": "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using MultipartFormDataParser creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2023-52070",
+            "description": "JFreeChart v1.5.4 was discovered to be vulnerable to ArrayIndexOutOfBounds via the 'setSeriesNeedle(int index, int type)' method. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability. The submission may have been based on a tool that is not sufficiently robust for vulnerability identification."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-22201",
+            "description": "Jetty is a Java based web server and servlet engine. An HTTP/2 SSL connection that is established and TCP congested will be leaked when it times out. An attacker can cause many connections to end up in this state, and the server may run out of file descriptors, eventually causing the server to stop accepting new connections from valid clients. The vulnerability is patched in 9.4.54, 10.0.20, 11.0.20, and 12.0.6.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-22243",
+            "description": "Applications that use UriComponentsBuilder\u00a0to parse an externally provided URL (e.g. through a query parameter) AND\u00a0perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html \u00a0attack or to a SSRF attack if the URL is used after passing validation checks.\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-22257",
+            "description": "In Spring Security, versions 5.7.x prior to 5.7.12, 5.8.x prior to \n5.8.11, versions 6.0.x prior to 6.0.9, versions 6.1.x prior to 6.1.8, \nversions 6.2.x prior to 6.2.3, an application is possible vulnerable to \nbroken access control when it directly uses the AuthenticatedVoter#vote passing a null Authentication parameter.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-22262",
+            "description": "Applications that use UriComponentsBuilder\u00a0to parse an externally provided URL (e.g. through a query parameter) AND\u00a0perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html \u00a0attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22259 https://spring.io/security/cve-2024-22259 \u00a0and  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-23897",
+            "description": "Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-23898",
+            "description": "Jenkins 2.217 through 2.441 (both inclusive), LTS 2.222.1 through 2.426.2 (both inclusive) does not perform origin validation of requests made through the CLI WebSocket endpoint, resulting in a cross-site WebSocket hijacking (CSWSH) vulnerability, allowing attackers to execute CLI commands on the Jenkins controller."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-23900",
+            "description": "Jenkins Matrix Project Plugin 822.v01b_8c85d16d2 and earlier does not sanitize user-defined axis names of multi-configuration projects, allowing attackers with Item/Configure permission to create or replace any config.xml files on the Jenkins controller file system with content not controllable by the attackers."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-25710",
+            "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0.\n\nUsers are recommended to upgrade to version 1.26.0 which fixes the issue.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-26308",
+            "description": "Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.\n\nUsers are recommended to upgrade to version 1.26, which fixes the issue.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-29857",
+            "description": "An issue was discovered in ECCurve.java and ECCurve.cs in Bouncy Castle Java (BC Java) before 1.78, BC Java LTS before 2.73.6, BC-FJA before 1.0.2.5, and BC C# .Net before 2.3.1. Importing an EC certificate with crafted F2m parameters can lead to excessive CPU consumption during the evaluation of the curve parameters."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-30171",
+            "description": "An issue was discovered in Bouncy Castle Java TLS API and JSSE Provider before 1.78. Timing-based leakage may occur in RSA based handshakes because of exception processing."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-38808",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.38 and older unsupported versions, it is possible for a user to provide a specially crafted Spring Expression Language (SpEL) expression that may cause a denial of service (DoS) condition.\n\nSpecifically, an application is vulnerable when the following is true:\n\n  *  The application evaluates user-supplied SpEL expressions."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-38809",
+            "description": "Applications that parse ETags from \"If-Match\" or \"If-None-Match\" request headers are vulnerable to DoS attack.\n\nUsers of affected versions should upgrade to the corresponding fixed version.\n\nUsers of older, unsupported versions could enforce a size limit on \"If-Match\" and \"If-None-Match\" headers, e.g. through a Filter."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-39458",
+            "description": "When Jenkins Structs Plugin 337.v1b_04ea_4df7c8 and earlier fails to configure a build step, it logs a warning message containing diagnostic information that may contain secrets passed as step parameters, potentially resulting in accidental exposure of secrets through the default system log."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-41909",
+            "description": "Like many other SSH implementations, Apache MINA SSHD suffered from the issue that is more widely known as CVE-2023-48795. An attacker that can intercept traffic between client and server could drop certain packets from the stream, potentially causing client and server to consequently end up with a connection for which \nsome security features have been downgraded or disabled, aka a Terrapin \nattack\n\nThe mitigations to prevent this type of attack were implemented in Apache MINA SSHD 2.12.0, both client and server side. Users are recommended to upgrade to at least this version. Note that both the client and the server implementation must have mitigations applied against this issue, otherwise the connection may still be affected."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-43044",
+            "description": "Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-war : war : 2.303.2",
+            "cve": "CVE-2024-43045",
+            "description": "Jenkins 2.470 and earlier, LTS 2.452.3 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to access other users' \"My Views\"."
+        },
+        {
+            "displayName": "org.bouncycastle : bcprov-jdk15on : 1.68",
+            "cve": "CVE-2023-33201",
+            "description": "Bouncy Castle For Java before 1.74 is affected by an LDAP injection vulnerability. The vulnerability only affects applications that use an LDAP CertStore from Bouncy Castle to validate X.509 certificates. During the certificate validation process, Bouncy Castle inserts the certificate's Subject Name into an LDAP search filter without any escaping, which leads to an LDAP injection vulnerability."
+        },
+        {
+            "displayName": "org.bouncycastle : bcprov-jdk15on : 1.68",
+            "cve": "CVE-2023-33202",
+            "description": "Bouncy Castle for Java before 1.73 contains a potential Denial of Service (DoS) issue within the Bouncy Castle org.bouncycastle.openssl.PEMParser class. This class parses OpenSSL PEM encoded streams containing X.509 certificates, PKCS8 encoded keys, and PKCS7 objects. Parsing a file that has crafted ASN.1 data through the PEMParser causes an OutOfMemoryError, which can enable a denial of service attack. (For users of the FIPS Java API: BC-FJA 1.0.2.3 and earlier are affected; BC-FJA 1.0.2.4 is fixed.)"
+        },
+        {
+            "displayName": "org.bouncycastle : bcprov-jdk15on : 1.68",
+            "cve": "CVE-2024-29857",
+            "description": "An issue was discovered in ECCurve.java and ECCurve.cs in Bouncy Castle Java (BC Java) before 1.78, BC Java LTS before 2.73.6, BC-FJA before 1.0.2.5, and BC C# .Net before 2.3.1. Importing an EC certificate with crafted F2m parameters can lead to excessive CPU consumption during the evaluation of the curve parameters."
+        },
+        {
+            "displayName": "org.bouncycastle : bcprov-jdk15on : 1.68",
+            "cve": "CVE-2024-30171",
+            "description": "An issue was discovered in Bouncy Castle Java TLS API and JSSE Provider before 1.78. Timing-based leakage may occur in RSA based handshakes because of exception processing."
+        },
+        {
+            "displayName": "org.apache.commons : commons-compress : 1.21",
+            "cve": "CVE-2024-25710",
+            "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0.\n\nUsers are recommended to upgrade to version 1.26.0 which fixes the issue.\n\n"
+        },
+        {
+            "displayName": "org.apache.commons : commons-compress : 1.21",
+            "cve": "CVE-2024-26308",
+            "description": "Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.\n\nUsers are recommended to upgrade to version 1.26, which fixes the issue.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21685",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create parent directories in FilePath#mkdirs."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21686",
+            "description": "File path filters in the agent-to-controller security subsystem of Jenkins 2.318 and earlier, LTS 2.303.2 and earlier do not canonicalize paths, allowing operations to follow symbolic links to outside allowed directories."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21687",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create symbolic links when unarchiving a symbolic link in FilePath#untar."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21688",
+            "description": "The agent-to-controller security check FilePath#reading(FileVisitor) in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not reject any operations, allowing users to have unrestricted read access using certain operations (creating archives, FilePath#copyRecursiveTo)."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21689",
+            "description": "FilePath#unzip and FilePath#untar were not subject to any agent-to-controller access control in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21690",
+            "description": "Agent processes are able to completely bypass file path filtering by wrapping the file operation in an agent file path in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21691",
+            "description": "Creating symbolic links is possible without the 'symlink' agent-to-controller access control permission in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21692",
+            "description": "FilePath#renameTo and FilePath#moveAllChildrenTo in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier only check 'read' agent-to-controller access permission on the source path, instead of 'delete'."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21693",
+            "description": "When creating temporary files, agent-to-controller access to create those files is only checked after they've been created in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21694",
+            "description": "FilePath#toURI, FilePath#hasSymlink, FilePath#absolutize, FilePath#isDescendant, and FilePath#get*DiskSpace do not check any permissions in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21695",
+            "description": "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21696",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not limit agent read/write access to the libs/ directory inside build directories when using the FilePath APIs, allowing attackers in control of agent processes to replace the code of a trusted library with a modified variant. This results in unsandboxed code execution in the Jenkins controller process."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2021-21697",
+            "description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier allows any agent to read and write the contents of any build directory stored in Jenkins with very few restrictions."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2022-0538",
+            "description": "Jenkins 2.333 and earlier, LTS 2.319.2 and earlier defines custom XStream converters that have not been updated to apply the protections for the vulnerability CVE-2021-43859 and allow unconstrained resource usage."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2022-20612",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins 2.329 and earlier, LTS 2.319.1 and earlier allows attackers to trigger build of job without parameters when no security realm is set."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2022-34174",
+            "description": "In Jenkins 2.355 and earlier, LTS 2.332.3 and earlier, an observable timing discrepancy on the login form allows distinguishing between login attempts with an invalid username, and login attempts with a valid username and wrong password, when using the Jenkins user database security realm."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27898",
+            "description": "Jenkins 2.270 through 2.393 (both inclusive), LTS 2.277.1 through 2.375.3 (both inclusive) does not escape the Jenkins version a plugin depends on when rendering the error message stating its incompatibility with the current version of Jenkins, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to provide plugins to the configured update sites and have this message shown by Jenkins instances."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27899",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a plugin for installation, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used, potentially resulting in arbitrary code execution."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27900",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in hudson.util.MultipartFormDataParser, allowing attackers to trigger a denial of service."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27902",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier shows temporary directories related to job workspaces, which allows attackers with Item/Workspace permission to access their contents."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27903",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier creates a temporary file in the default temporary directory with the default permissions for newly created files when uploading a file parameter through the CLI, potentially allowing attackers with access to the Jenkins controller file system to read and write the file before it is used."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-27904",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier prints an error stack trace on agent-related pages when agent connections are broken, potentially revealing information about Jenkins configuration that is otherwise inaccessible to attackers."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-35141",
+            "description": "In Jenkins 2.399 and earlier, LTS 2.387.3 and earlier, POST requests are sent in order to load the list of context actions. If part of the URL includes insufficiently escaped user-provided values, a victim may be tricked into sending a POST request to an unexpected endpoint by opening a context menu."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-39151",
+            "description": "Jenkins 2.415 and earlier, LTS 2.401.2 and earlier does not sanitize or properly encode URLs in build logs when transforming them into hyperlinks, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control build log contents."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-43494",
+            "description": "Jenkins 2.50 through 2.423 (both inclusive), LTS 2.60.1 through 2.414.1 (both inclusive) does not exclude sensitive build variables (e.g., password parameter values) from the search in the build history widget, allowing attackers with Item/Read permission to obtain values of sensitive variables used in builds by iteratively testing different characters until the correct sequence is discovered."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-43495",
+            "description": "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier does not escape the value of the 'caption' constructor parameter of 'ExpandableDetailsNote', resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control this parameter."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-43496",
+            "description": "Jenkins 2.423 and earlier, LTS 2.414.1 and earlier creates a temporary file in the system temporary directory with the default permissions for newly created files when installing a plugin from a URL, potentially allowing attackers with access to the system temporary directory to replace the file before it is installed in Jenkins, potentially resulting in arbitrary code execution."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2023-43498",
+            "description": "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using MultipartFormDataParser creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2024-23897",
+            "description": "Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path in an argument with the file's contents, allowing unauthenticated attackers to read arbitrary files on the Jenkins controller file system."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2024-23898",
+            "description": "Jenkins 2.217 through 2.441 (both inclusive), LTS 2.222.1 through 2.426.2 (both inclusive) does not perform origin validation of requests made through the CLI WebSocket endpoint, resulting in a cross-site WebSocket hijacking (CSWSH) vulnerability, allowing attackers to execute CLI commands on the Jenkins controller."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : jenkins-core : 2.303.2",
+            "cve": "CVE-2024-43045",
+            "description": "Jenkins 2.470 and earlier, LTS 2.452.3 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to access other users' \"My Views\"."
+        },
+        {
+            "displayName": "com.google.guava : guava : 11.0.1",
+            "cve": "CVE-2018-10237",
+            "description": "Unbounded memory allocation in Google Guava 11.0 through 24.x before 24.1.1 allows remote attackers to conduct denial of service attacks against servers that depend on this library and deserialize attacker-provided data, because the AtomicDoubleArray class (when serialized with Java serialization) and the CompoundOrdering class (when serialized with GWT serialization) perform eager allocation without appropriate checks on what a client has sent and whether the data size is reasonable."
+        },
+        {
+            "displayName": "com.google.guava : guava : 11.0.1",
+            "cve": "CVE-2023-2976",
+            "description": "Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.\n\nEven though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : windows-slaves : 1.0",
+            "cve": "CVE-2022-30950",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library which has a buffer overflow vulnerability that may allow users able to connect to a named pipe to execute commands on the Windows agent machine."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : windows-slaves : 1.0",
+            "cve": "CVE-2022-30951",
+            "description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library does not implement access control, potentially allowing users to start processes even if they're not allowed to log in."
+        },
+        {
+            "displayName": "org.codehaus.groovy : groovy-all : 2.4.12",
+            "cve": "CVE-2020-17521",
+            "description": "Apache Groovy provides extension methods to aid with creating temporary directories. Prior to this fix, Groovy's implementation of those extension methods was using a now superseded Java JDK method call that is potentially not secure on some operating systems in some contexts. Users not using the extension methods mentioned in the advisory are not affected, but may wish to read the advisory for further details. Versions Affected: 2.0 to 2.4.20, 2.5.0 to 2.5.13, 3.0.0 to 3.0.6, and 4.0.0-alpha-1. Fixed in versions 2.4.21, 2.5.14, 3.0.7, 4.0.0-alpha-2."
+        },
+        {
+            "displayName": "org.springframework : spring-expression : 5.3.8",
+            "cve": "CVE-2022-22950",
+            "description": "n Spring Framework versions 5.3.0 - 5.3.16 and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial of service condition."
+        },
+        {
+            "displayName": "org.springframework : spring-expression : 5.3.8",
+            "cve": "CVE-2023-20861",
+            "description": "In Spring Framework versions 6.0.0 - 6.0.6, 5.3.0 - 5.3.25, 5.2.0.RELEASE - 5.2.22.RELEASE, and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition."
+        },
+        {
+            "displayName": "org.springframework : spring-expression : 5.3.8",
+            "cve": "CVE-2023-20863",
+            "description": "In spring framework versions prior to 5.2.24 release+ ,5.3.27+ and 6.0.8+ , it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition."
+        },
+        {
+            "displayName": "org.springframework : spring-expression : 5.3.8",
+            "cve": "CVE-2024-38808",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.38 and older unsupported versions, it is possible for a user to provide a specially crafted Spring Expression Language (SpEL) expression that may cause a denial of service (DoS) condition.\n\nSpecifically, an application is vulnerable when the following is true:\n\n  *  The application evaluates user-supplied SpEL expressions."
+        },
+        {
+            "displayName": "org.jfree : jfreechart : 1.0.19",
+            "cve": "CVE-2023-52070",
+            "description": "JFreeChart v1.5.4 was discovered to be vulnerable to ArrayIndexOutOfBounds via the 'setSeriesNeedle(int index, int type)' method. NOTE: this is disputed by multiple third parties who believe there was not reasonable evidence to determine the existence of a vulnerability. The submission may have been based on a tool that is not sufficiently robust for vulnerability identification."
+        },
+        {
+            "displayName": "org.kohsuke.stapler : stapler : 1563.v3da2d02f9572",
+            "cve": "CVE-2023-27901",
+            "description": "Jenkins 2.393 and earlier, LTS 2.375.3 and earlier uses the Apache Commons FileUpload library without specifying limits for the number of request parts introduced in version 1.5 for CVE-2023-24998 in org.kohsuke.stapler.RequestImpl, allowing attackers to trigger a denial of service."
+        },
+        {
+            "displayName": "org.kohsuke.stapler : stapler : 1563.v3da2d02f9572",
+            "cve": "CVE-2023-43497",
+            "description": "In Jenkins 2.423 and earlier, LTS 2.414.1 and earlier, processing file uploads using the Stapler web framework creates temporary files in the default system temporary directory with the default permissions for newly created files, potentially allowing attackers with access to the Jenkins controller file system to read and write the files before they are used."
+        },
+        {
+            "displayName": "org.springframework : spring-context : 5.3.8",
+            "cve": "CVE-2022-22968",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.18, 5.2.0 - 5.2.20, and older unsupported versions, the patterns for disallowedFields on a DataBinder are case sensitive which means a field is not effectively protected unless it is listed with both upper and lower case for the first character of the field, including upper and lower case for the first character of all nested fields within the property path."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : structs : hpi : 1.20",
+            "cve": "CVE-2024-39458",
+            "description": "When Jenkins Structs Plugin 337.v1b_04ea_4df7c8 and earlier fails to configure a build step, it logs a warning message containing diagnostic information that may contain secrets passed as step parameters, potentially resulting in accidental exposure of secrets through the default system log."
+        },
+        {
+            "displayName": "org.codehaus.woodstox : wstx-asl : 3.2.9",
+            "cve": "CVE-2019-12401",
+            "description": "Solr versions 1.3.0 to 1.4.1, 3.1.0 to 3.6.2 and 4.0.0 to 4.10.4 are vulnerable to an XML resource consumption attack (a.k.a. Lol Bomb) via it\u2019s update handler.?By leveraging XML DOCTYPE and ENTITY type elements, the attacker can create a pattern that will expand when the server parses the XML causing OOMs."
+        },
+        {
+            "displayName": "org.jenkins-ci.main : remoting : 4.10",
+            "cve": "CVE-2024-43044",
+            "description": "Jenkins 2.470 and earlier, LTS 2.452.3 and earlier allows agent processes to read arbitrary files from the Jenkins controller file system by using the `ClassLoaderProxy#fetchJar` method in the Remoting library."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : hpi : 1.29",
+            "cve": "CVE-2022-34176",
+            "description": "Jenkins JUnit Plugin 1119.va_a_5e9068da_d7 and earlier does not escape descriptions of test results, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Run/Update permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : hpi : 1.29",
+            "cve": "CVE-2022-45380",
+            "description": "Jenkins JUnit Plugin 1159.v0b_396e1e07dd and earlier converts HTTP(S) URLs in test report output to clickable links in an unsafe manner, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : junit : hpi : 1.29",
+            "cve": "CVE-2023-25761",
+            "description": "Jenkins JUnit Plugin 1166.va_436e268e972 and earlier does not escape test case class names in JavaScript expressions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers able to control test case class names in the JUnit resources processed by the plugin."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : mailer : 1.32.1",
+            "cve": "CVE-2022-20613",
+            "description": "A cross-site request forgery (CSRF) vulnerability in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : mailer : 1.32.1",
+            "cve": "CVE-2022-20614",
+            "description": "A missing permission check in Jenkins Mailer Plugin 391.ve4a_38c1b_cf4b_ and earlier allows attackers with Overall/Read access to use the DNS used by the Jenkins instance to resolve an attacker-specified hostname."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : matrix-project : hpi : 1.18",
+            "cve": "CVE-2022-20615",
+            "description": "Jenkins Matrix Project Plugin 1.19 and earlier does not escape HTML metacharacters in node and label names, and label descriptions, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure permission."
+        },
+        {
+            "displayName": "org.jenkins-ci.plugins : matrix-project : hpi : 1.18",
+            "cve": "CVE-2024-23900",
+            "description": "Jenkins Matrix Project Plugin 822.v01b_8c85d16d2 and earlier does not sanitize user-defined axis names of multi-configuration projects, allowing attackers with Item/Configure permission to create or replace any config.xml files on the Jenkins controller file system with content not controllable by the attackers."
+        },
+        {
+            "displayName": "org.springframework : spring-web : 5.3.8",
+            "cve": "CVE-2016-1000027",
+            "description": "Pivotal Spring Framework through 5.3.16 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required. NOTE: the vendor's position is that untrusted data is not an intended use case. The product's behavior will not be changed because some users rely on deserialization of trusted data."
+        },
+        {
+            "displayName": "org.springframework : spring-web : 5.3.8",
+            "cve": "CVE-2021-22096",
+            "description": "In Spring Framework versions 5.3.0 - 5.3.10, 5.2.0 - 5.2.17, and older unsupported versions, it is possible for a user to provide malicious input to cause the insertion of additional log entries."
+        },
+        {
+            "displayName": "org.springframework : spring-web : 5.3.8",
+            "cve": "CVE-2024-22243",
+            "description": "Applications that use UriComponentsBuilder\u00a0to parse an externally provided URL (e.g. through a query parameter) AND\u00a0perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html \u00a0attack or to a SSRF attack if the URL is used after passing validation checks.\n"
+        },
+        {
+            "displayName": "org.springframework : spring-web : 5.3.8",
+            "cve": "CVE-2024-22262",
+            "description": "Applications that use UriComponentsBuilder\u00a0to parse an externally provided URL (e.g. through a query parameter) AND\u00a0perform validation checks on the host of the parsed URL may be vulnerable to a  open redirect https://cwe.mitre.org/data/definitions/601.html \u00a0attack or to a SSRF attack if the URL is used after passing validation checks.\n\nThis is the same as  CVE-2024-22259 https://spring.io/security/cve-2024-22259 \u00a0and  CVE-2024-22243 https://spring.io/security/cve-2024-22243 , but with different input.\n\n"
+        },
+        {
+            "displayName": "org.springframework : spring-web : 5.3.8",
+            "cve": "CVE-2024-38809",
+            "description": "Applications that parse ETags from \"If-Match\" or \"If-None-Match\" request headers are vulnerable to DoS attack.\n\nUsers of affected versions should upgrade to the corresponding fixed version.\n\nUsers of older, unsupported versions could enforce a size limit on \"If-Match\" and \"If-None-Match\" headers, e.g. through a Filter."
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-web : 5.5.1",
+            "cve": "CVE-2022-22978",
+            "description": "In spring security versions prior to 5.4.11+, 5.5.7+ , 5.6.4+ and older unsupported versions, RegexRequestMatcher can easily be misconfigured to be bypassed on some servlet containers. Applications using RegexRequestMatcher with `.` in the regular expression are possibly vulnerable to an authorization bypass."
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-web : 5.5.1",
+            "cve": "CVE-2022-31692",
+            "description": "Spring Security, versions 5.7 prior to 5.7.5 and 5.6 prior to 5.6.9 could be susceptible to authorization rules bypass via forward or include dispatcher types. Specifically, an application is vulnerable when all of the following are true: The application expects that Spring Security applies security to forward and include dispatcher types. The application uses the AuthorizationFilter either manually or via the authorizeHttpRequests() method. The application configures the FilterChainProxy to apply to forward and/or include requests (e.g. spring.security.filter.dispatcher-types = request, error, async, forward, include). The application may forward or include the request to a higher privilege-secured endpoint.The application configures Spring Security to apply to every dispatcher type via authorizeHttpRequests().shouldFilterAllDispatcherTypes(true)"
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-web : 5.5.1",
+            "cve": "CVE-2023-20862",
+            "description": "In Spring Security, versions 5.7.x prior to 5.7.8, versions 5.8.x prior to 5.8.3, and versions 6.0.x prior to 6.0.3, the logout support does not properly clean the security context if using serialized versions. Additionally, it is not possible to explicitly save an empty security context to the HttpSessionSecurityContextRepository. This vulnerability can keep users authenticated even after they performed logout. Users of affected versions should apply the following mitigation. 5.7.x users should upgrade to 5.7.8. 5.8.x users should upgrade to 5.8.3. 6.0.x users should upgrade to 6.0.3."
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-web : 5.5.1",
+            "cve": "CVE-2023-34034",
+            "description": "Using \"**\" as a pattern in Spring Security configuration \nfor WebFlux creates a mismatch in pattern matching between Spring \nSecurity and Spring WebFlux, and the potential for a security bypass.\n\n"
+        },
+        {
+            "displayName": "org.springframework.security : spring-security-core : 5.5.1",
+            "cve": "CVE-2024-22257",
+            "description": "In Spring Security, versions 5.7.x prior to 5.7.12, 5.8.x prior to \n5.8.11, versions 6.0.x prior to 6.0.9, versions 6.1.x prior to 6.1.8, \nversions 6.2.x prior to 6.2.3, an application is possible vulnerable to \nbroken access control when it directly uses the AuthenticatedVoter#vote passing a null Authentication parameter.\n\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.modules : sshd : hpi : 3.0.3",
+            "cve": "CVE-2021-30129",
+            "description": "A vulnerability in sshd-core of Apache Mina SSHD allows an attacker to overflow the server causing an OutOfMemory error. This issue affects the SFTP and port forwarding features of Apache Mina SSHD version 2.0.0 and later versions. It was addressed in Apache Mina SSHD 2.7.0"
+        },
+        {
+            "displayName": "org.jenkins-ci.modules : sshd : hpi : 3.0.3",
+            "cve": "CVE-2022-45047",
+            "description": "Class org.apache.sshd.server.keyprovider.SimpleGeneratorHostKeyProvider in Apache MINA SSHD <= 2.9.1 uses Java deserialization to load a serialized java.security.PrivateKey. The class is one of several implementations that an implementor using Apache MINA SSHD can choose for loading the host keys of an SSH server."
+        },
+        {
+            "displayName": "org.jenkins-ci.modules : sshd : hpi : 3.0.3",
+            "cve": "CVE-2023-35887",
+            "description": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Software Foundation Apache MINA.\n\nIn SFTP servers implemented using Apache MINA SSHD that use a RootedFileSystem, logged users may be able to discover \"exists/does not exist\" information about items outside the rooted tree via paths including parent navigation (\"..\") beyond the root, or involving symlinks.\n\nThis issue affects Apache MINA: from 1.0 before 2.10. Users are recommended to upgrade to 2.10\n"
+        },
+        {
+            "displayName": "org.jenkins-ci.modules : sshd : hpi : 3.0.3",
+            "cve": "CVE-2024-41909",
+            "description": "Like many other SSH implementations, Apache MINA SSHD suffered from the issue that is more widely known as CVE-2023-48795. An attacker that can intercept traffic between client and server could drop certain packets from the stream, potentially causing client and server to consequently end up with a connection for which \nsome security features have been downgraded or disabled, aka a Terrapin \nattack\n\nThe mitigations to prevent this type of attack were implemented in Apache MINA SSHD 2.12.0, both client and server side. Users are recommended to upgrade to at least this version. Note that both the client and the server implementation must have mitigations applied against this issue, otherwise the connection may still be affected."
+        },
+        {
+            "displayName": "commons-fileupload : commons-fileupload : 1.4",
+            "cve": "CVE-2023-24998",
+            "description": "Apache Commons FileUpload before 1.5 does not limit the number of request parts to be processed resulting in the possibility of an attacker triggering a DoS with a malicious upload or series of uploads.\n\n\n\n\nNote that, like all of the file upload limits, the\n          new configuration option (FileUploadBase#setFileCountMax) is not\n          enabled by default and must be explicitly configured.\n\n\n"
+        }
+    ],
+    "TotalAdvisories": 71,
+    "UniqueAdvisories": 31,
+    "Advisories": [
+        {
+            "cve": "CVE-2022-30946",
+            "advisory": "The `script-security` package is vulnerable to Denial of Service (DoS) due to a Cross-Site Request Forgery (CSRF) vulnerability. The `checking()` function in the `ScriptApproval` class downloads the content of a provided URL to hash it without enforcing POST requests, thereby disabling Jenkins' built-in CSRF protection mechanism. An attacker can exploit this vulnerability to trick an authenticated victim into sending requests to the server on the attacker's behalf to force large downloads and time-consuming computation, leading to a DoS.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the fix for this vulnerability was backported to `1.78.1` and `1145.1148.vf6d17a_a_a_eef6` versions."
+        },
+        {
+            "cve": "CVE-2022-43401",
+            "advisory": "The `script-security` package is vulnerable due to a Protection Mechanism Failure. The `onSetProperty()` and `onSetAttribute` methods in the `SandboxInterceptor` class fail to properly validate scripts that contain implicit type casting during object assignment. This allows attackers with permissions to write and execute Groovy scripts to craft malicious code that will escape the script sandbox and run arbitrary code in the context of the server's Java Virtual Machine (JVM).\n\n*Advisory Deviation Notice:*\n                       The Sonatype Security Research team discovered that the fix for this vulnerability was also introduced in the 1175.x branch in version 1175.1177.vda_175b_77d144, contrary to what is stated in the advisory which only mentions the fix being applied in version 1184.v85d16b_d851b_3."
+        },
+        {
+            "cve": "CVE-2022-43403",
+            "advisory": "The `script-security` package is vulnerable due to a Protection Mechanism Failure. The `onSetProperty()` method in the `SandboxInterceptor` class fails to properly validate scripts that contain Array objects that result in implicit casting of types. This allows attackers with permissions to write and execute Groovy scripts to craft malicious code that will escape the script sandbox and run arbitrary code in the context of the server's Java Virtual Machine (JVM).\n \n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that the fix for this vulnerability was also introduced in the 1175.x branch in version 1175.1177.vda_175b_77d144, contrary to what is stated in the advisory which only mentions the fix being applied in version 1184.v85d16b_d851b_3."
+        },
+        {
+            "cve": "CVE-2022-43404",
+            "advisory": "The `script-security` package is vulnerable due to a Protection Mechanism Failure. The `permitsConstructor()` method in the `ClassLoaderWhitelist` class fails to properly validate scripts containing constructors attempting to make calls to class types that are disallowed by the script sandbox. This allows attackers with permissions to write and execute Groovy scripts to craft malicious code that will escape the script sandbox and run arbitrary code in the context of the server's Java Virtual Machine (JVM). \n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that the fix for this vulnerability was also introduced in the 1175.x branch in version 1175.1177.vda_175b_77d144, instead of it only being fixed in version 1184.v85d16b_d851b_3 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2022-45379",
+            "advisory": "The `script-security` package is vulnerable due to the Use of Weak Hash. The `hash()` and `hashClasspathEntry()` methods in the `ScriptApproval` class use the cryptographically insecure `SHA-1` algorithm to compute the hash of approved scripts before storing them as whole-script approvals. A remote attacker can exploit this vulnerability to retrieve the original approved script or by providing a specially-crafted input that results in an existing hash for an approved script to cause a collision.\n\n*Advisory Deviation Notice:*\n\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2023-24422",
+            "advisory": "The `script-security` Jenkins plugin is vulnerable to Incorrect Privilege Assignment. The `onNewInstance()` method in the `SandboxInterceptor` class fails to intercept `Map` constructors contained in Groovy scripts, allowing low-privilege users to bypass the sandbox altogether and to run scripts in an unrestricted manner. Authenticated attackers that may only run scripts inside the interpreter may craft malicious Groovy scripts to escape the sandbox, leading to Arbitrary Code Execution on the Jenkins instance.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that the fix for this vulnerability was also back-ported to version 1175.1180.v36a_3fb_2dec9c for the 1175.x branch."
+        },
+        {
+            "cve": "CVE-2024-23900",
+            "advisory": "The `matrix-project` package is vulnerable to Path Traversal attacks. The `MatrixProject` class does not properly validate user input when creating or replacing configuration files for multi-configuration projects in Jenkins. A remote attacker with Item/Configure permission to create or replace any `config.xml` files via the REST API endpoint can send a specially crafted `config.xml` file, including directory traversal characters in the Matrix axis name, to gain unauthorized access to sensitive information in the Jenkins instance.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the 822.824.v14451b_c0fd42 version doesn't contain the fix for this vulnerability."
+        },
+        {
+            "cve": "CVE-2021-30129",
+            "advisory": "The Apache `sshd-core` package is vulnerable to a Denial of Service (DoS) attack. The `writeBuffer()` and `startWriting()` methods in the `BufferedIoOutputStream` class use a boundless buffer to store data from write requests. Additionally, since the methods do not reject extraneous write requests, they allow data to accumulate infinitely until read by a client. A remote attacker can exploit this vulnerability by inducing numerous write requests in order to cause the application to consume all available memory, resulting in a DoS condition.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 0.12.0 and not 2.0.0 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-35887",
+            "advisory": "The Apache `sshd-common` and `sshd-sftp` packages are vulnerable to Information Disclosure attacks. The methods and classes listed below fail to account for symlinks and certain traversal character sequences in user-requested paths. Consequently, applications using a `RootedFileSystem` may disclose information regarding the existence of files outside of the root directory. A remote attacker with permission to perform `RootedFileSystem` operations can exploit this behavior to uncover information about the underlying file system. The information obtained may be leveraged to perform further attacks against affected applications.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.\n\n*Vulnerable File(s) and Function(s)*:\n\norg/apache/sshd/common/file/root/RootedFileSystemProvider.class\n- protected void createLink(Path link, Path target, boolean symLink, FileAttribute<?>... attrs)\n- protected Path root(RootedFileSystem rfs, Path nat)\n- protected Path resolveLocalPath(RootedPath path)\n\norg/apache/sshd/sftp/client/fs/SftpFileSystemProvider.class\n- public void copy(Path source, Path target, CopyOption... options)\n- public void move(Path source, Path target, CopyOption... options)\n\norg/apache/sshd/sftp/server/AbstractSftpSubsystemHelper.class\n- protected Map<String, Object> doStat(int id, String path, int flags)\n- protected void doRealPath(Buffer buffer, int id)\n- protected SimpleImmutableEntry<Path, Boolean> validateRealPath(int id, String path, Path f, LinkOption... options)\n- protected void doRemoveDirectory(int id, String path, boolean followLinks)\n- protected void doMakeDirectory(int id, String path, Map<String, ?> attrs, boolean followLinks)\n- protected void doRemoveFile(int id, String path, boolean followLinks)\n- protected NavigableMap<String, Object> resolveFileAttributes(Path path, int flags, LinkOption... options)\n\norg/apache/sshd/sftp/server/SftpSubsystem.class\n- protected void doReadDir(Buffer buffer, int id)\n- protected String doOpenDir(int id, String path, Path dir, LinkOption... options)"
+        },
+        {
+            "cve": "CVE-2020-5408",
+            "advisory": "The `spring-security-crypto` package, also known as Spring Security Crypto Module, is vulnerable due to Not Using a Random IV with CBC Mode. The `queryableText` method in `Encryptors.class` which serves as the queryable text encryptor, utilises a fixed null initialization vector with CBC mode, which is not secure. An attacker can exploit this vulnerability via Dictionary Attacks to potentially derive unencrypted values of data encrypted using this method.\n\n*Advisory Deviation Notice:* The Sonatype Security Research team discovered that the fix for this vulnerability was actually introduced in version 6.0.0, by removing the unsafe/deprecated method, instead of 4.2.16, 5.0.16, 5.1.10, 5.2.4, and 5.3.2 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2022-2048",
+            "advisory": "The `http2-server` package is vulnerable to an Insufficient Resource Pool that leads to a Denial of Service (DoS) condition. The `onRequest()` and `onPushRequest()` methods in the `HttpChannelOverHTTP2` class use a synchronous blocking method call to log a malformed HTTP/2 message inside of a servicing thread. An attacker can make multiple malicious HTTP/2 requests to the server to cause all service threads to be used up, leading to a deadlock where the blocking method calls hang the application and error messages cannot be logged. \n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 9.3.9.M0 and therefore does not affect all versions prior to 9.4.47 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-26049",
+            "advisory": "The `jetty-server` and `jetty-http` packages are vulnerable to Information Disclosure. The `parseFields()` method in the `CookieCutter` class in both packages mishandles cookies that contain an unterminated double quote. An attacker who is able to assign a cookie to another user can exploit this vulnerability by injecting a cookie with a value beginning with a double quote that is never closed. When the victim's cookies are processed by the `jetty` server, the cookies can be incorrectly concatenated, potentially resulting in one cookie being smuggled inside another. Depending on how the application utilizes the values of the affected cookies, this could allow an attacker exfiltrate sensitive cookie values, even in cases where the `HttpOnly` flag is set, or to cause other unintended application behavior resulting from cookie malformation.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was introduced into the `jetty-server` package in version 7.0.0.M0 and was resolved in version 9.4.51.v20230217, and that the vulnerable code was relocated to the `jetty-http` package in the 10.x, 11.x, and 12.x branches. As such, the 10.x, 11.x, and 12.x of the `jetty-server` package are not affected, contrary to what is stated in the advisory. In addition, the team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2023-36478",
+            "advisory": "The `jetty-http3` and `jetty-http2` packages are vulnerable to a Denial of Service (DoS) attack. The `decode()` method of the `Huffman` and `HuffmanDecoder` classes and the `checkSize()` method of the `MetaDataBuilder` class mishandle HPACK header values of negative lengths. Due to Jetty's method of buffer allocation for HPACK header values, user-supplied headers whose lengths yield negative values when multiplied by Jetty's Huffman fudge factor (`(length * 4) / 3`) may cause Jetty to allocate consequentially large `String` arrays. A remote attacker can exploit this vulnerability by submitting crafted HPACK header values, such as `0x00ffffffffff02` or `0x00ff8080ffff0b`. When decoded, the resulting buffer will persist until deallocated by the next Garbage Collection cycle. When submitted in quick succession, the attacker may cause affected servers to allocate enough buffers to exhaust all available memory.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version `9.3.0.M0` and not `9.3.0` as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-40167",
+            "advisory": "The `org.eclipse.jetty:jetty-http` package is vulnerable to Improper Handling of Length Parameter Inconsistency. The `convertContentLength()` function within `HttpParser.class` does not enforce that each character of the `Content-Length` HTTP header value be strictly numeric. This can allow an attacker to provide invalid HTTP header values (e.g. `+16` for `Content-Length`) that may be accepted by Jetty unchecked but possibly be rejected by any other servers being used in combination with Jetty. A potential Denial of Service (DoS) scenario could occur if this causes connections to remain open in between servers despite an HTTP 400 (Bad Request) response having been thrown.\n\n*Advisory Deviation Notice:* Contrary to what the [advisory](https://github.com/advisories/GHSA-hmr7-m48g-48f6) implies, Jetty versions prior to 9.0.0 do not enforce `Content-Length` HTTP header values to be strictly numeric either. The Sonatype Security Research team therefore deems these earlier versions also vulnerable and recommends upgrading to one or more fixed versions (or higher)."
+        },
+        {
+            "cve": "CVE-2018-10237",
+            "advisory": "Guava is vulnerable to Denial of Service (DoS). When untrusted input is supplied to the `AtomicDoubleArray` and `CompoundOrdering` classes, it is possible for an attacker to specify a large integer number as part of that untrusted input.  This untrusted integer `n` is used to allocate an array of length `n`.  Thus with large values of `n`, it is possible to cause an application to run out of memory.\n\nAdvisory Deviation Notice: The Sonatype security research team discovered that the fix for this vulnerability was actually introduced in version 23.6.1 for 23.6.x instead of 24.1.1 as stated in https://nvd.nist.gov/vuln/detail/CVE-2018-10237"
+        },
+        {
+            "cve": "CVE-2020-17521",
+            "advisory": "Apache Groovy is vulnerable due to Creation of Temporary File in Directory with Insecure Permissions. The `createTempDir()` method in the `DefaultGroovyStaticMethods.class` unsafely creates temporary directories within the operating system's temporary directory which is shared by all users on a system. An attacker can leverage this behavior to gain unauthorized access to sensitive information or carry out privilege escalation on an affected system.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the root cause of the vulnerability is in 1.1-rc-1, not in 2.0.0 as the advisory states. Additionally, the vulnerability is present in versions 2.6.0-alpha-1 to 3.0.6, not just 3.0.0 before 3.0.7 as the advisory states."
+        },
+        {
+            "cve": "CVE-2021-21694",
+            "advisory": "The `jenkins-core` package is vulnerable due to Missing Authorization. The methods listed below in the `FilePath` class fail to properly verify permissions when agents execute actions on files. An attacker, with access to the related operations, can exploit this vulnerability by submitting specially-crafted requests to get information or alter arbitrary files in the underlying system. \n\n*Vulnerable Method(s)*:\n\n* toURI()\n* hasSymlink()\n* absolutize()\n* isDescendant()\n* getFreeDiskSpace()\n* getTotalDiskSpace()\n* getUsableDiskSpace()\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present since version 1.396 and thus does not affect all previous releases as the advisory states."
+        },
+        {
+            "cve": "CVE-2022-31692",
+            "advisory": "The `spring-security-web` package is vulnerable to Authorization Bypass. The `doFilterInternal()` method in the `AuthorizationFilter` class fails to properly intercept all API requests that are forwarded with certain dispatcher types, leaving requests open to unauthorized abuse. An attacker with access to a service or application utilizing Spring's `AuthorizationFilter` to ensure requests are authorized may interact with the application to extract or modify sensitive application information without having been authenticated.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version 5.5.0 instead of 5.6.0 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-20862",
+            "advisory": "The `spring-security-config` and `spring-security-web` packages are vulnerable to Insufficient Session Expiration. Multiple methods in multiple classes, stated below, fail to properly clean up the security context when serialized versions are in use. This flaw can keep leave users authenticated even after they have logged out, therefore putting their sessions and data at risk.\n\n**Advisory Deviation Notice:** The Sonatype Security Research team has identified that Spring Security Config/Web versions prior to 5.7.0 may also be vulnerable to the flaw (i.e. when cases described in **Detection** not related to `HttpSessionSecurityContextRepository` apply) contrary to what is implied by the [advisory](https://spring.io/security/cve-2023-20862).\n\n*Vulnerable File(s) and Function(s)*:\n\norg/springframework/security/config/annotation/web/configurers/LogoutConfigurer.class\n- createLogoutFilter()\n\ncreateLogoutFilter()org/springframework/security/web/authentication/logout/SecurityContextLogoutHandler.class\n- logout()\n- setClearAuthentication()\n\norg/springframework/security/web/context/HttpSessionSecurityContextRepository.class\n- saveContext()"
+        },
+        {
+            "cve": "CVE-2023-24998",
+            "advisory": "The Apache Commons FileUpload `commons-fileupload` package and the `tomcat-coyote` package are vulnerable to Denial of Service (DoS) attacks. The `parseRequest` function in the `FileUploadBase.class` file in each package does not enforce a maximum number of files that can be included in a single upload request. An attacker can exploit this flaw to potentially trigger an application crash or slowdowns, resulting in DoS.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version 7.0.0 of `tomcat-coyote` instead of 8.5.0 as stated in the advisory. In addition, it was found that this vulnerability affected the 10.x branch of `tomcat-coyote` from 10.0.0-M1 and not 10.1.0-M1 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-27900",
+            "advisory": "Jenkins is vulnerable to Denial of Service (DoS) attacks. The constructor method in the `MultipartFormDataParser` class fails to limit the number of files permitted in a multipart upload forcing Jenkins to consume excessive resources. A remote attacker with the ability to upload files can exploit this vulnerability by submitting a large multipart form request to the endpoint processing file uploads. This will exhaust system resources and ultimately result in a DoS condition. \n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2023-27901",
+            "advisory": "The Jenkins `stapler` package is vulnerable to Denial of Service (DoS) attacks. The `parseMultipartFormData()` method in the `RequestImpl` class fails to limit the number of files permitted in a multipart upload forcing the application using `StaplerRequest` to process files, to consume excessive resources. A remote attacker can exploit this vulnerability by uploading a large number of files in a single request. This will exhaust system resources and ultimately result in a DoS condition. \n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2023-34034",
+            "advisory": "The `spring-security-config` and `spring-security-web` packages are vulnerable due to Improper Access Control. The `pathMatchers()` methods of the `AbstractServerWebExchangeMatcherRegistry` class and the constructor of the `PathPatternParserServerWebExchangeMatcher` class mishandle request mapping for unprefixed double-wildcard (`**`) patterns. Consequently, and due to discrepancies between Spring WebFlux and Spring Security's pattern-matching behavior, mappings may be broader than expected in scope. A remote attacker can abuse this behavior in affected applications with requests for resources or functionality that would otherwise be restricted.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version `5.0.0.M2` and not `5.6.0` as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-35141",
+            "advisory": "The `jenkins-core` package is vulnerable to Cross-Site Request Forgery (CSRF) attacks. The `invokeContextMenu()` function in `breadcrumbs.js` issues POST requests to URLs constructed from the provided `contextMenuUrl` argument. A remote attacker with `Item/Configure` permissions can exploit this vulnerability with certain insufficiently sanitized elements, such as label expressions, and crafted URLs. This will result in POST requests to unexpected endpoints when other Jenkins users click the affected context menu.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was introduced in version `1.513` and therefore does not affect all versions `2.399`, `LTS 2.387.3`, and earlier as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-43495",
+            "advisory": "The `jenkins-core` package is vulnerable to Cross-Site Scripting (XSS) attacks. The `annotate()` method in the `ExpandableDetailsNote` class fails to sanitize the `caption` attribute when adding annotations to website elements. A remote attacker can exploit this vulnerability by including malicious JavaScript in website elements through the `caption` attribute. This will result in script execution when users click on the button to display annotations.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version v1.396 instead of v2.50 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2023-43496",
+            "advisory": "The `jenkins-core` package is vulnerable due to Creation of Temporary File With Insecure Permissions. The `doUploadPlugin()` method of the `PluginManager` class creates temporary plugin files in the system's default temporary directory when installing a plugin from a URL. A local attacker with access to the system's temporary directory can take advantage of this behavior by modifying the plugin files before they are used. These modified plugins can be used to execute arbitrary code or induce other unexpected behavior on the target machine.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version v1.509.3 instead of affecting all versions prior to v2.423 and LTS v2.414.1 as stated in the advisory. The Sonatype Security Research team has also created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2023-43498",
+            "advisory": "The `jenkins-core` package is vulnerable due to the Creation of a Temporary File With Insecure Permissions. When processing files files uploaded via the Stapler web framework and the Jenkins API, the constructor of the `MultipartFormDataParser` class creates temporary files in the system's default temporary directory with the default permissions for newly created files. A local attacker with access to the system's temporary directory will be able to read from and write to files created by this package before they are used.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2024-22243",
+            "advisory": "The `spring-web` package is vulnerable due to Improper Input Validation. The `fromUriString()` method in the `UriComponentsBuilder` class fails to correctly validate URIs according to the [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986#section-3.2) specification, allowing input to mistake the `userinfo` part of the resource as a `hostname` part. Attackers with the ability to influence URIs validated by applications that utilize this library can exploit this vulnerability by crafting URIs that may result in open redirects, and under some circumstances, Server-Side Request Forgery (SSRF) attacks.\n\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was actually introduced in version 3.0.0.RELEASE and does not exist in all versions prior to 5.3.32 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2024-23898",
+            "advisory": "The `jenkins-core` package is vulnerable to Cross-Site WebSocket Hijacking. The `doWs()` method of the `CLIAction` class executes CLI commands, received via WebSocket requests, on the Jenkins controller without validating the origin of those requests. An attacker could exploit this vulnerability by forging requests from a legitimate user, either via enticing the user to click a crafted link or by visiting a malicious website that sends crafted requests via an embedded script, allowing them to indirectly interact with the Jenkins controller. Depending on how the browser used by the victim handles cross-origin requests, this could lead to Remote Code Execution (RCE).\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was actually introduced in version 2.216 as opposed to version 2.217 as stated in the advisory."
+        },
+        {
+            "cve": "CVE-2024-25710",
+            "advisory": "The `commons-compress` package is vulnerable to Denial of Service (DoS) attacks due to an Infinite Loop. The `resetBlockSize()` method of the `TapeInputStream` class processes Unix `dump` archive files without validating the compression block size. A local attacker could exploit this vulnerability by supplying a crafted `dump` file containing malformed or corrupt metadata indicating a block size of 0 or less, resulting in an infinite loop and a DoS condition. Under some circumstances, it may be possible for the attacker to leverage this vulnerability to execute arbitrary code.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability."
+        },
+        {
+            "cve": "CVE-2024-38808",
+            "advisory": "The `spring-expression` package is vulnerable to a Denial of Service (DoS) attack. The `createArray()` method in the `ConstructorReference` class fails to validate if there are constructor resolvers available for arrays constructed from SpEL (Spring Expression Language) expressions. A remote attacker who can supply a SpEL expression can exploit this vulnerability to cause the system to proceed with potentially expensive operations and ultimately lead to a DoS condition.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was introduced in version 3.0.4.RELEASE and does not affect all earlier versions as stated in the advisory."
+        }
+    ],
+    "TotalWorkarounds": 33,
+    "Workarounds": [
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\nThe Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\nThe Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-43859",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided the following workaround(s):\n\n>If your object graph does not use [the above] referenced elements at all, you may simply set the `NO_REFERENCE` mode:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.setMode(XStream.NO_REFERENCES);\n>```\n>If your object graph contains neither a Hashtable, HashMap nor a HashSet (or one of the linked variants of it) then you can use the security framework to deny the usage of these types:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.denyTypes(new Class[]{\n> java.util.HashMap.class, java.util.HashSet.class, java.util.Hashtable.class, java.util.LinkedHashMap.class, java.util.LinkedHashSet.class\n>});\n>```\n>Unfortunately these types are very common. If you only use `HashMap` or `HashSet` and your XML refers these only as default map or set, you may additionally change the default implementation of `java.util.Map` and `java.util.Set` at unmarshalling time:\n>\n>```\n>xstream.addDefaultImplementation(java.util.TreeMap.class, java.util.Map.class);\n>xstream.addDefaultImplementation(java.util.TreeSet.class, java.util.Set.class);\n>```\n>However, this implies that your application does not care about the implementation of the map and all elements are comparable.\n\nReference: [https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf](https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2022-41966",
+            "remediation": "\nA workaround has been provided [here](https://github.com/x-stream/xstream/security/advisories/GHSA-j563-grx4-pjpv).\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-33202",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided users with the following workaround:\n\n>The attack can be avoided by either updating or filtering PEM requests containing EXTERNAL tagged encodings.\n\nReference: <https://github.com/bcgit/bc-java/wiki/CVE-2023-33202>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-26048",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by setting the `maxRequestSize` parameter of affected `@MultipartConfig` configurations which, while still read into memory, will limit the entirety of multipart request content.\n\nReference: <https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-22201",
+            "remediation": "\nThe advisory also [provides a workaround](https://github.com/jetty/jetty.project/security/advisories/GHSA-rggv-cv7r-mw98) for those who are unable to upgrade.\n\n>Disable HTTP/2 and HTTP/3 support until you can upgrade to a patched version of Jetty.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2023-3025",
+            "remediation": "If upgrading is not a viable option, the project has provided a potential [workaround](https://github.com/eclipse/jetty.project/security/advisories/GHSA-58qw-p7qm-5rvh).\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2016-1000027",
+            "remediation": "\nA warning has been provided in the official [Javadocs](https://docs.spring.io/spring-framework/docs/5.3.x/javadoc-api/org/springframework/remoting/httpinvoker/HttpInvokerServiceExporter.html) of the `HttpInvokerServiceExporter` class and support for several serialization-based remoting technologies including this class has been deprecated from 5.3.0 onwards and completely removed from 6.0.0 and onwards:\n\n>WARNING: Be aware of vulnerabilities due to unsafe Java deserialization: Manipulated input streams could lead to unwanted code execution on the server during the deserialization step. As a consequence, do not expose HTTP invoker endpoints to untrusted clients but rather just between your own services. In general, we strongly recommend any other message format (e.g. JSON) instead.\n\nThe developer's general advice also states:\n>Do not use Java serialization for external endpoints, in particular not for unauthorized ones. HTTP invoker is not a well-kept secret (or an \"oversight\") but rather the typical case of how a Spring application would expose serialization endpoints to begin with... he has a point that we should make this case all across our documentation, including the javadoc. But I don't really see a CVE case here, just a documentation improvement.\n>\n>Pivotal will enhance their documentation for the 4.2.6 and 3.2.17 releases.\n\nReference: [https://www.tenable.com/security/research/tra-2016-20](https://www.tenable.com/security/research/tra-2016-20)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21694",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. If it is not possible, apply the [workaround](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2455) suggested in the advisory.\n\n>If you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the Remoting Security Workaround Plugin. It will prevent all agent-to-controller file access using FilePath APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it. \n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21696",
+            "remediation": "\n*Workaround:* \n>If you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the [Remoting Security Workaround Plugin](https://plugins.jenkins.io/remoting-security-workaround/). It will prevent all agent-to-controller file access using `FilePath` APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it.\n\nReference: [https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2423](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2423)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21697",
+            "remediation": "\n```\nUpdate Pipeline: \n```\n[Nodes and Processes](https://plugins.jenkins.io/workflow-durable-task-step/)\n```\nto version 2.40 or newer for Jenkins to associate Pipeline node blocks with the agent they're running on for this fix.\n```\n\n```\nIf you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the\n``` \n[Remoting Security Workaround Plugin](https://plugins.jenkins.io/remoting-security-workaround/)\n```\nIt will prevent all agent-to-controller file access using FilePath APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it.\n```\nReference: [https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2428](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2428)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-43859",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided the following workaround(s):\n\n>If your object graph does not use [the above] referenced elements at all, you may simply set the `NO_REFERENCE` mode:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.setMode(XStream.NO_REFERENCES);\n>```\n>If your object graph contains neither a Hashtable, HashMap nor a HashSet (or one of the linked variants of it) then you can use the security framework to deny the usage of these types:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.denyTypes(new Class[]{\n> java.util.HashMap.class, java.util.HashSet.class, java.util.Hashtable.class, java.util.LinkedHashMap.class, java.util.LinkedHashSet.class\n>});\n>```\n>Unfortunately these types are very common. If you only use `HashMap` or `HashSet` and your XML refers these only as default map or set, you may additionally change the default implementation of `java.util.Map` and `java.util.Set` at unmarshalling time:\n>\n>```\n>xstream.addDefaultImplementation(java.util.TreeMap.class, java.util.Map.class);\n>xstream.addDefaultImplementation(java.util.TreeSet.class, java.util.Set.class);\n>```\n>However, this implies that your application does not care about the implementation of the map and all elements are comparable.\n\nReference: [https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf](https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\nThe Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2022-41966",
+            "remediation": "\nA workaround has been provided [here](https://github.com/x-stream/xstream/security/advisories/GHSA-j563-grx4-pjpv).\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-26048",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by setting the `maxRequestSize` parameter of affected `@MultipartConfig` configurations which, while still read into memory, will limit the entirety of multipart request content.\n\nReference: <https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-27899",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\n```\nAs a workaround, you can set a different path as your default temporary directory using the Java system property java.io.tmpdir, if you're concerned about this issue but unable to immediately update Jenkins.\n```\nReference: [https://www.jenkins.io/security/advisory/2023-03-08/#SECURITY-2823](https://www.jenkins.io/security/advisory/2023-03-08/#SECURITY-2823)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-33202",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided users with the following workaround:\n\n>The attack can be avoided by either updating or filtering PEM requests containing EXTERNAL tagged encodings.\n\nReference: <https://github.com/bcgit/bc-java/wiki/CVE-2023-33202>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-43497",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. IF upgrading is not a viable option, the project has provided the following [workaround](https://www.jenkins.io/security/advisory/2023-09-20/#SECURITY-3073):\n>As a workaround, you can change your default temporary-file directory using the Java system property java.io.tmpdir.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-22201",
+            "remediation": "\nThe advisory also [provides a workaround](https://github.com/jetty/jetty.project/security/advisories/GHSA-rggv-cv7r-mw98) for those who are unable to upgrade.\n\n>Disable HTTP/2 and HTTP/3 support until you can upgrade to a patched version of Jetty.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-23898",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, the project suggests the following workarounds:\n\n>__Disable CLI access__\n>Disabling access to the CLI will prevent exploitation completely and is the __recommended workaround__ for administrators unable to immediately update. Applying this workaround does not require a Jenkins restart. For instructions, see the [documentation for this workaround](https://github.com/jenkinsci-cert/SECURITY-3314-3315/).\n>\n>__Prevent WebSocket access using a reverse proxy__\n>If Jenkins is accessible only through a reverse proxy, configure that proxy to prevent access to the CLI via WebSocket by not upgrading requests.\n\nReference: [https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3315](https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3315)\n\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-43044",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. If this is not possible, apply the workaround suggested by the project maintainers.\n\n**Reference:** <https://github.com/jenkinsci-cert/SECURITY-3430>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\nThe Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "sonatype-2023-3025",
+            "remediation": "If upgrading is not a viable option, the project has provided a potential [workaround](https://github.com/eclipse/jetty.project/security/advisories/GHSA-58qw-p7qm-5rvh).\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-33202",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided users with the following workaround:\n\n>The attack can be avoided by either updating or filtering PEM requests containing EXTERNAL tagged encodings.\n\nReference: <https://github.com/bcgit/bc-java/wiki/CVE-2023-33202>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21694",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. If it is not possible, apply the [workaround](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2455) suggested in the advisory.\n\n>If you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the Remoting Security Workaround Plugin. It will prevent all agent-to-controller file access using FilePath APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it. \n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21696",
+            "remediation": "\n*Workaround:* \n>If you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the [Remoting Security Workaround Plugin](https://plugins.jenkins.io/remoting-security-workaround/). It will prevent all agent-to-controller file access using `FilePath` APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it.\n\nReference: [https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2423](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2423)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2021-21697",
+            "remediation": "\n```\nUpdate Pipeline: \n```\n[Nodes and Processes](https://plugins.jenkins.io/workflow-durable-task-step/)\n```\nto version 2.40 or newer for Jenkins to associate Pipeline node blocks with the agent they're running on for this fix.\n```\n\n```\nIf you are unable to immediately upgrade to Jenkins 2.319, LTS 2.303.3, you can install the\n``` \n[Remoting Security Workaround Plugin](https://plugins.jenkins.io/remoting-security-workaround/)\n```\nIt will prevent all agent-to-controller file access using FilePath APIs. Because it is more restrictive than Jenkins 2.319, LTS 2.303.3, more plugins are incompatible with it. Make sure to read the plugin documentation before installing it.\n```\nReference: [https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2428](https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2428)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-27899",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. \n\n```\nAs a workaround, you can set a different path as your default temporary directory using the Java system property java.io.tmpdir, if you're concerned about this issue but unable to immediately update Jenkins.\n```\nReference: [https://www.jenkins.io/security/advisory/2023-03-08/#SECURITY-2823](https://www.jenkins.io/security/advisory/2023-03-08/#SECURITY-2823)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-23898",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, the project suggests the following workarounds:\n\n>__Disable CLI access__\n>Disabling access to the CLI will prevent exploitation completely and is the __recommended workaround__ for administrators unable to immediately update. Applying this workaround does not require a Jenkins restart. For instructions, see the [documentation for this workaround](https://github.com/jenkinsci-cert/SECURITY-3314-3315/).\n>\n>__Prevent WebSocket access using a reverse proxy__\n>If Jenkins is accessible only through a reverse proxy, configure that proxy to prevent access to the CLI via WebSocket by not upgrading requests.\n\nReference: [https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3315](https://www.jenkins.io/security/advisory/2024-01-24/#SECURITY-3315)\n\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2023-43497",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. IF upgrading is not a viable option, the project has provided the following [workaround](https://www.jenkins.io/security/advisory/2023-09-20/#SECURITY-3073):\n>As a workaround, you can change your default temporary-file directory using the Java system property java.io.tmpdir.\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2024-43044",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. If this is not possible, apply the workaround suggested by the project maintainers.\n\n**Reference:** <https://github.com/jenkinsci-cert/SECURITY-3430>\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        },
+        {
+            "cve": "CVE-2016-1000027",
+            "remediation": "\nA warning has been provided in the official [Javadocs](https://docs.spring.io/spring-framework/docs/5.3.x/javadoc-api/org/springframework/remoting/httpinvoker/HttpInvokerServiceExporter.html) of the `HttpInvokerServiceExporter` class and support for several serialization-based remoting technologies including this class has been deprecated from 5.3.0 onwards and completely removed from 6.0.0 and onwards:\n\n>WARNING: Be aware of vulnerabilities due to unsafe Java deserialization: Manipulated input streams could lead to unwanted code execution on the server during the deserialization step. As a consequence, do not expose HTTP invoker endpoints to untrusted clients but rather just between your own services. In general, we strongly recommend any other message format (e.g. JSON) instead.\n\nThe developer's general advice also states:\n>Do not use Java serialization for external endpoints, in particular not for unauthorized ones. HTTP invoker is not a well-kept secret (or an \"oversight\") but rather the typical case of how a Spring application would expose serialization endpoints to begin with... he has a point that we should make this case all across our documentation, including the javadoc. But I don't really see a CVE case here, just a documentation improvement.\n>\n>Pivotal will enhance their documentation for the 4.2.6 and 3.2.17 releases.\n\nReference: [https://www.tenable.com/security/research/tra-2016-20](https://www.tenable.com/security/research/tra-2016-20)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control."
+        }
+    ],
+    "DeepDiveResearch": 242,
+    "SonatypeCVECount": 32,
+    "TotalCVEs": 258
+}

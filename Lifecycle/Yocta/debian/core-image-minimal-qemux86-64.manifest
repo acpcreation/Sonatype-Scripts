@@ -1,0 +1,15 @@
+base-files qemux86_64 3.0.14-r89
+base-passwd core2-64 3.5.29-r0
+busybox core2-64 1.35.0-r0
+busybox-inittab qemux86_64 1.35.0-r0
+busybox-syslog core2-64 1.35.0-r0
+busybox-udhcpc core2-64 1.35.0-r0
+eudev core2-64 3.2.10-r0
+libblkid1 core2-64 2.37.4-r0
+libkmod2 core2-64 29-r0
+liblzma5 core2-64 5.2.5-r0
+libz1 core2-64 1.2.11-r0
+musl core2-64 1.2.3+git0+7a43f6fea9-r0
+netbase all 1:6.3-r0
+packagegroup-core-boot qemux86_64 1.0-r17
+update-alternatives-opkg core2-64 0.5.0-r0

@@ -1,0 +1,26 @@
+{
+        "license": "MIT",
+        "summary": "Runs postinstall scripts on first boot of the target device",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "file://run-postinsts",
+                "file://run-postinsts.init",
+                "file://run-postinsts.service"
+        ],
+        "cve_product": "run-postinsts",
+        "cve_version": "1.0",
+        "homepage": "",
+        "sources": {
+                "patches": {},
+                "file": [
+                        "run-postinsts",
+                        "run-postinsts.init",
+                        "run-postinsts.service"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-devtools/run-postinsts/run-postinsts_1.0.bb"
+}

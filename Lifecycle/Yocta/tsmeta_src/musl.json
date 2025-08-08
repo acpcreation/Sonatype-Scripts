@@ -1,0 +1,28 @@
+{
+        "license": "MIT",
+        "srcrev": "7a43f6fea9081bdd53d8a11cef9e9fab0348c53d",
+        "summary": "An implementation of the standard library for Linux-based systems",
+        "homepage": "http://www.musl-libc.org/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://git.musl-libc.org/musl;branch=master",
+                "file://0001-Make-dynamic-linker-a-relative-symlink-to-libc.patch",
+                "file://0002-ldso-Use-syslibdir-and-libdir-as-default-pathes-to-l.patch"
+        ],
+        "cve_product": "musl",
+        "cve_version": "1.2.3",
+        "sources": {
+                "patches": {
+                        "0001-Make-dynamic-linker-a-relative-symlink-to-libc.patch": "/home/andrew/poky/meta/recipes-core/musl/musl/0001-Make-dynamic-linker-a-relative-symlink-to-libc.patch",
+                        "0002-ldso-Use-syslibdir-and-libdir-as-default-pathes-to-l.patch": "/home/andrew/poky/meta/recipes-core/musl/musl/0002-ldso-Use-syslibdir-and-libdir-as-default-pathes-to-l.patch"
+                },
+                "git": [
+                        "git://git.musl-libc.org/musl;branch=master"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/musl/musl_git.bb"
+}

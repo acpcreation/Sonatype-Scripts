@@ -1,0 +1,499 @@
+{
+    "TotalAdvisories": 66,
+    "UniqueAdvisories": 49,
+    "Advisories": [
+        {
+            "cve": "CVE-2020-11971",
+            "description": "The `camel-spring` package is vulnerable to a Rebind Flaw. The classes `CamelJMXAgentDefinition.class`, `CamelJMXAgentDefinition.class`, `CamelJMXAgentType.class`, `AbstractCamelContextFactoryBean.class` and `DefaultManagementAgent.class` implement a custom JMX connector that might be rebinded. An attacker could abuse this behavior to exploit a previous deployed JMX connector server and disclose sensitive information from it.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present since version 2.5.0, not since 2.22.0 as the advisory states.\n\n*Vulnerable File(s) and Function(s)*:\n\norg/apache/camel/core/xml/CamelJMXAgentDefinition.class\n\norg/apache/camel/spring/CamelJMXAgentDefinition.class\n\norg/apache/camel/spring/CamelJMXAgentType.class\n\norg/apache/camel/core/xml/AbstractCamelContextFactoryBean.class\n* initJMXAgent()\n\norg/apache/camel/management/DefaultManagementAgent.class\n* initJMXAgent()\n\norg/apache/camel/management/DefaultManagementAgent.class\n* initJMXAgent()\n\norg/apache/camel/spring/jmxConfig.xml\n\norg/apache/camel/spring/jmxConfigUsingProperties.xml",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2019-12415",
+            "description": "The `org.apache.poi:poi-ooxml` package is vulnerable to XML eXternal Entity (XXE) Reference attacks. The `isValid` method in `XSSFExportToXml.class` does not properly validate `SchemaFactory` objects when parsing Excel documents. An attacker can use a crafted document to read arbitrary files on the vulnerable filesystem via XXE processing.\n\n*Advisory Deviation Notice:* The Sonatype security research team has discovered that the vulnerability was introduced in version `3.5-FINAL` of the package and not in the initial version, as the advisory states.\n",
+            "severity": 5.5
+        },
+        {
+            "cve": "CVE-2024-25710",
+            "description": "The `commons-compress` package is vulnerable to Denial of Service (DoS) attacks due to an Infinite Loop. The `resetBlockSize()` method of the `TapeInputStream` class processes Unix `dump` archive files without validating the compression block size. A local attacker could exploit this vulnerability by supplying a crafted `dump` file containing malformed or corrupt metadata indicating a block size of 0 or less, resulting in an infinite loop and a DoS condition. Under some circumstances, it may be possible for the attacker to leverage this vulnerability to execute arbitrary code.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 5.5
+        },
+        {
+            "cve": "CVE-2020-5397",
+            "description": "The `spring-webmvc` and `spring-webflux` packages are vulnerable to Cross Site Request Forgery (CSRF). The `getHandler` method in `AbstractHandlerMapping.class` and the `hasCorsConfigurationSource` method in `AbstractHandlerMethodMapping.class`, will in some instances, process CORS Preflight requests as regular requests. An attacker can exploit this vulnerability to access authenticated functionality via a CSRF attack against an authenticated victim using Chrome.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is also present in versions prior to 5.2.x for both `org.springframework:spring-webmvc` and `org.springframework:spring-webflux` artifacts due to vulnerable class `AbstractHandlerMapping.class`, and not just in versions 5.2.x and above, as stated in the advisory. The fix for both artifacts went into version 5.2.3.RELEASE.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2018-8027",
+            "description": "The Apache Camel package is vulnerable to XML eXternal Entity (XXE) Injection. The `doProcess()` function's conditional logic in `ValidatingProcessor.class` can, in some cases, allow external DTDs to be evaluated, even when they are disabled.  A remote attacker can exploit this vulnerability to conduct Server Side Request Forgery (SSRF), exfiltrate data, or other XXE related attacks.\n\nAdvisory Deviation Notice: The Sonatype security research team discovered that the root cause of the vulnerability is in 1.1.0, not in 2.20.0 as the advisory states.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2019-0194",
+            "description": "Apache Camel is vulnerable to Directory Traversal. The `createFileName()` method in the `GenericFileProducer` class does not account for traversal characters within file names when creating files. A remote attacker with the ability to create files can exploit this vulnerability by supplying a file name containing traversal characters, such as `../`, to create and write to files outside of the intended starting directory.\n\nExample:\n```\n<from uri=\"file:src/test/resources/data?noop=true\"/>\n<setHeader headerName=\"CamelFileName\">\n    <simple>../../${file:name}</simple>\n</setHeader>\n<to uri=\"file:target/results\"/>\n```\nReference: [https://issues.apache.org/jira/browse/CAMEL-13042](https://issues.apache.org/jira/browse/CAMEL-13042)\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that a fix for this vulnerability was introduced in version 2.21.5, and that the vulnerability exists in versions 2.21.0 to 2.21.4 and not 2.21.0 to 2.21.3 as the advisory states.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2024-22369",
+            "description": "The `camel-sql` component of Apache Camel is vulnerable due to the Deserialization of Untrusted Data. The `decode()` method in the `JdbcCamelCodec` class fails to properly filter out classes that come from untrusted packages. This allows malicious actors to deserialize a malicious payload under specific conditions. An attacker can exploit this vulnerability by supplying an affected application with specially crafted data to execute arbitrary code on the target system.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was actually introduced in version 2.7.0, when the Camel JDBC aggregation repository was added, instead of 3.0.0 as stated in the advisory.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2022-40152",
+            "description": "The `woodstox-core` package is vulnerable to a Denial of Service (DoS) attack via Stack-based Buffer Overflow. The `readContentSpec()` method of the `FullDTDReader` classes rescursively parses nested DTD's without placing any limits on the maximum depth. An attacker can exploit this weakness by supplying a crafted XML file containing a large number of nested DTD's which, when parsed, will cause the application to crashing and result in a DoS condition.\n\n*Advisory Deviation Notice:*\nThe Sonatype Security Research team discovered that this vulnerability affects the `com.fasterxml.woodstox:woodstox-core` component and not `com.thoughtworks.xstream:xstream` as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2020-11973",
+            "description": "The `camel-netty` and `camel-netty4` packages are vulnerable to Deserialization of Untrusted Data. The `parseURI()` method in the `NettyConfiguration` class deserializes untrusted objects by default. A remote attacker can exploit this vulnerability by supplying a malicious serialized object via any affected input parameter which, when deserialized, may result in Remote Code Execution (RCE) or other unexpected behavior.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was fixed in version 3.1.0 of `camel-netty` and version 2.25.1 of `camel-netty4`, not 3.2.0 and 2.25.1 as stated in the advisory.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2017-9096",
+            "description": "The `itextpdf` and `itext7-core` packages are vulnerable to XML External Entity (XXE) attacks. Multiple methods in multiple classes do not restrict external entities. A remote attacker can upload a crafted PDF which when parsed by iText, results in an XXE attack and arbitrary functionality to be executed on the server.\n\n***Vulnerable File(s) and Function(s)***:\n- **maven : com.itextpdf : forms**\n  - com/itextpdf/forms/xfa/XfaForm.class\n- **maven : com.itextpdf : itext-pdfa**\n  - com/itextpdf/text/zugferd/InvoiceDOM.class\n- **maven : com.itextpdf : itextpdf**\n  - com/itextpdf/text/pdf/XfaForm.class\n- **maven : com.itextpdf : kernel**\n  - com/itextpdf/kernel/utils/XmlUtils.class\n  - com/itextpdf/kernel/utils/CompareTool.class\n- **maven : com.lowagie : itext**\n  - com/lowagie/text/pdf/XfaForm.class\n- **nuget : iTextSharp**\n  - lib/itextsharp.dll\n- **nuget : itext7**\n  - lib/net40/itext.forms.dll\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2021-22569",
+            "description": "The `protobuf-java`, `protobuf-kotlin` and `google-protobuf` (JRuby gem only) packages are vulnerable to Denial of Service (DoS). The methods in the class below do not properly implement the parsing logic in unknown fields in Java. A remote attacker can exploit this behavior by supplying a malicious protobuf message (~800 KB) which, when processed by the vulnerable functionality, will create a large number of short-lived objects causing frequent garbage collection pauses. This will occupy the parser for a long time, eventually resulting in a DoS condition.\n\n**Note:**\n>protobuf-javalite and protobuf-kotlin-lite are not impacted, which means the majority of Android usages should not be impacted. Protobuf-kotlin is impacted because it has a dependency on protobuf-java.\n\nReference: [https://groups.google.com/g/grpc-io/c/k63v2K9JgeA](https://groups.google.com/g/grpc-io/c/k63v2K9JgeA)\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.\n\n*Vulnerable File(s) and Function(s)*:\n\ncom/google/protobuf/UnknownFieldSet$Builder.class\n* clearField()\n* mergeField()\n* mergeVarintField()\n* mergeLengthDelimitedField()\n* hasField()\n* addField()\n* clone()",
+            "severity": 5.5
+        },
+        {
+            "cve": "CVE-2022-3171",
+            "description": "The `protobuf-java`, `protobuf-javalite`, `protobuf-kotlin`, `protobuf-kotlin-lite`, and `google-protobuf` packages are vulnerable to Denial of Service (DoS) attacks. The methods in the files listed below mishandle input streams containing multiple non-repeating embedded messages with unknown or repeating fields. Consequently, this may cause the garbage collector to halt as objects are converted to and from mutable and immutable forms. A remote attacker who can provide certain binary or text-formatted data to be decoded by the application can exploit this vulnerability to cause a DoS condition.\n\n*Vulnerable File(s) and Function(s)*:\n\ncom/google/protobuf/ArrayDecoders.class\n- decodeMessageField()\n- decodeGroupField()\n- decodeExtension()\n\ncom/google/protobuf/BinaryReader$SafeHeapReader.class\n- readMessage()\n\ncom/google/protobuf/CodedInputStreamReader.class\n- readMessage()\n- readGroup()\n\ncom/google/protobuf/MessageSchema.class\n- mergeFrom()\n- mergeMessage()\n- mergeOneofMessage()\n- mergeFromHelper()\n- parseRepeatedField()\n- parseOneofField()\n- parseProto2Message()\n- parseProto3Message()\n- makeImmutable()\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version `3.8.0-rc-1` instead of all earlier versions being vulnerable as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-3510",
+            "description": "The `protobuf-java`, `protobuf-javalite`, `protobuf-kotlin`, `protobuf-kotlin-lite`, and `google-protobuf` packages are vulnerable to Denial of Service (DoS) attacks. The `parseExtension()` method in the `ExtensionSchemaLite` class mishandles Message-Type Extensions containing multiple non-repeating embedded messages with unknown or repeating fields. Consequently, this may cause the garbage collector to halt as objects are converted to and from mutable and immutable forms. A remote attacker who can provide certain binary or text-formatted data to be decoded by the application can exploit this vulnerability to cause a DoS condition.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version `3.8.0-rc-1` and therefore does not affect all versions prior to `3.16.3` as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-45046",
+            "description": "The `org.apache.camel:camel-ldap` package is vulnerable to LDAP Injection. The `process()` method in the  `LdapAdapter` class fails to escape special characters in LDAP filter queries. A remote attacker can exploit this vulnerability to modify LDAP filter queries and obtain access to access to unauthorized resources.\n\n*Advisory Deviation Notice*: The Sonatype Security Research team discovered that the fix for this vulnerability was not backported to version 3.14.6 as stated in the advisory.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-28165",
+            "description": "The `jetty-io` package is vulnerable to Denial of Service (DoS) attacks. The `fill()` method in the `SslConnection$DecryptedEndPoint` class mishandles the buffer used to read TLS frame data. A remote attacker can exploit this vulnerability by submitting an overlarge message (>17408 bytes) over TLS which, when processed, may cause the application to enter an infinite loop resulting in a DoS condition.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 7.6.0.M0 and not 7.2.2 as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2024-31033",
+            "description": "The `jjwt` package is vulnerable to Information Exposure due to its Use of a Broken or Risky Cryptographic Algorithm. The `decode()` method of the `Base64Codec` class uses the unsafe `DatatypeConverter.parseBase64Binary()` method to decode JSON Web Tokens (JWT). This decoding method ignores special characters not in the Base64 table during comparisons. A remote attacker can exploit this behavior using brute-force attacks to decrypt JWTs.\n\n***Advisory Deviation Notice:***\nThe Sonatype Security Research team discovered that this vulnerability was fixed in version `0.10.0` and therefore does not affect all versions through `0.12.5` as stated in the advisory.",
+            "severity": 5.9
+        },
+        {
+            "cve": "CVE-2020-10683",
+            "description": "The `dom4j` package is vulnerable to XML eXternal Entity (XXE) attacks. The `parseText` method in `DocumentHelper.class` processes external entities by default due to an insecure parser configuration. A remote attacker can exploit this behavior by crafting and submitting XML data that contains malicious external entity references. These references may be used by the attacker to exfiltrate sensitive information, cause a Denial of Service (DoS) condition, or to perform other XXE related attacks.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2023-36479",
+            "description": "The `jetty-servlets`, `jetty-ee9-servlets`, and `jetty-ee10-servlets` packages are vulnerable to Argument Injection due to Improper Neutralization of Quoting Syntax. The `exec()` method of the `CGI` class mishandles the quoting of user-supplied filenames of binaries that are subsequently launched by Java's `Runtime.exec()`. A remote attacker can exploit this vulnerability with requests to binary locations on servers whose `cgi-bin` directory includes subdirectories with names that are suffixed by double-quotation characters. This may result in existing binaries executing with additional arguments that may induce unexpected behavior in affected applications.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was first addressed in version `12.0.0.beta1` of 12.x and not `12.0.0-beta2` as stated in the advisory.",
+            "severity": 4.3
+        },
+        {
+            "cve": "CVE-2023-26049",
+            "description": "The `jetty-server` and `jetty-http` packages are vulnerable to Information Disclosure. The `parseFields()` method in the `CookieCutter` class in both packages mishandles cookies that contain an unterminated double quote. An attacker who is able to assign a cookie to another user can exploit this vulnerability by injecting a cookie with a value beginning with a double quote that is never closed. When the victim's cookies are processed by the `jetty` server, the cookies can be incorrectly concatenated, potentially resulting in one cookie being smuggled inside another. Depending on how the application utilizes the values of the affected cookies, this could allow an attacker exfiltrate sensitive cookie values, even in cases where the `HttpOnly` flag is set, or to cause other unintended application behavior resulting from cookie malformation.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was introduced into the `jetty-server` package in version 7.0.0.M0 and was resolved in version 9.4.51.v20230217, and that the vulnerable code was relocated to the `jetty-http` package in the 10.x, 11.x, and 12.x branches. As such, the 10.x, 11.x, and 12.x of the `jetty-server` package are not affected, contrary to what is stated in the advisory. In addition, the team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2019-17571",
+            "description": "The `log4j:log4j` package is vulnerable to Remote Code Execution (RCE) due to Deserialization of Untrusted Data. The `SocketNode` constructor in `SocketNode.class`, as referenced by the `SocketServer.class`, fails to properly verify if the objects being read from the `ObjectInputStream` belong to a list of classes which  are safe for deserialization. An attacker can exploit this vulnerability to deserialize objects of unsafe types, potentially resulting in Remote Code Execution (RCE).\n\nNOTE: Starting with version(s) 2.x, `log4j:log4j` was relocated to `org.apache.logging.log4j:log4j-core`. A variation of this vulnerability exists in `org.apache.logging.log4j:log4j-core` as CVE-2017-5645, in versions up to but excluding 2.8.2.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability actually impacts the `SocketNode` class being referenced by `SocketServer` class and not the `SocketServer` class itself as indicated in the NVD advisory. ",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-4104",
+            "description": "The `log4j:log4j` package is vulnerable to Deserialization of Untrusted Data. The `lookup()` and `activateOptions()` methods in the `JMSAppender` class allow `JNDI` lookup requests to be made when the `TopicBindingName` and `TopicConnectionFactoryBindingName` specify a trusted host. Lookups made to this host may be used by attackers to request a serialized malicious Java Object that can be deserialized and executed, leading to Remote Code Execution (RCE). \n\nNote that this vulnerability is different from [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) and requires the attacker to be in control of the third party host that is specified in the configuration, or write access to the Log4j configuration file in order to specify a malicious lookup host directly. This vulnerability also only affects the 1.x.x component of `Log4j` released under the `log4j:log4j` group and artifact IDs.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the root cause of the vulnerability is in all versions of log4j:log4j, not just in the 1.2.x branch as the advisory states. ",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-23302",
+            "description": "The `log4j` package is vulnerable to Deserialization of Untrusted Data. The constructor in the `JMSSink` class allows for `JNDI` lookup requests via `TopicConnectionFactoryBindingName` configurations. An attacker with write access to the Log4j configuration, or control of an LDAP service that Log4j is configured to connect to, can exploit this vulnerability to request malicious serialized Java objects that, when deserialized, will result in Remote Code Execution (RCE).\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2022-23307",
+            "description": "The `log4j` package is vulnerable due to Deserialization of Untrusted Data. The `run()` method in the `LoggingReceiver` class allows untrusted serialized log events to be deserialized. A remote attacker can exploit this behavior by supplying a malicious serialized object which, when deserialized by an application, will result in arbitrary code execution.\n\n*Note:* This vulnerability is the same as CVE-2020-9493 that was fixed in Chainsaw 2.1.0. Prior to Chainsaw V2.0, Chainsaw was a component of Apache Log4j 1.2.x where the same issue exists.\n\nReference: [https://www.mail-archive.com/announce:apache.org/msg07042.html]( https://www.mail-archive.com/announce:apache.org/msg07042.html)\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2020-17521",
+            "description": "Apache Groovy is vulnerable due to Creation of Temporary File in Directory with Insecure Permissions. The `createTempDir()` method in the `DefaultGroovyStaticMethods.class` unsafely creates temporary directories within the operating system's temporary directory which is shared by all users on a system. An attacker can leverage this behavior to gain unauthorized access to sensitive information or carry out privilege escalation on an affected system.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the root cause of the vulnerability is in 1.1-rc-1, not in 2.0.0 as the advisory states. Additionally, the vulnerability is present in versions 2.6.0-alpha-1 to 3.0.6, not just 3.0.0 before 3.0.7 as the advisory states.",
+            "severity": 5.5
+        },
+        {
+            "cve": "CVE-2017-7525",
+            "description": "`jackson-databind` is vulnerable to Remote Code Execution (RCE). The `createBeanDeserializer()` function in the `BeanDeserializerFactory` class allows untrusted Java objects to be deserialized. A remote attacker can exploit this by uploading a malicious serialized object that will result in RCE if the application attempts to deserialize it.\n\nNOTE: This vulnerability is also tracked by the Apache Struts team as [S2-055](https://cwiki.apache.org/confluence/display/WW/S2-055).\n\nNOTE: This CVE is a part of the series of CVEs (e.g. CVE-2019-16943,  CVE-2017-15095, CVE-2017-17485, CVE-2018-5968, ...) that have been, and continue to be released by the Jackson Databind project, for the exact same deserialization vulnerability. To reduce unnecessary noise arising from duplicates and false positives, we have strategically implicated components so that they show the minimal number of CVEs necessary to represent the same vulnerability.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team has created a CVSS score that differs from the publicly available score that, based on our research, more accurately reflects the severity of the vulnerability.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2020-36518",
+            "description": "The `jackson-databind` package is vulnerable to a Denial of Service (DoS) attack. The `deserialize()` method in the `UntypedObjectDeserializer` and `UntypedObjectDeserializer$Vanilla` classes fails to restrict recursion when deserializing nested untyped or generic objects. A remote attacker who can supply data to be deserialized by an affected application can exploit this vulnerability to cause the JVM to consume all available memory, resulting in a `StackOverflow` exception and ultimately a DoS condition.\n\n*Advisory Deviation Notice*: The Sonatype security research team has discovered that this vulnerability was fixed in versions 2.13.2.1 and 2.12.6.1 and not 2.13.0 as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2021-40690",
+            "description": "The `xmlsec` package is vulnerable to Exposure of Sensitive Information to an Unauthorized Actor. The `resolveReferentKeyInfo()` and `validateReference()` methods in the `KeyInfoReferenceResolver` class do not properly pass the `secureValidation` property when creating a `KeyInfo` from a `KeyInfoReference` element. A remote attacker can exploit this behavior to extract any local `.xml` files during an XPath transform using the `RetrievalMethod` element. This would result in the attacker gaining access to otherwise restricted information on an application using this package to implement XML security standards.\n\n                *Advisory Deviation Notice:* Due to the attacker only being able to access XML files by exploiting this vulnerability, the Sonatype Security Research team lowered the Confidentiality impact to 'Low'.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2023-44483",
+            "description": "The `org.apache.santuario : xmlsec` package is vulnerable due to the Inclusion of Sensitive Information in Log Files. The `sign()` method defined in both the `DOMSignatureMethod` class and the `DOMRSAPSSSignatureMethod` class log the private key when signing XML data with the JSR-105 (Java XML Digital Signature) API. An attacker with access to the log files could obtain the private key and use it to generate forged XML signatures.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in the `DOMRSAPSSSignatureMethod` class in version 2.2.0 and in the `DOMSignatureMethod` class in version 1.4.2, and therefore does no affect all versions prior to 2.2.6 as stated in the advisory. In addition to the vulnerable ranges identified in the advisory, it was also discovered that version 4.0.0-M1 contains the vulnerability. A fix for this branch was released in version 4.0.0.",
+            "severity": 6.5
+        },
+        {
+            "cve": "CVE-2022-45143",
+            "description": "The Apache `tomcat-catalina` package is vulnerable to JSON Injection attacks. The `report()` method in the `JsonErrorReportValve` class fails to sanitize user-controlled input regarding JSON error reporting `valve` instances in the Tomcat pipeline. An attacker with the ability to control the input data that results in the final JSON error report can submit invalid JSON. This results in data corruption that may also lead to a Denial of Service (DoS) condition in the event that the invalid report is processed by a service that does not verify the JSON format appropriately.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered this vulnerability also exists in the 10.0.x branch as well as 10.1.x as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2023-28708",
+            "description": "The `tomcat-catalina` package is vulnerable to Information Disclosure. Multiple methods in multiple classes listed below fail to include the `secure` attribute in session cookies when the `RemoteIpFilter` filter is in use and requests are received from a reverse proxy (via HTTP) that have their `X-Forwarded-Proto` header set to `https`. As such, session cookies could be transmitted over an insecure channel, making it possible for an adversary to intercept them.\n\n**Advisory Deviation Notice:** Contrary to what the [advisory](https://lists.apache.org/thread/hdksc59z3s7tm39x0pp33mtwdrt8qr67) implies, the vulnerability may also impact all 7.x versions of Apache Tomcat, given the presence of vulnerable class files in these versions. Support for Apache Tomcat 7.x ended on 31st March 2021 and as such security advisories may not always provide information pertaining to 7.x versions.\n\n*Vulnerable File(s) and Function(s)*:\n\norg/apache/catalina/filters/RemoteIpFilter$XForwardedRequest.class\n- isSecure()\n- setSecure()\n\norg/apache/catalina/connector/Request.class\n\norg/apache/catalina/Globals.class",
+            "severity": 4.3
+        },
+        {
+            "cve": "CVE-2023-41080",
+            "description": "Apache Tomcat is vulnerable to Open Redirect attacks. The `savedRequestURL()` method in the `FormAuthenticator` class does not properly sanitize extra forward slashes (`/`) in user influenced URLs before redirecting to them. A remote attacker can exploit this behavior by enticing a victim into submitting a request containing a specially-crafted URL to a web application configured to use FORM authentication. This will result in the victim being redirected to an attacker-controlled URL.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in the initial version instead of `8.5.0` as stated in the advisory. Additionally, the `10.0.x` branch is also affected by this vulnerability.",
+            "severity": 6.1
+        },
+        {
+            "cve": "CVE-2021-37533",
+            "description": "The `commons-net` package is vulnerable to Improper Input Validation. The `_parsePassiveModeReply()` method in the `FTPClient` class allows clients to trust a server's host IP address if it is specified in the reply of a Passive FTP connection request, overwriting the original server's IP address. This can be exploited by attackers with control over malicious FTP servers to redirect victims to other servers, leading to Sensitive Information Disclosure. \n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version 3.0 instead of the initial version as stated in the advisory.",
+            "severity": 6.5
+        },
+        {
+            "cve": "CVE-2020-27216",
+            "description": "The `jetty-webapp` package is vulnerable to Creation of Temporary File With Insecure Permissions. The `cloneConfigure` and `makeTempDirectory` methods in `WebInfConfiguration.class` create temporary files that may be visible to other users on a system. An attacker with access to the filesystem could potentially access the shared locations to tamper with the files, escalate privileges, or execute arbitrary code.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the root cause of the vulnerability is in 7.0.0.M3, not in 1.0 as the [NVD advisory](https://nvd.nist.gov/vuln/detail/CVE-2020-27216) states.",
+            "severity": 7.0
+        },
+        {
+            "cve": "CVE-2023-40167",
+            "description": "The `org.eclipse.jetty:jetty-http` package is vulnerable to Improper Handling of Length Parameter Inconsistency. The `convertContentLength()` function within `HttpParser.class` does not enforce that each character of the `Content-Length` HTTP header value be strictly numeric. This can allow an attacker to provide invalid HTTP header values (e.g. `+16` for `Content-Length`) that may be accepted by Jetty unchecked but possibly be rejected by any other servers being used in combination with Jetty. A potential Denial of Service (DoS) scenario could occur if this causes connections to remain open in between servers despite an HTTP 400 (Bad Request) response having been thrown.\n\n*Advisory Deviation Notice:* Contrary to what the [advisory](https://github.com/advisories/GHSA-hmr7-m48g-48f6) implies, Jetty versions prior to 9.0.0 do not enforce `Content-Length` HTTP header values to be strictly numeric either. The Sonatype Security Research team therefore deems these earlier versions also vulnerable and recommends upgrading to one or more fixed versions (or higher).",
+            "severity": 5.3
+        },
+        {
+            "cve": "sonatype-2020-0460",
+            "description": "The `commons-dbcp2` package is vulnerable to Information Exposure. The `getPassword` method in `BasicDataSource.class` and the `BasicDataSourceMXBean.class` file can expose passwords to anybody connected to a JMX port if a `BasicDataSource` object is created with `jmxName` set. This vulnerability can therefore lead to sensitive Information Exposure.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability impacts all versions of the package present in Maven Central, as opposed to only 2.5.0 and 2.7.0 versions listed in the [advisory](https://issues.apache.org/jira/browse/DBCP-562).",
+            "severity": 3.5
+        },
+        {
+            "cve": "CVE-2018-8041",
+            "description": "The Apache Camel Mail package contains a Path Traversal vulnerability.  The `extractAttachmentsFromMultipart()` function in `MailBinding.class` does not check attachment names for path traversal characters.  A remote attacker can potentially exploit this behavior by sending an email with an attachment containing directory traversal characters to get that attachment place on an arbitrary location on the vulnerable server.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present in version 1.4.0-RC2 until 2.20.4, not just 2.20.0 until 2.20.4 as the advisory states.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2018-10237",
+            "description": "Guava is vulnerable to Denial of Service (DoS). When untrusted input is supplied to the `AtomicDoubleArray` and `CompoundOrdering` classes, it is possible for an attacker to specify a large integer number as part of that untrusted input.  This untrusted integer `n` is used to allocate an array of length `n`.  Thus with large values of `n`, it is possible to cause an application to run out of memory.\n\nAdvisory Deviation Notice: The Sonatype security research team discovered that the fix for this vulnerability was actually introduced in version 23.6.1 for 23.6.x instead of 24.1.1 as stated in https://nvd.nist.gov/vuln/detail/CVE-2018-10237",
+            "severity": 5.9
+        },
+        {
+            "cve": "CVE-2023-46604",
+            "description": "The Apache `activemq-client` and `activemq-openwire-legacy` packages are vulnerable due to the Deserialization of Untrusted Data. The `createThrowable()` method of the `BaseDataStreamMarshaller` class fails to ensure user-supplied types extend `Throwable` before deserializing them. A remote attacker with network access to a broker can exploit this vulnerability by altering the data types of serialized objects sent over the OpenWire protocol. This may cause the broker to create instances of dangerous classes that may result in arbitrary code execution or other unexpected behavior.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team understands that despite the [advisory](https://activemq.apache.org/security-advisories.data/CVE-2023-46604-announcement.txt) recommending that users upgrade \"both brokers and clients\" to a higher version, the vulnerability primarily concerns and is exploitable for the `activemq-client`, `activemq-core`, and `activemq-openwire-legacy` packages, as well as the components containing these packages. There is no evidence of `activemq-broker` being affected.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-33037",
+            "description": "The `tomcat-coyote` package is vulnerable to HTTP Request Smuggling attacks. The vulnerable methods and classes fail to properly validate HTTP requests with `Transfer-Encoding` header values when the specified client protocol version is `HTTP/1.0`. This allows attackers to smuggle data inside of HTTP requests when the protocol version is manually set by the client and the running `Tomcat` instance is sitting behind a reverse-proxy. This could result in unexpected behavior for web services utilizing `tomcat-coyote` and could potentially lead to Sensitive Information Disclosure, Data Corruption, or a Denial of Service (Dos) condition.\n\n*Vulnerable File(s) and Function(s)*:\n\norg/apache/coyote/http11/Http11Processor.class\n* addInputFilter()\n* prepareRequest()\n\norg/apache/coyote/http11/AbstractHttp11Processor.class\n* addInputFilter()\n* prepareRequest()\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the vulnerability is present in all versions before 8.5.68, not just 8.5.0 until 8.5.68 as the advisory states.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2022-42252",
+            "description": "The Apache `tomcat-coyote` package is vulnerable to HTTP Request Smuggling attacks. The `parseHeader()` and `skipLine()` methods in the `Http11InputBuffer` class fail to reject `Content-Length` headers containing Carriage Return and Line Feed (CRLF) characters when `rejectIllegalHeader` is disabled. A remote attacker can exploit this vulnerability to cause the server to process additional unexpected requests that may be leveraged to perform various other attacks.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version 6.0.13 and not 8.5.0 as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2023-24998",
+            "description": "The Apache Commons FileUpload `commons-fileupload` package and the `tomcat-coyote` package are vulnerable to Denial of Service (DoS) attacks. The `parseRequest` function in the `FileUploadBase.class` file in each package does not enforce a maximum number of files that can be included in a single upload request. An attacker can exploit this flaw to potentially trigger an application crash or slowdowns, resulting in DoS.\n\n*Advisory Deviation Notice:*\n                        The Sonatype Security Research team discovered that this vulnerability was actually introduced in version 7.0.0 of `tomcat-coyote` instead of 8.5.0 as stated in the advisory. In addition, it was found that this vulnerability affected the 10.x branch of `tomcat-coyote` from 10.0.0-M1 and not 10.1.0-M1 as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2023-45648",
+            "description": "The Apache `tomcat-coyote` package is vulnerable to HTTP Request Smuggling attacks. The `parseHeader()` method of the `ChunkedInputFilter` class allows for non-token and control characters within the names and values of trailing headers. A remote attacker can leverage the aforementioned headers to smuggle additional, unexpected requests. Such requests may be interpreted by intermediary agents as multiple requests, with the additional request potentially circumventing access controls, poisoning the web cache, or inducing other unexpected behavior in affected applications.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was introduced in version `7.0.4` and not `8.5.0` as stated in the advisory. Additionally, this vulnerability affects all `10.0.x` versions in addition to versions `10.1.0-M1` through `10.1.13`.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2023-46589",
+            "description": "The Apache `tomcat-coyote` package is vulnerable to HTTP Request Smuggling attacks. The `parseHeader()` method of the `ChunkedInputFilter` class fails to account for trailer headers that exceed the declared maximum size. A remote attacker can exploit this vulnerability with a request leveraging crafted trailer headers in order to cause a misinterpretation of the request between Tomcat and intermediary agents. This misinterpretation may allow the attacker to smuggle additional, unexpected requests through the intermediaries and directly to affected Tomcat servers. Such requests may be leveraged to poison the web cache, bypass access controls, or induce other unexpected behavior.\n\n*Advisory Deviation Notice*: The Sonatype security research team discovered that this vulnerability was fixed in version `11.0.0-M14` and not `11.0.0-M11`. Additionally, the team discovered that this vulnerability was introduced in version `7.0.4` and not `8.5.0` as stated in the advisory.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2024-34750",
+            "description": "The Apache `tomcat-coyote` package is vulnerable to denial-of-service (DoS) attacks. The methods and classes below mishandle the accounting of active streams due to their failure to limit decrementation to once per unique stream. A remote attacker can exploit this vulnerability with requests containing an excessive number of certain crafted headers. This will cause Tomcat to deplete its tracked active stream count and consequently fail to timeout subsequent active streams. This behavior may be leveraged to hold all available connections to affected servers and deny service to their users.\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was introduced in version `10.0.0-M1` of 10.x and `8.5.75`, not `10.1.0-M` of 10.x and `9.0.0-M1` as stated in the advisory.\n\n***Vulnerable File(s) and Function(s)***:\n- **maven : org.apache.tomcat : tomcat-coyote**\n  - org/apache/coyote/http2/Http2AsyncUpgradeHandler.class\n    - `void sendStreamReset(StreamStateMachine state, StreamException se)`\n  - org/apache/coyote/http2/Http2UpgradeHandler.class\n    - `protected void decrementActiveRemoteStreamCount()`\n    - `void sendStreamReset(StreamStateMachine state, StreamException se)`\n    - `protected void sentEndOfStream(Stream stream)`\n    - `public HeaderEmitter headersStart(int streamId, boolean headersEndStream)`\n    - `public void headersEnd(int streamId, boolean endOfStream)`\n    - `private void receivedEndOfStream(Stream stream)`\n    - `public void reset(int streamId, long errorCode)`",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2021-21342",
+            "description": "The `xstream` package is vulnerable to Server-Side Request Forgery (SSRF). The `setupSecurity` method in `XStream.class` does not properly process certain types in an input stream. A remote attacker can exploit this behavior by injecting specially-crafted objects in an input stream. Upon unmarshalling, this would allow the attacker to access data from internal resources that are otherwise not publically available.\n\n*Advisory Deviation Notice:*\n                        After NVD added its CVSS score, Sonatype's Security Research team re-evaluated its CVSS score. We kept it the same, continuing to match the GitHub advisory link's CVSS score as it is the more accurate score.",
+            "severity": 9.1
+        },
+        {
+            "cve": "CVE-2024-22243",
+            "description": "The `spring-web` package is vulnerable due to Improper Input Validation. The `fromUriString()` method in the `UriComponentsBuilder` class fails to correctly validate URIs according to the [RFC 3986](https://www.rfc-editor.org/rfc/rfc3986#section-3.2) specification, allowing input to mistake the `userinfo` part of the resource as a `hostname` part. Attackers with the ability to influence URIs validated by applications that utilize this library can exploit this vulnerability by crafting URIs that may result in open redirects, and under some circumstances, Server-Side Request Forgery (SSRF) attacks.\n\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was actually introduced in version 3.0.0.RELEASE and does not exist in all versions prior to 5.3.32 as stated in the advisory.",
+            "severity": 8.1
+        },
+        {
+            "cve": "CVE-2017-7658",
+            "description": "Eclipse Jetty Server is vulnerable to HTTP request smuggling.  The `handleKnownHeaders` method in `HttpParser.class` accepts multiple `content-length` headers, which is contrary to the HTTP RFC specification. A remote attacker could exploit this behavior to potentially cause unexpected behaviors with Jetty, such as resulting in bypassing authorization checks in intermediaries or response smuggling.\n\n*Advisory Deviation Notice:* The advisory states that versions 9.2.x and older, 9.3.x (all non HTTP/1.x configurations), and 9.4.x (all HTTP/1.x configurations) are vulnerable.  The Sonatype security research teams believes that the parenthetical about non HTTP/1.x configurations being vulnerable is a typo, and that *only* the HTTP/1.x configurations are vulnerable.  In addition, a fix that remediates this vulnerability regardless of configuration has been released in version 9.2.25.v20180606 for the 9.2.x branch, version 9.3.24.v20180605 for the 9.3.x branch, and version 9.4.11.v20180605 for the 9.4.x branch.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2021-1694",
+            "description": "The `gson` package is vulnerable Deserialization of Untrusted Data. The serializable `LazilyParsedNumber`, `LinkedHashTreeMap`, and `LinkedTreeMap` classes permit unsafe deserialization due to use of the default `Serializable.readObject()` implementation. A remote attacker can exploit this vulnerability by serializing and supplying any of the aforementioned objects to an affected application. This will result in a Denial of Service (DoS) condition or other unexpected behavior when the malicious object is deserialized.\n\nNote: This vulnerability has been assigned CVE-2022-25647.\n\n*Advisory Deviation Notice:* The Sonatype security research team discovered that the root cause of the vulnerability is in 2.2.3, not in all versions before 2.8.9 as the advisory states.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2024-23114",
+            "description": "The `apache camel` package is vulnerable due to the Deserialization of Untrusted Data. The files and functions listed below unsafely allow users to deserialize data from untrusted sources without validating the resulting object or whitelisting legitimate sources. A remote attacker can exploit this vulnerability by submitting a serialized Java Object that, when consumed, may induce a Denial of Service (DoS) condition, Remote Code Execution (RCE), or other unexpected behavior.\n\n***Vulnerable File(s) and Function(s)***:\n\n- **maven : org.apache.camel : camel-cassandraql**\n  - org/apache/camel/processor/aggregate/cassandra/CassandraAggregationRepository.class\n    - `public Exchange get(CamelContext camelContext, String key) {`\n  - org/apache/camel/processor/aggregate/cassandra/CassandraCamelCodec.class\n    - `public Exchange unmarshallExchange(CamelContext camelContext, ByteBuffer buffer)throws IOException, ClassNotFoundException {`\n    - `private Object deserialize(CamelContext camelContext, InputStream bytes) throws IOException, ClassNotFoundException {`\n\n***Advisory Deviation Notice***:\nThe Sonatype Security Research team discovered that this vulnerability was actually introduced in version`2.15.0` instead of `3.0.0` as stated in the advisory.",
+            "severity": 6.5
+        }
+    ],
+    "TotalWorkarounds": 49,
+    "Workarounds": [
+        {
+            "cve": "CVE-2019-0201",
+            "remediation": "Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by using an authentication method other than `DigestAuthenticationProvider`.Reference: [https://zookeeper.apache.org/security.html#CVE-2019-0201](https://zookeeper.apache.org/security.html#CVE-2019-0201)",
+            "severity": 5.9
+        },
+        {
+            "cve": "CVE-2020-25638",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling SQL comments:>An upgrade is recommended, but if you are using a very old version which makes it difficult to upgrade to the latest supported versions (series 5.4 and 5.3 at time of writing this), you can disable SQL comments by setting:<br><br>`hibernate.use_sql_comments=false` <br><br>This also is the default, so if you didn't set the use_sql_comments at all you are not affected.Reference: [https://hibernate.atlassian.net/browse/HHH-14225](https://hibernate.atlassian.net/browse/HHH-14225)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.4
+        },
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2016-0026",
+            "remediation": "We did not find a non-vulnerable version of this component for this specific issue. We recommend investigating alternative technologies or a workaround. Workaround:> A possible workaround is to implement your own remember me manager by extending the CookieRememberMeManager class.",
+            "severity": 4.8
+        },
+        {
+            "cve": "CVE-2023-33202",
+            "remediation": " Alternatively, if upgrading is not a viable option, the project has provided users with the following workaround:>The attack can be avoided by either updating or filtering PEM requests containing EXTERNAL tagged encodings.Reference: <https://github.com/bcgit/bc-java/wiki/CVE-2023-33202>Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 5.5
+        },
+        {
+            "cve": "CVE-2021-28165",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by following the [workaround procedure](https://github.com/eclipse/jetty.project/security/advisories/GHSA-26vr-8j45-3r4w) provided by the project. Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2023-26048",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by setting the `maxRequestSize` parameter of affected `:MultipartConfig` configurations which, while still read into memory, will limit the entirety of multipart request content.Reference: <https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8>Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2022-23305",
+            "remediation": "There is no non-vulnerable upgrade path for `log4j:log4j` 1.x. We recommend upgrading to `log4j` 2.x, which introduced a `JDBCAppender` that makes use of prepared statements and parameterization to protect against SQL Injection. Alternatively, this vulnerability can be mitigated in `log4j` 1.x by removing all usages of the `JDBCAppender` from the application's configuration. Reference: [https://lists.apache.org/thread/pt6lh3pbsvxqlwlp4c5l798dv2hkc85y](https://lists.apache.org/thread/pt6lh3pbsvxqlwlp4c5l798dv2hkc85y)This vulnerability has been fixed in version `1.3.0.Final` of `org.jboss.logmanager:log4j-jboss-logmanager` by removing the vulnerable class from the project.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2022-23307",
+            "remediation": "There is no non-vulnerable upgrade path for for `log4j:log4j` 1.x. We recommend upgrading to `log4j` 2.x and Apache Chainsaw 2.1.0. Alternatively, do not configure Chainsaw to read serialized log events. Use a different receiver, such as `XMLSocketReceiver`.Reference:[https://www.mail-archive.com/announce:apache.org/msg07042.html](https://www.mail-archive.com/announce:apache.org/msg07042.html)[https://lists.apache.org/thread/rx0hpjow5csq05r93cyvntj9ry19tm9y](https://lists.apache.org/thread/rx0hpjow5csq05r93cyvntj9ry19tm9y)This vulnerability has been fixed in version `1.3.0.Final` of `org.jboss.logmanager:log4j-jboss-logmanager` by removing Apache Chainsaw from the project.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2017-7525",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing. Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2015-0254",
+            "remediation": "Note for the fixed version(s):```This version uses JAXP's FEATURE_SECURE_PROCESSING to restrict XML processing. Depending on the Java runtime version in use, additional configuration may be required:Java8: External entity access is automatically disabled if a SecurityManager is active.Java7: JAXP properties may need to be used to disable external access. See http://docs.oracle.com/javase/tutorial/jaxp/properties/properties.htmlJava6 and earlier: A new system property org.apache.taglibs.standard.xml.accessExternalEntitymay be used to specify the protocols that can be used to access external entities. This defaultsto \"all\" if no SecurityManager is present and to \"\" (thereby disabling access) ifa SecurityManager is detected.```Reference: [http://mail-archives.apache.org/mod_mbox/tomcat-taglibs-user/201502.mbox/%3C82207A16-6348-4DEE-877E-F7B87292576A%40apache.org%3E](http://mail-archives.apache.org/mod_mbox/tomcat-taglibs-user/201502.mbox/%3C82207A16-6348-4DEE-877E-F7B87292576A%40apache.org%3E)",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2018-17187",
+            "remediation": "Alternative workaround:>>>If upgrading is not currently possible then potential workarounds include providing a custom SSLContext which enables hostname verification or omitting use of the 'transport.ssl(...)' methods and performing TLS through other means such as utilizing existing IO framework support or supplying a custom transport wrapper layer.Reference: https://qpid.apache.org/cves/CVE-2018-17187.htmlNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.4
+        },
+        {
+            "cve": "CVE-2024-36124",
+            "remediation": "This package is not actively maintained anymore and advises users to migrate to the Snappy implementation in [https://github.com/airlift/aircompressor](https://github.com/airlift/aircompressor) (version 0.27 or newer).Reference:[https://github.com/dain/snappy/security/advisories/GHSA-8wh2-6qhj-h7j9](https://github.com/dain/snappy/security/advisories/GHSA-8wh2-6qhj-h7j9)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 5.3
+        },
+        {
+            "cve": "CVE-2020-27216",
+            "remediation": "Alternatively, [workarounds](https://github.com/eclipse/jetty.project/security/advisories/GHSA-g3wg-6mcf-8jj6) are also available.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.0
+        },
+        {
+            "cve": "CVE-2021-28165",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by following the [workaround procedure](https://github.com/eclipse/jetty.project/security/advisories/GHSA-26vr-8j45-3r4w) provided by the project. Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2023-26048",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by setting the `maxRequestSize` parameter of affected `:MultipartConfig` configurations which, while still read into memory, will limit the entirety of multipart request content.Reference: <https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8>Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 5.3
+        },
+        {
+            "cve": "sonatype-2023-3025",
+            "remediation": "If upgrading is not a viable option, the project has provided a potential [workaround](https://github.com/eclipse/jetty.project/security/advisories/GHSA-58qw-p7qm-5rvh).Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 3.9
+        },
+        {
+            "cve": "CVE-2018-14718",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing.  Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2018-14719",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing.  Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2018-14720",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing.  Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2018-14721",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing.  Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 10.0
+        },
+        {
+            "cve": "CVE-2022-22965",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "sonatype-2022-1764",
+            "remediation": " The Spring project has [released guidance on applying a workaround](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement) for those who are unable to upgrade.Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2020-26217",
+            "remediation": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue and implementing XStream's Security Framework with an `allow-list`.  Alternatively, a workaround has been provided at: [https://github.com/x-stream/xstream/security/advisories/GHSA-mw36-7c6c-q4q2](https://github.com/x-stream/xstream/security/advisories/GHSA-mw36-7c6c-q4q2)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 8.8
+        },
+        {
+            "cve": "CVE-2020-26258",
+            "remediation": "Mitigation: Follow the `Workaround` instructions in this [reference](https://x-stream.github.io/CVE-2020-26258.html#workaround) depending on the version of `xstream` utilized and define a default deny list with the `jdk.nashorn.internal.objects.NativeString` string and `.*\\\\.ReadAllStream\\\\$FileStream` regular expression option to disable the feature. We also recommend following the advice made by the project developers to define a whitelist with the security framework as discussed [here](https://x-stream.github.io/security.html#framework).Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.*References*: [https://x-stream.github.io/CVE-2020-26259.html](https://x-stream.github.io/CVE-2020-26259.html)[https://x-stream.github.io/security.html#framework](https://x-stream.github.io/security.html#framework)",
+            "severity": 7.7
+        },
+        {
+            "cve": "CVE-2020-26259",
+            "remediation": "Mitigation: Follow the `Workaround` instructions in this [reference](https://x-stream.github.io/CVE-2020-26259.html#workaround) depending on the version of `xstream` utilized and define a default deny list with the `jdk.nashorn.internal.objects.NativeString` string and `.*\\\\.ReadAllStream\\\\$FileStream` regular expression option to disable the feature. We also recommend following the advice made by the project developers to define a whitelist with the security framework as discussed [here](https://x-stream.github.io/security.html#framework).Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.*References*: [https://x-stream.github.io/CVE-2020-26259.html](https://x-stream.github.io/CVE-2020-26259.html)[https://x-stream.github.io/security.html#framework](https://x-stream.github.io/security.html#framework)",
+            "severity": 6.8
+        },
+        {
+            "cve": "CVE-2021-21341",
+            "remediation": " Alternatively, if upgrading is not a viable option, the project has provided the following workaround:>As recommended, use XStream's security framework to implement a whitelist for the allowed types. This is possible since XStream 1.4.7 and it is the default since XStream 1.4.18.>>Users of XStream 1.4.15 should add these lines and additionally the lines for version 1.4.16 and 1.4.17:>```>xstream.denyTypes(new String[]{ \"sun.awt.datatransfer.DataTransferer$IndexOrderComparator\", \"com.sun.tools.javac.processing.JavacProcessingEnvironment$NameProcessIterator\" });>xstream.denyTypesByRegExp(new String[]{ \".*\\\\$ServiceNameIterator\", \"(javax|sun.swing)\\\\..*LazyValue\",\"javafx\\\\.collections\\\\.ObservableList\\\\$.*\", \".*\\\\.bcel\\\\..*\\\\.util\\\\.ClassLoader\" });>xstream.denyTypeHierarchy(java.io.InputStream.class );>xstream.denyTypeHierarchy(java.nio.channels.Channel.class );>xstream.denyTypeHierarchy(javax.activation.DataSource.class );>xstream.denyTypeHierarchy(javax.sql.rowset.BaseRowSet.class );>```Reference: [https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2021-21342",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.1
+        },
+        {
+            "cve": "CVE-2021-21343",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2021-21344",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-21345",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.9
+        },
+        {
+            "cve": "CVE-2021-21346",
+            "remediation": " Furthermore, as a good general security practice and possible workaround if using XStream version 1.4.7 and above, we recommend setting up an allow list, as opposed to the default deny list, per the [developer's instructions](https://x-stream.github.io/security.html#framework).Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-21347",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-21348",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2021-21349",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 8.6
+        },
+        {
+            "cve": "CVE-2021-21350",
+            "remediation": "*Workaround:*[https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2021-21351",
+            "remediation": " Alternatively, if upgrading is not a viable option, the project has provided the following workaround:>As recommended, use XStream's security framework to implement a whitelist for the allowed types. This is possible since XStream 1.4.7 and it is the default since XStream 1.4.18.>>Users of XStream 1.4.15 should add these lines and additionally the lines for version 1.4.16 and 1.4.17:>```>xstream.denyTypes(new String[]{ \"sun.awt.datatransfer.DataTransferer$IndexOrderComparator\", \"com.sun.tools.javac.processing.JavacProcessingEnvironment$NameProcessIterator\" });>xstream.denyTypesByRegExp(new String[]{ \".*\\\\$ServiceNameIterator\", \"(javax|sun.swing)\\\\..*LazyValue\",\"javafx\\\\.collections\\\\.ObservableList\\\\$.*\", \".*\\\\.bcel\\\\..*\\\\.util\\\\.ClassLoader\" });>xstream.denyTypeHierarchy(java.io.InputStream.class );>xstream.denyTypeHierarchy(java.nio.channels.Channel.class );>xstream.denyTypeHierarchy(javax.activation.DataSource.class );>xstream.denyTypeHierarchy(javax.sql.rowset.BaseRowSet.class );>```Reference: [https://x-stream.github.io/security.html#workaround](https://x-stream.github.io/security.html#workaround)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.1
+        },
+        {
+            "cve": "CVE-2021-43859",
+            "remediation": " Alternatively, if upgrading is not a viable option, the project has provided the following workaround(s):>If your object graph does not use [the above] referenced elements at all, you may simply set the `NO_REFERENCE` mode:>>```>XStream xstream = new XStream();>xstream.setMode(XStream.NO_REFERENCES);>```>If your object graph contains neither a Hashtable, HashMap nor a HashSet (or one of the linked variants of it) then you can use the security framework to deny the usage of these types:>>```>XStream xstream = new XStream();>xstream.denyTypes(new Class[]{> java.util.HashMap.class, java.util.HashSet.class, java.util.Hashtable.class, java.util.LinkedHashMap.class, java.util.LinkedHashSet.class>});>```>Unfortunately these types are very common. If you only use `HashMap` or `HashSet` and your XML refers these only as default map or set, you may additionally change the default implementation of `java.util.Map` and `java.util.Set` at unmarshalling time:>>```>xstream.addDefaultImplementation(java.util.TreeMap.class, java.util.Map.class);>xstream.addDefaultImplementation(java.util.TreeSet.class, java.util.Set.class);>```>However, this implies that your application does not care about the implementation of the map and all elements are comparable.Reference: [https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf](https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2022-41966",
+            "remediation": "A workaround has been provided [here](https://github.com/x-stream/xstream/security/advisories/GHSA-j563-grx4-pjpv).Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 7.5
+        },
+        {
+            "cve": "CVE-2019-17531",
+            "remediation": "*Update*: As of version 2.10.0, Jackson now provides a safe default typing solution that fully mitigates this vulnerability.Reference: [https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2](https://medium.com/:cowtowncoder/jackson-2-10-features-cd880674d8a2)In order to mitigate this vulnerability, we recommend upgrading to at least version 2.10.0 and changing any usages of `enableDefaultTyping()` to `activateDefaultTyping()`.Alternatively, if upgrading is not a viable option, this vulnerability can be mitigated by disabling default typing.  Instead, you will need to implement your own:>It is also possible to customize global defaulting, using ObjectMapper.setDefaultTyping(...) -- you just have to implement your own TypeResolverBuilder (which is not very difficult); and by doing so, can actually configure all aspects of type information. Builder itself is just a short-cut for building actual handlers.Reference: [https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization](https://github.com/FasterXML/jackson-docs/wiki/JacksonPolymorphicDeserialization)Examples of implementing your own typing can be found by looking at [Spring Security's fix](https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca439) or [this Stack Overflow article](https://stackoverflow.com/questions/12353774/how-to-customize-jackson-type-information-mechanism).",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2016-1000027",
+            "remediation": "A warning has been provided in the official [Javadocs](https://docs.spring.io/spring-framework/docs/5.3.x/javadoc-api/org/springframework/remoting/httpinvoker/HttpInvokerServiceExporter.html) of the `HttpInvokerServiceExporter` class and support for several serialization-based remoting technologies including this class has been deprecated from 5.3.0 onwards and completely removed from 6.0.0 and onwards:>WARNING: Be aware of vulnerabilities due to unsafe Java deserialization: Manipulated input streams could lead to unwanted code execution on the server during the deserialization step. As a consequence, do not expose HTTP invoker endpoints to untrusted clients but rather just between your own services. In general, we strongly recommend any other message format (e.g. JSON) instead.The developer's general advice also states:>Do not use Java serialization for external endpoints, in particular not for unauthorized ones. HTTP invoker is not a well-kept secret (or an \"oversight\") but rather the typical case of how a Spring application would expose serialization endpoints to begin with... he has a point that we should make this case all across our documentation, including the javadoc. But I don't really see a CVE case here, just a documentation improvement.>>Pivotal will enhance their documentation for the 4.2.6 and 3.2.17 releases.Reference: [https://www.tenable.com/security/research/tra-2016-20](https://www.tenable.com/security/research/tra-2016-20)Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2017-7657",
+            "remediation": " Alternatively, this vulnerability can be mitigated by disabling HTTP/1.1 support.* Ref: http://www.eclipse.org/jetty/documentation/9.4.x/configuring-connectors.html   (HTTP Configuration)",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2017-7658",
+            "remediation": "  Alternatively, it is possible to mitigate this vulnerability by disabling support for HTTP versions lower than two.* Ref: http://www.eclipse.org/jetty/documentation/9.4.x/configuring-connectors.html   (HTTP Configuration)",
+            "severity": 9.8
+        },
+        {
+            "cve": "CVE-2023-26048",
+            "remediation": " Alternatively, if upgrading is not a viable option, this vulnerability may be mitigated by setting the `maxRequestSize` parameter of affected `:MultipartConfig` configurations which, while still read into memory, will limit the entirety of multipart request content.Reference: <https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8>Note: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+            "severity": 5.3
+        }
+    ]
+}

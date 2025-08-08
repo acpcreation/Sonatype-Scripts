@@ -1,0 +1,61 @@
+{
+    "source": "cve",
+    "reference": "CVE-2021-43859",
+    "severity": 7.5,
+    "status": "Open",
+    "url": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43859",
+    "threatCategory": "critical",
+    "deeperData": {
+        "identifier": "CVE-2021-43859",
+        "vulnIds": [
+            "CVE-2021-43859"
+        ],
+        "vulnerabilityLink": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-43859",
+        "source": {
+            "shortName": "CVE",
+            "longName": "National Vulnerability Database"
+        },
+        "mainSeverity": {
+            "source": "cve_cvss_3",
+            "score": 7.5,
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "severityScores": [
+            {
+                "source": "cve_cvss_2",
+                "score": 5.0
+            },
+            {
+                "source": "sonatype_cvss_3",
+                "score": 7.5
+            }
+        ],
+        "weakness": {
+            "cweSource": "CVE",
+            "cweIds": [
+                {
+                    "id": "400",
+                    "uri": "https://cwe.mitre.org/data/definitions/400.html"
+                }
+            ]
+        },
+        "categories": [
+            "functional",
+            "data"
+        ],
+        "description": "XStream is an open source java library to serialize objects to XML and back again. Versions prior to 1.4.19 may allow a remote attacker to allocate 100% CPU time on the target system depending on CPU type or parallel execution of such a payload resulting in a denial of service only by manipulating the processed input stream. XStream 1.4.19 monitors and accumulates the time it takes to add elements to collections and throws an exception if a set threshold is exceeded. Users are advised to upgrade as soon as possible. Users unable to upgrade may set the NO_REFERENCE mode to prevent recursion. See GHSA-rmr5-cpv2-vgjf for further details on a workaround if an upgrade is not possible.",
+        "explanationMarkdown": "The `xstream` package is vulnerable to a Denial of Service (DoS) attack. The methods in the files listed below fail to limit the time spent recursing when populating maps and collections from processed input streams. A remote attacker able to manipulate an input stream of a marshaled object can exploit this vulnerability by extending the depth of the structure such that it is highly recursive. Due to the hashcode implementations of affected Java collections and maps, unmarshalling this object will result in exponential calculation times and cause the application to consume all available CPU resources.\n\n*Vulnerable File(s) and Function(s)*:\n\ncom/thoughtworks/xstream/XStream.class\n* unmarshal()\n* createObjectInputStream()\n\ncom/thoughtworks/xstream/converters/collections/CollectionConverter.class\n* addCurrentElementToCollection()\n\ncom/thoughtworks/xstream/converters/collections/MapConverter.class\n* putCurrentEntryIntoMap()\n\ncom/thoughtworks/xstream/converters/extended/NamedMapConverter.class\n* populateMap()\n\n*Advisory Deviation*: The Sonatype security research team discovered that this vulnerability was introduced in version 0.6 and therefore does not affect all versions prior to 1.4.19 as the advisory states.",
+        "detectionMarkdown": "The application is vulnerable by using this component with object graphs that reference the following types using Java versions available as of December 2021:\n\n>* java.util.HashMap\n>* java.util.HashSet\n>* java.util.Hashtable\n>* java.util.LinkedHashMap\n>* java.util.LinkedHashSet\n>* java.util.Stack (older Java revisions only)\n>* java.util.Vector (older Java revisions only)\n>* Other third party collection implementations that use their element's hash code may also be affected\n\nReference: [https: //github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf](https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf)\n",
+        "recommendationMarkdown": "We recommend upgrading to a version of this component that is not vulnerable to this specific issue. Alternatively, if upgrading is not a viable option, the project has provided the following workaround(s):\n\n>If your object graph does not use [the above] referenced elements at all, you may simply set the `NO_REFERENCE` mode:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.setMode(XStream.NO_REFERENCES);\n>```\n>If your object graph contains neither a Hashtable, HashMap nor a HashSet (or one of the linked variants of it) then you can use the security framework to deny the usage of these types:\n>\n>```\n>XStream xstream = new XStream();\n>xstream.denyTypes(new Class[]{\n> java.util.HashMap.class, java.util.HashSet.class, java.util.Hashtable.class, java.util.LinkedHashMap.class, java.util.LinkedHashSet.class\n>});\n>```\n>Unfortunately these types are very common. If you only use `HashMap` or `HashSet` and your XML refers these only as default map or set, you may additionally change the default implementation of `java.util.Map` and `java.util.Set` at unmarshalling time:\n>\n>```\n>xstream.addDefaultImplementation(java.util.TreeMap.class, java.util.Map.class);\n>xstream.addDefaultImplementation(java.util.TreeSet.class, java.util.Set.class);\n>```\n>However, this implies that your application does not care about the implementation of the map and all elements are comparable.\n\nReference: [https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf](https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf)\n\nNote: If this component is included as a bundled/transitive dependency of another component, there may not be an upgrade path. In this instance, we recommend contacting the maintainers who included the vulnerable package. Alternatively, we recommend investigating alternative components or a potential mitigating control.",
+        "advisories": [
+            {
+                "referenceType": "PROJECT",
+                "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-rmr5-cpv2-vgjf"
+            },
+            {
+                "referenceType": "PROJECT",
+                "url": "https://x-stream.github.io/CVE-2021-43859.html"
+            }
+        ]
+    }
+}

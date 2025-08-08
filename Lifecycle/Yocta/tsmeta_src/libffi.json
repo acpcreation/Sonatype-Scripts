@@ -1,0 +1,27 @@
+{
+        "license": "MIT",
+        "summary": "A portable foreign function interface library",
+        "homepage": "http://sourceware.org/libffi/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://github.com/libffi/libffi/releases/download/v3.4.2/libffi-3.4.2.tar.gz",
+                "file://not-win32.patch",
+                "file://0001-arm-sysv-reverted-clang-VFP-mitigation.patch"
+        ],
+        "cve_product": "libffi",
+        "cve_version": "3.4.2",
+        "sources": {
+                "patches": {
+                        "not-win32.patch": "/home/andrew/poky/meta/recipes-support/libffi/libffi/not-win32.patch",
+                        "0001-arm-sysv-reverted-clang-VFP-mitigation.patch": "/home/andrew/poky/meta/recipes-support/libffi/libffi/0001-arm-sysv-reverted-clang-VFP-mitigation.patch"
+                },
+                "https": [
+                        "https://github.com/libffi/libffi/releases/download/v3.4.2/libffi-3.4.2.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/libffi/libffi_3.4.2.bb"
+}

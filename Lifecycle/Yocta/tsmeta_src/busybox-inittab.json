@@ -1,0 +1,22 @@
+{
+        "license": "GPL-2.0-only",
+        "summary": "inittab configuration for BusyBox",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "file://inittab"
+        ],
+        "cve_product": "busybox-inittab",
+        "cve_version": "1.35.0",
+        "homepage": "",
+        "sources": {
+                "patches": {},
+                "file": [
+                        "inittab"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/busybox/busybox-inittab_1.35.0.bb"
+}

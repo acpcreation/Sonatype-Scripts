@@ -1,0 +1,1289 @@
+Summary,CVEs,Severity,Type,Provider,Component,Infected Version,Fix Version,Edited,Component Versions Id,CVSS v2,CVSS v3,Cwe,Id,Is Source Root,Source Comp Id,Component
+"This affects the package ini before 1.3.6. If an attacker submits a malicious INI file to an application that parses it with ini.parse, they will pollute the prototype on the application. This can be exploited further depending on the context.",CVE-2020-7788,Critical,security,JFrog,ini,< 1.3.6,1.3.6,2023-02-01T21:17:28-05:00,ini,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-129933,FALSE,npm://ini:1.3.4,ini:1.3.4
+minimist Package for Node.js --__proto__.y=Polluted Argument Handling Prototype Pollution Remote Property Manipulation,,Critical,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2022-02-15T09:01:31-05:00,minimist,,,,XRAY-95632,FALSE,npm://minimist:0.0.10,minimist:0.0.10
+minimist Package for Node.js --__proto__.y=Polluted Argument Handling Prototype Pollution Remote Property Manipulation,,Critical,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2022-02-15T09:01:31-05:00,minimist,,,,XRAY-95632,FALSE,npm://minimist:1.2.0,minimist:1.2.0
+"Growl adds growl notification support to nodejs. Growl before 1.10.2 does not properly sanitize input before passing it to exec, allowing for arbitrary command execution.",CVE-2017-16042,Critical,security,JFrog,growl,< 1.10.0,1.10.0,2023-02-01T21:15:22-05:00,growl,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-78,XRAY-72713,FALSE,npm://growl:1.9.2,growl:1.9.2
+"The ejs (aka Embedded JavaScript templates) package 3.1.6 for Node.js allows server-side template injection in settings[view options][outputFunctionName]. This is parsed as an internal option, and overwrites the outputFunctionName option with an arbitrary OS command (which is executed upon template compilation).",CVE-2022-29078,Critical,security,JFrog,ejs,< 3.1.7,3.1.7,2023-02-01T21:15:22-05:00,ejs,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-74,XRAY-209002,FALSE,npm://ejs:0.4.3,ejs:0.4.3
+minimist Package for Node.js --__proto__.y=Polluted Argument Handling Prototype Pollution Remote Property Manipulation,,Critical,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2022-02-15T09:01:31-05:00,minimist,,,,XRAY-95632,FALSE,npm://minimist:0.0.8,minimist:0.0.8
+Eran Hammer cryptiles version 4.1.1 earlier contains a CWE-331: Insufficient Entropy vulnerability in randomDigits() method that can result in An attacker is more likely to be able to brute force something that was supposed to be random.. This attack appear to be exploitable via Depends upon the calling application.. This vulnerability appears to have been fixed in 4.1.2.,CVE-2018-1000620,Critical,security,JFrog,cryptiles,< 4.1.2,4.1.2,2023-02-01T21:17:13-05:00,cryptiles,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N,9.8/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-331,XRAY-84448,FALSE,npm://cryptiles:2.0.5,cryptiles:2.0.5
+Eran Hammer cryptiles version 4.1.1 earlier contains a CWE-331: Insufficient Entropy vulnerability in randomDigits() method that can result in An attacker is more likely to be able to brute force something that was supposed to be random.. This attack appear to be exploitable via Depends upon the calling application.. This vulnerability appears to have been fixed in 4.1.2.,CVE-2018-1000620,Critical,security,JFrog,cryptiles,< 4.1.2,4.1.2,2023-02-01T21:17:13-05:00,cryptiles,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N,9.8/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-331,XRAY-84448,FALSE,npm://cryptiles:0.2.2,cryptiles:0.2.2
+The package handlebars before 4.7.7 are vulnerable to Prototype Pollution when selecting certain compiling options to compile templates coming from an untrusted source.,CVE-2021-23383,Critical,security,JFrog,handlebars,< 4.7.7,4.7.7,2023-02-01T21:15:42-05:00,handlebars,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-175498,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+nodejs ejs versions older than 2.5.3 is vulnerable to remote code execution due to weak input validation in ejs.renderFile() function,CVE-2017-1000228,Critical,security,JFrog,ejs,< 2.5.5,2.5.5,2023-02-01T21:15:22-05:00,ejs,10.0/CVSS:2.0/AV:N/AC:L/Au:N/C:C/I:C/A:C,9.8/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-20,XRAY-73289,FALSE,npm://ejs:0.4.3,ejs:0.4.3
+"Versions of handlebars prior to 4.3.0 are vulnerable to Prototype Pollution leading to Remote Code Execution. Templates may alter an Object's __proto__ and __defineGetter__ properties, which may allow an attacker to execute arbitrary code through crafted payloads.",CVE-2019-19919,Critical,security,JFrog,handlebars,< 4.3.0,4.3.0,2023-02-01T21:15:42-05:00,handlebars,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-93077,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+"Minimist <=1.2.5 is vulnerable to Prototype Pollution via file index.js, function setKey() (lines 69-95).",CVE-2021-44906,Critical,security,JFrog,minimist,< 1.2.6,1.2.6,2023-02-01T21:16:26-05:00,minimist,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-200203,FALSE,npm://minimist:0.0.10,minimist:0.0.10
+node-handlebars Template Handling Prototype Manipulation Remote Code Execution,CVE-2019-19919,Critical,security,JFrog,handlebars,"1.0.6,1.0.7 ≤ Version ≤ 1.3.0,2.0.0 ≤ Version ≤ 4.0.13,4.1.0 ≤ Version ≤ 4.1.1","4.0.14,4.1.2",2022-12-13T11:30:49-05:00,handlebars,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-74,XRAY-75751,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+json-schema is vulnerable to Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution'),CVE-2021-3918,Critical,security,JFrog,json-schema,< 0.4.0,0.4.0,2023-02-01T21:15:45-05:00,json-schema,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-228365,FALSE,npm://json-schema:0.2.3,json-schema:0.2.3
+Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.,CVE-2019-10744,Critical,security,JFrog,lodash,< 4.17.12,4.17.12,2023-02-01T21:15:54-05:00,lodash,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:P,9.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H,NVD-CWE-Other,XRAY-85679,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+"All versions of bson before 1.1.4 are vulnerable to Deserialization of Untrusted Data. The package will ignore an unknown value for an object's _bsotype, leading to cases where an object is serialized as a document rather than the intended BSON type.",CVE-2020-7610,Critical,security,JFrog,bson,< 1.1.4,1.1.4,2023-02-01T21:16:15-05:00,bson,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-502,XRAY-95944,FALSE,npm://bson:1.0.9,bson:1.0.9
+"All versions of bson before 1.1.4 are vulnerable to Deserialization of Untrusted Data. The package will ignore an unknown value for an object's _bsotype, leading to cases where an object is serialized as a document rather than the intended BSON type.",CVE-2020-7610,Critical,security,JFrog,bson,< 1.1.4,1.1.4,2023-02-01T21:16:15-05:00,bson,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-502,XRAY-95944,FALSE,npm://bson:1.0.8,bson:1.0.8
+"A prototype pollution vulnerability was found in module extend <2.0.2, ~<3.0.2 that allows an attacker to inject arbitrary properties onto Object.prototype.",CVE-2018-16492,Critical,security,JFrog,extend,"< 2.0.2,3.0.0 ≤ Version < 3.0.2","2.0.2,3.0.2",2023-02-01T21:15:22-05:00,extend,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-74,XRAY-75272,FALSE,npm://extend:3.0.0,extend:3.0.0
+unset-value Package for Node.js index.js unset() Function Prototype Pollution Arbitrary Code Execution,,Critical,security,JFrog,unset-value,< 2.0.1,2.0.1,2022-12-13T11:30:49-05:00,unset-value,,,,XRAY-198324,FALSE,npm://unset-value:1.0.0,unset-value:1.0.0
+"The package y18n before 3.2.2, 4.0.1 and 5.0.5, is vulnerable to Prototype Pollution.",CVE-2020-7774,Critical,security,JFrog,y18n,"< 3.2.2,4.0.0 ≤ Version < 4.0.1,5.0.0 ≤ Version < 5.0.5","3.2.2,4.0.1,5.0.5",2023-02-01T21:17:28-05:00,y18n,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-129602,FALSE,npm://y18n:3.2.1,y18n:3.2.1
+JS-YAML lib/js-yaml/loader.js storeMappingPair() Function Object Property Handling Arbitrary Code Execution,,Critical,security,JFrog,js-yaml,< 3.13.1,3.13.1,2022-02-15T09:01:14-05:00,js-yaml,,,,XRAY-80240,FALSE,npm://js-yaml:3.6.1,js-yaml:3.6.1
+"Minimist <=1.2.5 is vulnerable to Prototype Pollution via file index.js, function setKey() (lines 69-95).",CVE-2021-44906,Critical,security,JFrog,minimist,< 1.2.6,1.2.6,2023-02-01T21:16:26-05:00,minimist,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-200203,FALSE,npm://minimist:0.0.8,minimist:0.0.8
+The package handlebars before 4.7.7 are vulnerable to Remote Code Execution (RCE) when selecting certain compiling options to compile templates coming from an untrusted source.,CVE-2021-23369,Critical,security,JFrog,handlebars,< 4.7.7,4.7.7,2023-02-01T21:17:33-05:00,handlebars,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,NVD-CWE-noinfo,XRAY-173070,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+"Minimist <=1.2.5 is vulnerable to Prototype Pollution via file index.js, function setKey() (lines 69-95).",CVE-2021-44906,Critical,security,JFrog,minimist,< 1.2.6,1.2.6,2023-02-01T21:16:26-05:00,minimist,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-1321,XRAY-200203,FALSE,npm://minimist:1.2.0,minimist:1.2.0
+This affects the package jsonpointer before 5.0.0. A type confusion vulnerability can lead to a bypass of a previous Prototype Pollution fix when the pointer components are arrays.,CVE-2021-23807,Critical,security,JFrog,jsonpointer,< 5.0.0,5.0.0,2023-02-01T21:15:31-05:00,jsonpointer,7.5/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:P/A:P,9.8/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CWE-843,XRAY-189133,FALSE,npm://jsonpointer:4.0.0,jsonpointer:4.0.0
+Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.,CVE-2019-10744,Critical,security,JFrog,lodash,< 4.17.12,4.17.12,2023-02-01T21:15:54-05:00,lodash,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:P,9.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H,NVD-CWE-Other,XRAY-85679,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.,CVE-2021-23337,High,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:16:02-05:00,lodash,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-140575,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+"A vulnerability was found in the minimatch package. This flaw allows a Regular Expression Denial of Service (ReDoS) when calling the braceExpand function with specific arguments, resulting in a Denial of Service.",CVE-2022-3517,High,security,JFrog,minimatch,< 3.0.5,3.0.5,2023-02-01T21:15:56-05:00,minimatch,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-257996,FALSE,npm://minimatch:3.0.2,minimatch:3.0.2
+"A vulnerability was found in the minimatch package. This flaw allows a Regular Expression Denial of Service (ReDoS) when calling the braceExpand function with specific arguments, resulting in a Denial of Service.",CVE-2022-3517,High,security,JFrog,minimatch,< 3.0.5,3.0.5,2023-02-01T21:15:56-05:00,minimatch,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-257996,FALSE,npm://minimatch:0.3.0,minimatch:0.3.0
+"The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.",CVE-2021-23358,High,security,JFrog,underscore,1.3.2 ≤ Version < 1.12.1,1.12.1,2023-02-01T21:17:28-05:00,underscore,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-159876,FALSE,npm://underscore:1.8.3,underscore:1.8.3
+"The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.",CVE-2021-23358,High,security,JFrog,underscore,1.3.2 ≤ Version < 1.12.1,1.12.1,2023-02-01T21:17:28-05:00,underscore,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-159876,FALSE,npm://underscore:1.5.1,underscore:1.5.1
+Moment Package for Node.js lib/create/from-string.js preprocessRFC2822() Function Message Parsing Improper Regular Expression DoS,,High,security,JFrog,moment,≤ 2.29.3,,2022-07-25T23:19:29-04:00,moment,,,,XRAY-228529,FALSE,npm://moment:2.24.0,moment:2.24.0
+"A vulnerability was found in the minimatch package. This flaw allows a Regular Expression Denial of Service (ReDoS) when calling the braceExpand function with specific arguments, resulting in a Denial of Service.",CVE-2022-3517,High,security,JFrog,minimatch,< 3.0.5,3.0.5,2023-02-01T21:15:56-05:00,minimatch,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-257996,FALSE,npm://minimatch:3.0.3,minimatch:3.0.3
+"Marked is a markdown parser and compiler. Prior to version 4.0.10, the regular expression `block.def` may cause catastrophic backtracking against some strings and lead to a regular expression denial of service (ReDoS). Anyone who runs untrusted markdown through a vulnerable version of marked and does not use a worker with a time limit may be affected. This issue is patched in version 4.0.10. As a workaround, avoid running untrusted markdown through marked or run marked on a worker thread and set a reasonable time limit to prevent draining resources.",CVE-2022-21680,High,security,JFrog,marked,< 4.0.10,4.0.10,2023-02-01T21:16:48-05:00,marked,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,"CWE-1333,CWE-400",XRAY-194626,FALSE,npm://marked:0.3.9,marked:0.3.9
+"The package underscore from 1.13.0-0 and before 1.13.0-2, from 1.3.2 and before 1.12.1 are vulnerable to Arbitrary Code Injection via the template function, particularly when a variable property is passed as an argument as it is not sanitized.",CVE-2021-23358,High,security,JFrog,underscore,1.3.2 ≤ Version < 1.12.1,1.12.1,2023-02-01T21:17:28-05:00,underscore,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-159876,FALSE,npm://underscore:1.3.3,underscore:1.3.3
+"hoek node module before 4.2.0 and 5.0.x before 5.0.3 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of ""Object"" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",CVE-2018-3728,High,security,JFrog,hoek,"< 4.2.1,5.0.0 ≤ Version < 5.0.3","4.2.1,5.0.3",2023-02-01T21:16:25-05:00,hoek,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,8.8/CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,CWE-471,XRAY-73062,FALSE,npm://hoek:2.16.3,hoek:2.16.3
+The trim-newlines package before 3.0.1 and 4.x before 4.0.1 for Node.js has an issue related to regular expression denial-of-service (ReDoS) for the .end() method.,CVE-2021-33623,High,security,JFrog,trim-newlines,"< 3.0.1,4.0.0 ≤ Version < 4.0.1","3.0.1,4.0.1",2023-02-01T21:17:40-05:00,trim-newlines,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-176887,FALSE,npm://trim-newlines:1.0.0,trim-newlines:1.0.0
+This affects the package glob-parent before 5.1.2. The enclosure regex used to check for strings ending in enclosure containing path separator.,CVE-2020-28469,High,security,JFrog,glob-parent,< 5.1.2,5.1.2,2023-02-01T21:17:40-05:00,glob-parent,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-177872,FALSE,npm://glob-parent:2.0.0,glob-parent:2.0.0
+This affects the package glob-parent before 5.1.2. The enclosure regex used to check for strings ending in enclosure containing path separator.,CVE-2020-28469,High,security,JFrog,glob-parent,< 5.1.2,5.1.2,2023-02-01T21:17:40-05:00,glob-parent,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-177872,FALSE,npm://glob-parent:3.1.0,glob-parent:3.1.0
+"hoek node module before 4.2.0 and 5.0.x before 5.0.3 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via 'merge' and 'applyToDefaults' functions, which allows a malicious user to modify the prototype of ""Object"" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",CVE-2018-3728,High,security,JFrog,hoek,"< 4.2.1,5.0.0 ≤ Version < 5.0.3","4.2.1,5.0.3",2023-02-01T21:16:25-05:00,hoek,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,8.8/CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,CWE-471,XRAY-73062,FALSE,npm://hoek:0.9.1,hoek:0.9.1
+A vulnerability has been found in OWASP NodeGoat and classified as problematic. This vulnerability affects unknown code of the file app/routes/research.js of the component Query Parameter Handler. The manipulation leads to denial of service. The attack can be initiated remotely. The name of the patch is 4a4d1db74c63fb4ff8d366551c3af006c25ead12. It is recommended to apply a patch to fix this issue. The identifier of this vulnerability is VDB-216184.,CVE-2021-4247,High,security,JFrog,owasp-nodejs-goat,≤ 1.4,,2022-12-23T21:14:20-05:00,owasp-nodejs-goat,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-404,XRAY-412147,TRUE,npm://owasp-nodejs-goat:1.3.0,owasp-nodejs-goat:1.3.0
+"Minimatch is a minimal matching utility that works by converting glob expressions into JavaScript `RegExp` objects. The primary function, `minimatch(path, pattern)` in Minimatch 3.0.1 and earlier is vulnerable to ReDoS in the `pattern` parameter.",CVE-2016-10540,High,security,JFrog,minimatch,< 3.0.2,3.0.2,2023-02-01T21:15:32-05:00,minimatch,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-72610,FALSE,npm://minimatch:0.3.0,minimatch:0.3.0
+"In Async before 2.6.4 and 3.x before 3.2.2, a malicious user can obtain privileges via the mapValues() method, aka lib/internal/iterator.js createObjectIterator prototype pollution.",CVE-2021-43138,High,security,JFrog,async,"2.0.0 ≤ Version < 2.6.4,3.0.0 ≤ Version < 3.2.2","2.6.4,3.2.2",2023-02-01T21:15:22-05:00,async,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,7.8/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,CWE-1321,XRAY-203351,FALSE,npm://async:2.6.1,async:2.6.1
+"A vulnerability was found in node-tar before version 4.4.2 (excluding version 2.2.2). An Arbitrary File Overwrite issue exists when extracting a tarball containing a hardlink to a file that already exists on the system, in conjunction with a later plain file with the same name as the hardlink. This plain file content replaces the existing file content. A patch has been applied to node-tar v2.2.2).",CVE-2018-20834,High,security,JFrog,tar,"< 2.2.2,3.0.0 ≤ Version < 4.4.2","2.2.2,4.4.2",2023-02-01T21:15:34-05:00,tar,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,CWE-59,XRAY-81394,FALSE,npm://tar:2.2.1,tar:2.2.1
+"the web framework using ljharb's qs module older than v6.3.2, v6.2.3, v6.1.2, and v6.0.4 is vulnerable to a DoS. A malicious user can send a evil request to cause the web framework crash.",CVE-2017-1000048,High,security,JFrog,qs,"< 6.0.4,6.1.0 ≤ Version < 6.1.2,6.2.0 ≤ Version < 6.2.3,6.3.0 ≤ Version < 6.3.2","6.0.4,6.1.2,6.2.3,6.3.2",2023-02-01T21:16:58-05:00,qs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-94949,FALSE,npm://qs:0.6.6,qs:0.6.6
+"the web framework using ljharb's qs module older than v6.3.2, v6.2.3, v6.1.2, and v6.0.4 is vulnerable to a DoS. A malicious user can send a evil request to cause the web framework crash.",CVE-2017-1000048,High,security,JFrog,qs,"< 6.0.4,6.1.0 ≤ Version < 6.1.2,6.2.0 ≤ Version < 6.2.3,6.3.0 ≤ Version < 6.3.2","6.0.4,6.1.2,6.2.3,6.3.2",2023-02-01T21:16:58-05:00,qs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-94949,FALSE,npm://qs:6.2.1,qs:6.2.1
+"the web framework using ljharb's qs module older than v6.3.2, v6.2.3, v6.1.2, and v6.0.4 is vulnerable to a DoS. A malicious user can send a evil request to cause the web framework crash.",CVE-2017-1000048,High,security,JFrog,qs,"< 6.0.4,6.1.0 ≤ Version < 6.1.2,6.2.0 ≤ Version < 6.2.3,6.3.0 ≤ Version < 6.3.2","6.0.4,6.1.2,6.2.3,6.3.2",2023-02-01T21:16:58-05:00,qs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-94949,FALSE,npm://qs:5.2.1,qs:5.2.1
+shelljs is vulnerable to Improper Privilege Management,CVE-2022-0144,High,security,JFrog,shelljs,< 0.8.5,0.8.5,2023-02-01T21:16:48-05:00,shelljs,3.6/CVSS:2.0/AV:L/AC:L/Au:N/C:P/I:N/A:P,7.1/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H,CWE-269,XRAY-194227,FALSE,npm://shelljs:0.3.0,shelljs:0.3.0
+"The mime module < 1.4.1, 2.0.1, 2.0.2 is vulnerable to regular expression denial of service when a mime lookup is performed on untrusted user input.",CVE-2017-16138,High,security,JFrog,mime,"< 1.4.1,2.0.0 ≤ Version < 2.0.3","1.4.1,2.0.3",2023-02-01T21:16:25-05:00,mime,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-72686,FALSE,npm://mime:1.2.11,mime:1.2.11
+Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.,CVE-2020-8203,High,security,JFrog,lodash,< 4.17.20,4.17.20,2023-02-01T21:15:22-05:00,lodash,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H,CWE-1321,XRAY-114089,TRUE,npm://lodash:4.17.19,lodash:4.17.19
+Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.,CVE-2020-8203,High,security,JFrog,lodash,< 4.17.20,4.17.20,2023-02-01T21:15:22-05:00,lodash,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H,CWE-1321,XRAY-114089,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.,CVE-2020-8203,High,security,JFrog,lodash,< 4.17.20,4.17.20,2023-02-01T21:15:22-05:00,lodash,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H,CWE-1321,XRAY-114089,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.,CVE-2020-8203,High,security,JFrog,lodash,< 4.17.20,4.17.20,2023-02-01T21:15:22-05:00,lodash,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,7.4/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H,CWE-1321,XRAY-114089,FALSE,npm://lodash:4.17.15,lodash:4.17.15
+"Moment.js is a JavaScript date library for parsing, validating, manipulating, and formatting dates. A path traversal vulnerability impacts npm (server) users of Moment.js between versions 1.0.1 and 2.29.1, especially if a user-provided locale string is directly used to switch moment locale. This problem is patched in 2.29.2, and the patch can be applied to all affected versions. As a workaround, sanitize the user-provided locale name before passing it to Moment.js.",CVE-2022-24785,High,security,JFrog,moment,< 2.29.2,2.29.2,2023-02-01T21:16:26-05:00,moment,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:N,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,"CWE-27,CWE-22",XRAY-203039,FALSE,npm://moment:2.24.0,moment:2.24.0
+"index.js in brace-expansion before 1.1.7 is vulnerable to Regular Expression Denial of Service (ReDoS) attacks, as demonstrated by an expand argument containing many comma characters.",CVE-2017-18077,High,security,JFrog,brace-expansion,< 1.1.7,1.1.7,2023-02-01T21:16:23-05:00,brace-expansion,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-73063,FALSE,npm://brace-expansion:1.1.6,brace-expansion:1.1.6
+tap-mocha-reporter lib/utils.js Regular Expression Remote DoS,,High,security,JFrog,tap-mocha-reporter,0.0.1 ≤ Version < 5.0.2,5.0.2,2022-03-03T11:19:45-05:00,tap-mocha-reporter,,,,XRAY-199152,FALSE,npm://tap-mocha-reporter:2.0.1,tap-mocha-reporter:2.0.1
+Lodash Package for Node.js lodash.js baseSet() Function Prototype Pollution DoS,,High,security,JFrog,lodash,4.0.0 ≤ Version < 4.17.16,4.17.16,2022-02-15T09:01:40-05:00,lodash,,,,XRAY-121295,FALSE,npm://lodash:4.17.15,lodash:4.17.15
+"Marked is a markdown parser and compiler. Prior to version 4.0.10, the regular expression `inline.reflinkSearch` may cause catastrophic backtracking against some strings and lead to a denial of service (DoS). Anyone who runs untrusted markdown through a vulnerable version of marked and does not use a worker with a time limit may be affected. This issue is patched in version 4.0.10. As a workaround, avoid running untrusted markdown through marked or run marked on a worker thread and set a reasonable time limit to prevent draining resources.",CVE-2022-21681,High,security,JFrog,marked,< 4.0.10,4.0.10,2023-02-01T21:16:48-05:00,marked,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,NVD-CWE-Other,XRAY-194711,FALSE,npm://marked:0.3.9,marked:0.3.9
+"Hawk is an HTTP authentication scheme providing mechanisms for making authenticated HTTP requests with partial cryptographic verification of the request and response, covering the HTTP method, request URI, host, and optionally the request payload. Hawk used a regular expression to parse `Host` HTTP header (`Hawk.utils.parseHost()`), which was subject to regular expression DoS attack - meaning each added character in the attacker's input increases the computation time exponentially. `parseHost()` was patched in `9.0.1` to use built-in `URL` class to parse hostname instead. `Hawk.authenticate()` accepts `options` argument. If that contains `host` and `port`, those would be used instead of a call to `utils.parseHost()`.",CVE-2022-29167,High,security,JFrog,hawk,< 9.0.1,9.0.1,2023-02-01T21:15:22-05:00,hawk,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-209780,FALSE,npm://hawk:1.0.0,hawk:1.0.0
+"Hawk is an HTTP authentication scheme providing mechanisms for making authenticated HTTP requests with partial cryptographic verification of the request and response, covering the HTTP method, request URI, host, and optionally the request payload. Hawk used a regular expression to parse `Host` HTTP header (`Hawk.utils.parseHost()`), which was subject to regular expression DoS attack - meaning each added character in the attacker's input increases the computation time exponentially. `parseHost()` was patched in `9.0.1` to use built-in `URL` class to parse hostname instead. `Hawk.authenticate()` accepts `options` argument. If that contains `host` and `port`, those would be used instead of a call to `utils.parseHost()`.",CVE-2022-29167,High,security,JFrog,hawk,< 9.0.1,9.0.1,2023-02-01T21:15:22-05:00,hawk,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-209780,FALSE,npm://hawk:3.1.3,hawk:3.1.3
+"The qs module before 1.0.0 does not have an option or default for specifying object depth and when parsing a string representing a deeply nested object will block the event loop for long periods of time. An attacker could leverage this to cause a temporary denial-of-service condition, for example, in a web application, other requests would not be processed while this blocking is occurring.",CVE-2014-10064,High,security,JFrog,qs,< 1.0.0,1.0.0,2023-02-01T21:16:25-05:00,qs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-399,XRAY-72519,FALSE,npm://qs:0.6.6,qs:0.6.6
+"qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has ""deps: qs@6.9.7"" in its release description, is not vulnerable).",CVE-2022-24999,High,security,JFrog,qs,"< 6.2.4,6.10.0 ≤ Version < 6.10.3,6.3.0 ≤ Version < 6.3.3,6.4.0 ≤ Version < 6.4.1,6.5.0 ≤ Version < 6.5.3,6.6.0 ≤ Version < 6.6.1,6.7.0 ≤ Version < 6.7.3,6.8.0 ≤ Version < 6.8.3,6.9.0 ≤ Version < 6.9.7","6.10.3,6.2.4,6.3.3,6.4.1,6.5.3,6.6.1,6.7.3,6.8.3,6.9.7",2023-02-01T21:17:14-05:00,qs,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-1321,XRAY-262099,FALSE,npm://qs:0.6.6,qs:0.6.6
+"The npm package ""tar"" (aka node-tar) before versions 6.1.2, 5.0.7, 4.4.15, and 3.2.3 has an arbitrary File Creation/Overwrite vulnerability via insufficient symlink protection. `node-tar` aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks. Additionally, in order to prevent unnecessary `stat` calls to determine whether a given path is a directory, paths are cached when directories are created. This logic was insufficient when extracting tar files that contained both a directory and a symlink with the same name as the directory. This order of operations resulted in the directory being created and added to the `node-tar` directory cache. When a directory is present in the directory cache, subsequent calls to mkdir for that directory are skipped. However, this is also where `node-tar` checks for symlinks occur. By first creating a directory, and then replacing that directory with a symlink, it was thus possible to bypass `node-tar` symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite. This issue was addressed in releases 3.2.3, 4.4.15, 5.0.7 and 6.1.2.",CVE-2021-32803,High,security,JFrog,tar,"< 3.2.3,4.0.0 ≤ Version < 4.4.15,5.0.0 ≤ Version < 5.0.7,6.0.0 ≤ Version < 6.1.2","3.2.3,4.4.15,5.0.7,6.1.2",2023-02-01T21:15:22-05:00,tar,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,8.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H,CWE-59,XRAY-180790,FALSE,npm://tar:2.2.1,tar:2.2.1
+mongodb Package for Node.js (node-mongodb-native) lib/operations/db_ops.js createCollection() Function Collection Name Validation Improper Exception Handling DoS,,High,security,JFrog,mongodb,"0.9.1 ≤ Version ≤ 0.9.4,0.9.6,0.9.7,0.9.8,0.9.9,1.0.0 ≤ Version ≤ 1.0.2,1.1.0,1.1.1 ≤ Version ≤ 1.3.23,1.4.0,1.4.1 ≤ Version ≤ 1.4.40,2.0.0,2.0.1 ≤ Version ≤ 2.0.55,2.1.0,2.1.1 ≤ Version ≤ 2.1.21,2.2.0,2.2.1 ≤ Version ≤ 2.2.36,3.0.0,3.0.1 ≤ Version ≤ 3.0.11,3.1.0,3.1.1 ≤ Version ≤ 3.1.12",3.1.13,2022-02-15T09:01:20-05:00,mongodb,,,,XRAY-90643,FALSE,npm://mongodb:2.2.36,mongodb:2.2.36
+nodejs ejs version older than 2.5.5 is vulnerable to a denial-of-service due to weak input validation in the ejs.renderFile(),CVE-2017-1000189,High,security,JFrog,ejs,< 2.5.5,2.5.5,2023-02-01T21:15:22-05:00,ejs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-73290,FALSE,npm://ejs:0.4.3,ejs:0.4.3
+Versions of the npm CLI prior to 6.13.3 are vulnerable to an Arbitrary File Write. It fails to prevent access to folders outside of the intended node_modules folder through the bin field. A properly constructed entry in the package.json bin field would allow a package publisher to modify and/or gain access to arbitrary files on a user's system when the package is installed. This behavior is still possible through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.,CVE-2019-16776,High,security,JFrog,npm,< 6.13.3,6.13.3,2023-02-01T21:16:57-05:00,npm,5.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:N,8.1/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N,CWE-22,XRAY-92764,FALSE,npm://npm:3.10.10,npm:3.10.10
+"All versions of package path-parse are vulnerable to Regular Expression Denial of Service (ReDoS) via splitDeviceRe, splitTailRe, and splitPathRe regular expressions. ReDoS exhibits polynomial worst-case time complexity.",CVE-2021-23343,High,security,JFrog,path-parse,< 1.0.7,1.0.7,2023-02-01T21:15:42-05:00,path-parse,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,NVD-CWE-noinfo,XRAY-175028,FALSE,npm://path-parse:1.0.5,path-parse:1.0.5
+"Handlebars before 3.0.8 and 4.x before 4.5.3 is vulnerable to Arbitrary Code Execution. The lookup helper fails to properly validate templates, allowing attackers to submit templates that execute arbitrary JavaScript. This can be used to run arbitrary code on a server processing Handlebars templates or in a victim's browser (effectively serving as XSS).",CVE-2019-20920,High,security,JFrog,handlebars,"< 3.0.8,4.0.0 ≤ Version < 4.5.3","3.0.8,4.5.3",2023-02-01T21:15:22-05:00,handlebars,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,8.1/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:L,CWE-94,XRAY-125693,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+This affects the package npm-user-validate before 1.0.1. The regex that validates user emails took exponentially longer to process long input strings beginning with @ characters.,CVE-2020-7754,High,security,JFrog,npm-user-validate,< 1.0.1,1.0.1,2023-02-01T21:15:22-05:00,npm-user-validate,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,NVD-CWE-noinfo,XRAY-127582,FALSE,npm://npm-user-validate:0.1.5,npm-user-validate:0.1.5
+"This affects the package nconf before 0.11.4. When using the memory engine, it is possible to store a nested JSON representation of the configuration. The .set() function, that is responsible for setting the configuration properties, is vulnerable to Prototype Pollution. By providing a crafted property, it is possible to modify the properties on the Object.prototype.",CVE-2022-21803,High,security,JFrog,nconf,< 0.11.4,0.11.4,2023-02-01T21:15:22-05:00,nconf,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:N,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,CWE-1321,XRAY-208869,FALSE,npm://nconf:0.10.0,nconf:0.10.0
+"This affects the package nconf before 0.11.4. When using the memory engine, it is possible to store a nested JSON representation of the configuration. The .set() function, that is responsible for setting the configuration properties, is vulnerable to Prototype Pollution. By providing a crafted property, it is possible to modify the properties on the Object.prototype.",CVE-2022-21803,High,security,JFrog,nconf,< 0.11.4,0.11.4,2023-02-01T21:15:22-05:00,nconf,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:N,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,CWE-1321,XRAY-208869,FALSE,npm://nconf:0.6.9,nconf:0.6.9
+"An issue was discovered in an npm 5.7.0 2018-02-21 pre-release (marked as ""next: 5.7.0"" and therefore automatically installed by an ""npm upgrade -g npm"" command, and also announced in the vendor's blog without mention of pre-release status). It might allow local users to bypass intended filesystem access restrictions because ownerships of /etc and /usr directories are being changed unexpectedly, related to a ""correctMkdir"" issue.",CVE-2018-7408,High,security,JFrog,npm,< 5.7.1,5.7.1,2023-02-01T21:15:22-05:00,npm,4.6/CVSS:2.0/AV:L/AC:L/Au:N/C:P/I:P/A:P,7.8/CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,CWE-732,XRAY-73410,FALSE,npm://npm:3.10.10,npm:3.10.10
+sshpk is vulnerable to ReDoS when parsing crafted invalid public keys.,CVE-2018-3737,High,security,JFrog,sshpk,< 1.13.2,1.13.2,2023-02-01T21:15:22-05:00,sshpk,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-185,XRAY-73059,FALSE,npm://sshpk:1.10.1,sshpk:1.10.1
+"qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has ""deps: qs@6.9.7"" in its release description, is not vulnerable).",CVE-2022-24999,High,security,JFrog,qs,"< 6.2.4,6.10.0 ≤ Version < 6.10.3,6.3.0 ≤ Version < 6.3.3,6.4.0 ≤ Version < 6.4.1,6.5.0 ≤ Version < 6.5.3,6.6.0 ≤ Version < 6.6.1,6.7.0 ≤ Version < 6.7.3,6.8.0 ≤ Version < 6.8.3,6.9.0 ≤ Version < 6.9.7","6.10.3,6.2.4,6.3.3,6.4.1,6.5.3,6.6.1,6.7.3,6.8.3,6.9.7",2023-02-01T21:17:14-05:00,qs,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-1321,XRAY-262099,FALSE,npm://qs:5.2.1,qs:5.2.1
+"The npm package ""tar"" (aka node-tar) before versions 4.4.18, 5.0.10, and 6.1.9 has an arbitrary file creation/overwrite and arbitrary code execution vulnerability. node-tar aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks. Additionally, in order to prevent unnecessary stat calls to determine whether a given path is a directory, paths are cached when directories are created. This logic was insufficient when extracting tar files that contained both a directory and a symlink with names containing unicode values that normalized to the same value. Additionally, on Windows systems, long path portions would resolve to the same file system entities as their 8.3 ""short path"" counterparts. A specially crafted tar archive could thus include a directory with one form of the path, followed by a symbolic link with a different string that resolves to the same file system entity, followed by a file using the first form. By first creating a directory, and then replacing that directory with a symlink that had a different apparent name that resolved to the same entry in the filesystem, it was thus possible to bypass node-tar symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite. These issues were addressed in releases 4.4.18, 5.0.10 and 6.1.9. The v3 branch of node-tar has been deprecated and did not receive patches for these issues. If you are still using a v3 release we recommend you update to a more recent version of node-tar. If this is not possible, a workaround is available in the referenced GHSA-qq89-hq3f-393p.",CVE-2021-37712,High,security,JFrog,tar,"< 4.4.18,5.0.0 ≤ Version < 5.0.10,6.0.0 ≤ Version < 6.1.9","4.4.18,5.0.10,6.1.9",2023-02-01T21:17:39-05:00,tar,4.4/CVSS:2.0/AV:L/AC:M/Au:N/C:P/I:P/A:P,8.6/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H,"CWE-59,CWE-22",XRAY-184004,FALSE,npm://tar:2.2.1,tar:2.2.1
+Mocha Package for Node.js lib/utils.js clean() Function Improper Regular Expression DoS,,High,security,JFrog,mocha,< 10.1.0,10.1.0,2022-12-13T11:03:42-05:00,mocha,,,,XRAY-228815,FALSE,npm://mocha:2.5.3,mocha:2.5.3
+Mocha Package for Node.js lib/utils.js clean() Function Improper Regular Expression DoS,,High,security,JFrog,mocha,< 10.1.0,10.1.0,2022-12-13T11:03:42-05:00,mocha,,,,XRAY-228815,FALSE,npm://mocha:2.0.1,mocha:2.0.1
+Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.,CVE-2021-23337,High,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:16:02-05:00,lodash,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-140575,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+"The npm package ""tar"" (aka node-tar) before versions 4.4.16, 5.0.8, and 6.1.7 has an arbitrary file creation/overwrite and arbitrary code execution vulnerability. node-tar aims to guarantee that any file whose location would be modified by a symbolic link is not extracted. This is, in part, achieved by ensuring that extracted directories are not symlinks. Additionally, in order to prevent unnecessary stat calls to determine whether a given path is a directory, paths are cached when directories are created. This logic was insufficient when extracting tar files that contained both a directory and a symlink with the same name as the directory, where the symlink and directory names in the archive entry used backslashes as a path separator on posix systems. The cache checking logic used both `\` and `/` characters as path separators, however `\` is a valid filename character on posix systems. By first creating a directory, and then replacing that directory with a symlink, it was thus possible to bypass node-tar symlink checks on directories, essentially allowing an untrusted tar file to symlink into an arbitrary location and subsequently extracting arbitrary files into that location, thus allowing arbitrary file creation and overwrite. Additionally, a similar confusion could arise on case-insensitive filesystems. If a tar archive contained a directory at `FOO`, followed by a symbolic link named `foo`, then on case-insensitive file systems, the creation of the symbolic link would remove the directory from the filesystem, but _not_ from the internal directory cache, as it would not be treated as a cache hit. A subsequent file entry within the `FOO` directory would then be placed in the target of the symbolic link, thinking that the directory had already been created. These issues were addressed in releases 4.4.16, 5.0.8 and 6.1.7. The v3 branch of node-tar has been deprecated and did not receive patches for these issues. If you are still using a v3 release we recommend you update to a more recent version of node-tar. I",CVE-2021-37701,High,security,JFrog,tar,"< 4.4.16,5.0.0 ≤ Version < 5.0.8,6.0.0 ≤ Version < 6.1.7","4.4.16,5.0.8,6.1.7",2023-02-01T21:15:22-05:00,tar,4.4/CVSS:2.0/AV:L/AC:M/Au:N/C:P/I:P/A:P,8.6/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H,"CWE-59,CWE-22",XRAY-184005,FALSE,npm://tar:2.2.1,tar:2.2.1
+"The npm package ""tar"" (aka node-tar) before versions 6.1.1, 5.0.6, 4.4.14, and 3.3.2 has a arbitrary File Creation/Overwrite vulnerability due to insufficient absolute path sanitization. node-tar aims to prevent extraction of absolute file paths by turning absolute paths into relative paths when the `preservePaths` flag is not set to `true`. This is achieved by stripping the absolute path root from any absolute file paths contained in a tar file. For example `/home/user/.bashrc` would turn into `home/user/.bashrc`. This logic was insufficient when file paths contained repeated path roots such as `////home/user/.bashrc`. `node-tar` would only strip a single path root from such paths. When given an absolute file path with repeating path roots, the resulting path (e.g. `///home/user/.bashrc`) would still resolve to an absolute path, thus allowing arbitrary file creation and overwrite. This issue was addressed in releases 3.2.2, 4.4.14, 5.0.6 and 6.1.1. Users may work around this vulnerability without upgrading by creating a custom `onentry` method which sanitizes the `entry.path` or a `filter` method which removes entries with absolute paths. See referenced GitHub Advisory for details. Be aware of CVE-2021-32803 which fixes a similar bug in later versions of tar.",CVE-2021-32804,High,security,JFrog,tar,"< 3.2.2,4.0.0 ≤ Version < 4.4.14,5.0.0 ≤ Version < 5.0.6,6.0.0 ≤ Version < 6.1.1","3.2.2,4.4.14,5.0.6,6.1.1",2023-02-01T21:15:22-05:00,tar,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:P,8.1/CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H,CWE-22,XRAY-180789,FALSE,npm://tar:2.2.1,tar:2.2.1
+"fstream before 1.0.12 is vulnerable to Arbitrary File Overwrite. Extracting tarballs containing a hardlink to a file that already exists in the system, and a file that matches the hardlink, will overwrite the system's file with the contents of the extracted file. The fstream.DirWriter() function is vulnerable.",CVE-2019-13173,High,security,JFrog,fstream,< 1.0.12,1.0.12,2023-02-01T21:17:13-05:00,fstream,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,CWE-59,XRAY-84515,FALSE,npm://fstream:1.0.10,fstream:1.0.10
+marked lib/marked.js inline() Function Regular Expresssion Handling DoS,,High,security,JFrog,marked,< 0.3.18,0.3.18,2020-04-08T07:57:02-04:00,marked,,,,XRAY-78213,FALSE,npm://marked:0.3.9,marked:0.3.9
+is-my-json-valid Package for Node.js index.js formatName() Function Schema Handling Arbitrary Code Execution,,High,security,JFrog,is-my-json-valid,2.11.0 ≤ Version < 2.20.3,2.20.3,2022-02-15T09:01:32-05:00,is-my-json-valid,,,,XRAY-115883,FALSE,npm://is-my-json-valid:2.15.0,is-my-json-valid:2.15.0
+"The uglify-js package before 2.6.0 for Node.js allows attackers to cause a denial of service (CPU consumption) via crafted input in a parse call, aka a ""regular expression denial of service (ReDoS).""",CVE-2015-8858,High,security,JFrog,uglify-js,< 2.6.0,2.6.0,2023-02-01T21:16:25-05:00,uglify-js,7.8/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:C,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-399,XRAY-72508,FALSE,npm://uglify-js:2.4.24,uglify-js:2.4.24
+"The npm package ""tar"" (aka node-tar) before versions 4.4.18, 5.0.10, and 6.1.9 has an arbitrary file creation/overwrite and arbitrary code execution vulnerability. node-tar aims to guarantee that any file whose location would be outside of the extraction target directory is not extracted. This is, in part, accomplished by sanitizing absolute paths of entries within the archive, skipping archive entries that contain `..` path portions, and resolving the sanitized paths against the extraction target directory. This logic was insufficient on Windows systems when extracting tar files that contained a path that was not an absolute path, but specified a drive letter different from the extraction target, such as `C:some\path`. If the drive letter does not match the extraction target, for example `D:\extraction\dir`, then the result of `path.resolve(extractionDirectory, entryPath)` would resolve against the current working directory on the `C:` drive, rather than the extraction target directory. Additionally, a `..` portion of the path could occur immediately after the drive letter, such as `C:../foo`, and was not properly sanitized by the logic that checked for `..` within the normalized and split portions of the path. This only affects users of `node-tar` on Windows systems. These issues were addressed in releases 4.4.18, 5.0.10 and 6.1.9. The v3 branch of node-tar has been deprecated and did not receive patches for these issues. If you are still using a v3 release we recommend you update to a more recent version of node-tar. There is no reasonable way to work around this issue without performing the same path normalization procedures that node-tar now does. Users are encouraged to upgrade to the latest patched versions of node-tar, rather than attempt to sanitize paths themselves.",CVE-2021-37713,High,security,JFrog,tar,"< 4.4.18,5.0.0 ≤ Version < 5.0.10,6.0.0 ≤ Version < 6.1.9","4.4.18,5.0.10,6.1.9",2023-02-01T21:17:39-05:00,tar,4.4/CVSS:2.0/AV:L/AC:M/Au:N/C:P/I:P/A:P,8.6/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H,CWE-22,XRAY-184003,FALSE,npm://tar:2.2.1,tar:2.2.1
+Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.,CVE-2021-23337,High,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:16:02-05:00,lodash,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-140575,FALSE,npm://lodash:4.17.15,lodash:4.17.15
+Handlebars before 4.4.5 allows Regular Expression Denial of Service (ReDoS) because of eager matching. The parser may be forced into an endless loop while processing crafted templates. This may allow attackers to exhaust system resources.,CVE-2019-20922,High,security,JFrog,handlebars,4.0.0 ≤ Version < 4.4.5,4.4.5,2023-02-01T21:16:58-05:00,handlebars,7.8/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:C,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-125691,FALSE,npm://handlebars:4.0.5,handlebars:4.0.5
+Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.,CVE-2021-23337,High,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:16:02-05:00,lodash,6.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:P,7.2/CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,CWE-94,XRAY-140575,TRUE,npm://lodash:4.17.19,lodash:4.17.19
+"moment is a JavaScript date library for parsing, validating, manipulating, and formatting dates. Affected versions of moment were found to use an inefficient parsing algorithm. Specifically using string-to-date parsing in moment (more specifically rfc2822 parsing, which is tried by default) has quadratic (N^2) complexity on specific inputs. Users may notice a noticeable slowdown is observed with inputs above 10k characters. Users who pass user-provided strings without sanity length checks to moment constructor are vulnerable to (Re)DoS attacks. The problem is patched in 2.29.4, the patch can be applied to all affected versions with minimal tweaking. Users are advised to upgrade. Users unable to upgrade should consider limiting date lengths accepted from user input.",CVE-2022-31129,High,security,JFrog,moment,2.18.0 ≤ Version < 2.29.4,2.29.4,2023-02-01T21:16:56-05:00,moment,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-230783,FALSE,npm://moment:2.24.0,moment:2.24.0
+Hawk before 3.1.3 and 4.x before 4.1.1 allow remote attackers to cause a denial of service (CPU consumption or partial outage) via a long (1) header or (2) URI that is matched against an improper regular expression.,CVE-2016-2515,High,security,JFrog,hawk,"< 3.1.3,4.0.0 ≤ Version < 4.1.1","3.1.3,4.1.1",2023-02-01T21:15:27-05:00,hawk,7.8/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:C,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-399,XRAY-73076,FALSE,npm://hawk:1.0.0,hawk:1.0.0
+A ReDoS (regular expression denial of service) flaw was found in the tough-cookie module before 2.3.3 for Node.js. An attacker that is able to make an HTTP request using a specially crafted cookie may cause the application to consume an excessive amount of CPU.,CVE-2017-15010,High,security,JFrog,tough-cookie,< 2.3.3,2.3.3,2023-02-01T21:16:23-05:00,tough-cookie,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-72482,FALSE,npm://tough-cookie:2.2.2,tough-cookie:2.2.2
+A ReDoS (regular expression denial of service) flaw was found in the tough-cookie module before 2.3.3 for Node.js. An attacker that is able to make an HTTP request using a specially crafted cookie may cause the application to consume an excessive amount of CPU.,CVE-2017-15010,High,security,JFrog,tough-cookie,< 2.3.3,2.3.3,2023-02-01T21:16:23-05:00,tough-cookie,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-400,XRAY-72482,FALSE,npm://tough-cookie:2.3.1,tough-cookie:2.3.1
+"The is-my-json-valid package before 2.12.4 for Node.js has an incorrect exports['utc-millisec'] regular expression, which allows remote attackers to cause a denial of service (blocked event loop) via a crafted string.",CVE-2016-2537,High,security,JFrog,is-my-json-valid,"< 1.4.1,2.0.0 ≤ Version < 2.17.2","1.4.1,2.17.2",2023-02-01T21:16:23-05:00,is-my-json-valid,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,7.5/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-20,XRAY-72485,FALSE,npm://is-my-json-valid:2.15.0,is-my-json-valid:2.15.0
+Lodash Package for Node.js lodash.js baseSet() Function Prototype Pollution DoS,,High,security,JFrog,lodash,4.0.0 ≤ Version < 4.17.16,4.17.16,2022-02-15T09:01:40-05:00,lodash,,,,XRAY-121295,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+"qs before 6.10.3, as used in Express before 4.17.3 and other products, allows attackers to cause a Node process hang for an Express application because an __ proto__ key can be used. In many typical Express use cases, an unauthenticated remote attacker can place the attack payload in the query string of the URL that is used to visit the application, such as a[__proto__]=b&a[__proto__]&a[length]=100000000. The fix was backported to qs 6.9.7, 6.8.3, 6.7.3, 6.6.1, 6.5.3, 6.4.1, 6.3.3, and 6.2.4 (and therefore Express 4.17.3, which has ""deps: qs@6.9.7"" in its release description, is not vulnerable).",CVE-2022-24999,High,security,JFrog,qs,"< 6.2.4,6.10.0 ≤ Version < 6.10.3,6.3.0 ≤ Version < 6.3.3,6.4.0 ≤ Version < 6.4.1,6.5.0 ≤ Version < 6.5.3,6.6.0 ≤ Version < 6.6.1,6.7.0 ≤ Version < 6.7.3,6.8.0 ≤ Version < 6.8.3,6.9.0 ≤ Version < 6.9.7","6.10.3,6.2.4,6.3.3,6.4.1,6.5.3,6.6.1,6.7.3,6.8.3,6.9.7",2023-02-01T21:17:14-05:00,qs,,7.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,CWE-1321,XRAY-262099,FALSE,npm://qs:6.2.1,qs:6.2.1
+"Versions of the npm CLI prior to 6.14.6 are vulnerable to an information exposure vulnerability through log files. The CLI supports URLs like ""<protocol>://[<user>[:<password>]@]<hostname>[:<port>][:][/]<path>"". The password value is not redacted and is printed to stdout and also to any generated log files.",CVE-2020-15095,Medium,security,JFrog,npm,< 6.14.6,6.14.6,2023-02-01T21:17:14-05:00,npm,1.9/CVSS:2.0/AV:L/AC:M/Au:N/C:P/I:N/A:N,4.4/CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N,CWE-532,XRAY-105289,FALSE,npm://npm:3.10.10,npm:3.10.10
+"minimist before 1.2.2 could be tricked into adding or modifying properties of Object.prototype using a ""constructor"" or ""__proto__"" payload.",CVE-2020-7598,Medium,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2023-02-01T21:16:15-05:00,minimist,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,5.6/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L,CWE-1321,XRAY-95385,FALSE,npm://minimist:1.2.0,minimist:1.2.0
+react-native-meteor-oauth is a library for Oauth2 login to a Meteor server in React Native. The oauth Random Token is generated using a non-cryptographically strong RNG (Math.random()).,CVE-2017-16028,Medium,security,JFrog,randomatic,< 3.0.0,3.0.0,2023-02-01T21:15:22-05:00,randomatic,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:N,5.3/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,CWE-338,XRAY-72543,FALSE,npm://randomatic:1.1.5,randomatic:1.1.5
+"minimist before 1.2.2 could be tricked into adding or modifying properties of Object.prototype using a ""constructor"" or ""__proto__"" payload.",CVE-2020-7598,Medium,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2023-02-01T21:16:15-05:00,minimist,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,5.6/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L,CWE-1321,XRAY-95385,FALSE,npm://minimist:0.0.10,minimist:0.0.10
+"The qs module before 1.0.0 in Node.js does not call the compact function for array data, which allows remote attackers to cause a denial of service (memory consumption) by using a large index value to create a sparse array.",CVE-2014-7191,Medium,security,JFrog,qs,< 1.0.0,1.0.0,2023-02-01T21:16:25-05:00,qs,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,,CWE-399,XRAY-73097,FALSE,npm://qs:0.6.6,qs:0.6.6
+The debug module is vulnerable to regular expression denial of service when untrusted user input is passed into the o formatter. It takes around 50k characters to block for 2 seconds making this a low severity issue.,CVE-2017-16137,Medium,security,JFrog,debug,"< 2.6.9,3.0.0 ≤ Version < 3.1.0","2.6.9,3.1.0",2023-02-01T21:15:22-05:00,debug,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,CWE-400,XRAY-72687,FALSE,npm://debug:2.2.0,debug:2.2.0
+"yargs-parser could be tricked into adding or modifying properties of Object.prototype using a ""__proto__"" payload.",CVE-2020-7608,Medium,security,JFrog,yargs-parser,"< 5.0.1,14.0.0 ≤ Version < 15.0.1,16.0.0 ≤ Version < 18.1.1,6.0.0 ≤ Version < 13.1.2","13.1.2,15.0.1,18.1.1,5.0.1",2023-02-01T21:15:40-05:00,yargs-parser,4.6/CVSS:2.0/AV:L/AC:L/Au:N/C:P/I:P/A:P,5.3/CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L,CWE-1321,XRAY-95625,FALSE,npm://yargs-parser:2.4.1,yargs-parser:2.4.1
+helmet-csp Package for Node.js lib/transform-directives-for-browser.ts transformDirectivesForBrowser() Function Default Directive Handling Content Security Policy Bypass,,Medium,security,JFrog,helmet-csp,1.2.2 ≤ Version < 2.9.2,2.9.2,2022-02-15T09:01:20-05:00,helmet-csp,,,,XRAY-89144,FALSE,npm://helmet-csp:1.2.2,helmet-csp:1.2.2
+"Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions.",CVE-2020-28500,Medium,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:17:26-05:00,lodash,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,NVD-CWE-Other,XRAY-140562,TRUE,npm://lodash:4.17.19,lodash:4.17.19
+"Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions.",CVE-2020-28500,Medium,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:17:26-05:00,lodash,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,NVD-CWE-Other,XRAY-140562,FALSE,npm://lodash:4.17.15,lodash:4.17.15
+"Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions.",CVE-2020-28500,Medium,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:17:26-05:00,lodash,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,NVD-CWE-Other,XRAY-140562,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+"Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions.",CVE-2020-28500,Medium,security,JFrog,lodash,< 4.17.21,4.17.21,2023-02-01T21:17:26-05:00,lodash,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,NVD-CWE-Other,XRAY-140562,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+The package hosted-git-info before 3.0.8 are vulnerable to Regular Expression Denial of Service (ReDoS) via regular expression shortcutMatch in the fromUrl function in index.js. The affected regular expression exhibits polynomial worst-case time complexity.,CVE-2021-23362,Medium,security,JFrog,hosted-git-info,"< 2.8.9,3.0.0 ≤ Version < 3.0.8","2.8.9,3.0.8",2023-02-01T21:15:58-05:00,hosted-git-info,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,NVD-CWE-Other,XRAY-158111,FALSE,npm://hosted-git-info:2.1.5,hosted-git-info:2.1.5
+It was discovered that the is-my-json-valid JavaScript library used an inefficient regular expression to validate JSON fields defined to have email format. A specially crafted JSON file could cause it to consume an excessive amount of CPU time when validated.,CVE-2018-1107,Medium,security,JFrog,is-my-json-valid,"< 1.4.1,2.0.0 ≤ Version < 2.17.2","1.4.1,2.17.2",2023-02-01T21:15:58-05:00,is-my-json-valid,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,CWE-400,XRAY-160031,FALSE,npm://is-my-json-valid:2.15.0,is-my-json-valid:2.15.0
+Versions of the npm CLI prior to 6.13.3 are vulnerable to an Arbitrary File Write. It is possible for packages to create symlinks to files outside of thenode_modules folder through the bin field upon installation. A properly constructed entry in the package.json bin field would allow a package publisher to create a symlink pointing to arbitrary files on a user's system when the package is installed. This behavior is still possible through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.,CVE-2019-16775,Medium,security,JFrog,npm,< 6.13.3,6.13.3,2023-02-01T21:16:45-05:00,npm,4.0/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:P/A:N,6.5/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N,CWE-61,XRAY-92765,FALSE,npm://npm:3.10.10,npm:3.10.10
+"lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",CVE-2019-1010266,Medium,security,JFrog,lodash,< 4.17.11,4.17.11,2023-02-01T21:15:59-05:00,lodash,4.0/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:N/A:P,6.5/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,CWE-770,XRAY-85049,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+"lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",CVE-2019-1010266,Medium,security,JFrog,lodash,< 4.17.11,4.17.11,2023-02-01T21:15:59-05:00,lodash,4.0/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:N/A:P,6.5/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H,CWE-770,XRAY-85049,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+marked Package for Node.js lib/marked.js heading Regular Expression Handling CPU Consumption DoS,,Medium,security,JFrog,marked,0.1.7 ≤ Version < 0.4.0,0.4.0,2022-02-15T09:01:17-05:00,marked,,,,XRAY-84782,FALSE,npm://marked:0.3.9,marked:0.3.9
+JavaScript Big Number (jsbn) index.js Multiple Functions Timing Side-channel Information Disclosure,,Medium,security,JFrog,jsbn,≤ 1.1.0,,2022-07-25T23:22:04-04:00,jsbn,,,,XRAY-228919,FALSE,npm://jsbn:0.1.1,jsbn:0.1.1
+JavaScript Big Number (jsbn) index.js Multiple Functions Timing Side-channel Information Disclosure,,Medium,security,JFrog,jsbn,≤ 1.1.0,,2022-07-25T23:22:04-04:00,jsbn,,,,XRAY-228919,FALSE,npm://jsbn:0.1.0,jsbn:0.1.0
+"adm-zip npm library before 0.4.9 is vulnerable to directory traversal, allowing attackers to write to arbitrary files via a ../ (dot dot slash) in a Zip archive entry that is mishandled during extraction. This vulnerability is also known as 'Zip-Slip'.",CVE-2018-1002204,Medium,security,JFrog,adm-zip,< 0.4.11,0.4.11,2023-02-01T21:16:23-05:00,adm-zip,4.3/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N,5.5/CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N,CWE-22,XRAY-73112,FALSE,npm://adm-zip:0.4.4,adm-zip:0.4.4
+Incorrect parsing of certain JSON input may result in js-bson not correctly serializing BSON. This may cause unexpected application behaviour including data disclosure. This issue affects: MongoDB Inc. js-bson library version 1.1.3 and prior to.,CVE-2019-2391,Medium,security,JFrog,bson,< 1.1.4,1.1.4,2023-02-01T21:16:15-05:00,bson,5.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:N,5.4/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N,CWE-502,XRAY-95979,FALSE,npm://bson:1.0.8,bson:1.0.8
+JS-YAML Package for Node.js lib/loader.js readAlias() Function YAML Anchor Handling Arbitrary Code Execution,CVE-2021-22150,Medium,security,JFrog,js-yaml,3.0.0 ≤ Version < 3.14.1,3.14.1,2022-02-15T09:01:08-05:00,js-yaml,,,,XRAY-184388,FALSE,npm://js-yaml:3.6.1,js-yaml:3.6.1
+Incorrect parsing of certain JSON input may result in js-bson not correctly serializing BSON. This may cause unexpected application behaviour including data disclosure. This issue affects: MongoDB Inc. js-bson library version 1.1.3 and prior to.,CVE-2019-2391,Medium,security,JFrog,bson,< 1.1.4,1.1.4,2023-02-01T21:16:15-05:00,bson,5.5/CVSS:2.0/AV:N/AC:L/Au:S/C:P/I:P/A:N,5.4/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N,CWE-502,XRAY-95979,FALSE,npm://bson:1.0.9,bson:1.0.9
+A vulnerability was found in Braces versions prior to 2.3.1. Affected versions of this package are vulnerable to Regular Expression Denial of Service (ReDoS) attacks.,CVE-2018-1109,Medium,security,JFrog,braces,< 2.3.1,2.3.1,2023-02-01T21:15:54-05:00,braces,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,CWE-400,XRAY-160030,FALSE,npm://braces:1.8.5,braces:1.8.5
+"minimist before 1.2.2 could be tricked into adding or modifying properties of Object.prototype using a ""constructor"" or ""__proto__"" payload.",CVE-2020-7598,Medium,security,JFrog,minimist,"< 0.2.1,1.0.0 ≤ Version < 1.2.3","0.2.1,1.2.3",2023-02-01T21:16:15-05:00,minimist,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,5.6/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L,CWE-1321,XRAY-95385,FALSE,npm://minimist:0.0.8,minimist:0.0.8
+NodeJS Tough-Cookie version 2.2.2 contains a Regular Expression Parsing vulnerability in HTTP request Cookie Header parsing that can result in Denial of Service. This attack appear to be exploitable via Custom HTTP header passed by client. This vulnerability appears to have been fixed in 2.3.0.,CVE-2016-1000232,Medium,security,JFrog,tough-cookie,< 2.3.0,2.3.0,2023-02-01T21:15:27-05:00,tough-cookie,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:N/A:P,5.3/CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,CWE-20,XRAY-73084,FALSE,npm://tough-cookie:2.2.2,tough-cookie:2.2.2
+"lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of ""Object"" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",CVE-2018-3721,Medium,security,JFrog,lodash,< 4.17.5,4.17.5,2023-02-01T21:16:23-05:00,lodash,4.0/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:P/A:N,6.5/CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N,NVD-CWE-noinfo,XRAY-72918,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+"lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of ""Object"" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",CVE-2018-3721,Medium,security,JFrog,lodash,< 4.17.5,4.17.5,2023-02-01T21:16:23-05:00,lodash,4.0/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:P/A:N,6.5/CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N,NVD-CWE-noinfo,XRAY-72918,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+"Versions of the npm CLI prior to 6.13.4 are vulnerable to an Arbitrary File Overwrite. It fails to prevent existing globally-installed binaries to be overwritten by other package installations. For example, if a package was installed globally and created a serve binary, any subsequent installs of packages that also create a serve binary would overwrite the previous serve binary. This behavior is still allowed in local installations and also through install scripts. This vulnerability bypasses a user using the --ignore-scripts install option.",CVE-2019-16777,Medium,security,JFrog,npm,< 6.13.4,6.13.4,2023-02-01T21:16:45-05:00,npm,5.5/CVSS:2.0/AV:N/AC:L/Au:S/C:N/I:P/A:P,6.5/CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N,CWE-269,XRAY-92763,FALSE,npm://npm:3.10.10,npm:3.10.10
+nodejs ejs version older than 2.5.5 is vulnerable to a Cross-site-scripting in the ejs.renderFile() resulting in code injection,CVE-2017-1000188,Medium,security,JFrog,ejs,< 2.5.5,2.5.5,2023-02-01T21:15:22-05:00,ejs,4.3/CVSS:2.0/AV:N/AC:M/Au:N/C:N/I:P/A:N,6.1/CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,CWE-79,XRAY-73291,FALSE,npm://ejs:0.4.3,ejs:0.4.3
+"A prototype pollution vulnerability was found in lodash <4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.",CVE-2018-16487,Medium,security,JFrog,lodash,< 4.17.11,4.17.11,2023-02-01T21:16:36-05:00,lodash,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,5.6/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L,NVD-CWE-noinfo,XRAY-75300,FALSE,npm://lodash:2.4.2,lodash:2.4.2
+"A prototype pollution vulnerability was found in lodash <4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.",CVE-2018-16487,Medium,security,JFrog,lodash,< 4.17.11,4.17.11,2023-02-01T21:16:36-05:00,lodash,6.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:P/A:P,5.6/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L,NVD-CWE-noinfo,XRAY-75300,FALSE,npm://lodash:4.13.1,lodash:4.13.1
+"A buffer over-read vulnerability exists in bl <4.0.3, <3.0.1, <2.2.1, and <1.2.3 which could allow an attacker to supply user input (even typed) that if it ends up in consume() argument and can become negative, the BufferList state can be corrupted, tricking it into exposing uninitialized memory via regular .slice() calls.",CVE-2020-8244,Medium,security,JFrog,bl,"< 1.2.3,2.0.0 ≤ Version < 2.2.1,3.0.0 ≤ Version < 3.0.1,4.0.0 ≤ Version < 4.0.3","1.2.3,2.2.1,3.0.1,4.0.3",2023-02-01T21:16:15-05:00,bl,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:P,6.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L,CWE-125,XRAY-122434,FALSE,npm://bl:1.1.2,bl:1.1.2
+"A buffer over-read vulnerability exists in bl <4.0.3, <3.0.1, <2.2.1, and <1.2.3 which could allow an attacker to supply user input (even typed) that if it ends up in consume() argument and can become negative, the BufferList state can be corrupted, tricking it into exposing uninitialized memory via regular .slice() calls.",CVE-2020-8244,Medium,security,JFrog,bl,"< 1.2.3,2.0.0 ≤ Version < 2.2.1,3.0.0 ≤ Version < 3.0.1,4.0.0 ≤ Version < 4.0.3","1.2.3,2.2.1,3.0.1,4.0.3",2023-02-01T21:16:15-05:00,bl,6.4/CVSS:2.0/AV:N/AC:L/Au:N/C:P/I:N/A:P,6.5/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L,CWE-125,XRAY-122434,FALSE,npm://bl:1.0.3,bl:1.0.3
+utile Package for Node.js lib/base64.js base64.encode() Function Buffer Allocation Handling Memory Consumption DoS,,Medium,security,JFrog,utile,0.0.8 ≤ Version ≤ 0.3.0,,2020-04-08T07:57:02-04:00,utile,,,,XRAY-78627,FALSE,npm://utile:0.2.1,utile:0.2.1
+utile Package for Node.js lib/base64.js base64.encode() Function Buffer Allocation Handling Memory Consumption DoS,,Medium,security,JFrog,utile,0.0.8 ≤ Version ≤ 0.3.0,,2020-04-08T07:57:02-04:00,utile,,,,XRAY-78627,FALSE,npm://utile:0.3.0,utile:0.3.0
+is-my-json-valid Package for Node.js formats.js JSON Field style Format Improper Regular Expression DoS,,Medium,security,JFrog,is-my-json-valid,1.3.4 ≤ Version < 2.20.4,2.20.4,2022-02-15T09:01:32-05:00,is-my-json-valid,,,,XRAY-115985,FALSE,npm://is-my-json-valid:2.15.0,is-my-json-valid:2.15.0
+"Request is an http client. If a request is made using ```multipart```, and the body type is a ```number```, then the specified number of non-zero memory is passed in the body. This affects Request >=2.2.6 <2.47.0 || >2.51.0 <=2.67.0.",CVE-2017-16026,Medium,security,JFrog,request,2.2.6 ≤ Version < 2.68.0,2.68.0 ≤ Version ≤ 2.68.0,2023-02-01T21:15:22-05:00,request,7.1/CVSS:2.0/AV:N/AC:M/Au:N/C:C/I:N/A:N,5.9/CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,CWE-20,XRAY-72544,FALSE,npm://request:2.67.0,request:2.67.0
+Versions less than 0.0.6 of the Node.js stringstream module are vulnerable to an out-of-bounds read because of allocation of uninitialized buffers when a number is passed in the input stream (when using Node.js 4.x).,CVE-2018-21270,Medium,security,JFrog,stringstream,< 0.0.6,0.0.6,2023-02-01T21:17:28-05:00,stringstream,5.8/CVSS:2.0/AV:N/AC:M/Au:N/C:P/I:N/A:P,6.5/CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H,CWE-125,XRAY-129606,FALSE,npm://stringstream:0.0.5,stringstream:0.0.5
+JS-YAML lib/js-yaml/loader.js storeMappingPair() Function Nested Array Handling Resource Consumption DoS Weakness,,Medium,security,JFrog,js-yaml,< 3.13.0,3.13.0,2022-02-15T09:01:13-05:00,js-yaml,,,,XRAY-79036,FALSE,npm://js-yaml:3.6.1,js-yaml:3.6.1
+Platform.js HTTP User-Agent Header Parsing Regular Expression Handling Remote DoS,,Medium,security,JFrog,platform,0.4.0 ≤ Version ≤ 1.3.5,,2020-04-08T07:57:02-04:00,platform,,,,XRAY-78635,FALSE,npm://platform:1.3.1,platform:1.3.1
+The got package before 12.1.0 (also fixed in 11.8.5) for Node.js allows a redirect to a UNIX socket.,CVE-2022-33987,Medium,security,JFrog,got,"< 11.8.5,12.0.0 ≤ Version < 12.1.0","11.8.5,12.1.0",2023-02-01T21:15:34-05:00,got,5.0/CVSS:2.0/AV:N/AC:L/Au:N/C:N/I:P/A:N,5.3/CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N,NVD-CWE-noinfo,XRAY-229041,FALSE,npm://got:6.7.1,got:6.7.1
+Cypress packages/server/lib/gui/windows.ts webPreferences Missing Context Isolation Test Handling Stored XSS,,Medium,security,JFrog,cypress,< 7.2.0,7.2.0,2022-02-15T09:01:07-05:00,cypress,,,,XRAY-175097,FALSE,npm://cypress:3.8.3,cypress:3.8.3
+"Request is an http client. If a request is made using ```multipart```, and the body type is a ```number```, then the specified number of non-zero memory is passed in the body. This affects Request >=2.2.6 <2.47.0 || >2.51.0 <=2.67.0.",CVE-2017-16026,Medium,security,JFrog,request,2.2.6 ≤ Version < 2.68.0,2.68.0 ≤ Version ≤ 2.68.0,2023-02-01T21:15:22-05:00,request,7.1/CVSS:2.0/AV:N/AC:M/Au:N/C:C/I:N/A:N,5.9/CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,CWE-20,XRAY-72544,FALSE,npm://request:2.36.0,request:2.36.0
+A TOCTOU issue in the chownr package before 1.1.0 for Node.js 10.10 could allow a local attacker to trick it into descending into unintended directories via symlink attacks.,CVE-2017-18869,Low,security,JFrog,chownr,< 1.1.0,1.1.0,2023-02-01T21:16:58-05:00,chownr,1.9/CVSS:2.0/AV:L/AC:M/Au:N/C:N/I:P/A:N,2.5/CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N,CWE-367,XRAY-125524,FALSE,npm://chownr:1.0.1,chownr:1.0.1
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:2.3.0,commander:2.3.0
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:2.9.0,commander:2.9.0
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:2.15.1,commander:2.15.1
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:2.5.1,commander:2.5.1
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:0.5.2,commander:0.5.2
+Commander.js Package for Node.js index.js parse() Function Argument Parsing Arbitrary Code Execution Weakness,,Unknown,security,JFrog,commander,"< 2.20.1,3.0.0-0 ≤ Version < 3.0.2",3.0.2,2022-03-03T11:19:45-05:00,commander,,,,XRAY-199126,FALSE,npm://commander:0.6.1,commander:0.6.1
+,,,,,,,,,,,,,,,,balanced-match:0.4.2
+,,,,,,,,,,,,,,,,fragment-cache:0.2.1
+,,,,,,,,,,,,,,,,minimist:0.0.10
+,,,,,,,,,,,,,,,,request-progress:3.0.0
+,,,,,,,,,,,,,,,,@types/mocha:5.2.7
+,,,,,,,,,,,,,,,,defaults:1.0.3
+,,,,,,,,,,,,,,,,lodash._bindcallback:3.0.1
+,,,,,,,,,,,,,,,,nconf:0.6.9
+,,,,,,,,,,,,,,,,nice-try:1.0.5
+,,,,,,,,,,,,,,,,querystring:0.2.0
+,,,,,,,,,,,,,,,,nimb:0.1.0
+,,,,,,,,,,,,,,,,@types/chai-jquery:1.1.40
+,,,,,,,,,,,,,,,,simple-app:0.1.0
+,,,,,,,,,,,,,,,,cross-spawn:5.1.0
+,,,,,,,,,,,,,,,,extend:3.0.0
+,,,,,,,,,,,,,,,,har-validator:2.0.6
+,,,,,,,,,,,,,,,,har-validator:5.1.5
+,,,,,,,,,,,,,,,,undefsafe:2.0.5
+,,,,,,,,,,,,,,,,builtins:0.0.7
+,,,,,,,,,,,,,,,,define-property:0.2.5
+,,,,,,,,,,,,,,,,has-unicode:2.0.1
+,,,,,,,,,,,,,,,,check-more-types:2.24.0
+,,,,,,,,,,,,,,,,http-signature:1.1.1
+,,,,,,,,,,,,,,,,ipaddr.js:1.9.1
+,,,,,,,,,,,,,,,,istanbul-lib-source-maps:1.0.0-alpha.10
+,,,,,,,,,,,,,,,,pascalcase:0.1.1
+,,,,,,,,,,,,,,,,require-main-filename:1.0.1
+,,,,,,,,,,,,,,,,color-convert:2.0.1
+,,,,,,,,,,,,,,,,gopd:1.0.1
+,,,,,,,,,,,,,,,,is-npm:1.0.0
+,,,,,,,,,,,,,,,,mute-stream:0.0.5
+,,,,,,,,,,,,,,,,broadway:0.3.6
+,,,,,,,,,,,,,,,,growl:1.9.2
+,,,,,,,,,,,,,,,,moment:2.24.0
+,,,,,,,,,,,,,,,,xmlbuilder:15.1.1
+,,,,,,,,,,,,,,,,example:0.0.0
+,,,,,,,,,,,,,,,,options:0.0.6
+,,,,,,,,,,,,,,,,cache-base:1.0.1
+,,,,,,,,,,,,,,,,debug:2.2.0
+,,,,,,,,,,,,,,,,wrap-ansi:2.0.0
+,,,,,,,,,,,,,,,,@cypress/xvfb:1.2.4
+,,,,,,,,,,,,,,,,grunt-contrib-watch:1.1.0
+,,,,,,,,,,,,,,,,hide-powered-by:1.0.0
+,,,,,,,,,,,,,,,,yargs:4.8.1
+,,,,,,,,,,,,,,,,for-each:0.3.3
+,,,,,,,,,,,,,,,,path-exists:2.1.0
+,,,,,,,,,,,,,,,,vary:1.1.2
+,,,,,,,,,,,,,,,,ansi-styles:2.2.1
+,,,,,,,,,,,,,,,,glob-parent:3.1.0
+,,,,,,,,,,,,,,,,imurmurhash:0.1.4
+,,,,,,,,,,,,,,,,is-posix-bracket:0.1.1
+,,,,,,,,,,,,,,,,listr-update-renderer:0.2.0
+,,,,,,,,,,,,,,,,md5-o-matic:0.1.1
+,,,,,,,,,,,,,,,,brace-expansion:1.1.6
+,,,,,,,,,,,,,,,,expand-brackets:2.1.4
+,,,,,,,,,,,,,,,,log-symbols:2.2.0
+,,,,,,,,,,,,,,,,pkginfo:0.3.1
+,,,,,,,,,,,,,,,,random-bytes:1.0.0
+,,,,,,,,,,,,,,,,safe-json-parse:1.0.1
+,,,,,,,,,,,,,,,,has-property-descriptors:1.0.0
+,,,,,,,,,,,,,,,,interpret:1.1.0
+,,,,,,,,,,,,,,,,ansi-styles:4.3.0
+,,,,,,,,,,,,,,,,atob:2.1.2
+,,,,,,,,,,,,,,,,bcrypt-nodejs:0.0.3
+,,,,,,,,,,,,,,,,fill-range:2.2.3
+,,,,,,,,,,,,,,,,graceful-fs:4.1.4
+,,,,,,,,,,,,,,,,grunt-legacy-util:2.0.1
+,,,,,,,,,,,,,,,,normalize-package-data:2.3.5
+,,,,,,,,,,,,,,,,pify:3.0.0
+,,,,,,,,,,,,,,,,yauzl:2.4.1
+,,,,,,,,,,,,,,,,date-now:0.1.4
+,,,,,,,,,,,,,,,,normalize-package-data:2.5.0
+,,,,,,,,,,,,,,,,array-find-index:1.0.2
+,,,,,,,,,,,,,,,,is-set:2.0.2
+,,,,,,,,,,,,,,,,liftup:3.0.1
+,,,,,,,,,,,,,,,,selenium-webdriver:2.53.3
+,,,,,,,,,,,,,,,,semver-diff:2.1.0
+,,,,,,,,,,,,,,,,sprintf-js:1.0.3
+,,,,,,,,,,,,,,,,lodash.restparam:3.6.1
+,,,,,,,,,,,,,,,,regenerator-runtime:0.9.5
+,,,,,,,,,,,,,,,,retry:0.10.0
+,,,,,,,,,,,,,,,,ansi-regex:2.0.0
+,,,,,,,,,,,,,,,,argparse:1.0.10
+,,,,,,,,,,,,,,,,continuable-cache:0.3.1
+,,,,,,,,,,,,,,,,which:1.2.10
+,,,,,,,,,,,,,,,,asynckit:0.4.0
+,,,,,,,,,,,,,,,,core-js:2.4.1
+,,,,,,,,,,,,,,,,has-values:0.1.4
+,,,,,,,,,,,,,,,,path-key:3.1.1
+,,,,,,,,,,,,,,,,pseudomap:1.0.2
+,,,,,,,,,,,,,,,,amdefine:1.0.0
+,,,,,,,,,,,,,,,,har-schema:2.0.0
+,,,,,,,,,,,,,,,,lodash:4.17.15
+,,,,,,,,,,,,,,,,prompt:0.2.14
+,,,,,,,,,,,,,,,,uri-js:4.4.1
+,,,,,,,,,,,,,,,,use:3.1.1
+,,,,,,,,,,,,,,,,ansi-align:2.0.0
+,,,,,,,,,,,,,,,,colors:1.1.2
+,,,,,,,,,,,,,,,,forever-monitor:2.0.0
+,,,,,,,,,,,,,,,,ms:2.1.3
+,,,,,,,,,,,,,,,,npm-user-validate:0.1.5
+,,,,,,,,,,,,,,,,readable-stream:1.1.14
+,,,,,,,,,,,,,,,,get-caller-file:1.0.1
+,,,,,,,,,,,,,,,,is-weakset:2.0.2
+,,,,,,,,,,,,,,,,lodash.clonedeep:4.5.0
+,,,,,,,,,,,,,,,,side-channel:1.0.4
+,,,,,,,,,,,,,,,,tmp:0.1.0
+,,,,,,,,,,,,,,,,is-builtin-module:1.0.0
+,,,,,,,,,,,,,,,,is-symbol:1.0.4
+,,,,,,,,,,,,,,,,is-unc-path:1.0.0
+,,,,,,,,,,,,,,,,minimatch:3.0.3
+,,,,,,,,,,,,,,,,spdx-expression-parse:1.0.2
+,,,,,,,,,,,,,,,,deep-equal:2.1.0
+,,,,,,,,,,,,,,,,forever-agent:0.5.2
+,,,,,,,,,,,,,,,,nodeunit:0.9.5
+,,,,,,,,,,,,,,,,stack-utils:0.4.0
+,,,,,,,,,,,,,,,,clean-yaml-object:0.1.0
+,,,,,,,,,,,,,,,,core-util-is:1.0.2
+,,,,,,,,,,,,,,,,os-homedir:1.0.2
+,,,,,,,,,,,,,,,,supports-color:3.1.2
+,,,,,,,,,,,,,,,,strip-ansi:4.0.0
+,,,,,,,,,,,,,,,,tweetnacl:0.14.3
+,,,,,,,,,,,,,,,,chownr:1.0.1
+,,,,,,,,,,,,,,,,colors:1.4.0
+,,,,,,,,,,,,,,,,is-installed-globally:0.1.0
+,,,,,,,,,,,,,,,,cli-boxes:1.0.0
+,,,,,,,,,,,,,,,,define-property:2.0.2
+,,,,,,,,,,,,,,,,pstree.remy:1.1.8
+,,,,,,,,,,,,,,,,safe-regex:1.1.0
+,,,,,,,,,,,,,,,,strip-bom:2.0.0
+,,,,,,,,,,,,,,,,retire:1.1.6
+,,,,,,,,,,,,,,,,combined-stream:1.0.8
+,,,,,,,,,,,,,,,,glob:7.0.5
+,,,,,,,,,,,,,,,,grunt-legacy-log:3.0.0
+,,,,,,,,,,,,,,,,object-keys:1.1.1
+,,,,,,,,,,,,,,,,verror:1.3.6
+,,,,,,,,,,,,,,,,cookie:0.5.0
+,,,,,,,,,,,,,,,,d:0.1.1
+,,,,,,,,,,,,,,,,execa:0.10.0
+,,,,,,,,,,,,,,,,is-boolean-object:1.1.2
+,,,,,,,,,,,,,,,,rimraf:2.5.4
+,,,,,,,,,,,,,,,,cryptiles:0.2.2
+,,,,,,,,,,,,,,,,graceful-fs:4.1.9
+,,,,,,,,,,,,,,,,is-glob:2.0.1
+,,,,,,,,,,,,,,,,mime-db:1.24.0
+,,,,,,,,,,,,,,,,opener:1.5.2
+,,,,,,,,,,,,,,,,registry-url:3.1.0
+,,,,,,,,,,,,,,,,flatiron:0.4.3
+,,,,,,,,,,,,,,,,@types/sinon-chai:3.2.3
+,,,,,,,,,,,,,,,,request:2.79.0
+,,,,,,,,,,,,,,,,spdx-exceptions:2.3.0
+,,,,,,,,,,,,,,,,to-object-path:0.3.0
+,,,,,,,,,,,,,,,,winston:0.7.3
+,,,,,,,,,,,,,,,,registry-auth-token:3.4.0
+,,,,,,,,,,,,,,,,wide-align:1.1.0
+,,,,,,,,,,,,,,,,grunt-npm-install:0.3.1
+,,,,,,,,,,,,,,,,has-flag:4.0.0
+,,,,,,,,,,,,,,,,ini:1.3.8
+,,,,,,,,,,,,,,,,read-pkg:1.1.0
+,,,,,,,,,,,,,,,,@types/sinon:7.5.1
+,,,,,,,,,,,,,,,,ecc-jsbn:0.1.2
+,,,,,,,,,,,,,,,,supports-preserve-symlinks-flag:1.0.0
+,,,,,,,,,,,,,,,,wordwrap:0.0.3
+,,,,,,,,,,,,,,,,x-xss-protection:1.0.0
+,,,,,,,,,,,,,,,,winston:0.8.0
+,,,,,,,,,,,,,,,,resourceful-app:0.1.0
+,,,,,,,,,,,,,,,,domelementtype:1.3.1
+,,,,,,,,,,,,,,,,is-number-object:1.0.7
+,,,,,,,,,,,,,,,,lazy:1.0.11
+,,,,,,,,,,,,,,,,micromatch:3.1.10
+,,,,,,,,,,,,,,,,slice-ansi:0.0.4
+,,,,,,,,,,,,,,,,@types/chai:4.2.7
+,,,,,,,,,,,,,,,,consolidate:0.14.5
+,,,,,,,,,,,,,,,,got:6.7.1
+,,,,,,,,,,,,,,,,parse-json:2.2.0
+,,,,,,,,,,,,,,,,underscore:1.13.6
+,,,,,,,,,,,,,,,,@types/minimatch:3.0.3
+,,,,,,,,,,,,,,,,camelcase:2.1.1
+,,,,,,,,,,,,,,,,is-glob:3.1.0
+,,,,,,,,,,,,,,,,is-my-json-valid:2.20.6
+,,,,,,,,,,,,,,,,is-relative:1.0.0
+,,,,,,,,,,,,,,,,lazy-ass:1.6.0
+,,,,,,,,,,,,,,,,require_optional:1.0.1
+,,,,,,,,,,,,,,,,commander:2.9.0
+,,,,,,,,,,,,,,,,once:1.3.3
+,,,,,,,,,,,,,,,,right-align:0.1.3
+,,,,,,,,,,,,,,,,@types/jquery:3.3.31
+,,,,,,,,,,,,,,,,readmes:99.999.999999999
+,,,,,,,,,,,,,,,,brace-expansion:1.1.11
+,,,,,,,,,,,,,,,,ramda:0.24.1
+,,,,,,,,,,,,,,,,randomatic:1.1.5
+,,,,,,,,,,,,,,,,assert-plus:1.0.0
+,,,,,,,,,,,,,,,,lodash.assign:4.0.9
+,,,,,,,,,,,,,,,,raw-body:1.1.7
+,,,,,,,,,,,,,,,,rimraf:2.7.1
+,,,,,,,,,,,,,,,,stringstream:0.0.5
+,,,,,,,,,,,,,,,,cli:1.0.1
+,,,,,,,,,,,,,,,,glob:5.0.15
+,,,,,,,,,,,,,,,,is-fullwidth-code-point:2.0.0
+,,,,,,,,,,,,,,,,nopt:3.0.6
+,,,,,,,,,,,,,,,,union-value:1.0.1
+,,,,,,,,,,,,,,,,braces:2.3.2
+,,,,,,,,,,,,,,,,import-lazy:2.1.0
+,,,,,,,,,,,,,,,,log-update:1.0.2
+,,,,,,,,,,,,,,,,sax:1.2.4
+,,,,,,,,,,,,,,,,utile:0.3.0
+,,,,,,,,,,,,,,,,default-require-extensions:1.0.0
+,,,,,,,,,,,,,,,,detect-indent:3.0.1
+,,,,,,,,,,,,,,,,p-finally:1.0.0
+,,,,,,,,,,,,,,,,ps-tree:0.0.3
+,,,,,,,,,,,,,,,,lru-cache:4.1.5
+,,,,,,,,,,,,,,,,mocha:2.0.1
+,,,,,,,,,,,,,,,,async:3.2.4
+,,,,,,,,,,,,,,,,cliff:0.1.9
+,,,,,,,,,,,,,,,,getpass:0.1.6
+,,,,,,,,,,,,,,,,lazy-cache:1.0.4
+,,,,,,,,,,,,,,,,babel-code-frame:6.11.0
+,,,,,,,,,,,,,,,,underscore:1.5.1
+,,,,,,,,,,,,,,,,depd:1.1.0
+,,,,,,,,,,,,,,,,file-uri-to-path:1.0.0
+,,,,,,,,,,,,,,,,grunt-jsbeautifier:0.2.13
+,,,,,,,,,,,,,,,,hoek:0.9.1
+,,,,,,,,,,,,,,,,lodash._createcache:3.1.2
+,,,,,,,,,,,,,,,,monorepo-symlink-test:0.0.0
+,,,,,,,,,,,,,,,,safe-buffer:5.1.1
+,,,,,,,,,,,,,,,,broadway:0.2.9
+,,,,,,,,,,,,,,,,caller:1.1.0
+,,,,,,,,,,,,,,,,global-dirs:0.1.1
+,,,,,,,,,,,,,,,,istanbul-lib-report:1.0.0-alpha.3
+,,,,,,,,,,,,,,,,lru-cache:2.7.3
+,,,,,,,,,,,,,,,,object-assign:4.1.1
+,,,,,,,,,,,,,,,,object.assign:4.1.4
+,,,,,,,,,,,,,,,,aws-sign2:0.7.0
+,,,,,,,,,,,,,,,,editorconfig:0.15.3
+,,,,,,,,,,,,,,,,fd-slicer:1.1.0
+,,,,,,,,,,,,,,,,nssocket:0.6.0
+,,,,,,,,,,,,,,,,range-parser:1.2.1
+,,,,,,,,,,,,,,,,eventemitter2:4.1.2
+,,,,,,,,,,,,,,,,has-value:0.3.1
+,,,,,,,,,,,,,,,,read-installed:4.0.3
+,,,,,,,,,,,,,,,,boom:0.4.2
+,,,,,,,,,,,,,,,,commander:0.6.1
+,,,,,,,,,,,,,,,,is-extglob:2.1.1
+,,,,,,,,,,,,,,,,make-iterator:1.0.1
+,,,,,,,,,,,,,,,,timed-out:4.0.1
+,,,,,,,,,,,,,,,,walkdir:0.0.7
+,,,,,,,,,,,,,,,,debug:3.2.7
+,,,,,,,,,,,,,,,,extsprintf:1.3.0
+,,,,,,,,,,,,,,,,frameguard:2.0.0
+,,,,,,,,,,,,,,,,lodash._getnative:3.9.1
+,,,,,,,,,,,,,,,,os-tmpdir:1.0.2
+,,,,,,,,,,,,,,,,sshpk:1.17.0
+,,,,,,,,,,,,,,,,yargs-parser:2.4.1
+,,,,,,,,,,,,,,,,cookie:0.4.2
+,,,,,,,,,,,,,,,,deep-equal:0.2.2
+,,,,,,,,,,,,,,,,npm-run-path:2.0.2
+,,,,,,,,,,,,,,,,buffer-from:1.1.2
+,,,,,,,,,,,,,,,,grunt-retire:0.3.12
+,,,,,,,,,,,,,,,,ienoopen:1.0.0
+,,,,,,,,,,,,,,,,pumpify:1.5.1
+,,,,,,,,,,,,,,,,request:2.75.0
+,,,,,,,,,,,,,,,,resolve-from:2.0.0
+,,,,,,,,,,,,,,,,buffer-shims:1.0.0
+,,,,,,,,,,,,,,,,camelcase:3.0.0
+,,,,,,,,,,,,,,,,getpass:0.1.7
+,,,,,,,,,,,,,,,,meow:3.7.0
+,,,,,,,,,,,,,,,,optimist:0.6.0
+,,,,,,,,,,,,,,,,ora:0.2.3
+,,,,,,,,,,,,,,,,write-file-atomic:2.4.3
+,,,,,,,,,,,,,,,,is-dotfile:1.0.2
+,,,,,,,,,,,,,,,,mkdirp:0.3.0
+,,,,,,,,,,,,,,,,string_decoder:1.1.1
+,,,,,,,,,,,,,,,,executable:4.1.1
+,,,,,,,,,,,,,,,,string_decoder:1.0.3
+,,,,,,,,,,,,,,,,swig:1.4.2
+,,,,,,,,,,,,,,,,which-typed-array:1.1.9
+,,,,,,,,,,,,,,,,colors:0.6.2
+,,,,,,,,,,,,,,,,content-type:1.0.4
+,,,,,,,,,,,,,,,,mime-db:1.52.0
+,,,,,,,,,,,,,,,,qs:6.11.0
+,,,,,,,,,,,,,,,,redent:1.0.0
+,,,,,,,,,,,,,,,,sntp:1.0.9
+,,,,,,,,,,,,,,,,typedarray:0.0.6
+,,,,,,,,,,,,,,,,damidev-director:1.2.9
+,,,,,,,,,,,,,,,,fstream-ignore:1.0.5
+,,,,,,,,,,,,,,,,loose-envify:1.2.0
+,,,,,,,,,,,,,,,,path-type:1.1.0
+,,,,,,,,,,,,,,,,p-map:1.2.0
+,,,,,,,,,,,,,,,,qs:6.2.1
+,,,,,,,,,,,,,,,,dont-sniff-mimetype:1.1.0
+,,,,,,,,,,,,,,,,extsprintf:1.0.2
+,,,,,,,,,,,,,,,,spdx-correct:3.1.1
+,,,,,,,,,,,,,,,,unicode-length:1.0.3
+,,,,,,,,,,,,,,,,minimist:0.0.8
+,,,,,,,,,,,,,,,,repeat-string:1.6.1
+,,,,,,,,,,,,,,,,resolve-dir:1.0.1
+,,,,,,,,,,,,,,,,spdx-license-ids:3.0.12
+,,,,,,,,,,,,,,,,unique-filename:1.1.0
+,,,,,,,,,,,,,,,,ajv:6.12.6
+,,,,,,,,,,,,,,,,gaze:1.1.3
+,,,,,,,,,,,,,,,,is-arrayish:0.2.1
+,,,,,,,,,,,,,,,,is-finite:1.0.1
+,,,,,,,,,,,,,,,,regex-cache:0.4.3
+,,,,,,,,,,,,,,,,indent-string:2.1.0
+,,,,,,,,,,,,,,,,lodash.once:4.1.1
+,,,,,,,,,,,,,,,,nanomatch:1.2.13
+,,,,,,,,,,,,,,,,oauth-sign:0.3.0
+,,,,,,,,,,,,,,,,util-deprecate:1.0.2
+,,,,,,,,,,,,,,,,number-is-nan:1.0.0
+,,,,,,,,,,,,,,,,@scoped/underscore:1.3.1
+,,,,,,,,,,,,,,,,console-control-strings:1.1.0
+,,,,,,,,,,,,,,,,diff:1.4.0
+,,,,,,,,,,,,,,,,error:7.2.1
+,,,,,,,,,,,,,,,,execa:0.7.0
+,,,,,,,,,,,,,,,,figures:1.7.0
+,,,,,,,,,,,,,,,,kind-of:3.0.3
+,,,,,,,,,,,,,,,,snapdragon:0.8.2
+,,,,,,,,,,,,,,,,to-iso-string:0.0.2
+,,,,,,,,,,,,,,,,event-stream:0.5.3
+,,,,,,,,,,,,,,,,array-slice:1.1.0
+,,,,,,,,,,,,,,,,bluebird:3.7.2
+,,,,,,,,,,,,,,,,ee-first:1.1.1
+,,,,,,,,,,,,,,,,term-size:1.2.0
+,,,,,,,,,,,,,,,,yallist:2.0.0
+,,,,,,,,,,,,,,,,error-ex:1.3.2
+,,,,,,,,,,,,,,,,foreground-child:1.5.3
+,,,,,,,,,,,,,,,,is-number:7.0.0
+,,,,,,,,,,,,,,,,isobject:2.1.0
+,,,,,,,,,,,,,,,,istanbul-lib-hook:1.0.0-alpha.4
+,,,,,,,,,,,,,,,,npmlog:3.1.2
+,,,,,,,,,,,,,,,,ansicolors:0.3.2
+,,,,,,,,,,,,,,,,is-extendable:0.1.1
+,,,,,,,,,,,,,,,,only-shallow:1.2.0
+,,,,,,,,,,,,,,,,window-size:0.2.0
+,,,,,,,,,,,,,,,,serve-static:1.15.0
+,,,,,,,,,,,,,,,,utils-merge:1.0.1
+,,,,,,,,,,,,,,,,connect:3.4.1
+,,,,,,,,,,,,,,,,form-data:2.0.0
+,,,,,,,,,,,,,,,,globals:8.18.0
+,,,,,,,,,,,,,,,,is-bigint:1.0.4
+,,,,,,,,,,,,,,,,normalize-path:3.0.0
+,,,,,,,,,,,,,,,,rechoir:0.7.1
+,,,,,,,,,,,,,,,,define-property:1.0.0
+,,,,,,,,,,,,,,,,is-retry-allowed:1.2.0
+,,,,,,,,,,,,,,,,path-is-absolute:1.0.1
+,,,,,,,,,,,,,,,,wrappy:1.0.2
+,,,,,,,,,,,,,,,,align-text:0.1.4
+,,,,,,,,,,,,,,,,eventemitter2:0.4.14
+,,,,,,,,,,,,,,,,exit:0.1.2
+,,,,,,,,,,,,,,,,is-typed-array:1.1.10
+,,,,,,,,,,,,,,,,readable-stream:2.0.6
+,,,,,,,,,,,,,,,,resolve-url:0.2.1
+,,,,,,,,,,,,,,,,jsonfile:4.0.0
+,,,,,,,,,,,,,,,,extend-shallow:3.0.2
+,,,,,,,,,,,,,,,,normalize-path:2.0.1
+,,,,,,,,,,,,,,,,path-is-absolute:2.0.0
+,,,,,,,,,,,,,,,,abbrev:1.0.9
+,,,,,,,,,,,,,,,,clone:1.0.2
+,,,,,,,,,,,,,,,,has-value:1.0.0
+,,,,,,,,,,,,,,,,prettyjson:1.2.5
+,,,,,,,,,,,,,,,,window-size:0.1.0
+,,,,,,,,,,,,,,,,assert-plus:0.1.5
+,,,,,,,,,,,,,,,,bl:1.0.3
+,,,,,,,,,,,,,,,,fast-deep-equal:3.1.3
+,,,,,,,,,,,,,,,,fill-range:4.0.0
+,,,,,,,,,,,,,,,,npm-init:0.0.0
+,,,,,,,,,,,,,,,,readable-stream:2.2.7
+,,,,,,,,,,,,,,,,builtin-modules:1.1.1
+,,,,,,,,,,,,,,,,currently-unhandled:0.4.1
+,,,,,,,,,,,,,,,,fstream:1.0.10
+,,,,,,,,,,,,,,,,dont-sniff-mimetype:1.0.0
+,,,,,,,,,,,,,,,,inflight:1.0.6
+,,,,,,,,,,,,,,,,raw-body:2.5.1
+,,,,,,,,,,,,,,,,sha:2.0.1
+,,,,,,,,,,,,,,,,update-notifier:2.5.0
+,,,,,,,,,,,,,,,,combined-stream:1.0.5
+,,,,,,,,,,,,,,,,supports-color:1.2.0
+,,,,,,,,,,,,,,,,umask:1.1.0
+,,,,,,,,,,,,,,,,are-we-there-yet:1.1.2
+,,,,,,,,,,,,,,,,bytes:3.1.2
+,,,,,,,,,,,,,,,,is-fullwidth-code-point:1.0.0
+,,,,,,,,,,,,,,,,lodash:2.4.2
+,,,,,,,,,,,,,,,,configstore:3.1.5
+,,,,,,,,,,,,,,,,grunt:1.5.3
+,,,,,,,,,,,,,,,,prepend-http:1.0.4
+,,,,,,,,,,,,,,,,unique-string:1.0.0
+,,,,,,,,,,,,,,,,tough-cookie:2.3.1
+,,,,,,,,,,,,,,,,unc-path-regex:0.1.2
+,,,,,,,,,,,,,,,,adm-zip:0.4.4
+,,,,,,,,,,,,,,,,assign-symbols:1.0.0
+,,,,,,,,,,,,,,,,base:0.11.2
+,,,,,,,,,,,,,,,,extglob:0.3.2
+,,,,,,,,,,,,,,,,has:1.0.3
+,,,,,,,,,,,,,,,,request:2.36.0
+,,,,,,,,,,,,,,,,unzip-response:2.0.1
+,,,,,,,,,,,,,,,,bytes:1.0.0
+,,,,,,,,,,,,,,,,i:0.3.7
+,,,,,,,,,,,,,,,,is-glob:4.0.3
+,,,,,,,,,,,,,,,,nyc:7.1.0
+,,,,,,,,,,,,,,,,on-headers:1.0.2
+,,,,,,,,,,,,,,,,to-regex-range:5.0.1
+,,,,,,,,,,,,,,,,cliui:2.1.0
+,,,,,,,,,,,,,,,,color-convert:1.9.3
+,,,,,,,,,,,,,,,,has-symbols:1.0.3
+,,,,,,,,,,,,,,,,invariant:2.2.1
+,,,,,,,,,,,,,,,,istanbul-lib-coverage:1.0.0-alpha.4
+,,,,,,,,,,,,,,,,ws:1.1.5
+,,,,,,,,,,,,,,,,form-data:1.0.1
+,,,,,,,,,,,,,,,,has-flag:1.0.0
+,,,,,,,,,,,,,,,,is-windows:1.0.2
+,,,,,,,,,,,,,,,,lodash.rest:4.0.3
+,,,,,,,,,,,,,,,,path-dirname:1.0.2
+,,,,,,,,,,,,,,,,asn1:0.2.6
+,,,,,,,,,,,,,,,,http-signature:1.2.0
+,,,,,,,,,,,,,,,,code-point-at:1.1.0
+,,,,,,,,,,,,,,,,istanbul-lib-instrument:1.1.0-alpha.4
+,,,,,,,,,,,,,,,,json-schema-traverse:0.4.1
+,,,,,,,,,,,,,,,,lodash.union:4.6.0
+,,,,,,,,,,,,,,,,sax:0.6.1
+,,,,,,,,,,,,,,,,to-fast-properties:1.0.2
+,,,,,,,,,,,,,,,,color-support:1.1.3
+,,,,,,,,,,,,,,,,signal-exit:3.0.0
+,,,,,,,,,,,,,,,,xtend:4.0.1
+,,,,,,,,,,,,,,,,arrify:1.0.1
+,,,,,,,,,,,,,,,,glob-parent:2.0.0
+,,,,,,,,,,,,,,,,jsbn:0.1.0
+,,,,,,,,,,,,,,,,colors:1.0.3
+,,,,,,,,,,,,,,,,is-core-module:2.11.0
+,,,,,,,,,,,,,,,,is-my-ip-valid:1.0.1
+,,,,,,,,,,,,,,,,mocha:2.5.3
+,,,,,,,,,,,,,,,,safe-buffer:5.2.1
+,,,,,,,,,,,,,,,,chalk:2.4.2
+,,,,,,,,,,,,,,,,component-emitter:1.3.0
+,,,,,,,,,,,,,,,,merge-descriptors:1.0.1
+,,,,,,,,,,,,,,,,semver:5.3.0
+,,,,,,,,,,,,,,,,is-property:1.0.2
+,,,,,,,,,,,,,,,,pinkie-promise:2.0.1
+,,,,,,,,,,,,,,,,qs:6.5.3
+,,,,,,,,,,,,,,,,tunnel-agent:0.4.3
+,,,,,,,,,,,,,,,,websocket-driver:0.7.4
+,,,,,,,,,,,,,,,,amdefine:1.0.1
+,,,,,,,,,,,,,,,,dashdash:1.14.0
+,,,,,,,,,,,,,,,,debug:2.6.9
+,,,,,,,,,,,,,,,,@my-scope/package-a:0.0.0
+,,,,,,,,,,,,,,,,opener:1.4.2
+,,,,,,,,,,,,,,,,path-parse:1.0.5
+,,,,,,,,,,,,,,,,is-path-inside:1.0.1
+,,,,,,,,,,,,,,,,lodash._createset:4.0.3
+,,,,,,,,,,,,,,,,sigmund:1.0.1
+,,,,,,,,,,,,,,,,flatiron:0.4.2
+,,,,,,,,,,,,,,,,pkginfo:0.3.0
+,,,,,,,,,,,,,,,,dom-serializer:0.2.2
+,,,,,,,,,,,,,,,,helmet-csp:1.2.2
+,,,,,,,,,,,,,,,,is-my-json-valid:2.15.0
+,,,,,,,,,,,,,,,,repeat-string:1.5.4
+,,,,,,,,,,,,,,,,unpipe:1.0.0
+,,,,,,,,,,,,,,,,window-size:0.1.4
+,,,,,,,,,,,,,,,,inflight:1.0.5
+,,,,,,,,,,,,,,,,listr-silent-renderer:1.1.1
+,,,,,,,,,,,,,,,,available-typed-arrays:1.0.5
+,,,,,,,,,,,,,,,,center-align:0.1.3
+,,,,,,,,,,,,,,,,concat-stream:1.5.2
+,,,,,,,,,,,,,,,,entities:1.0.0
+,,,,,,,,,,,,,,,,express:4.18.2
+,,,,,,,,,,,,,,,,http-errors:1.7.3
+,,,,,,,,,,,,,,,,readdir-scoped-modules:1.1.0
+,,,,,,,,,,,,,,,,async:2.6.4
+,,,,,,,,,,,,,,,,is-accessor-descriptor:1.0.0
+,,,,,,,,,,,,,,,,tweetnacl:0.14.5
+,,,,,,,,,,,,,,,,is-data-descriptor:0.1.4
+,,,,,,,,,,,,,,,,jsbn:0.1.1
+,,,,,,,,,,,,,,,,loud-rejection:1.6.0
+,,,,,,,,,,,,,,,,ms:2.1.1
+,,,,,,,,,,,,,,,,spawn-wrap:1.2.4
+,,,,,,,,,,,,,,,,config-chain:1.1.11
+,,,,,,,,,,,,,,,,form-data:2.1.4
+,,,,,,,,,,,,,,,,grunt-contrib-jshint:1.1.0
+,,,,,,,,,,,,,,,,helmet:2.3.0
+,,,,,,,,,,,,,,,,negotiator:0.6.3
+,,,,,,,,,,,,,,,,pad-stream:1.2.0
+,,,,,,,,,,,,,,,,unicode-length-2:2.0.0
+,,,,,,,,,,,,,,,,depd:1.1.2
+,,,,,,,,,,,,,,,,asap:2.0.5
+,,,,,,,,,,,,,,,,create-error-class:3.0.2
+,,,,,,,,,,,,,,,,pend:1.2.0
+,,,,,,,,,,,,,,,,restore-cursor:1.0.1
+,,,,,,,,,,,,,,,,is-number:3.0.0
+,,,,,,,,,,,,,,,,map-visit:1.0.0
+,,,,,,,,,,,,,,,,pinkie:2.0.4
+,,,,,,,,,,,,,,,,ultron:1.0.2
+,,,,,,,,,,,,,,,,xtend:4.0.2
+,,,,,,,,,,,,,,,,es5-ext:0.10.12
+,,,,,,,,,,,,,,,,is-callable:1.2.7
+,,,,,,,,,,,,,,,,read:1.0.7
+,,,,,,,,,,,,,,,,readable-stream:2.1.5
+,,,,,,,,,,,,,,,,read-package-json:2.0.4
+,,,,,,,,,,,,,,,,uuid:3.4.0
+,,,,,,,,,,,,,,,,babel-types:6.11.1
+,,,,,,,,,,,,,,,,camelcase:1.2.1
+,,,,,,,,,,,,,,,,events-to-array:1.1.2
+,,,,,,,,,,,,,,,,inherits:2.0.4
+,,,,,,,,,,,,,,,,readable-stream:2.3.7
+,,,,,,,,,,,,,,,,repeating:1.1.3
+,,,,,,,,,,,,,,,,util-extend:1.0.3
+,,,,,,,,,,,,,,,,cli-cursor:1.0.2
+,,,,,,,,,,,,,,,,es6-promise:3.2.1
+,,,,,,,,,,,,,,,,make-dir:1.3.0
+,,,,,,,,,,,,,,,,minimatch:5.1.1
+,,,,,,,,,,,,,,,,process-nextick-args:1.0.7
+,,,,,,,,,,,,,,,,unset-value:1.0.0
+,,,,,,,,,,,,,,,,http-errors:2.0.0
+,,,,,,,,,,,,,,,,cycle:1.0.3
+,,,,,,,,,,,,,,,,cloudpirate:0.0.1
+,,,,,,,,,,,,,,,,map-obj:1.0.1
+,,,,,,,,,,,,,,,,statuses:2.0.1
+,,,,,,,,,,,,,,,,director:1.1.4
+,,,,,,,,,,,,,,,,babel-traverse:6.11.4
+,,,,,,,,,,,,,,,,read-package-tree:5.1.5
+,,,,,,,,,,,,,,,,commander:2.5.1
+,,,,,,,,,,,,,,,,forever:2.0.0
+,,,,,,,,,,,,,,,,lodash:4.17.21
+,,,,,,,,,,,,,,,,lodash.reduce:4.5.0
+,,,,,,,,,,,,,,,,ms:2.0.0
+,,,,,,,,,,,,,,,,which:1.2.11
+,,,,,,,,,,,,,,,,cli-truncate:0.2.1
+,,,,,,,,,,,,,,,,depd:2.0.0
+,,,,,,,,,,,,,,,,indent-string:3.2.0
+,,,,,,,,,,,,,,,,shebang-regex:1.0.0
+,,,,,,,,,,,,,,,,cross-spawn:6.0.5
+,,,,,,,,,,,,,,,,get-stream:3.0.0
+,,,,,,,,,,,,,,,,capture-stack-trace:1.0.2
+,,,,,,,,,,,,,,,,grunt-contrib-clean:1.1.0
+,,,,,,,,,,,,,,,,isarray:1.0.0
+,,,,,,,,,,,,,,,,is-number:2.1.0
+,,,,,,,,,,,,,,,,tap-parser:2.2.3
+,,,,,,,,,,,,,,,,escape-string-regexp:1.0.5
+,,,,,,,,,,,,,,,,expand-brackets:0.1.5
+,,,,,,,,,,,,,,,,promzard:0.3.0
+,,,,,,,,,,,,,,,,validate-npm-package-name:2.2.2
+,,,,,,,,,,,,,,,,asn1:0.1.11
+,,,,,,,,,,,,,,,,htmlparser2:3.8.3
+,,,,,,,,,,,,,,,,lodash._baseindexof:3.1.0
+,,,,,,,,,,,,,,,,optimist:0.2.8
+,,,,,,,,,,,,,,,,ncp:1.0.1
+,,,,,,,,,,,,,,,,oauth-sign:0.9.0
+,,,,,,,,,,,,,,,,snapdragon-util:3.0.1
+,,,,,,,,,,,,,,,,spdx-license-ids:1.2.0
+,,,,,,,,,,,,,,,,urix:0.1.0
+,,,,,,,,,,,,,,,,regex-not:1.0.2
+,,,,,,,,,,,,,,,,get-intrinsic:1.1.3
+,,,,,,,,,,,,,,,,object-is:1.1.5
+,,,,,,,,,,,,,,,,process-nextick-args:2.0.1
+,,,,,,,,,,,,,,,,punycode:1.4.1
+,,,,,,,,,,,,,,,,readdirp:2.2.1
+,,,,,,,,,,,,,,,,referrer-policy:1.0.0
+,,,,,,,,,,,,,,,,json-stringify-safe:5.0.1
+,,,,,,,,,,,,,,,,ret:0.1.15
+,,,,,,,,,,,,,,,,color-name:1.1.3
+,,,,,,,,,,,,,,,,detect-file:1.0.0
+,,,,,,,,,,,,,,,,json-schema:0.4.0
+,,,,,,,,,,,,,,,,object.omit:2.0.0
+,,,,,,,,,,,,,,,,qs:5.2.1
+,,,,,,,,,,,,,,,,stack-trace:0.0.10
+,,,,,,,,,,,,,,,,jsonpointer:4.0.0
+,,,,,,,,,,,,,,,,npm-package-arg:4.2.0
+,,,,,,,,,,,,,,,,copy-descriptor:0.1.1
+,,,,,,,,,,,,,,,,is-descriptor:0.1.6
+,,,,,,,,,,,,,,,,node-uuid:1.4.7
+,,,,,,,,,,,,,,,,path-is-absolute:1.0.0
+,,,,,,,,,,,,,,,,rxjs:5.5.12
+,,,,,,,,,,,,,,,,static-app:0.1.0
+,,,,,,,,,,,,,,,,color-name:1.1.4
+,,,,,,,,,,,,,,,,grunt-env:1.0.1
+,,,,,,,,,,,,,,,,is-equal-shallow:0.1.3
+,,,,,,,,,,,,,,,,is-weakmap:2.0.1
+,,,,,,,,,,,,,,,,jodid25519:1.0.2
+,,,,,,,,,,,,,,,,path-array:1.0.1
+,,,,,,,,,,,,,,,,aws4:1.4.1
+,,,,,,,,,,,,,,,,uglify-js:2.4.24
+,,,,,,,,,,,,,,,,async:0.2.10
+,,,,,,,,,,,,,,,,http-parser-js:0.5.8
+,,,,,,,,,,,,,,,,is-absolute:1.0.0
+,,,,,,,,,,,,,,,,trim-newlines:1.0.0
+,,,,,,,,,,,,,,,,qs:0.6.6
+,,,,,,,,,,,,,,,,mongodb:2.2.36
+,,,,,,,,,,,,,,,,braces:3.0.2
+,,,,,,,,,,,,,,,,chalk:1.1.3
+,,,,,,,,,,,,,,,,combined-stream:0.0.7
+,,,,,,,,,,,,,,,,cookie-signature:1.0.6
+,,,,,,,,,,,,,,,,find-up:1.1.2
+,,,,,,,,,,,,,,,,lcov-parse:0.0.10
+,,,,,,,,,,,,,,,,yargs:3.32.0
+,,,,,,,,,,,,,,,,commander:0.5.2
+,,,,,,,,,,,,,,,,cypress:3.8.3
+,,,,,,,,,,,,,,,,lodash.uniq:4.5.0
+,,,,,,,,,,,,,,,,nodemon:1.19.4
+,,,,,,,,,,,,,,,,oauth-sign:0.8.2
+,,,,,,,,,,,,,,,,request:2.67.0
+,,,,,,,,,,,,,,,,once:1.4.0
+,,,,,,,,,,,,,,,,stream-to-observable:0.1.0
+,,,,,,,,,,,,,,,,express-session:1.17.3
+,,,,,,,,,,,,,,,,should-equal:0.8.0
+,,,,,,,,,,,,,,,,signal-exit:2.1.2
+,,,,,,,,,,,,,,,,babel-template:6.9.0
+,,,,,,,,,,,,,,,,ncp:0.4.2
+,,,,,,,,,,,,,,,,shelljs:0.3.0
+,,,,,,,,,,,,,,,,upath:1.2.0
+,,,,,,,,,,,,,,,,glob:3.2.11
+,,,,,,,,,,,,,,,,set-blocking:2.0.0
+,,,,,,,,,,,,,,,,punycode:2.1.1
+,,,,,,,,,,,,,,,,csrf:3.1.0
+,,,,,,,,,,,,,,,,form-data:2.3.3
+,,,,,,,,,,,,,,,,getos:3.1.1
+,,,,,,,,,,,,,,,,hawk:1.0.0
+,,,,,,,,,,,,,,,,hsts:1.0.0
+,,,,,,,,,,,,,,,,iconv-lite:0.4.24
+,,,,,,,,,,,,,,,,qs:6.3.3
+,,,,,,,,,,,,,,,,yauzl:2.10.0
+,,,,,,,,,,,,,,,,ci-info:1.6.0
+,,,,,,,,,,,,,,,,director:1.2.7
+,,,,,,,,,,,,,,,,lowercase-keys:1.0.1
+,,,,,,,,,,,,,,,,marked:0.3.9
+,,,,,,,,,,,,,,,,mixin-deep:1.3.2
+,,,,,,,,,,,,,,,,q:1.5.1
+,,,,,,,,,,,,,,,,babel-messages:6.8.0
+,,,,,,,,,,,,,,,,findup-sync:4.0.0
+,,,,,,,,,,,,,,,,is-stream:1.1.0
+,,,,,,,,,,,,,,,,lodash:4.17.19
+,,,,,,,,,,,,,,,,read-package-json:2.1.2
+,,,,,,,,,,,,,,,,abbrev:1.1.1
+,,,,,,,,,,,,,,,,array-flatten:1.1.1
+,,,,,,,,,,,,,,,,function-bind:1.1.1
+,,,,,,,,,,,,,,,,package-json:4.0.1
+,,,,,,,,,,,,,,,,spdx-exceptions:1.0.4
+,,,,,,,,,,,,,,,,async:2.6.1
+,,,,,,,,,,,,,,,,@types/blob-util:1.3.3
+,,,,,,,,,,,,,,,,url:0.11.0
+,,,,,,,,,,,,,,,,yargs:3.10.0
+,,,,,,,,,,,,,,,,caseless:0.11.0
+,,,,,,,,,,,,,,,,domutils:1.5.1
+,,,,,,,,,,,,,,,,elegant-spinner:1.0.1
+,,,,,,,,,,,,,,,,fsevents:1.2.13
+,,,,,,,,,,,,,,,,minimatch:3.0.8
+,,,,,,,,,,,,,,,,nodemon:2.0.12-alpha.3
+,,,,,,,,,,,,,,,,extract-zip:1.6.7
+,,,,,,,,,,,,,,,,source-map:0.4.4
+,,,,,,,,,,,,,,,,simple-app-subdir:0.1.0
+,,,,,,,,,,,,,,,,http-signature:0.10.1
+,,,,,,,,,,,,,,,,is-redirect:1.0.0
+,,,,,,,,,,,,,,,,is-regex:1.1.4
+,,,,,,,,,,,,,,,,supports-color:7.2.0
+,,,,,,,,,,,,,,,,binary-extensions:1.13.1
+,,,,,,,,,,,,,,,,clone:2.1.2
+,,,,,,,,,,,,,,,,dns-prefetch-control:0.1.0
+,,,,,,,,,,,,,,,,json-schema:0.2.3
+,,,,,,,,,,,,,,,,object-visit:1.0.1
+,,,,,,,,,,,,,,,,delayed-stream:1.0.0
+,,,,,,,,,,,,,,,,stringstream:0.0.6
+,,,,,,,,,,,,,,,,tap:7.1.2
+,,,,,,,,,,,,,,,,uglify-to-browserify:1.0.2
+,,,,,,,,,,,,,,,,is-promise:2.2.2
+,,,,,,,,,,,,,,,,nopt:4.0.3
+,,,,,,,,,,,,,,,,onetime:1.1.0
+,,,,,,,,,,,,,,,,extraneous-dev-dep:0.0.0
+,,,,,,,,,,,,,,,,bl:1.1.2
+,,,,,,,,,,,,,,,,esprima:4.0.1
+,,,,,,,,,,,,,,,,parseurl:1.3.3
+,,,,,,,,,,,,,,,,glob:7.2.3
+,,,,,,,,,,,,,,,,listr-verbose-renderer:0.4.1
+,,,,,,,,,,,,,,,,nconf:0.10.0
+,,,,,,,,,,,,,,,,split-string:3.1.0
+,,,,,,,,,,,,,,,,winston:0.8.3
+,,,,,,,,,,,,,,,,fstream-npm:1.2.0
+,,,,,,,,,,,,,,,,grunt-contrib-nodeunit:1.0.0
+,,,,,,,,,,,,,,,,tap-mocha-reporter:2.0.1
+,,,,,,,,,,,,,,,,tiny-lr:1.1.1
+,,,,,,,,,,,,,,,,setprototypeof:1.1.1
+,,,,,,,,,,,,,,,,ansi-styles:3.2.1
+,,,,,,,,,,,,,,,,async:0.2.9
+,,,,,,,,,,,,,,,,esprima:2.7.3
+,,,,,,,,,,,,,,,,finalhandler:0.4.1
+,,,,,,,,,,,,,,,,has-flag:3.0.0
+,,,,,,,,,,,,,,,,jshint:2.9.7
+,,,,,,,,,,,,,,,,async-each:1.0.3
+,,,,,,,,,,,,,,,,domhandler:2.3.0
+,,,,,,,,,,,,,,,,grunt-cli:1.4.3
+,,,,,,,,,,,,,,,,normalize-git-url:3.0.2
+,,,,,,,,,,,,,,,,call-bind:1.0.2
+,,,,,,,,,,,,,,,,get-value:2.0.6
+,,,,,,,,,,,,,,,,lockfile:1.0.2
+,,,,,,,,,,,,,,,,request:2.88.0
+,,,,,,,,,,,,,,,,tar:2.2.1
+,,,,,,,,,,,,,,,,xdg-basedir:3.0.0
+,,,,,,,,,,,,,,,,csurf:1.11.0
+,,,,,,,,,,,,,,,,underscore:1.3.3
+,,,,,,,,,,,,,,,,kind-of:4.0.0
+,,,,,,,,,,,,,,,,posix-character-classes:0.1.1
+,,,,,,,,,,,,,,,,wcwidth:1.0.0
+,,,,,,,,,,,,,,,,camelcase:4.1.0
+,,,,,,,,,,,,,,,,camelize:1.0.0
+,,,,,,,,,,,,,,,,findup-sync:0.3.0
+,,,,,,,,,,,,,,,,mkdirp:0.5.1
+,,,,,,,,,,,,,,,,should-format:0.3.2
+,,,,,,,,,,,,,,,,js-yaml:3.14.1
+,,,,,,,,,,,,,,,,mkdirp:1.0.4
+,,,,,,,,,,,,,,,,path-root-regex:0.1.2
+,,,,,,,,,,,,,,,,boom:2.10.1
+,,,,,,,,,,,,,,,,global-prefix:1.0.2
+,,,,,,,,,,,,,,,,spdx-expression-parse:3.0.1
+,,,,,,,,,,,,,,,,throttleit:1.0.0
+,,,,,,,,,,,,,,,,uglify-js:2.7.0
+,,,,,,,,,,,,,,,,delayed-stream:0.0.5
+,,,,,,,,,,,,,,,,init-package-json:1.9.4
+,,,,,,,,,,,,,,,,map-cache:0.2.2
+,,,,,,,,,,,,,,,,readdir-scoped-modules:1.0.2
+,,,,,,,,,,,,,,,,array-each:1.0.1
+,,,,,,,,,,,,,,,,brace-expansion:2.0.1
+,,,,,,,,,,,,,,,,grunt-legacy-log-utils:2.1.0
+,,,,,,,,,,,,,,,,node-uuid:1.4.8
+,,,,,,,,,,,,,,,,wordwrap:0.0.2
+,,,,,,,,,,,,,,,,array-unique:0.3.2
+,,,,,,,,,,,,,,,,for-in:0.1.5
+,,,,,,,,,,,,,,,,hawk:3.1.3
+,,,,,,,,,,,,,,,,micromatch:2.3.11
+,,,,,,,,,,,,,,,,pify:2.3.0
+,,,,,,,,,,,,,,,,arr-diff:4.0.0
+,,,,,,,,,,,,,,,,jade:0.26.3
+,,,,,,,,,,,,,,,,which:2.0.2
+,,,,,,,,,,,,,,,,wrap-ansi:2.1.0
+,,,,,,,,,,,,,,,,write-file-atomic:1.1.4
+,,,,,,,,,,,,,,,,async:1.5.2
+,,,,,,,,,,,,,,,,block-stream:0.0.8
+,,,,,,,,,,,,,,,,extglob:2.0.4
+,,,,,,,,,,,,,,,,pkg-up:1.0.0
+,,,,,,,,,,,,,,,,punycode:1.3.2
+,,,,,,,,,,,,,,,,sshpk:1.10.1
+,,,,,,,,,,,,,,,,bluebird:3.5.0
+,,,,,,,,,,,,,,,,es-get-iterator:1.1.2
+,,,,,,,,,,,,,,,,json-parse-helpfulerror:1.0.3
+,,,,,,,,,,,,,,,,@my-scope/package-b:0.0.0
+,,,,,,,,,,,,,,,,npm-registry-client:7.2.1
+,,,,,,,,,,,,,,,,underscore.string:3.3.6
+,,,,,,,,,,,,,,,,1to2:1.0.0
+,,,,,,,,,,,,,,,,commander:2.15.1
+,,,,,,,,,,,,,,,,decamelize:1.2.0
+,,,,,,,,,,,,,,,,escape-string-regexp:1.0.2
+,,,,,,,,,,,,,,,,caching-transform:1.0.1
+,,,,,,,,,,,,,,,,cross-env:7.0.3
+,,,,,,,,,,,,,,,,exit-hook:1.1.1
+,,,,,,,,,,,,,,,,has-ansi:2.0.0
+,,,,,,,,,,,,,,,,is-buffer:1.1.3
+,,,,,,,,,,,,,,,,string-template:0.2.1
+,,,,,,,,,,,,,,,,globule:1.3.4
+,,,,,,,,,,,,,,,,shebang-regex:3.0.0
+,,,,,,,,,,,,,,,,cross-spawn:4.0.2
+,,,,,,,,,,,,,,,,pkg-dir:1.0.0
+,,,,,,,,,,,,,,,,setprototypeof:1.2.0
+,,,,,,,,,,,,,,,,validate-npm-package-license:3.0.1
+,,,,,,,,,,,,,,,,cookie:0.4.0
+,,,,,,,,,,,,,,,,strip-eof:1.0.0
+,,,,,,,,,,,,,,,,uid-safe:2.1.5
+,,,,,,,,,,,,,,,,y18n:3.2.1
+,,,,,,,,,,,,,,,,caseless:0.12.0
+,,,,,,,,,,,,,,,,glob:8.0.3
+,,,,,,,,,,,,,,,,sprintf-js:1.1.2
+,,,,,,,,,,,,,,,,supports-color:5.5.0
+,,,,,,,,,,,,,,,,os-tmpdir:1.0.1
+,,,,,,,,,,,,,,,,owasp-nodejs-goat:1.3.0
+,,,,,,,,,,,,,,,,ejs:0.4.3
+,,,,,,,,,,,,,,,,globule:1.2.1
+,,,,,,,,,,,,,,,,isarray:2.0.5
+,,,,,,,,,,,,,,,,is-date-object:1.0.5
+,,,,,,,,,,,,,,,,jsonpointer:5.0.1
+,,,,,,,,,,,,,,,,minimatch:3.0.2
+,,,,,,,,,,,,,,,,rimraf:3.0.2
+,,,,,,,,,,,,,,,,verror:1.10.0
+,,,,,,,,,,,,,,,,yargs:3.5.4
+,,,,,,,,,,,,,,,,body-parser:1.20.1
+,,,,,,,,,,,,,,,,is-accessor-descriptor:0.1.6
+,,,,,,,,,,,,,,,,jsprim:1.4.2
+,,,,,,,,,,,,,,,,semver:5.7.1
+,,,,,,,,,,,,,,,,utile:0.2.1
+,,,,,,,,,,,,,,,,convert-source-map:1.3.0
+,,,,,,,,,,,,,,,,fs.realpath:1.0.0
+,,,,,,,,,,,,,,,,shebang-command:2.0.0
+,,,,,,,,,,,,,,,,bcrypt-pbkdf:1.0.2
+,,,,,,,,,,,,,,,,media-typer:0.3.0
+,,,,,,,,,,,,,,,,string_decoder:0.10.31
+,,,,,,,,,,,,,,,,which-module:1.0.0
+,,,,,,,,,,,,,,,,require-directory:2.1.1
+,,,,,,,,,,,,,,,,faye-websocket:0.10.0
+,,,,,,,,,,,,,,,,is-extglob:1.0.0
+,,,,,,,,,,,,,,,,needle:2.2.4
+,,,,,,,,,,,,,,,,nestedtest:1.0.0
+,,,,,,,,,,,,,,,,object-inspect:1.12.2
+,,,,,,,,,,,,,,,,platform:1.3.1
+,,,,,,,,,,,,,,,,hoek:2.16.3
+,,,,,,,,,,,,,,,,is-descriptor:1.0.2
+,,,,,,,,,,,,,,,,string-width:1.0.2
+,,,,,,,,,,,,,,,,load-json-file:1.1.0
+,,,,,,,,,,,,,,,,y18n:3.2.2
+,,,,,,,,,,,,,,,,aws4:1.11.0
+,,,,,,,,,,,,,,,,content-disposition:0.5.4
+,,,,,,,,,,,,,,,,livereload-js:2.4.0
+,,,,,,,,,,,,,,,,dashdash:1.14.1
+,,,,,,,,,,,,,,,,for-own:0.1.4
+,,,,,,,,,,,,,,,,grunt-concurrent:2.3.1
+,,,,,,,,,,,,,,,,nodemon:1.19.3
+,,,,,,,,,,,,,,,,rc:1.2.8
+,,,,,,,,,,,,,,,,test-exclude:1.1.0
+,,,,,,,,,,,,,,,,extraneous-detected:0.0.0
+,,,,,,,,,,,,,,,,chalk:4.1.2
+,,,,,,,,,,,,,,,,kind-of:3.2.2
+,,,,,,,,,,,,,,,,lodash.keys:4.0.7
+,,,,,,,,,,,,,,,,read-pkg-up:1.0.1
+,,,,,,,,,,,,,,,,strip-indent:1.0.1
+,,,,,,,,,,,,,,,,prompt:0.2.13
+,,,,,,,,,,,,,,,,js-tokens:1.0.3
+,,,,,,,,,,,,,,,,nan:2.17.0
+,,,,,,,,,,,,,,,,symbol-observable:1.0.1
+,,,,,,,,,,,,,,,,@types/sizzle:2.3.2
+,,,,,,,,,,,,,,,,fast-json-stable-stringify:2.1.0
+,,,,,,,,,,,,,,,,hooker:0.2.3
+,,,,,,,,,,,,,,,,inherits:2.0.3
+,,,,,,,,,,,,,,,,strip-ansi:3.0.1
+,,,,,,,,,,,,,,,,date-fns:1.30.1
+,,,,,,,,,,,,,,,,has-bigints:1.0.2
+,,,,,,,,,,,,,,,,is-data-descriptor:1.0.0
+,,,,,,,,,,,,,,,,cmd-shim:2.0.2
+,,,,,,,,,,,,,,,,inherits:2.0.1
+,,,,,,,,,,,,,,,,lodash._cacheindexof:3.0.2
+,,,,,,,,,,,,,,,,should-type:0.2.0
+,,,,,,,,,,,,,,,,revalidator:0.1.8
+,,,,,,,,,,,,,,,,ctype:0.5.3
+,,,,,,,,,,,,,,,,expand-range:1.8.2
+,,,,,,,,,,,,,,,,fill-range:7.0.1
+,,,,,,,,,,,,,,,,graceful-fs:4.2.10
+,,,,,,,,,,,,,,,,is-buffer:1.1.6
+,,,,,,,,,,,,,,,,path-is-inside:1.0.2
+,,,,,,,,,,,,,,,,error-ex:1.3.0
+,,,,,,,,,,,,,,,,is-plain-object:2.0.4
+,,,,,,,,,,,,,,,,object.map:1.0.1
+,,,,,,,,,,,,,,,,fs-vacuum:1.2.9
+,,,,,,,,,,,,,,,,generate-function:2.0.0
+,,,,,,,,,,,,,,,,globule:1.3.2
+,,,,,,,,,,,,,,,,os-homedir:1.0.1
+,,,,,,,,,,,,,,,,resolve:1.22.1
+,,,,,,,,,,,,,,,,touch:3.1.0
+,,,,,,,,,,,,,,,,concat-map:0.0.1
+,,,,,,,,,,,,,,,,nopt:6.0.0
+,,,,,,,,,,,,,,,,sorted-object:2.0.1
+,,,,,,,,,,,,,,,,buffer-crc32:0.2.13
+,,,,,,,,,,,,,,,,coveralls:2.13.3
+,,,,,,,,,,,,,,,,normalize-path:2.1.1
+,,,,,,,,,,,,,,,,repeat-element:1.1.4
+,,,,,,,,,,,,,,,,sntp:0.2.4
+,,,,,,,,,,,,,,,,write-file-atomic:1.2.0
+,,,,,,,,,,,,,,,,ansistyles:0.1.3
+,,,,,,,,,,,,,,,,archy:1.0.0
+,,,,,,,,,,,,,,,,dot-prop:4.2.1
+,,,,,,,,,,,,,,,,form-data:0.1.4
+,,,,,,,,,,,,,,,,yallist:2.1.2
+,,,,,,,,,,,,,,,,bindings:1.5.0
+,,,,,,,,,,,,,,,,esutils:2.0.2
+,,,,,,,,,,,,,,,,foreground-child:1.5.6
+,,,,,,,,,,,,,,,,global-modules:1.0.0
+,,,,,,,,,,,,,,,,kind-of:5.1.0
+,,,,,,,,,,,,,,,,listr:0.12.0
+,,,,,,,,,,,,,,,,bson:1.0.9
+,,,,,,,,,,,,,,,,has-color:0.1.7
+,,,,,,,,,,,,,,,,osenv:0.1.5
+,,,,,,,,,,,,,,,,picomatch:2.3.1
+,,,,,,,,,,,,,,,,define-properties:1.1.4
+,,,,,,,,,,,,,,,,fs-write-stream-atomic:1.0.8
+,,,,,,,,,,,,,,,,regexp.prototype.flags:1.4.3
+,,,,,,,,,,,,,,,,secure-keys:1.0.0
+,,,,,,,,,,,,,,,,minimist:1.2.0
+,,,,,,,,,,,,,,,,npmlog:4.0.0
+,,,,,,,,,,,,,,,,source-map:0.5.7
+,,,,,,,,,,,,,,,,text-table:0.2.0
+,,,,,,,,,,,,,,,,recursedir-comparisons:0.0.0
+,,,,,,,,,,,,,,,,commander:2.3.0
+,,,,,,,,,,,,,,,,performance-now:2.1.0
+,,,,,,,,,,,,,,,,proto-list:1.2.4
+,,,,,,,,,,,,,,,,string-width:2.1.1
+,,,,,,,,,,,,,,,,which-collection:1.0.1
+,,,,,,,,,,,,,,,,mime-types:2.1.12
+,,,,,,,,,,,,,,,,spdx-correct:1.0.2
+,,,,,,,,,,,,,,,,untildify:3.0.3
+,,,,,,,,,,,,,,,,append-transform:0.3.0
+,,,,,,,,,,,,,,,,array-index:1.0.0
+,,,,,,,,,,,,,,,,for-in:1.0.2
+,,,,,,,,,,,,,,,,nodemon:1.18.11
+,,,,,,,,,,,,,,,,object-assign:4.1.0
+,,,,,,,,,,,,,,,,rndm:1.2.0
+,,,,,,,,,,,,,,,,code-point-at:1.0.0
+,,,,,,,,,,,,,,,,lodash.without:4.4.0
+,,,,,,,,,,,,,,,,through2:2.0.5
+,,,,,,,,,,,,,,,,common-tags:1.8.0
+,,,,,,,,,,,,,,,,debug:3.2.6
+,,,,,,,,,,,,,,,,handlebars:4.0.5
+,,,,,,,,,,,,,,,,optimist:0.6.1
+,,,,,,,,,,,,,,,,v8flags:3.2.0
+,,,,,,,,,,,,,,,,ansi-escapes:1.4.0
+,,,,,,,,,,,,,,,,asn1:0.2.3
+,,,,,,,,,,,,,,,,dashify:0.2.2
+,,,,,,,,,,,,,,,,safe-buffer:5.1.2
+,,,,,,,,,,,,,,,,validate-npm-package-license:3.0.4
+,,,,,,,,,,,,,,,,hpkp:1.2.0
+,,,,,,,,,,,,,,,,is-extendable:1.0.1
+,,,,,,,,,,,,,,,,is-typedarray:1.0.0
+,,,,,,,,,,,,,,,,latest-version:3.1.0
+,,,,,,,,,,,,,,,,parse-glob:3.0.4
+,,,,,,,,,,,,,,,,mime:1.6.0
+,,,,,,,,,,,,,,,,isobject:3.0.1
+,,,,,,,,,,,,,,,,should:8.4.0
+,,,,,,,,,,,,,,,,glob:7.1.0
+,,,,,,,,,,,,,,,,node-gyp:3.4.0
+,,,,,,,,,,,,,,,,babylon:6.8.4
+,,,,,,,,,,,,,,,,cryptiles:2.0.5
+,,,,,,,,,,,,,,,,unique-slug:2.0.0
+,,,,,,,,,,,,,,,,entities:2.2.0
+,,,,,,,,,,,,,,,,is-obj:1.0.1
+,,,,,,,,,,,,,,,,js-tokens:2.0.0
+,,,,,,,,,,,,,,,,pump:2.0.1
+,,,,,,,,,,,,,,,,serve-favicon:2.5.0
+,,,,,,,,,,,,,,,,eyes:0.1.8
+,,,,,,,,,,,,,,,,mime:1.2.11
+,,,,,,,,,,,,,,,,console.log:0.1.2
+,,,,,,,,,,,,,,,,repeating:2.0.1
+,,,,,,,,,,,,,,,,toidentifier:1.0.1
+,,,,,,,,,,,,,,,,aws-sign2:0.6.0
+,,,,,,,,,,,,,,,,concat-stream:1.6.2
+,,,,,,,,,,,,,,,,lru-cache:4.0.1
+,,,,,,,,,,,,,,,,object.defaults:1.1.0
+,,,,,,,,,,,,,,,,on-finished:2.3.0
+,,,,,,,,,,,,,,,,path-to-regexp:0.1.7
+,,,,,,,,,,,,,,,,commondir:1.0.1
+,,,,,,,,,,,,,,,,path-root:0.1.1
+,,,,,,,,,,,,,,,,snapdragon-node:2.1.1
+,,,,,,,,,,,,,,,,source-map-url:0.4.1
+,,,,,,,,,,,,,,,,aproba:1.0.4
+,,,,,,,,,,,,,,,,commander:2.20.3
+,,,,,,,,,,,,,,,,finalhandler:1.2.0
+,,,,,,,,,,,,,,,,underscore:1.8.3
+,,,,,,,,,,,,,,,,istanbul-reports:1.0.0-alpha.8
+,,,,,,,,,,,,,,,,mkdirp:0.5.6
+,,,,,,,,,,,,,,,,accepts:1.3.8
+,,,,,,,,,,,,,,,,arr-diff:2.0.0
+,,,,,,,,,,,,,,,,braces:1.8.5
+,,,,,,,,,,,,,,,,find-cache-dir:0.1.1
+,,,,,,,,,,,,,,,,isarray:0.0.1
+,,,,,,,,,,,,,,,,is-ci:1.2.1
+,,,,,,,,,,,,,,,,source-map:0.1.34
+,,,,,,,,,,,,,,,,zaproxy:0.2.0
+,,,,,,,,,,,,,,,,isstream:0.1.2
+,,,,,,,,,,,,,,,,js-beautify:1.14.7
+,,,,,,,,,,,,,,,,object.pick:1.3.0
+,,,,,,,,,,,,,,,,osenv:0.1.3
+,,,,,,,,,,,,,,,,proxy-addr:2.0.7
+,,,,,,,,,,,,,,,,soulran-director:0.0.1
+,,,,,,,,,,,,,,,,ms:0.7.1
+,,,,,,,,,,,,,,,,read-cmd-shim:1.0.1
+,,,,,,,,,,,,,,,,arch:2.1.1
+,,,,,,,,,,,,,,,,colors:1.1.1
+,,,,,,,,,,,,,,,,es6-iterator:2.0.0
+,,,,,,,,,,,,,,,,js-yaml:3.6.1
+,,,,,,,,,,,,,,,,lodash._baseuniq:4.6.0
+,,,,,,,,,,,,,,,,micromatch:4.0.5
+,,,,,,,,,,,,,,,,bson:1.0.8
+,,,,,,,,,,,,,,,,@cypress/listr-verbose-renderer:0.4.1
+,,,,,,,,,,,,,,,,for-own:1.0.0
+,,,,,,,,,,,,,,,,grunt-mocha-test:0.12.7
+,,,,,,,,,,,,,,,,asap:2.0.6
+,,,,,,,,,,,,,,,,cliui:3.2.0
+,,,,,,,,,,,,,,,,isexe:2.0.0
+,,,,,,,,,,,,,,,,bcrypt-pbkdf:1.0.0
+,,,,,,,,,,,,,,,,invert-kv:1.0.0
+,,,,,,,,,,,,,,,,minimist:1.2.7
+,,,,,,,,,,,,,,,,npm-cache-filename:1.0.2
+,,,,,,,,,,,,,,,,npm-test-gitignore:2.0.0
+,,,,,,,,,,,,,,,,ansi-regex:2.1.1
+,,,,,,,,,,,,,,,,tsscmp:1.0.6
+,,,,,,,,,,,,,,,,hosted-git-info:2.8.9
+,,,,,,,,,,,,,,,,read-installed:1.0.0
+,,,,,,,,,,,,,,,,columnify:1.5.4
+,,,,,,,,,,,,,,,,editor:1.0.0
+,,,,,,,,,,,,,,,,gauge:2.6.0
+,,,,,,,,,,,,,,,,get-stdin:4.0.1
+,,,,,,,,,,,,,,,,grunt-known-options:2.0.0
+,,,,,,,,,,,,,,,,hosted-git-info:2.1.5
+,,,,,,,,,,,,,,,,strip-json-comments:2.0.1
+,,,,,,,,,,,,,,,,websocket-extensions:0.1.4
+,,,,,,,,,,,,,,,,body:5.1.0
+,,,,,,,,,,,,,,,,decode-uri-component:0.2.2
+,,,,,,,,,,,,,,,,forever-agent:0.6.1
+,,,,,,,,,,,,,,,,parse-filepath:1.0.2
+,,,,,,,,,,,,,,,,static-extend:0.1.2
+,,,,,,,,,,,,,,,,uid-number:0.0.6
+,,,,,,,,,,,,,,,,cross-spawn:7.0.3
+,,,,,,,,,,,,,,,,utils-merge:1.0.0
+,,,,,,,,,,,,,,,,domelementtype:2.3.0
+,,,,,,,,,,,,,,,,encodeurl:1.0.2
+,,,,,,,,,,,,,,,,generate-function:2.3.1
+,,,,,,,,,,,,,,,,glob:7.1.7
+,,,,,,,,,,,,,,,,mute-stream:0.0.8
+,,,,,,,,,,,,,,,,babel-generator:6.11.4
+,,,,,,,,,,,,,,,,minimatch:0.3.0
+,,,,,,,,,,,,,,,,nocache:1.0.1
+,,,,,,,,,,,,,,,,supports-color:2.0.0
+,,,,,,,,,,,,,,,,deep-extend:0.6.0
+,,,,,,,,,,,,,,,,forwarded:0.2.0
+,,,,,,,,,,,,,,,,is-string:1.0.7
+,,,,,,,,,,,,,,,,number-is-nan:1.0.1
+,,,,,,,,,,,,,,,,safer-buffer:2.1.2
+,,,,,,,,,,,,,,,,is-finite:1.1.0
+,,,,,,,,,,,,,,,,camelcase-keys:2.1.0
+,,,,,,,,,,,,,,,,dezalgo:1.0.4
+,,,,,,,,,,,,,,,,delegates:1.0.0
+,,,,,,,,,,,,,,,,has-tostringtag:1.0.0
+,,,,,,,,,,,,,,,,isexe:1.1.2
+,,,,,,,,,,,,,,,,tough-cookie:2.2.2
+,,,,,,,,,,,,,,,,tough-cookie:2.3.4
+,,,,,,,,,,,,,,,,content-security-policy-builder:1.0.0
+,,,,,,,,,,,,,,,,cross-spawn:4.0.0
+,,,,,,,,,,,,,,,,escape-html:1.0.3
+,,,,,,,,,,,,,,,,lcid:1.0.0
+,,,,,,,,,,,,,,,,which-boxed-primitive:1.0.2
+,,,,,,,,,,,,,,,,ansi-regex:3.0.1
+,,,,,,,,,,,,,,,,balanced-match:1.0.2
+,,,,,,,,,,,,,,,,is-map:2.0.2
+,,,,,,,,,,,,,,,,lodash:4.13.1
+,,,,,,,,,,,,,,,,widest-line:2.0.1
+,,,,,,,,,,,,,,,,getobject:1.0.2
+,,,,,,,,,,,,,,,,tunnel-agent:0.6.0
+,,,,,,,,,,,,,,,,mylib:0.0.0
+,,,,,,,,,,,,,,,,to-regex-range:2.1.1
+,,,,,,,,,,,,,,,,assert-plus:0.2.0
+,,,,,,,,,,,,,,,,ecc-jsbn:0.1.1
+,,,,,,,,,,,,,,,,functions-have-names:1.2.3
+,,,,,,,,,,,,,,,,generate-object-property:1.2.0
+,,,,,,,,,,,,,,,,ignore-by-default:1.0.1
+,,,,,,,,,,,,,,,,ini:1.3.4
+,,,,,,,,,,,,,,,,xml2js:0.4.4
+,,,,,,,,,,,,,,,,core-util-is:1.0.3
+,,,,,,,,,,,,,,,,crypto-random-string:1.0.0
+,,,,,,,,,,,,,,,,etag:1.8.1
+,,,,,,,,,,,,,,,,is-arguments:1.1.1
+,,,,,,,,,,,,,,,,strip-json-comments:1.0.4
+,,,,,,,,,,,,,,,,@types/lodash:4.14.149
+,,,,,,,,,,,,,,,,event-stream_tests/:0.0.0
+,,,,,,,,,,,,,,,,class-utils:0.3.6
+,,,,,,,,,,,,,,,,fined:1.2.0
+,,,,,,,,,,,,,,,,homedir-polyfill:1.0.3
+,,,,,,,,,,,,,,,,lodash._root:3.0.1
+,,,,,,,,,,,,,,,,log-symbols:1.0.2
+,,,,,,,,,,,,,,,,statuses:1.5.0
+,,,,,,,,,,,,,,,,cli-spinners:0.1.2
+,,,,,,,,,,,,,,,,slide:1.1.6
+,,,,,,,,,,,,,,,,split2:1.1.1
+,,,,,,,,,,,,,,,,grunt-if:0.2.0
+,,,,,,,,,,,,,,,,collection-visit:1.0.0
+,,,,,,,,,,,,,,,,kind-of:6.0.3
+,,,,,,,,,,,,,,,,methods:1.1.2
+,,,,,,,,,,,,,,,,os-locale:1.4.0
+,,,,,,,,,,,,,,,,tmp:0.0.24
+,,,,,,,,,,,,,,,,@types/bluebird:3.5.29
+,,,,,,,,,,,,,,,,mime-types:2.1.35
+,,,,,,,,,,,,,,,,universalify:0.1.2
+,,,,,,,,,,,,,,,,url-parse-lax:1.0.0
+,,,,,,,,,,,,,,,,cachedir:1.3.0
+,,,,,,,,,,,,,,,,chokidar:2.1.8
+,,,,,,,,,,,,,,,,flagged-respawn:1.0.1
+,,,,,,,,,,,,,,,,has-values:1.0.0
+,,,,,,,,,,,,,,,,@5minlab/tsconfig:1.0.3
+,,,,,,,,,,,,,,,,arr-flatten:1.1.0
+,,,,,,,,,,,,,,,,deeper:2.1.0
+,,,,,,,,,,,,,,,,end-of-stream:1.4.4
+,,,,,,,,,,,,,,,,path-key:2.0.1
+,,,,,,,,,,,,,,,,json-parse-even-better-errors:2.3.1
+,,,,,,,,,,,,,,,,log-driver:1.2.5
+,,,,,,,,,,,,,,,,path-parse:1.0.7
+,,,,,,,,,,,,,,,,psl:1.9.0
+,,,,,,,,,,,,,,,,shebang-command:1.2.0
+,,,,,,,,,,,,,,,,type-is:1.6.18
+,,,,,,,,,,,,,,,,aws-sign2:0.5.0
+,,,,,,,,,,,,,,,,cb-never-called:1.0.1
+,,,,,,,,,,,,,,,,jsprim:1.3.1
+,,,,,,,,,,,,,,,,npm-normalize-package-bin:1.0.1
+,,,,,,,,,,,,,,,,on-finished:2.4.1
+,,,,,,,,,,,,,,,,anymatch:2.0.0
+,,,,,,,,,,,,,,,,fs-extra:5.0.0
+,,,,,,,,,,,,,,,,md5-hex:1.3.0
+,,,,,,,,,,,,,,,,minimatch:3.1.2
+,,,,,,,,,,,,,,,,stream-shift:1.0.1
+,,,,,,,,,,,,,,,,duplexer3:0.1.5
+,,,,,,,,,,,,,,,,tough-cookie:2.4.3
+,,,,,,,,,,,,,,,,dezalgo:1.0.3
+,,,,,,,,,,,,,,,,is-utf8:0.2.1
+,,,,,,,,,,,,,,,,mongodb-core:2.1.20
+,,,,,,,,,,,,,,,,parse-passwd:1.0.0
+,,,,,,,,,,,,,,,,send:0.18.0
+,,,,,,,,,,,,,,,,source-map:0.5.6
+,,,,,,,,,,,,,,,,set-value:2.0.1
+,,,,,,,,,,,,,,,,async:0.9.2
+,,,,,,,,,,,,,,,,boxen:1.3.0
+,,,,,,,,,,,,,,,,cliff:0.1.10
+,,,,,,,,,,,,,,,,console-browserify:1.1.0
+,,,,,,,,,,,,,,,,debuglog:1.0.1
+,,,,,,,,,,,,,,,,realize-package-specifier:3.0.3
+,,,,,,,,,,,,,,,,babel-runtime:6.9.2
+,,,,,,,,,,,,,,,,toidentifier:1.0.0
+,,,,,,,,,,,,,,,,shush:1.0.2
+,,,,,,,,,,,,,,,,express-lr-sample:0.0.0
+,,,,,,,,,,,,,,,,string-width:1.0.1
+,,,,,,,,,,,,,,,,tmatch:2.0.1
+,,,,,,,,,,,,,,,,dateformat:3.0.3
+,,,,,,,,,,,,,,,,destroy:1.2.0
+,,,,,,,,,,,,,,,,extend-shallow:2.0.1
+,,,,,,,,,,,,,,,,fresh:0.5.2
+,,,,,,,,,,,,,,,,iferr:0.1.5
+,,,,,,,,,,,,,,,,spdx-license-ids:1.2.1
+,,,,,,,,,,,,,,,,to-regex:3.0.2
+,,,,,,,,,,,,,,,,es6-symbol:3.1.0
+,,,,,,,,,,,,,,,,expand-tilde:2.0.2
+,,,,,,,,,,,,,,,,spdx-exceptions:1.0.5
+,,,,,,,,,,,,,,,,which:1.3.1
+,,,,,,,,,,,,,,,,extend:3.0.2
+,,,,,,,,,,,,,,,,graceful-readlink:1.0.1
+,,,,,,,,,,,,,,,,is-binary-path:1.0.1
+,,,,,,,,,,,,,,,,node-esapi:0.0.1
+,,,,,,,,,,,,,,,,npm:3.10.10
+,,,,,,,,,,,,,,,,object-copy:0.1.0
+,,,,,,,,,,,,,,,,arr-union:3.1.0
+,,,,,,,,,,,,,,,,duplexify:3.7.1
+,,,,,,,,,,,,,,,,fd-slicer:1.0.1
+,,,,,,,,,,,,,,,,glob:6.0.4
+,,,,,,,,,,,,,,,,npm-install-checks:3.0.0
+,,,,,,,,,,,,,,,,remove-trailing-separator:1.1.0
+,,,,,,,,,,,,,,,,signal-exit:3.0.7
+,,,,,,,,,,,,,,,,source-map-resolve:0.5.3

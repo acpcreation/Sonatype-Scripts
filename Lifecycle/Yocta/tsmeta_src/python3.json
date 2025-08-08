@@ -1,0 +1,77 @@
+{
+        "cve_product": "python",
+        "license": "PSF-2.0",
+        "summary": "The Python Programming Language",
+        "homepage": "http://www.python.org",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "http://www.python.org/ftp/python/3.10.4/Python-3.10.4.tar.xz",
+                "file://run-ptest",
+                "file://create_manifest3.py",
+                "file://get_module_deps3.py",
+                "file://python3-manifest.json",
+                "file://check_build_completeness.py",
+                "file://reformat_sysconfig.py",
+                "file://cgi_py.patch",
+                "file://0001-Do-not-add-usr-lib-termcap-to-linker-flags-to-avoid-.patch",
+                "file://avoid_warning_about_tkinter.patch",
+                "file://0001-Do-not-use-the-shell-version-of-python-config-that-w.patch",
+                "file://python-config.patch",
+                "file://0001-Makefile.pre-use-qemu-wrapper-when-gathering-profile.patch",
+                "file://0001-python3-use-cc_basename-to-replace-CC-for-checking-c.patch",
+                "file://0001-bpo-36852-proper-detection-of-mips-architecture-for-.patch",
+                "file://crosspythonpath.patch",
+                "file://0001-Use-FLAG_REF-always-for-interned-strings.patch",
+                "file://0001-test_locale.py-correct-the-test-output-format.patch",
+                "file://0017-setup.py-do-not-report-missing-dependencies-for-disa.patch",
+                "file://0001-Makefile-do-not-compile-.pyc-in-parallel.patch",
+                "file://0020-configure.ac-setup.py-do-not-add-a-curses-include-pa.patch",
+                "file://0001-Skip-failing-tests-due-to-load-variability-on-YP-AB.patch",
+                "file://0001-test_ctypes.test_find-skip-without-tools-sdk.patch",
+                "file://makerace.patch",
+                "file://0001-sysconfig.py-use-platlibdir-also-for-purelib.patch",
+                "file://0001-Lib-pty.py-handle-stdin-I-O-errors-same-way-as-maste.patch",
+                "file://0001-setup.py-Do-not-detect-multiarch-paths-when-cross-co.patch"
+        ],
+        "cve_version": "3.10.4",
+        "sources": {
+                "patches": {
+                        "cgi_py.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/cgi_py.patch",
+                        "0001-Do-not-add-usr-lib-termcap-to-linker-flags-to-avoid-.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Do-not-add-usr-lib-termcap-to-linker-flags-to-avoid-.patch",
+                        "avoid_warning_about_tkinter.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/avoid_warning_about_tkinter.patch",
+                        "0001-Do-not-use-the-shell-version-of-python-config-that-w.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Do-not-use-the-shell-version-of-python-config-that-w.patch",
+                        "python-config.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/python-config.patch",
+                        "0001-Makefile.pre-use-qemu-wrapper-when-gathering-profile.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Makefile.pre-use-qemu-wrapper-when-gathering-profile.patch",
+                        "0001-python3-use-cc_basename-to-replace-CC-for-checking-c.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-python3-use-cc_basename-to-replace-CC-for-checking-c.patch",
+                        "0001-bpo-36852-proper-detection-of-mips-architecture-for-.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-bpo-36852-proper-detection-of-mips-architecture-for-.patch",
+                        "crosspythonpath.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/crosspythonpath.patch",
+                        "0001-Use-FLAG_REF-always-for-interned-strings.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Use-FLAG_REF-always-for-interned-strings.patch",
+                        "0001-test_locale.py-correct-the-test-output-format.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-test_locale.py-correct-the-test-output-format.patch",
+                        "0017-setup.py-do-not-report-missing-dependencies-for-disa.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0017-setup.py-do-not-report-missing-dependencies-for-disa.patch",
+                        "0001-Makefile-do-not-compile-.pyc-in-parallel.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Makefile-do-not-compile-.pyc-in-parallel.patch",
+                        "0020-configure.ac-setup.py-do-not-add-a-curses-include-pa.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0020-configure.ac-setup.py-do-not-add-a-curses-include-pa.patch",
+                        "0001-Skip-failing-tests-due-to-load-variability-on-YP-AB.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Skip-failing-tests-due-to-load-variability-on-YP-AB.patch",
+                        "0001-test_ctypes.test_find-skip-without-tools-sdk.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-test_ctypes.test_find-skip-without-tools-sdk.patch",
+                        "makerace.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/makerace.patch",
+                        "0001-sysconfig.py-use-platlibdir-also-for-purelib.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-sysconfig.py-use-platlibdir-also-for-purelib.patch",
+                        "0001-Lib-pty.py-handle-stdin-I-O-errors-same-way-as-maste.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-Lib-pty.py-handle-stdin-I-O-errors-same-way-as-maste.patch",
+                        "0001-setup.py-Do-not-detect-multiarch-paths-when-cross-co.patch": "/home/andrew/poky/meta/recipes-devtools/python/python3/0001-setup.py-Do-not-detect-multiarch-paths-when-cross-co.patch"
+                },
+                "http": [
+                        "http://www.python.org/ftp/python/3.10.4/Python-3.10.4.tar.xz"
+                ],
+                "file": [
+                        "run-ptest",
+                        "create_manifest3.py",
+                        "get_module_deps3.py",
+                        "python3-manifest.json",
+                        "check_build_completeness.py",
+                        "reformat_sysconfig.py"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-devtools/python/python3_3.10.4.bb"
+}

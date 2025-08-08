@@ -1,0 +1,34 @@
+{
+        "license": "GPL-2.0-or-later & MPL-2.0",
+        "srcrev": "07de54fdcc5806bde549e1edf60738c6bccf50e8",
+        "summary": "Common CA certificates",
+        "homepage": "http://packages.debian.org/sid/ca-certificates",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://salsa.debian.org/debian/ca-certificates.git;protocol=https;branch=master",
+                "file://0002-update-ca-certificates-use-SYSROOT.patch",
+                "file://0001-update-ca-certificates-don-t-use-Debianisms-in-run-p.patch",
+                "file://default-sysroot.patch",
+                "file://0003-update-ca-certificates-use-relative-symlinks-from-ET.patch",
+                "file://0001-Revert-mozilla-certdata2pem.py-print-a-warning-for-e.patch"
+        ],
+        "cve_product": "ca-certificates",
+        "cve_version": "20211016",
+        "sources": {
+                "patches": {
+                        "0002-update-ca-certificates-use-SYSROOT.patch": "/home/andrew/poky/meta/recipes-support/ca-certificates/ca-certificates/0002-update-ca-certificates-use-SYSROOT.patch",
+                        "0001-update-ca-certificates-don-t-use-Debianisms-in-run-p.patch": "/home/andrew/poky/meta/recipes-support/ca-certificates/ca-certificates/0001-update-ca-certificates-don-t-use-Debianisms-in-run-p.patch",
+                        "default-sysroot.patch": "/home/andrew/poky/meta/recipes-support/ca-certificates/ca-certificates/default-sysroot.patch",
+                        "0003-update-ca-certificates-use-relative-symlinks-from-ET.patch": "/home/andrew/poky/meta/recipes-support/ca-certificates/ca-certificates/0003-update-ca-certificates-use-relative-symlinks-from-ET.patch",
+                        "0001-Revert-mozilla-certdata2pem.py-print-a-warning-for-e.patch": "/home/andrew/poky/meta/recipes-support/ca-certificates/ca-certificates/0001-Revert-mozilla-certdata2pem.py-print-a-warning-for-e.patch"
+                },
+                "git": [
+                        "git://salsa.debian.org/debian/ca-certificates.git;protocol=https;branch=master"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/ca-certificates/ca-certificates_20211016.bb"
+}

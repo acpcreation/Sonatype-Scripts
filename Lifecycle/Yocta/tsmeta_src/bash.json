@@ -1,0 +1,45 @@
+{
+        "license": "GPL-3.0-or-later",
+        "summary": "An sh-compatible command language interpreter",
+        "homepage": "http://tiswww.case.edu/php/chet/bash/bashtop.html",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz;name=tarball",
+                "file://execute_cmd.patch",
+                "file://mkbuiltins_have_stringize.patch",
+                "file://build-tests.patch",
+                "file://test-output.patch",
+                "file://run-ptest",
+                "file://run-bash-ptests",
+                "file://fix-run-builtins.patch",
+                "file://use_aclocal.patch",
+                "file://makerace.patch",
+                "file://makerace2.patch"
+        ],
+        "cve_product": "bash",
+        "cve_version": "5.1.16",
+        "sources": {
+                "patches": {
+                        "execute_cmd.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/execute_cmd.patch",
+                        "mkbuiltins_have_stringize.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/mkbuiltins_have_stringize.patch",
+                        "build-tests.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/build-tests.patch",
+                        "test-output.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/test-output.patch",
+                        "fix-run-builtins.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/fix-run-builtins.patch",
+                        "use_aclocal.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/use_aclocal.patch",
+                        "makerace.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/makerace.patch",
+                        "makerace2.patch": "/home/andrew/poky/meta/recipes-extended/bash/bash/makerace2.patch"
+                },
+                "https": [
+                        "https://ftp.gnu.org/gnu/bash/bash-5.1.16.tar.gz;name=tarball"
+                ],
+                "file": [
+                        "run-ptest",
+                        "run-bash-ptests"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-extended/bash/bash_5.1.16.bb"
+}

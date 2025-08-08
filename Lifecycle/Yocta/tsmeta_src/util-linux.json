@@ -1,0 +1,39 @@
+{
+        "license": "GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause",
+        "summary": "A suite of basic system administration utilities",
+        "homepage": "https://en.wikipedia.org/wiki/Util-linux",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "/home/andrew/poky/meta/recipes-core/util-linux/util-linux:__default:"
+        ],
+        "src_uri": [
+                "https://cdn.kernel.org/pub/linux/utils/util-linux/v2.37/util-linux-2.37.4.tar.xz",
+                "file://configure-sbindir.patch",
+                "file://runuser.pamd",
+                "file://runuser-l.pamd",
+                "file://ptest.patch",
+                "file://run-ptest",
+                "file://display_testname_for_subtest.patch",
+                "file://avoid_parallel_tests.patch"
+        ],
+        "cve_product": "util-linux",
+        "cve_version": "2.37.4",
+        "sources": {
+                "patches": {
+                        "configure-sbindir.patch": "/home/andrew/poky/meta/recipes-core/util-linux/util-linux/configure-sbindir.patch",
+                        "ptest.patch": "/home/andrew/poky/meta/recipes-core/util-linux/util-linux/ptest.patch",
+                        "display_testname_for_subtest.patch": "/home/andrew/poky/meta/recipes-core/util-linux/util-linux/display_testname_for_subtest.patch",
+                        "avoid_parallel_tests.patch": "/home/andrew/poky/meta/recipes-core/util-linux/util-linux/avoid_parallel_tests.patch"
+                },
+                "https": [
+                        "https://cdn.kernel.org/pub/linux/utils/util-linux/v2.37/util-linux-2.37.4.tar.xz"
+                ],
+                "file": [
+                        "runuser.pamd",
+                        "runuser-l.pamd",
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/util-linux/util-linux_2.37.4.bb"
+}

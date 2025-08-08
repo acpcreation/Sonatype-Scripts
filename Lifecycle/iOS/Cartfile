@@ -1,0 +1,2 @@
+github "ReactiveCocoa/ReactiveSwift" ~> 6.2
+github "Carthage/Carthage" ~> 0.18.1

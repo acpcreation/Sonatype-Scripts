@@ -1,0 +1,5288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:43bd1981-c3e5-41d7-b88a-e2151835e179" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-04-26T04:43:07Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>Sonatype Inc.</vendor>
+        <name>Nexus IQ Server</name>
+        <version>1.161.0-01</version>
+      </tool>
+    </tools>
+    <properties>
+      <property name="Scan ID">43bd1981c3e541d7b88ae2151835e179</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar">
+      <group>com.github.jnr</group>
+      <name>jnr-x86asm</name>
+      <version>1.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jnr-x86asm@1.0.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">006936bbd6c5b235665d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.sf.ezmorph/ezmorph@1.0.6?type=jar">
+      <group>net.sf.ezmorph</group>
+      <name>ezmorph</name>
+      <version>1.0.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.sf.ezmorph/ezmorph@1.0.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">01e55d2a0253ea37745d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/matrix-auth@2.6.6?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>matrix-auth</name>
+      <version>2.6.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/matrix-auth@2.6.6?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">060cd7df64ae6ece1805</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>mailer</name>
+      <version>1.32.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">07026888e4b109a66685</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>script-security</name>
+      <version>1.75</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">07eff35d71705ff96b39</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar">
+      <group>com.github.jnr</group>
+      <name>jnr-a64asm</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jnr-a64asm@1.0.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0a1cb8dbe71b5a6a0288</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/commons-jexl@1.1-jenkins-20111212?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>commons-jexl</name>
+      <version>1.1-jenkins-20111212</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <name>See-License-Clause</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/commons-jexl@1.1-jenkins-20111212?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0a990a77bea8c5a400d5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.8-kohsuke-1?type=jar">
+      <group>org.kohsuke.jinterop</group>
+      <name>j-interopdeps</name>
+      <version>2.0.8-kohsuke-1</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.8-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0c6ae17b2cbb5e07e62f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-lang/commons-lang@2.6?type=jar">
+      <group>commons-lang</group>
+      <name>commons-lang</name>
+      <version>2.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-lang/commons-lang@2.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0ce1edb914c94ebc388f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins.workflow/workflow-step-api@2.23?type=jar">
+      <group>org.jenkins-ci.plugins.workflow</group>
+      <name>workflow-step-api</name>
+      <version>2.23</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins.workflow/workflow-step-api@2.23?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0d44c5b51eabfaa2669f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/trilead-putty-extension@1.2?type=jar">
+      <group>org.kohsuke</group>
+      <name>trilead-putty-extension</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/trilead-putty-extension@1.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0f2f41517e1f73be8e31</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>matrix-project</name>
+      <version>1.18</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0f7b625146c72cc3cd5f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.inject/guice@4.0?type=jar">
+      <group>com.google.inject</group>
+      <name>guice</name>
+      <version>4.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.inject/guice@4.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">0f990a43d3725781b6db</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jnr-constants@0.10.2?type=jar">
+      <group>com.github.jnr</group>
+      <name>jnr-constants</name>
+      <version>0.10.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jnr-constants@0.10.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">11a081b5482f415443d5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/symbol-annotation@1.1?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>symbol-annotation</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/symbol-annotation@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">14fe06e7287a8aff8143</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/log4j-over-slf4j@1.7.32?type=jar">
+      <group>org.slf4j</group>
+      <name>log4j-over-slf4j</name>
+      <version>1.7.32</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/log4j-over-slf4j@1.7.32?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">152d3b5e2470bb8e898b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>windows-slaves</name>
+      <version>1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">15d036e22a49ffa7b0cd</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-web@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-web</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-web@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">161b0257b98dae49095f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jnr-posix@3.1.10?type=jar">
+      <group>com.github.jnr</group>
+      <name>jnr-posix</name>
+      <version>3.1.10</version>
+      <licenses>
+        <license>
+          <id>GPL-3.0</id>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0</id>
+        </license>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>CPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jnr-posix@3.1.10?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">18f1ebd53c4a6d7d2348</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar">
+      <group>net.i2p.crypto</group>
+      <name>eddsa</name>
+      <version>0.3.0</version>
+      <licenses>
+        <license>
+          <id>CC0-1.0</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1901c8d4d8bffb7d7902</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/memory-monitor@1.9?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>memory-monitor</name>
+      <version>1.9</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/memory-monitor@1.9?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1935bfb46474e3043ee2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>bouncycastle-api</name>
+      <version>2.20</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1b22775d6f258b5be61d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/groovy-sandbox@1.27?type=jar">
+      <group>org.kohsuke</group>
+      <name>groovy-sandbox</name>
+      <version>1.27</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/groovy-sandbox@1.27?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1d1a200c062569d93af2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jffi@1.3.5?type=jar">
+      <group>com.github.jnr</group>
+      <name>jffi</name>
+      <version>1.3.5</version>
+      <licenses>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jffi@1.3.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1dadd62fc8434d4ba6e3</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/org.jvnet.hudson.main%20pom@1.269">
+      <name>org.jvnet.hudson.main pom</name>
+      <version>1.269</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/org.jvnet.hudson.main%20pom@1.269</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1dcb16d29d5569269a34</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/jdk-tool@1.0?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>jdk-tool</name>
+      <version>1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/jdk-tool@1.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1def30151b3250f86daa</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/operational-transformation@0.0.2">
+      <name>operational-transformation</name>
+      <version>0.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/operational-transformation@0.0.2</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">1e89bbc33b1fd78702d8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-jelly/commons-jelly-tags-fmt@1.0?type=jar">
+      <group>commons-jelly</group>
+      <name>commons-jelly-tags-fmt</name>
+      <version>1.0</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-jelly/commons-jelly-tags-fmt@1.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2107da38fdd287ab78a4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/antisamy-markup-formatter@1.1?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>antisamy-markup-formatter</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/antisamy-markup-formatter@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">25c51b6ef7e63a02ffc0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>junit</name>
+      <version>1.29</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">26efa6845141650c1426</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/commons-jelly@1.1-jenkins-20120928?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>commons-jelly</name>
+      <version>1.1-jenkins-20120928</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/commons-jelly@1.1-jenkins-20120928?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2720a0d54b7f32479b08</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-web@5.5.3?type=jar">
+      <group>org.springframework.security</group>
+      <name>spring-security-web</name>
+      <version>5.5.3</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.security/spring-security-web@5.5.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2d2b773e2af5b5984852</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/JSON@1.0.0">
+      <name>JSON</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/JSON@1.0.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2da2aea576ac33f08ea9</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.sshd/sshd-core@1.7.0?type=jar">
+      <group>org.apache.sshd</group>
+      <name>sshd-core</name>
+      <version>1.7.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.sshd/sshd-core@1.7.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">2e8b14f6d841b098e46b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/jcl-over-slf4j@1.7.32?type=jar">
+      <group>org.slf4j</group>
+      <name>jcl-over-slf4j</name>
+      <version>1.7.32</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/jcl-over-slf4j@1.7.32?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">32c060250bcc5282cdbc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="a44c598751f14aa298b49059c5872b7e">
+      <name>jnidispatch</name>
+      <version>6.1.1</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jnidispatch@6.1.1?nexusnamespace=Java%28TM%29%20Native%20Access%20%28JNA%29%2FJava%28TM%29%20Native%20Access&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">332887373846943f479d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>script-security</name>
+      <version>1.75</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">346cb1183d04bf076ffc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar">
+      <group>jakarta.servlet.jsp.jstl</group>
+      <name>jakarta.servlet.jsp.jstl-api</name>
+      <version>1.2.7</version>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">34a035507f0270f1c6b7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1?type=jar">
+      <group>org.samba.jcifs</group>
+      <name>jcifs</name>
+      <version>1.3.18-kohsuke-1</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-2.0</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">35711c36411d962d7228</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/structs@1.23?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>structs</name>
+      <version>1.23</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/structs@1.23?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">37b98115acc372cbdc51</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jffi@1.3.5?classifier=native&amp;type=jar">
+      <group>com.github.jnr</group>
+      <name>jffi</name>
+      <version>1.3.5</version>
+      <licenses>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jffi@1.3.5?classifier=native&amp;type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">38602067b8cd1ed3dca6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0?type=jar">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-impl</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <name>GPL</name>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3a3c6a62719d967175b7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-discovery/commons-discovery@0.5?type=jar">
+      <group>commons-discovery</group>
+      <name>commons-discovery</name>
+      <version>0.5</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-discovery/commons-discovery@0.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3a8ac816bbe02d2f8852</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/command-launcher@1.2?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>command-launcher</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/command-launcher@1.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3af2e141774cb3a8bce6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar">
+      <group>org.jenkins-ci.main</group>
+      <name>jenkins-core</name>
+      <version>2.319.3</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>CDDL-1.0</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3eb1aa0c8ca0d8415252</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-adjunct-timeline@1.5?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>stapler-adjunct-timeline</name>
+      <version>1.5</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/stapler-adjunct-timeline@1.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">3fa806cbb94679ceab9c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/winstone@5.21?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>winstone</name>
+      <version>5.21</version>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>CDDL-1.0</id>
+        </license>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/winstone@5.21?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">40c26ecf0491aae65f2f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-context@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-context</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-context@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">413b50ea1d5f750848a1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/crypto-util@1.5?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>crypto-util</name>
+      <version>1.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/crypto-util@1.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">432ba8058e9a653fa191</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>bouncycastle-api</name>
+      <version>2.20</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">43879586f2bf20dee7de</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins.workflow/workflow-api@2.42?type=jar">
+      <group>org.jenkins-ci.plugins.workflow</group>
+      <name>workflow-api</name>
+      <version>2.42</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins.workflow/workflow-api@2.42?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">4416c4deef9636127fb4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.github.stephenc.crypto/self-signed-cert-generator@1.0.0?type=jar">
+      <group>io.github.stephenc.crypto</group>
+      <name>self-signed-cert-generator</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.github.stephenc.crypto/self-signed-cert-generator@1.0.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">45542f10d259405b42bf</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-crypto@5.5.3?type=jar">
+      <group>org.springframework.security</group>
+      <name>spring-security-crypto</name>
+      <version>5.5.3</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.security/spring-security-crypto@5.5.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">45fc09a7a2484ef843a9</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.bouncycastle/bcprov-jdk15on@1.68?type=jar">
+      <group>org.bouncycastle</group>
+      <name>bcprov-jdk15on</name>
+      <version>1.68</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.bouncycastle/bcprov-jdk15on@1.68?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">46a080368d38b428d237</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.txw2/txw2@20110809?type=jar">
+      <group>com.sun.xml.txw2</group>
+      <name>txw2</name>
+      <version>20110809</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0</id>
+        </license>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.txw2/txw2@20110809?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">46afa3f3c468680875ad</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.jenkins.plugins/jaxb@2.3.0?type=jar">
+      <group>io.jenkins.plugins</group>
+      <name>jaxb</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.jenkins.plugins/jaxb@2.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">47128940de9beec73496</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar">
+      <group>io.github.x-stream</group>
+      <name>mxparser</name>
+      <version>1.2.2</version>
+      <licenses>
+        <license>
+          <name>XPP</name>
+        </license>
+        <license>
+          <name>Not Provided</name>
+        </license>
+        <license>
+          <name>XPP-1.1.1</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">476fb3b3bb3716cad797</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
+      <group>commons-codec</group>
+      <name>commons-codec</name>
+      <version>1.15</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">49d94806b6e3dc933dac</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/%40gavinzhang/fullcalendar@1.0.4">
+      <group>@gavinzhang</group>
+      <name>fullcalendar</name>
+      <version>1.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/%40gavinzhang/fullcalendar@1.0.4</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">4d38553efe520226eebc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-jdk14@1.7.32?type=jar">
+      <group>org.slf4j</group>
+      <name>slf4j-jdk14</name>
+      <version>1.7.32</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-jdk14@1.7.32?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">4d5bdc7da49cd69c25f7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/command-launcher@1.2?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>command-launcher</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/command-launcher@1.2?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">4dd02e91f003be14b949</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-compress@1.21?type=jar">
+      <group>org.apache.commons</group>
+      <name>commons-compress</name>
+      <version>1.21</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.commons/commons-compress@1.21?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">4ec95b60d4e86b5c95a0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/pasm@0.0.1">
+      <name>pasm</name>
+      <version>0.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/pasm@0.0.1</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">505336e0e2826b9e7f96</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/display-url-api@2.3.1?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>display-url-api</name>
+      <version>2.3.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/display-url-api@2.3.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">535972c62825ff07cdb3</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-httpclient/commons-httpclient@3.1-jenkins-3?type=jar">
+      <group>commons-httpclient</group>
+      <name>commons-httpclient</name>
+      <version>3.1-jenkins-3</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-httpclient/commons-httpclient@3.1-jenkins-3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">56110dc7f655c56c4e2a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet/tiger-types@1.1?type=jar">
+      <group>org.jvnet</group>
+      <name>tiger-types</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet/tiger-types@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">579059e5452496fbfee8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.guava/guava@11.0.1?type=jar">
+      <group>com.google.guava</group>
+      <name>guava</name>
+      <version>11.0.1</version>
+      <licenses>
+        <license>
+          <name>Public Domain</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.guava/guava@11.0.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">57b40a943725d43610c8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/matrix-auth@2.6.6?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>matrix-auth</name>
+      <version>2.6.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/matrix-auth@2.6.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">58aeae141b75fc6d7194</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/trilead-ssh2@build-217-jenkins-16?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>trilead-ssh2</name>
+      <version>build-217-jenkins-16</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>Generic-Liberal-Clause</name>
+        </license>
+        <license>
+          <name>RSA-Security</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/trilead-ssh2@build-217-jenkins-16?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">5c4ba36c75e9a0bc4f6c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-core@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-core</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-core@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">5cb83c4a80bb67caaaa1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/scm-api@2.6.5?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>scm-api</name>
+      <version>2.6.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/scm-api@2.6.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">5f781f6165d94bf3fd3c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/antisamy-markup-formatter@1.1?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>antisamy-markup-formatter</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/antisamy-markup-formatter@1.1?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">61c4d370eec0566835f4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/task-reactor@1.5?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>task-reactor</name>
+      <version>1.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/task-reactor@1.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">62964c07bb64457bbbb5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>windows-slaves</name>
+      <version>1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">630881b0bed43efb2f06</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.fusesource.jansi/jansi@1.11?type=jar">
+      <group>org.fusesource.jansi</group>
+      <name>jansi</name>
+      <version>1.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.fusesource.jansi/jansi@1.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">655c643309c2f45a56a7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/remoting@4.11.2?type=jar">
+      <group>org.jenkins-ci.main</group>
+      <name>remoting</name>
+      <version>4.11.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.main/remoting@4.11.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">65a686eb4a13ecb50aae</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
+      <group>javax.inject</group>
+      <name>javax.inject</name>
+      <version>1</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">6975da39a7040257bd51</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/CodeMirror@2.35.0">
+      <name>CodeMirror</name>
+      <version>2.35.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/CodeMirror@2.35.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">6ba5a0a377a8ab801fe8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.samba.jcifs/jcifs@1.3.17-kohsuke-1?type=jar">
+      <group>org.samba.jcifs</group>
+      <name>jcifs</name>
+      <version>1.3.17-kohsuke-1</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-2.0</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.samba.jcifs/jcifs@1.3.17-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">6c9114dc4075277d829e</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-groovy@1593.v0e838714faae?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>stapler-groovy</name>
+      <version>1593.v0e838714faae</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/stapler-groovy@1593.v0e838714faae?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">700d2b6e99d7d8fb4674</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/asm5@5.0.1?type=jar">
+      <group>org.kohsuke</group>
+      <name>asm5</name>
+      <version>5.0.1</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/asm5@5.0.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">71ab0620a41ed37f626b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/structs@1.23?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>structs</name>
+      <version>1.23</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/structs@1.23?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">722ca3be263369bed2f9</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/symbol-annotation@1.23?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>symbol-annotation</name>
+      <version>1.23</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/symbol-annotation@1.23?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">725854f35540796aefcd</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.jnr/jnr-ffi@2.2.7?type=jar">
+      <group>com.github.jnr</group>
+      <name>jnr-ffi</name>
+      <version>2.2.7</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.jnr/jnr-ffi@2.2.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">73987a1153030a3f1fd6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-analysis@9.2?type=jar">
+      <group>org.ow2.asm</group>
+      <name>asm-analysis</name>
+      <version>9.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm-analysis@9.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7487dd756daf96cab998</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/trilead-api@1.0.4?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>trilead-api</name>
+      <version>1.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/trilead-api@1.0.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">754348fe9f29a0020d35</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.codehaus.groovy/groovy-all@2.4.12?type=jar">
+      <group>org.codehaus.groovy</group>
+      <name>groovy-all</name>
+      <version>2.4.12</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.codehaus.groovy/groovy-all@2.4.12?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">760afc568cbd94c09d78</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?type=jar">
+      <group>org.kohsuke.jinterop</group>
+      <name>j-interopdeps</name>
+      <version>2.0.6-kohsuke-1</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.6-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">778400517a3419ce8c36</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interop@2.0.8-kohsuke-1?type=jar">
+      <group>org.kohsuke.jinterop</group>
+      <name>j-interop</name>
+      <version>2.0.8-kohsuke-1</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.jinterop/j-interop@2.0.8-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7bcd527550b8415ba14c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet/tiger-types@2.2?type=jar">
+      <group>org.jvnet</group>
+      <name>tiger-types</name>
+      <version>2.2</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0</id>
+        </license>
+        <license>
+          <id>CDDL-1.0</id>
+        </license>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet/tiger-types@2.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7ddc6bbc8ca59be8879d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/windows-slave-installer@2.0?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>windows-slave-installer</name>
+      <version>2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/windows-slave-installer@2.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">7dec945c7b97096c6bcd</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.1?type=jar">
+      <group>com.sun.activation</group>
+      <name>jakarta.activation</name>
+      <version>1.2.1</version>
+      <licenses>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <name>EDL-1.0</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8013606426a73d8ba6b5</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/cli@2.319.3?type=jar">
+      <group>org.jenkins-ci.main</group>
+      <name>cli</name>
+      <version>2.319.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.main/cli@2.319.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8134e953ce2741674913</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@9.2?type=jar">
+      <group>org.ow2.asm</group>
+      <name>asm</name>
+      <version>9.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm@9.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">81a03f76019c67362299</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.68?type=jar">
+      <group>org.bouncycastle</group>
+      <name>bcpkix-jdk15on</name>
+      <version>1.68</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.bouncycastle/bcpkix-jdk15on@1.68?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">81da950604ff0b265234</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-core@5.5.3?type=jar">
+      <group>org.springframework.security</group>
+      <name>spring-security-core</name>
+      <version>5.5.3</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework.security/spring-security-core@5.5.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">82152ffbb7d248e09037</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.java.sezpoz/sezpoz@1.13?type=jar">
+      <group>net.java.sezpoz</group>
+      <name>sezpoz</name>
+      <version>1.13</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.0</id>
+        </license>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.java.sezpoz/sezpoz@1.13?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">822ac382900587d0a7d6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="76c8b9cd341d4502ae782d36e2350ecf">
+      <name>jansi</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jansi@1.5.0?nexusnamespace=Red%20Hat%C2%AE%2C%20Inc.%2FJansi%20-%20Java%20library%20for%20generating%20and%20interpreting%20ANSI%20escape%20sequences.&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">829195c9e338d5725cf3</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/libpam4j@1.11?type=jar">
+      <group>org.kohsuke</group>
+      <name>libpam4j</name>
+      <version>1.11</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/libpam4j@1.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">82cfca73e813c165c83b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/antlr/antlr@2.7.7?type=jar">
+      <group>antlr</group>
+      <name>antlr</name>
+      <version>2.7.7</version>
+      <licenses>
+        <license>
+          <id>ANTLR-PD</id>
+        </license>
+        <license>
+          <name>No Sources</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/antlr/antlr@2.7.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">83cd2cd674a217ade95a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/json-lib@2.4-jenkins-3?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>json-lib</name>
+      <version>2.4-jenkins-3</version>
+      <licenses>
+        <license>
+          <name>Identity-Clause</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/json-lib@2.4-jenkins-3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">83f848493c09c735861a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-beans@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-beans</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-beans@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">85f090e0969c8fef81e1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/windows-package-checker@1.2?type=jar">
+      <group>org.kohsuke</group>
+      <name>windows-package-checker</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/windows-package-checker@1.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">86b5d2f9023633808d65</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/owasp-html-sanitizer@r88?type=jar">
+      <group>org.kohsuke</group>
+      <name>owasp-html-sanitizer</name>
+      <version>r88</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/owasp-html-sanitizer@r88?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">86bf1c5cda0189bcc0a4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-expression@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-expression</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-expression@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">87666ab6d86820be15e4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/jinterop-wmi@1.1?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>jinterop-wmi</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/jinterop-wmi@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">893d41dc22322dcff83f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
+      <group>commons-collections</group>
+      <name>commons-collections</name>
+      <version>3.2.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8ad72fe39fa8c91eaaf1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet.hudson/commons-jelly-tags-define@1.0.1-hudson-20071021?type=jar">
+      <group>org.jvnet.hudson</group>
+      <name>commons-jelly-tags-define</name>
+      <version>1.0.1-hudson-20071021</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet.hudson/commons-jelly-tags-define@1.0.1-hudson-20071021?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8b952d0e504ee505d234</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="8c405fe093f44f4593aa3443eca0990e">
+      <name>jansi</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jansi@1.5.0?nexusnamespace=Red%20Hat%C2%AE%2C%20Inc.%2FJansi%20-%20Java%20library%20for%20generating%20and%20interpreting%20ANSI%20escape%20sequences.&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8d96f40da8970ddd48af</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet.winp/winp@1.28?type=jar">
+      <group>org.jvnet.winp</group>
+      <name>winp</name>
+      <version>1.28</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet.winp/winp@1.28?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8dcfcc7214e73a906786</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/launchd-slave-installer@1.2?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>launchd-slave-installer</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/launchd-slave-installer@1.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8ef06fc2a3d9436aa214</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar">
+      <group>net.java.dev.jna</group>
+      <name>jna</name>
+      <version>5.9.0</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.java.dev.jna/jna@5.9.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">8f503e6d9b500ceff299</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/windows-remote-command@1.4?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>windows-remote-command</name>
+      <version>1.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/windows-remote-command@1.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">920f7a32f8c826cebf0f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/slave-installer@1.7?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>slave-installer</name>
+      <version>1.7</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/slave-installer@1.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">921d195a7a3d2b8af9f0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar">
+      <group>javax.annotation</group>
+      <name>javax.annotation-api</name>
+      <version>1.3.2</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <name>Generic-Open-Source-Clause</name>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">934c04d3cfef185a8008</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar">
+      <group>com.sun.solaris</group>
+      <name>embedded_su4j</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9404130cc4e60670429f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/org.jenkins-ci.main%20jenkins-war@2.319.1">
+      <name>org.jenkins-ci.main jenkins-war</name>
+      <version>2.319.1</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/org.jenkins-ci.main%20jenkins-war@2.319.1</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">94350329d252b652a06e</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/org.kohsuke.stapler%20stapler-adjunct-timeline@1.5">
+      <name>org.kohsuke.stapler stapler-adjunct-timeline</name>
+      <version>1.5</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/org.kohsuke.stapler%20stapler-adjunct-timeline@1.5</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9455814db9d0dce86b1c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.jenkins.stapler/jenkins-stapler-support@1.1?type=jar">
+      <group>io.jenkins.stapler</group>
+      <name>jenkins-stapler-support</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.jenkins.stapler/jenkins-stapler-support@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">95127e05b58928843968</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/continuum@0.0.2">
+      <name>continuum</name>
+      <version>0.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/continuum@0.0.2</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">96374fce80f39caea4bb</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.springframework/spring-aop@5.3.11?type=jar">
+      <group>org.springframework</group>
+      <name>spring-aop</name>
+      <version>5.3.11</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.springframework/spring-aop@5.3.11?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">969b51ac155963eca10b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/codemirror-formatting@1.0.0">
+      <name>codemirror-formatting</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/codemirror-formatting@1.0.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">971660a93190be442c03</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="3f894a325e334ca187cb2e50108a59e4">
+      <name>jansi</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jansi@1.5.0?nexusnamespace=Red%20Hat%C2%AE%2C%20Inc.%2FJansi%20-%20Java%20library%20for%20generating%20and%20interpreting%20ANSI%20escape%20sequences.&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">97f6e12599bb5848867b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/instance-identity@2.2?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>instance-identity</name>
+      <version>2.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/instance-identity@2.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">986e58370b11287dfa73</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/javax.xml.bind/jaxb-api@2.3.0?type=jar">
+      <group>javax.xml.bind</group>
+      <name>jaxb-api</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/javax.xml.bind/jaxb-api@2.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">99f802e0cb3e953ba3d6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/xpp3/xpp3@1.1.4c?type=jar">
+      <group>xpp3</group>
+      <name>xpp3</name>
+      <version>1.1.4c</version>
+      <licenses>
+        <license>
+          <name>XPP-1.2</name>
+        </license>
+        <license>
+          <name>XPP-1.1.1</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/xpp3/xpp3@1.1.4c?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9b988ea84b9e4e9f1874</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/%40plesk/ui-library@0.0.68">
+      <group>@plesk</group>
+      <name>ui-library</name>
+      <version>0.0.68</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/%40plesk/ui-library@0.0.68</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9d919f34b51a66c48be2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/scm-api@2.6.5?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>scm-api</name>
+      <version>2.6.5</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/scm-api@2.6.5?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9ef1275c52b988af9da4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins.workflow/workflow-api@2.42?type=hpi">
+      <group>org.jenkins-ci.plugins.workflow</group>
+      <name>workflow-api</name>
+      <version>2.42</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins.workflow/workflow-api@2.42?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">9f1b255ba430a7d4210a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/codemirror@3.11.1">
+      <name>codemirror</name>
+      <version>3.11.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/codemirror@3.11.1</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a1e2a4bbcbe70584e11f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
+      <group>commons-io</group>
+      <name>commons-io</name>
+      <version>2.11.0</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a2503f302b11ebde7ebc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/upstart-slave-installer@1.1?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>upstart-slave-installer</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/upstart-slave-installer@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a2ce1f49745d63c8520d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jfree/jcommon@1.0.23?type=jar">
+      <group>org.jfree</group>
+      <name>jcommon</name>
+      <version>1.0.23</version>
+      <licenses>
+        <license>
+          <id>GPL-3.0</id>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>GPL-2.0</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jfree/jcommon@1.0.23?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a316f336ca996e0c6bec</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/io.jenkins.plugins/jaxb@2.3.0?type=hpi">
+      <group>io.jenkins.plugins</group>
+      <name>jaxb</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/io.jenkins.plugins/jaxb@2.3.0?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a3c9925e9eafdcadebaa</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.4.1?type=jar">
+      <group>com.github.spotbugs</group>
+      <name>spotbugs-annotations</name>
+      <version>4.4.1</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.spotbugs/spotbugs-annotations@4.4.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a409167be27a1b197c04</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.dom4j/dom4j@2.1.3?type=jar">
+      <group>org.dom4j</group>
+      <name>dom4j</name>
+      <version>2.1.3</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>Apache-1.1</id>
+        </license>
+        <license>
+          <name>DOM4j-License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.dom4j/dom4j@2.1.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a75914155a9f58089631</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/systemd-slave-installer@1.1?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>systemd-slave-installer</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/systemd-slave-installer@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">a9a4adb0480ec8942d03</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet.localizer/localizer@1.31?type=jar">
+      <group>org.jvnet.localizer</group>
+      <name>localizer</name>
+      <version>1.31</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet.localizer/localizer@1.31?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">aa7560693502015b7747</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.3.0?type=jar">
+      <group>org.checkerframework</group>
+      <name>checker-qual</name>
+      <version>3.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.checkerframework/checker-qual@3.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">abe016e33994fba7b5d8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/org.kohsuke.stapler%20stapler@1.217">
+      <name>org.kohsuke.stapler stapler</name>
+      <version>1.217</version>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/org.kohsuke.stapler%20stapler@1.217</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">acf18048e689b31c75b4</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/jinterop-proxy@1.1?type=jar">
+      <group>org.kohsuke.jinterop</group>
+      <name>jinterop-proxy</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.jinterop/jinterop-proxy@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">af1e27f84462979489e0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.jcraft/jzlib@1.1.3-kohsuke-1?type=jar">
+      <group>com.jcraft</group>
+      <name>jzlib</name>
+      <version>1.1.3-kohsuke-1</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.jcraft/jzlib@1.1.3-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">af5d27e1de29df05db95</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war">
+      <group>org.jenkins-ci.main</group>
+      <name>jenkins-war</name>
+      <version>2.319.3</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b1cb2f43ef5ed1d186c1</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1?type=jar">
+      <group>org.kohsuke.jinterop</group>
+      <name>j-interop</name>
+      <version>2.0.6-kohsuke-1</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.jinterop/j-interop@2.0.6-kohsuke-1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b2e243227608c1424ab0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins.workflow/workflow-step-api@2.23?type=hpi">
+      <group>org.jenkins-ci.plugins.workflow</group>
+      <name>workflow-step-api</name>
+      <version>2.23</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins.workflow/workflow-step-api@2.23?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b3eb4f90b8fcccba673c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar">
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>1.7.30</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b5a4b6d16ab13e34a88f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/annotation-indexer@1.15?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>annotation-indexer</name>
+      <version>1.15</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/annotation-indexer@1.15?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b5e9548356e53060e784</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/goorm@1.0.9-a-r203">
+      <name>goorm</name>
+      <version>1.0.9-a-r203</version>
+      <licenses>
+        <license>
+          <id>AGPL-3.0</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/goorm@1.0.9-a-r203</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">b7e9adb6ac543f9d12a3</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jfree/jfreechart@1.0.19?type=jar">
+      <group>org.jfree</group>
+      <name>jfreechart</name>
+      <version>1.0.19</version>
+      <licenses>
+        <license>
+          <id>LGPL-2.1</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>LGPL-3.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jfree/jfreechart@1.0.19?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ba9ee7dbb2e4c57a6901</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/args4j/args4j@2.33?type=jar">
+      <group>args4j</group>
+      <name>args4j</name>
+      <version>2.33</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/args4j/args4j@2.33?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">bd87a75374a6d6523de8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.ant/ant@1.10.12?type=jar">
+      <group>org.apache.ant</group>
+      <name>ant</name>
+      <version>1.10.12</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.ant/ant@1.10.12?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">be08c4f63e92e03bac76</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jaxen/jaxen@1.2.0?type=jar">
+      <group>jaxen</group>
+      <name>jaxen</name>
+      <version>1.2.0</version>
+      <licenses>
+        <license>
+          <name>Jaxen-BSD-License</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jaxen/jaxen@1.2.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c10535a925bd35129a43</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jline/jline@2.14.6?type=jar">
+      <group>jline</group>
+      <name>jline</name>
+      <version>2.14.6</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jline/jline@2.14.6?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c3aeac59c022bdc497c8</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/raptor@0.9.0">
+      <name>raptor</name>
+      <version>0.9.0</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/raptor@0.9.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c94f33c76c9ad385be0a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/org.webjars%20yui@2.9.0">
+      <name>org.webjars yui</name>
+      <version>2.9.0</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/org.webjars%20yui@2.9.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">c99e2824db5c1915b685</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>junit</name>
+      <version>1.29</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">cb91bfc6d9833495462b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-jelly/commons-jelly-tags-xml@1.1?type=jar">
+      <group>commons-jelly</group>
+      <name>commons-jelly-tags-xml</name>
+      <version>1.1</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-jelly/commons-jelly-tags-xml@1.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">cc0efc2ae0ff81ef7737</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/net.sf.kxml/kxml2@2.3.0?type=jar">
+      <group>net.sf.kxml</group>
+      <name>kxml2</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <name>Non-Standard</name>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Public Domain</name>
+        </license>
+        <license>
+          <name>Generic-Liberal-Clause</name>
+        </license>
+        <license>
+          <id>CC-PDDC</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.sf.kxml/kxml2@2.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ccbc77a5fd907ef863c2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.32?type=jar">
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>1.7.32</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@1.7.32?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">cdcff33940d9f2de763b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-jelly@1593.v0e838714faae?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>stapler-jelly</name>
+      <version>1593.v0e838714faae</version>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/stapler-jelly@1593.v0e838714faae?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ce9a4f0f5c3eed64165c</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=jar">
+      <group>org.jenkins-ci.plugins</group>
+      <name>mailer</name>
+      <version>1.32.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">cfa80f6daadc60a0c6ef</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>matrix-project</name>
+      <version>1.18</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">cffd146e62b20db3aaad</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0?type=jar">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-core</name>
+      <version>2.3.0</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <name>GPL</name>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-core@2.3.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d044c784e41d02677869</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.mail/jakarta.mail@1.6.5?type=jar">
+      <group>com.sun.mail</group>
+      <name>jakarta.mail</name>
+      <version>1.6.5</version>
+      <licenses>
+        <license>
+          <name>EFS-1.0</name>
+        </license>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <name>EDL-1.0</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.mail/jakarta.mail@1.6.5?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d08124137cf42397d00b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
+      <group>commons-beanutils</group>
+      <name>commons-beanutils</name>
+      <version>1.9.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d52b9abcd97f38c81342</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=jar">
+      <group>org.jenkins-ci.modules</group>
+      <name>sshd</name>
+      <version>3.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d83c57e06257218a6e17</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-tree@9.2?type=jar">
+      <group>org.ow2.asm</group>
+      <name>asm-tree</name>
+      <version>9.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm-tree@9.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">d96c99a30f5e1a19b0e6</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar">
+      <group>com.google.errorprone</group>
+      <name>error_prone_annotations</name>
+      <version>2.3.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dac170e4594de319655f</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/display-url-api@2.3.1?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>display-url-api</name>
+      <version>2.3.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>No Source License</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/display-url-api@2.3.1?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dc5918a37ef530866f6a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@2.8.2?type=jar">
+      <group>com.github.ben-manes.caffeine</group>
+      <name>caffeine</name>
+      <version>2.8.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.ben-manes.caffeine/caffeine@2.8.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dd3fb55488b64495f81a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/relaxngDatatype/relaxngDatatype@20020414?type=jar">
+      <group>relaxngDatatype</group>
+      <name>relaxngDatatype</name>
+      <version>20020414</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/relaxngDatatype/relaxngDatatype@20020414?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">de7952cecd05b65e0e43</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2?type=jar">
+      <group>org.jvnet.robust-http-client</group>
+      <name>robust-http-client</name>
+      <version>1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">dee9fda92ad39a94a77e</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/jdk-tool@1.0?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>jdk-tool</name>
+      <version>1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/jdk-tool@1.0?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e063550e164157d6ee90</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar">
+      <group>org.apache.ant</group>
+      <name>ant-launcher</name>
+      <version>1.10.12</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e090b4f9d3ecf45491cc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar">
+      <group>com.thoughtworks.xstream</group>
+      <name>xstream</name>
+      <version>1.4.19</version>
+      <licenses>
+        <license>
+          <name>BSD</name>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e0e581d812aa92ae12f0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci/version-number@1.7?type=jar">
+      <group>org.jenkins-ci</group>
+      <name>version-number</name>
+      <version>1.7</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci/version-number@1.7?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e2cb3f1d3e296adf7446</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/svgxuse@1.2.6">
+      <name>svgxuse</name>
+      <version>1.2.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/svgxuse@1.2.6</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e2f91e2b0e0677b5a9df</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.winsw/winsw@2.9.0?classifier=net4&amp;type=exe">
+      <group>com.sun.winsw</group>
+      <name>winsw</name>
+      <version>2.9.0</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.winsw/winsw@2.9.0?classifier=net4&amp;type=exe</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e5aa0e5db7d9fd27e2a0</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=hpi">
+      <group>org.jenkins-ci.modules</group>
+      <name>sshd</name>
+      <version>3.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">e8be0e1230293cdb9725</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="4a80b26c6cc84f4b83f50f3cdbe480ca">
+      <name>jnidispatch</name>
+      <version>6.1.1</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jnidispatch@6.1.1?nexusnamespace=Java%28TM%29%20Native%20Access%20%28JNA%29%2FJava%28TM%29%20Native%20Access&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">ed9f50de6051aaa1f26e</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.connectbot.jbcrypt/jbcrypt@1.0.0?type=jar">
+      <group>org.connectbot.jbcrypt</group>
+      <name>jbcrypt</name>
+      <version>1.0.0</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.connectbot.jbcrypt/jbcrypt@1.0.0?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f37bba2b8b78fcc8111b</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.infradna.tool/bridge-method-annotation@1.21?type=jar">
+      <group>com.infradna.tool</group>
+      <name>bridge-method-annotation</name>
+      <version>1.21</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Nonsensical-Clause</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.infradna.tool/bridge-method-annotation@1.21?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f380b42653f21c503036</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-commons@9.2?type=jar">
+      <group>org.ow2.asm</group>
+      <name>asm-commons</name>
+      <version>9.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm-commons@9.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f4d7f0fc9054386f2893</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:a-name/ometa@0.1.0">
+      <name>ometa</name>
+      <version>0.1.0</version>
+      <licenses>
+        <license>
+          <name>Not Declared</name>
+        </license>
+        <license>
+          <name>Not Supported</name>
+        </license>
+      </licenses>
+      <purl>pkg:a-name/ometa@0.1.0</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f75dc42cc5e19995f384</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="621a5f604e324a49a4a100e8f83ccf66">
+      <name>jansi</name>
+      <version>1.5.0</version>
+      <licenses>
+        <license>
+          <name>Not Provided</name>
+        </license>
+      </licenses>
+      <purl>pkg:generic/jansi@1.5.0?nexusnamespace=Red%20Hat%C2%AE%2C%20Inc.%2FJansi%20-%20Java%20library%20for%20generating%20and%20interpreting%20ANSI%20escape%20sequences.&amp;nexustype=pecoff</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f91fda2c7f9f485db21a</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar">
+      <group>commons-fileupload</group>
+      <name>commons-fileupload</name>
+      <version>1.4</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">f95188e3d372e20e7328</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jenkins-ci.plugins/trilead-api@1.0.4?type=hpi">
+      <group>org.jenkins-ci.plugins</group>
+      <name>trilead-api</name>
+      <version>1.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jenkins-ci.plugins/trilead-api@1.0.4?type=hpi</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fa907c54fe14861b2170</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke/access-modifier-annotation@1.25?type=jar">
+      <group>org.kohsuke</group>
+      <name>access-modifier-annotation</name>
+      <version>1.25</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <name>Nonsensical-Clause</name>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke/access-modifier-annotation@1.25?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fab291c4249c077b9bcc</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-util@9.2?type=jar">
+      <group>org.ow2.asm</group>
+      <name>asm-util</name>
+      <version>9.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm-util@9.2?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fbc178fc5ba3dab50fd7</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler@1593.v0e838714faae?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>stapler</name>
+      <version>1593.v0e838714faae</version>
+      <licenses>
+        <license>
+          <id>CDDL-1.1</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>GPL-2.0-with-classpath-exception</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <id>Apache-1.1</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/stapler@1593.v0e838714faae?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fc5431d95cd9602a9ef2</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3?type=jar">
+      <group>org.kohsuke.stapler</group>
+      <name>stapler-adjunct-codemirror</name>
+      <version>1.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3?type=jar</purl>
+      <modified>false</modified>
+      <properties>
+        <property name="Sonatype truncated SHA1">fd1d45544400d2a4da6d</property>
+        <property name="Match State">exact</property>
+        <property name="Identification Source">Sonatype</property>
+      </properties>
+    </component>
+  </components>
+  <externalReferences><reference type="bom"><url>http://localhost:8070/ui/links/application/JenkinsWar/report/43bd1981c3e541d7b88ae2151835e179</url><comment>IQ Report</comment></reference></externalReferences>
+  <vulnerabilities>
+    <vulnerability>
+      <id>CVE-2022-22968</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22968</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>178</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-context@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-22965</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22965</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>94</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-beans@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2016-1000027</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000027</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>502</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-web@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27903</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27903</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>378</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-41966</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41966</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>121</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27904</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27904</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>200</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27901</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27901</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27902</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27902</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>552</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-24998</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24998</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>770</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27900</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27900</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-30946</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30946</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>352</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2020-1381</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2020-1381</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>5.9</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>300</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/trilead-ssh2@build-217-jenkins-16?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/trilead-api@1.0.4?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-2048</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2048</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/winstone@5.21?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-20614</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-20614</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>862</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-20613</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-20613</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>352</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/mailer@1.32.1?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-45379</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45379</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>328</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2019-0673</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2019-0673</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>3.7</score>
+          <severity>medium</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.bouncycastle/bcprov-jdk15on@1.68?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-2047</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2047</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>2.7</score>
+          <severity>medium</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>20</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/winstone@5.21?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-22950</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22950</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>6.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>770</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-expression@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-20615</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-20615</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>79</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/matrix-project@1.18?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2021-4916</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2021-4916</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>5.3</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>327</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/bouncycastle-api@2.20?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.bouncycastle/bcprov-jdk15on@1.68?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2020-5408</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5408</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>6.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>329</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework.security/spring-security-crypto@5.5.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-45380</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45380</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>79</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2020-17521</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-17521</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>379</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.codehaus.groovy/groovy-all@2.4.12?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-43401</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43401</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.9</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>693</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-43404</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43404</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.9</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>693</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-43403</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43403</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.9</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>693</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-34174</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34174</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>203</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-34176</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34176</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>79</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-26049</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-26049</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>4.2</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>200</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/winstone@5.21?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27898</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27898</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>79</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-24422</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24422</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>8.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>266</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/script-security@1.75?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-26048</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-26048</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.3</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/winstone@5.21?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2021-0246</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2021-0246</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-22978</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22978</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>863</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework.security/spring-security-web@5.5.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-22976</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22976</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.3</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>190</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework.security/spring-security-crypto@5.5.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-20862</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20862</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>8.8</score>
+          <severity>critical</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>613</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework.security/spring-security-web@5.5.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-31692</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31692</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>639</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework.security/spring-security-web@5.5.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-20861</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20861</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>6.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>770</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-expression@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2020-0926</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2020-0926</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>6.2</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>379</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/com.google.guava/guava@11.0.1?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2021-30129</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-30129</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>6.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>772</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.apache.sshd/sshd-core@1.7.0?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-27899</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27899</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.0</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>378</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-core@2.319.3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-20863</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20863</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>6.5</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>400</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-expression@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-30950</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30950</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>8.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>120</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2018-10237</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10237</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.9</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>770</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/com.google.guava/guava@11.0.1?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2023-25761</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25761</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>5.4</score>
+          <severity>high</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>79</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/junit@1.29?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2022-1764</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2022-1764</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>470</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.springframework/spring-beans@5.3.11?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2020-0081</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2020-0081</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>5.9</score>
+          <severity>high</severity>
+          <method>other</method>
+          <vector>CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>300</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci/memory-monitor@1.9?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-30951</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30951</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>8.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>862</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=hpi</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.plugins/windows-slaves@1.0?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-40151</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40151</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>787</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>CVE-2022-45047</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45047</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>9.8</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>502</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/org.apache.sshd/sshd-core@1.7.0?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.modules/sshd@3.0.3?type=hpi</ref>
+        </target>
+      </affects>
+    </vulnerability>
+    <vulnerability>
+      <id>sonatype-2007-0004</id>
+      <source>
+        <name>SONATYPE</name>
+        <url>http://localhost:8070/ui/links/vln/sonatype-2007-0004</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>SONATYPE</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>other</method>
+          <vector>CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>770</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/commons-httpclient/commons-httpclient@3.1-jenkins-3?type=jar</ref>
+        </target>
+        <target>
+          <ref>pkg:maven/org.jenkins-ci.main/jenkins-war@2.319.3?type=war</ref>
+        </target>
+      </affects>
+    </vulnerability>
+  </vulnerabilities>
+</bom>

@@ -1,0 +1,22 @@
+{
+        "license": "GPL-2.0-only",
+        "summary": "Programmable Completion for Bash 4",
+        "homepage": "https://github.com/scop/bash-completion",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz"
+        ],
+        "cve_product": "bash-completion",
+        "cve_version": "2.11",
+        "sources": {
+                "patches": {},
+                "https": [
+                        "https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/bash-completion/bash-completion_2.11.bb"
+}

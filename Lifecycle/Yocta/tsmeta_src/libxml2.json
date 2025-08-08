@@ -1,0 +1,45 @@
+{
+        "license": "MIT",
+        "summary": "XML C Parser Library and Toolkit",
+        "homepage": "https://gitlab.gnome.org/GNOME/libxml2",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://download.gnome.org/sources//libxml2/2.9/libxml2-2.9.14.tar.xz;name=archive",
+                "http://www.w3.org/XML/Test/xmlts20080827.tar.gz;subdir=libxml2-2.9.14;name=testtar",
+                "file://libxml-64bit.patch",
+                "file://runtest.patch",
+                "file://run-ptest",
+                "file://python-sitepackages-dir.patch",
+                "file://0001-Make-ptest-run-the-python-tests-if-python-is-enabled.patch",
+                "file://fix-execution-of-ptests.patch",
+                "file://remove-fuzz-from-ptests.patch",
+                "file://libxml-m4-use-pkgconfig.patch"
+        ],
+        "cve_product": "libxml2",
+        "cve_version": "2.9.14",
+        "sources": {
+                "patches": {
+                        "libxml-64bit.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/libxml-64bit.patch",
+                        "runtest.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/runtest.patch",
+                        "python-sitepackages-dir.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/python-sitepackages-dir.patch",
+                        "0001-Make-ptest-run-the-python-tests-if-python-is-enabled.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/0001-Make-ptest-run-the-python-tests-if-python-is-enabled.patch",
+                        "fix-execution-of-ptests.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/fix-execution-of-ptests.patch",
+                        "remove-fuzz-from-ptests.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/remove-fuzz-from-ptests.patch",
+                        "libxml-m4-use-pkgconfig.patch": "/home/andrew/poky/meta/recipes-core/libxml/libxml2/libxml-m4-use-pkgconfig.patch"
+                },
+                "https": [
+                        "https://download.gnome.org/sources//libxml2/2.9/libxml2-2.9.14.tar.xz;name=archive"
+                ],
+                "http": [
+                        "http://www.w3.org/XML/Test/xmlts20080827.tar.gz;subdir=libxml2-2.9.14;name=testtar"
+                ],
+                "file": [
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/libxml/libxml2_2.9.14.bb"
+}

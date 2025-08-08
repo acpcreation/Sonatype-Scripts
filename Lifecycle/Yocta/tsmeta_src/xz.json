@@ -1,0 +1,25 @@
+{
+        "license": "GPL-2.0-or-later & GPL-3.0-with-autoconf-exception & LGPL-2.1-or-later & PD",
+        "summary": "Utilities for managing LZMA compressed files",
+        "homepage": "https://tukaani.org/xz/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://tukaani.org/xz/xz-5.2.5.tar.gz",
+                "file://CVE-2022-1271.patch"
+        ],
+        "cve_product": "xz",
+        "cve_version": "5.2.5",
+        "sources": {
+                "patches": {
+                        "CVE-2022-1271.patch": "/home/andrew/poky/meta/recipes-extended/xz/xz/CVE-2022-1271.patch"
+                },
+                "https": [
+                        "https://tukaani.org/xz/xz-5.2.5.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-extended/xz/xz_5.2.5.bb"
+}

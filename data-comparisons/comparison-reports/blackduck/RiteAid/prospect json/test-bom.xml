@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:cb3c8aae-d8a0-4ef5-a40d-de537161f948" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-01-12T14:46:58Z</timestamp>
+    <component type="application" bom-ref="pkg:maven/org.example/ACME-Test@1.0-SNAPSHOT?type=pom">
+      <group>org.example</group>
+      <name>ACME-Test</name>
+      <version>1.0-SNAPSHOT</version>
+      <purl>pkg:maven/org.example/ACME-Test@1.0-SNAPSHOT?type=pom</purl>
+    </component>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
+      <group>javax.inject</group>
+      <name>javax.inject</name>
+      <version>1</version>
+      <hashes>
+        <hash alg="SHA-1">6975da39a7040257bd51d21a231b76c915872d38</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.6?type=jar">
+      <group>commons-io</group>
+      <name>commons-io</name>
+      <version>2.6</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/commons-io/commons-io@2.6?type=jar</purl>
+      <modified>false</modified>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4?type=jar">
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>2.13.4</version>
+      <hashes>
+        <hash alg="SHA-1">98b0edfa8e4084078f10b7b356c300ded4a71491</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4?type=jar</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.example/ACME-data@1.0-SNAPSHOT?type=jar">
+      <group>org.example</group>
+      <name>ACME-data</name>
+      <version>1.0-SNAPSHOT</version>
+      <purl>pkg:maven/org.example/ACME-data@1.0-SNAPSHOT?type=jar</purl>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.example/ACME-Test@1.0-SNAPSHOT?type=pom">
+      <dependency ref="pkg:maven/org.example/ACME-data@1.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/commons-io/commons-io@2.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.example/ACME-data@1.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4?type=jar"/>
+      <dependency ref="pkg:maven/commons-io/commons-io@2.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4?type=jar"/>
+    <dependency ref="pkg:maven/commons-io/commons-io@2.6?type=jar"/>
+  </dependencies>
+  <vulnerabilities>
+    <vulnerability>
+      <id>CVE-2022-42003</id>
+      <source>
+        <name>NVD</name>
+        <url>http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42003</url>
+      </source>
+      <ratings>
+        <rating>
+          <source>
+            <name>NVD</name>
+          </source>
+          <score>7.5</score>
+          <severity>critical</severity>
+          <method>CVSSv3</method>
+          <vector>CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H</vector>
+        </rating>
+      </ratings>
+      <cwes>
+        <cwe>502</cwe>
+      </cwes>
+      <affects>
+        <target>
+          <ref>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4?type=jar</ref>
+        </target>
+      </affects>
+    </vulnerability>
+  </vulnerabilities>
+</bom>

@@ -1,0 +1,25 @@
+{
+        "license": "GPL-2.0-or-later & LGPL-2.1-or-later",
+        "summary": "An alternate posix capabilities library",
+        "homepage": "http://freecode.com/projects/libcap-ng",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.8.2.tar.gz",
+                "file://determinism.patch"
+        ],
+        "cve_product": "libcap-ng",
+        "cve_version": "0.8.2",
+        "sources": {
+                "patches": {
+                        "determinism.patch": "/home/andrew/poky/meta/recipes-support/libcap-ng/libcap-ng/determinism.patch"
+                },
+                "https": [
+                        "https://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.8.2.tar.gz"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-support/libcap-ng/libcap-ng_0.8.2.bb"
+}

@@ -1,0 +1,24 @@
+{
+        "cve_product": "linux_kernel",
+        "license": "GPL-2.0-only",
+        "summary": "Linux kernel",
+        "homepage": "https://www.yoctoproject.org/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://git.yoctoproject.org/linux-yocto.git;branch=v5.15/standard/tiny/base;name=machine",
+                "git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-5.15;destsuffix=kernel-meta"
+        ],
+        "cve_version": "5.15.36",
+        "sources": {
+                "patches": {},
+                "git": [
+                        "git://git.yoctoproject.org/linux-yocto.git;branch=v5.15/standard/tiny/base;name=machine",
+                        "git://git.yoctoproject.org/yocto-kernel-cache;type=kmeta;name=meta;branch=yocto-5.15;destsuffix=kernel-meta"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-kernel/linux/linux-yocto-tiny_5.15.bb"
+}

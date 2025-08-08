@@ -1,0 +1,30 @@
+{
+        "license": "MIT",
+        "srcrev": "51d0fd9cc3edb975f04224f29f777f8f448e8ced",
+        "summary": "The New Curses library",
+        "homepage": "http://www.gnu.org/software/ncurses/ncurses.html",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "git://salsa.debian.org/debian/ncurses.git;protocol=https;branch=master",
+                "file://0001-tic-hang.patch",
+                "file://0002-configure-reproducible.patch",
+                "file://0003-gen-pkgconfig.in-Do-not-include-LDFLAGS-in-generated.patch"
+        ],
+        "cve_product": "ncurses",
+        "cve_version": "6.3",
+        "sources": {
+                "patches": {
+                        "0001-tic-hang.patch": "/home/andrew/poky/meta/recipes-core/ncurses/files/0001-tic-hang.patch",
+                        "0002-configure-reproducible.patch": "/home/andrew/poky/meta/recipes-core/ncurses/files/0002-configure-reproducible.patch",
+                        "0003-gen-pkgconfig.in-Do-not-include-LDFLAGS-in-generated.patch": "/home/andrew/poky/meta/recipes-core/ncurses/files/0003-gen-pkgconfig.in-Do-not-include-LDFLAGS-in-generated.patch"
+                },
+                "git": [
+                        "git://salsa.debian.org/debian/ncurses.git;protocol=https;branch=master"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-core/ncurses/ncurses_6.3.bb"
+}

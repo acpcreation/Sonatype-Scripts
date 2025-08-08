@@ -1,0 +1,3291 @@
+.:
+total 1298436
+drwxr-xr-x  4 andrew andrew     12288 May 27 13:07 .
+drwxr-xr-x  7 andrew andrew      4096 May 27 14:04 ..
+-rw-r--r--  1 andrew andrew    518292 Mar 16  2021 acl-2.3.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 acl-2.3.1.tar.gz.done
+-rw-r--r--  1 andrew andrew   1079670 Dec  9 09:54 alsa-lib-1.2.6.1.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 11:20 alsa-lib-1.2.6.1.tar.bz2.done
+-rw-r--r--  1 andrew andrew    465714 Mar 16  2021 attr-2.5.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 attr-2.5.1.tar.gz.done
+-rw-r--r--  1 andrew andrew   2003781 Jan 28  2021 autoconf-2.71.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 autoconf-2.71.tar.gz.done
+-rw-r--r--  1 andrew andrew    675264 Feb 11 05:35 autoconf-archive-2022.02.11.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 autoconf-archive-2022.02.11.tar.xz.done
+-rw-r--r--  1 andrew andrew   2389045 Oct  3  2021 automake-1.16.5.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 automake-1.16.5.tar.gz.done
+-rw-r--r--  1 andrew andrew     81174 Jan  1  2014 base-passwd_3.5.29.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:10 base-passwd_3.5.29.tar.gz.done
+-rw-r--r--  1 andrew andrew  10522932 Jan  4 16:49 bash-5.1.16.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:10 bash-5.1.16.tar.gz.done
+-rw-r--r--  1 andrew andrew    311004 Dec  7 23:16 bash-completion-2.11.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 bash-completion-2.11.tar.xz.done
+-rw-r--r--  1 andrew andrew    419850 Apr  9  2017 bc-1.07.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 bc-1.07.1.tar.gz.done
+-rw-r--r--  1 andrew andrew   2817324 Sep 25  2021 bison-3.8.2.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 bison-3.8.2.tar.xz.done
+-rw-r--r--  1 andrew andrew   2480624 Dec 26 12:24 busybox-1.35.0.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:11 busybox-1.35.0.tar.bz2.done
+-rw-r--r--  1 andrew andrew    810029 Jul 13  2019 bzip2-1.0.8.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 bzip2-1.0.8.tar.gz.done
+-rw-r--r--  1 andrew andrew    134506 Jan 19  2014 chrpath_0.16.orig.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 10:46 chrpath_0.16.orig.tar.gz.done
+-rw-r--r--  1 andrew andrew   9779118 Mar  4 12:59 cmake-3.22.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:20 cmake-3.22.3.tar.gz.done
+-rw-r--r--  1 andrew andrew   1889402 Nov  6  2019 cpio-2.13.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 13:05 cpio-2.13.tar.gz.done
+-rw-r--r--  1 andrew andrew   2446764 Mar  5 03:46 curl-7.82.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 curl-7.82.0.tar.xz.done
+-rw-r--r--  1 andrew andrew    421525 Jan 12  2009 docbook-xml_4.5.orig.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:10 docbook-xml_4.5.orig.tar.gz.done
+-rw-r--r--  1 andrew andrew  21967928 Dec 26  2015 docbook-xsl-1.79.1.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:11 docbook-xsl-1.79.1.tar.bz2.done
+-rw-r--r--  1 andrew andrew   9230491 Nov 10  2021 elfutils-0.186.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 elfutils-0.186.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1961960 Feb  9  2021 eudev-3.2.10.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:12 eudev-3.2.10.tar.gz.done
+-rw-r--r--  1 andrew andrew    561972 Mar  4 16:32 expat-2.4.7.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:20 expat-2.4.7.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1419096 Dec  6 19:05 flex-2.6.4.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 flex-2.6.4.tar.gz.done
+-rw-r--r--  1 andrew andrew    136642 Feb 23 06:36 flit-3.7.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:02 flit-3.7.1.tar.gz.done
+-rw-r--r--  1 andrew andrew  80888824 Jul 28  2021 gcc-11.2.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:54 gcc-11.2.0.tar.xz.done
+-rw-r--r--  1 andrew andrew   1115854 Feb  4 09:13 gdbm-1.23.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:05 gdbm-1.23.tar.gz.done
+-rw-r--r--  1 andrew andrew  24181849 Jul 26  2020 gettext-0.21.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 gettext-0.21.tar.gz.done
+drwxr-xr-x 27 andrew andrew      4096 May 27 12:49 git2
+-rw-r--r--  1 andrew andrew  41737818 May  7 03:34 git2_salsa.debian.org.debian.ncurses.git.tar.gz
+-rw-r--r--  1 andrew andrew         0 May 26 17:54 git2_salsa.debian.org.debian.ncurses.git.tar.gz.done
+-rw-r--r--  1 andrew andrew 633568992 Apr 24 00:14 git2_sourceware.org.git.glibc.git.tar.gz
+-rw-r--r--  1 andrew andrew         0 May 27 10:56 git2_sourceware.org.git.glibc.git.tar.gz.done
+-rw-r--r--  1 andrew andrew  64884695 May 17 03:19 gitshallow_sourceware.org.git.binutils-gdb.git_134f17e-1_binutils-2_38-branch.tar.gz
+-rw-r--r--  1 andrew andrew         0 May 26 17:52 gitshallow_sourceware.org.git.binutils-gdb.git_134f17e-1_binutils-2_38-branch.tar.gz.done
+-rw-r--r--  1 andrew andrew   4890672 Apr 14 08:00 glib-2.72.1.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 glib-2.72.1.tar.xz.done
+-rw-r--r--  1 andrew andrew   2493916 Nov 14  2020 gmp-6.2.1.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 gmp-6.2.1.tar.bz2.done
+-rw-r--r--  1 andrew andrew   6131772 Mar 17 09:44 gnutls-3.7.4.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 gnutls-3.7.4.tar.xz.done
+-rw-r--r--  1 andrew andrew   1215925 Jan  5  2017 gperf-3.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:56 gperf-3.1.tar.gz.done
+-rw-r--r--  1 andrew andrew    507852 Jan 19  2021 gtk-doc-1.33.2.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 gtk-doc-1.33.2.tar.xz.done
+-rw-r--r--  1 andrew andrew    469793 Mar 11 03:51 installer-0.5.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 installer-0.5.1.tar.gz.done
+-rw-r--r--  1 andrew andrew    104648 Apr  5 09:46 itstool-2.0.7.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:10 itstool-2.0.7.tar.bz2.done
+-rw-r--r--  1 andrew andrew   7431598 Apr  8 08:40 libarchive-3.6.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 libarchive-3.6.1.tar.gz.done
+-rw-r--r--  1 andrew andrew    175104 Jan 25 11:49 libcap-2.63.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 libcap-2.63.tar.xz.done
+-rw-r--r--  1 andrew andrew    456066 Dec  9  2020 libcap-ng-0.8.2.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 libcap-ng-0.8.2.tar.gz.done
+-rw-r--r--  1 andrew andrew    436372 Feb 16 06:23 libdrm-2.4.110.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 10:43 libdrm-2.4.110.tar.xz.done
+-rw-r--r--  1 andrew andrew    221924 Dec  6 17:31 libepoxy-1.5.9.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 11:16 libepoxy-1.5.9.tar.xz.done
+-rw-r--r--  1 andrew andrew   1351355 Dec  7 13:56 libffi-3.4.2.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 libffi-3.4.2.tar.gz.done
+-rw-r--r--  1 andrew andrew   3239704 Aug 22  2021 libgcrypt-1.9.4.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 libgcrypt-1.9.4.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1014475 Jan 27 04:02 libgpg-error-1.44.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 libgpg-error-1.44.tar.bz2.done
+-rw-r--r--  1 andrew andrew   2169556 Jul 20  2021 libidn2-2.3.2.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 libidn2-2.3.2.tar.gz.done
+-rw-r--r--  1 andrew andrew   1952076 Dec 26 12:50 libmicrohttpd-0.9.75.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 libmicrohttpd-0.9.75.tar.gz.done
+-rw-r--r--  1 andrew andrew    366603 Jul 17  2019 libpciaccess-0.16.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:41 libpciaccess-0.16.tar.bz2.done
+-rw-r--r--  1 andrew andrew     57565 Mar 14  2017 libpthread-stubs-0.4.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libpthread-stubs-0.4.tar.bz2.done
+-rw-r--r--  1 andrew andrew    513151 May 10  2021 libtirpc-1.3.2.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 libtirpc-1.3.2.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1938886 Mar 17 00:23 libtool-2.4.7.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 libtool-2.4.7.tar.gz.done
+-rw-r--r--  1 andrew andrew   4214306 Jan  4 15:39 libunistring-1.0.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:58 libunistring-1.0.tar.gz.done
+-rw-r--r--  1 andrew andrew   1864224 Dec  9 23:22 libX11-1.7.3.1.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libX11-1.7.3.1.tar.xz.done
+-rw-r--r--  1 andrew andrew    322650 Feb 10  2019 libXau-1.0.9.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libXau-1.0.9.tar.bz2.done
+-rw-r--r--  1 andrew andrew    439404 Feb 22  2020 libxcb-1.14.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libxcb-1.14.tar.xz.done
+-rw-r--r--  1 andrew andrew    303750 Mar 10  2019 libXdamage-1.1.5.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 libXdamage-1.1.5.tar.bz2.done
+-rw-r--r--  1 andrew andrew    332795 Mar 16  2019 libXdmcp-1.1.3.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libXdmcp-1.1.3.tar.bz2.done
+-rw-r--r--  1 andrew andrew    389114 Mar 16  2019 libXext-1.3.4.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:20 libXext-1.3.4.tar.bz2.done
+-rw-r--r--  1 andrew andrew    297270 May 11  2021 libXfixes-6.0.0.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:35 libXfixes-6.0.0.tar.bz2.done
+-rw-r--r--  1 andrew andrew   3129968 May  2 08:03 libxml2-2.9.14.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libxml2-2.9.14.tar.xz.done
+-rw-r--r--  1 andrew andrew    330726 Mar 16  2019 libXrandr-1.5.2.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:41 libXrandr-1.5.2.tar.bz2.done
+-rw-r--r--  1 andrew andrew    308318 Oct  4  2016 libXrender-0.9.10.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:33 libXrender-0.9.10.tar.bz2.done
+-rw-r--r--  1 andrew andrew    308644 Feb 26  2018 libxshmfence-1.3.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 libxshmfence-1.3.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1827548 Feb 16 11:59 libxslt-1.1.35.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 libxslt-1.1.35.tar.xz.done
+-rw-r--r--  1 andrew andrew    295346 Feb 24  2015 libXxf86vm-1.1.4.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 libXxf86vm-1.1.4.tar.bz2.done
+-rw-r--r--  1 andrew andrew 123114100 Jan 10 01:32 linux-5.16.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:53 linux-5.16.tar.xz.done
+-rw-r--r--  1 andrew andrew    360876 Jan 13 11:15 lua-5.4.4.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:00 lua-5.4.4.tar.gz.done
+-rw-r--r--  1 andrew andrew    600622 Mar  1  2017 lzo-2.10.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 lzo-2.10.tar.gz.done
+-rw-r--r--  1 andrew andrew   2953876 May 28  2021 m4-1.4.19.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 m4-1.4.19.tar.gz.done
+-rw-r--r--  1 andrew andrew    181760 Mar 16  2019 makedepend-1.0.6.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 makedepend-1.0.6.tar.gz.done
+-rw-r--r--  1 andrew andrew    495132 Nov 17  2021 Mako-1.1.6.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 Mako-1.1.6.tar.gz.done
+-rw-r--r--  1 andrew andrew  15688840 Apr 22 00:21 mesa-22.0.2.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 10:46 mesa-22.0.2.tar.xz.done
+-rw-r--r--  1 andrew andrew   2011631 Mar 14 14:03 meson-0.61.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 meson-0.61.3.tar.gz.done
+-rw-r--r--  1 andrew andrew    838731 Oct 23  2020 mpc-1.2.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 mpc-1.2.1.tar.gz.done
+-rw-r--r--  1 andrew andrew   1525476 Apr 14 09:30 mpfr-4.1.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 mpfr-4.1.0.tar.xz.done
+-rw-r--r--  1 andrew andrew     31968 Mar 27  2021 netbase_6.3.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:12 netbase_6.3.tar.xz.done
+-rw-r--r--  1 andrew andrew   2383985 Jun  7  2021 nettle-3.7.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 nettle-3.7.3.tar.gz.done
+-rw-r--r--  1 andrew andrew  15058905 May  3 10:02 openssl-3.0.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:05 openssl-3.0.3.tar.gz.done
+-rw-r--r--  1 andrew andrew    606371 Dec  3 15:07 opkg-0.5.0.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 11:04 opkg-0.5.0.tar.gz.done
+-rw-r--r--  1 andrew andrew     37002 May 26 17:38 opkg-utils-0.5.0.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 opkg-utils-0.5.0.tar.gz.done
+-rw-r--r--  1 andrew andrew   1189934 Feb  6  2018 patch-2.7.6.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 patch-2.7.6.tar.gz.done
+-rw-r--r--  1 andrew andrew   1730729 Dec  7 20:07 pcre2-10.39.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 17:59 pcre2-10.39.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1578809 Jun 21  2021 pcre-8.45.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:06 pcre-8.45.tar.bz2.done
+-rw-r--r--  1 andrew andrew  18191640 Mar 13 04:40 perl-5.34.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:20 perl-5.34.1.tar.gz.done
+-rw-r--r--  1 andrew andrew    118291 Mar 15 08:44 perl-cross-1.3.7.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:55 perl-cross-1.3.7.tar.gz.done
+-rw-r--r--  1 andrew andrew    108102 Jan 15 14:40 pigz-2.7.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 10:50 pigz-2.7.tar.gz.done
+-rw-r--r--  1 andrew andrew    913976 Apr 19  2020 pixman-0.40.0.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 11:20 pixman-0.40.0.tar.gz.done
+-rw-r--r--  1 andrew andrew    580569 Jun 23  2020 popt-1.18.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 popt-1.18.tar.gz.done
+-rw-r--r--  1 andrew andrew    116400 Aug 24  2021 pseudo-prebuilt-2.33.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 pseudo-prebuilt-2.33.tar.xz.done
+-rw-r--r--  1 andrew andrew  19342692 Mar 23 16:27 Python-3.10.4.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 Python-3.10.4.tar.xz.done
+-rw-r--r--  1 andrew andrew 115667324 Mar 16 19:10 qemu-6.2.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 11:20 qemu-6.2.0.tar.xz.done
+-rw-r--r--  1 andrew andrew    543713 Feb 15 08:53 quilt-0.67.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:51 quilt-0.67.tar.gz.done
+-rw-r--r--  1 andrew andrew   1441456 Jan 27 03:53 re2c-3.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 re2c-3.0.tar.xz.done
+-rw-r--r--  1 andrew andrew   2993073 Jan  5 10:41 readline-8.1.2.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:05 readline-8.1.2.tar.gz.done
+-rw-r--r--  1 andrew andrew   1069784 Aug  6  2020 rsync-3.2.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 rsync-3.2.3.tar.gz.done
+-rw-r--r--  1 andrew andrew   7207221 Jan 10 19:52 SDL2-2.0.20.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 27 11:18 SDL2-2.0.20.tar.gz.done
+-rw-r--r--  1 andrew andrew   2281671 Dec  5 12:28 setuptools-59.5.0.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 setuptools-59.5.0.tar.gz.done
+-rw-r--r--  1 andrew andrew   3032969 Apr 30 15:21 sqlite-autoconf-3380300.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:05 sqlite-autoconf-3380300.tar.gz.done
+-rw-r--r--  1 andrew andrew     66912 Nov  6  2020 unifdef-2.12.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 17:52 unifdef-2.12.tar.xz.done
+drwxr-xr-x  3 andrew andrew      4096 May 26 12:23 uninative
+-rw-r--r--  1 andrew andrew   1376845 Apr 29  2009 unzip60.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:02 unzip60.tar.gz.done
+-rw-r--r--  1 andrew andrew   6114232 Feb 14 06:01 util-linux-2.37.4.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:05 util-linux-2.37.4.tar.xz.done
+-rw-r--r--  1 andrew andrew    103662 Jan 24  2021 util-macros-1.19.3.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 util-macros-1.19.3.tar.gz.done
+-rw-r--r--  1 andrew andrew    225188 May 26 14:30 wayland-1.20.0.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 10:46 wayland-1.20.0.tar.xz.done
+-rw-r--r--  1 andrew andrew     79784 May 26 14:30 wayland-protocols-1.25.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 wayland-protocols-1.25.tar.xz.done
+-rw-r--r--  1 andrew andrew     66376 Dec 22 07:22 wheel-0.37.1.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 wheel-0.37.1.tar.gz.done
+-rw-r--r--  1 andrew andrew    143588 Oct  8  2020 xcb-proto-1.14.1.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 xcb-proto-1.14.1.tar.xz.done
+-rw-r--r--  1 andrew andrew    155841 Nov 18  2015 xmlto-0.0.28.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:10 xmlto-0.0.28.tar.gz.done
+-rw-r--r--  1 andrew andrew    638940 Sep  1  2008 xmlts20080827.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 xmlts20080827.tar.gz.done
+-rw-r--r--  1 andrew andrew    870473 Sep 15  2021 xorgproto-2021.5.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 xorgproto-2021.5.tar.bz2.done
+-rw-r--r--  1 andrew andrew    171200 Aug 12  2019 xrandr-1.5.1.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 27 10:45 xrandr-1.5.1.tar.xz.done
+-rw-r--r--  1 andrew andrew    185371 Mar 16  2019 xtrans-1.4.0.tar.bz2
+-rw-r--r--  1 andrew andrew       463 May 26 18:09 xtrans-1.4.0.tar.bz2.done
+-rw-r--r--  1 andrew andrew   1791345 Mar 17  2020 xz-5.2.5.tar.gz
+-rw-r--r--  1 andrew andrew       463 May 26 18:04 xz-5.2.5.tar.gz.done
+-rw-r--r--  1 andrew andrew    467960 Jan 15  2017 zlib-1.2.11.tar.xz
+-rw-r--r--  1 andrew andrew       463 May 26 18:03 zlib-1.2.11.tar.xz.done
+
+./git2:
+total 220
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 .
+drwxr-xr-x  4 andrew andrew 12288 May 27 13:07 ..
+drwxr-xr-x  7 andrew andrew  4096 May 27 11:20 anongit.freedesktop.org.git.virglrenderer
+-rw-r--r--  1 andrew andrew     6 May 27 11:20 anongit.freedesktop.org.git.virglrenderer.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:59 github.com.facebook.zstd.git
+-rw-r--r--  1 andrew andrew     6 May 26 17:59 github.com.facebook.zstd.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:00 github.com.file.file.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:00 github.com.file.file.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 27 11:04 github.com.kraj.localedef
+-rw-r--r--  1 andrew andrew     6 May 27 11:04 github.com.kraj.localedef.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:03 github.com.ninja-build.ninja.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:03 github.com.ninja-build.ninja.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 27 10:48 github.com.openSUSE.libsolv.git
+-rw-r--r--  1 andrew andrew     6 May 27 10:48 github.com.openSUSE.libsolv.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:01 github.com.rpm-software-management.rpm
+-rw-r--r--  1 andrew andrew     6 May 26 18:01 github.com.rpm-software-management.rpm.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:58 github.com.thkukuk.libnsl
+-rw-r--r--  1 andrew andrew     6 May 26 18:05 github.com.thkukuk.libnsl.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:00 git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:00 git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 27 11:20 git.kernel.org.pub.scm.utils.dtc.dtc.git
+-rw-r--r--  1 andrew andrew     6 May 27 11:20 git.kernel.org.pub.scm.utils.dtc.dtc.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:06 git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:09 git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:52 gitlab.freedesktop.org.pkg-config.pkg-config.git
+-rw-r--r--  1 andrew andrew     6 May 26 17:52 gitlab.freedesktop.org.pkg-config.pkg-config.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:13 gitlab.freedesktop.org.xdg.shared-mime-info.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:18 gitlab.freedesktop.org.xdg.shared-mime-info.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:59 git.musl-libc.org.musl
+-rw-r--r--  1 andrew andrew     6 May 26 17:59 git.musl-libc.org.musl.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:52 git.savannah.gnu.org.git.config.git
+-rw-r--r--  1 andrew andrew     6 May 26 17:52 git.savannah.gnu.org.git.config.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 20:07 git.yoctoproject.org.linux-yocto.git
+-rw-r--r--  1 andrew andrew     6 May 26 20:07 git.yoctoproject.org.linux-yocto.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:52 git.yoctoproject.org.pseudo
+-rw-r--r--  1 andrew andrew     6 May 26 17:52 git.yoctoproject.org.pseudo.done
+drwxr-xr-x  7 andrew andrew  4096 May 27 10:34 git.yoctoproject.org.update-rc.d
+-rw-r--r--  1 andrew andrew     6 May 27 10:34 git.yoctoproject.org.update-rc.d.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 20:07 git.yoctoproject.org.yocto-kernel-cache
+-rw-r--r--  1 andrew andrew     6 May 26 20:07 git.yoctoproject.org.yocto-kernel-cache.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:03 git.yoctoproject.org.yocto-kernel-tools.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:03 git.yoctoproject.org.yocto-kernel-tools.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:19 salsa.debian.org.debian.ca-certificates.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:19 salsa.debian.org.debian.ca-certificates.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 27 11:04 salsa.debian.org.debian.debianutils.git
+-rw-r--r--  1 andrew andrew     6 May 27 11:04 salsa.debian.org.debian.debianutils.git.done
+drwxr-xr-x  7 andrew andrew  4096 Oct 23  2021 salsa.debian.org.debian.ncurses.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:04 salsa.debian.org.debian.ncurses.git.done
+-rw-r--r--  1 andrew andrew     6 May 26 17:52 sourceware.org.git.binutils-gdb.git.done
+drwxr-xr-x  7 andrew andrew  4096 May 26 17:56 sourceware.org.git.bzip2-tests.git
+-rw-r--r--  1 andrew andrew     6 May 26 18:04 sourceware.org.git.bzip2-tests.git.done
+drwxr-xr-x  7 andrew andrew  4096 Apr 23 00:08 sourceware.org.git.glibc.git
+-rw-r--r--  1 andrew andrew     6 May 27 11:02 sourceware.org.git.glibc.git.done
+
+./git2/anongit.freedesktop.org.git.virglrenderer:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 branches
+-rw-r--r--  1 andrew andrew  178 May 27 11:20 config
+-rw-r--r--  1 andrew andrew   73 May 27 11:20 description
+-rw-r--r--  1 andrew andrew   23 May 27 11:20 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 info
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:20 objects
+-rw-r--r--  1 andrew andrew 2198 May 27 11:20 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:20 refs
+
+./git2/anongit.freedesktop.org.git.virglrenderer/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+
+./git2/anongit.freedesktop.org.git.virglrenderer/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 11:20 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 11:20 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 11:20 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 11:20 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 11:20 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 11:20 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 11:20 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 11:20 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 11:20 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 11:20 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 11:20 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 11:20 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 11:20 update.sample
+
+./git2/anongit.freedesktop.org.git.virglrenderer/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 11:20 exclude
+
+./git2/anongit.freedesktop.org.git.virglrenderer/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 pack
+
+./git2/anongit.freedesktop.org.git.virglrenderer/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/anongit.freedesktop.org.git.virglrenderer/objects/pack:
+total 6984
+drwxr-xr-x 2 andrew andrew    4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew    4096 May 27 11:20 ..
+-r--r--r-- 1 andrew andrew  421660 May 27 11:20 pack-19411feaba638a43e1d0ed3801920c1b697da635.idx
+-r--r--r-- 1 andrew andrew 6720673 May 27 11:20 pack-19411feaba638a43e1d0ed3801920c1b697da635.pack
+
+./git2/anongit.freedesktop.org.git.virglrenderer/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 tags
+
+./git2/anongit.freedesktop.org.git.virglrenderer/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/anongit.freedesktop.org.git.virglrenderer/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/github.com.facebook.zstd.git:
+total 180
+drwxr-xr-x  7 andrew andrew   4096 May 26 17:59 .
+drwxr-xr-x 27 andrew andrew   4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew   4096 May 26 17:58 branches
+-rw-r--r--  1 andrew andrew    167 May 26 17:58 config
+-rw-r--r--  1 andrew andrew     73 May 26 17:58 description
+-rw-r--r--  1 andrew andrew     20 May 26 17:58 HEAD
+drwxr-xr-x  2 andrew andrew   4096 May 26 17:58 hooks
+drwxr-xr-x  2 andrew andrew   4096 May 26 17:58 info
+drwxr-xr-x  4 andrew andrew   4096 May 26 17:58 objects
+-rw-r--r--  1 andrew andrew 142155 May 26 17:58 packed-refs
+drwxr-xr-x  4 andrew andrew   4096 May 26 17:58 refs
+
+./git2/github.com.facebook.zstd.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+
+./git2/github.com.facebook.zstd.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:58 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:58 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:58 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:58 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:58 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:58 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:58 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:58 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:58 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:58 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:58 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:58 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:58 update.sample
+
+./git2/github.com.facebook.zstd.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:58 exclude
+
+./git2/github.com.facebook.zstd.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 pack
+
+./git2/github.com.facebook.zstd.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/github.com.facebook.zstd.git/objects/pack:
+total 39364
+drwxr-xr-x 2 andrew andrew     4096 May 26 17:59 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 17:58 ..
+-r--r--r-- 1 andrew andrew  1928060 May 26 17:58 pack-6f19e262524e387ffb4d23ede4317ac3a95af065.idx
+-r--r--r-- 1 andrew andrew 38368135 May 26 17:58 pack-6f19e262524e387ffb4d23ede4317ac3a95af065.pack
+
+./git2/github.com.facebook.zstd.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 tags
+
+./git2/github.com.facebook.zstd.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/github.com.facebook.zstd.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/github.com.file.file.git:
+total 56
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:00 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 branches
+-rw-r--r--  1 andrew andrew   163 May 26 18:00 config
+-rw-r--r--  1 andrew andrew    73 May 26 18:00 description
+-rw-r--r--  1 andrew andrew    23 May 26 18:00 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 info
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:00 objects
+-rw-r--r--  1 andrew andrew 14830 May 26 18:00 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:00 refs
+
+./git2/github.com.file.file.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.file.file.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:00 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:00 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:00 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:00 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:00 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:00 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:00 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:00 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:00 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:00 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:00 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:00 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:00 update.sample
+
+./git2/github.com.file.file.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:00 exclude
+
+./git2/github.com.file.file.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 pack
+
+./git2/github.com.file.file.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.file.file.git/objects/pack:
+total 10392
+drwxr-xr-x 2 andrew andrew    4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 18:00 ..
+-r--r--r-- 1 andrew andrew  947556 May 26 18:00 pack-bb8332ab166c6369075f072344d045f372c69f7e.idx
+-r--r--r-- 1 andrew andrew 9680862 May 26 18:00 pack-bb8332ab166c6369075f072344d045f372c69f7e.pack
+
+./git2/github.com.file.file.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 tags
+
+./git2/github.com.file.file.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.file.file.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.kraj.localedef:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:02 branches
+-rw-r--r--  1 andrew andrew  164 May 27 11:03 config
+-rw-r--r--  1 andrew andrew   73 May 27 11:02 description
+-rw-r--r--  1 andrew andrew   23 May 27 11:04 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:02 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:02 info
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:02 objects
+-rw-r--r--  1 andrew andrew  280 May 27 11:04 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:02 refs
+
+./git2/github.com.kraj.localedef/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+
+./git2/github.com.kraj.localedef/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 11:02 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 11:02 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 11:02 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 11:02 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 11:02 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 11:02 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 11:02 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 11:02 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 11:02 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 11:02 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 11:02 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 11:02 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 11:02 update.sample
+
+./git2/github.com.kraj.localedef/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 11:02 exclude
+
+./git2/github.com.kraj.localedef/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 pack
+
+./git2/github.com.kraj.localedef/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:02 ..
+
+./git2/github.com.kraj.localedef/objects/pack:
+total 148
+drwxr-xr-x 2 andrew andrew   4096 May 27 11:04 .
+drwxr-xr-x 4 andrew andrew   4096 May 27 11:02 ..
+-r--r--r-- 1 andrew andrew   7232 May 27 11:03 pack-8fb7efe8cc5fe9c8672f01d2314aff225771ab5f.idx
+-r--r--r-- 1 andrew andrew 132211 May 27 11:03 pack-8fb7efe8cc5fe9c8672f01d2314aff225771ab5f.pack
+
+./git2/github.com.kraj.localedef/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 tags
+
+./git2/github.com.kraj.localedef/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:02 ..
+
+./git2/github.com.kraj.localedef/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:02 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:02 ..
+
+./git2/github.com.ninja-build.ninja.git:
+total 156
+drwxr-xr-x  7 andrew andrew   4096 May 26 18:03 .
+drwxr-xr-x 27 andrew andrew   4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 branches
+-rw-r--r--  1 andrew andrew    171 May 26 18:03 config
+-rw-r--r--  1 andrew andrew     73 May 26 18:03 description
+-rw-r--r--  1 andrew andrew     23 May 26 18:03 HEAD
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 hooks
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 info
+drwxr-xr-x  4 andrew andrew   4096 May 26 18:03 objects
+-rw-r--r--  1 andrew andrew 117003 May 26 18:03 packed-refs
+drwxr-xr-x  4 andrew andrew   4096 May 26 18:03 refs
+
+./git2/github.com.ninja-build.ninja.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+
+./git2/github.com.ninja-build.ninja.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:03 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:03 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:03 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:03 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:03 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:03 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:03 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:03 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:03 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:03 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:03 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:03 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:03 update.sample
+
+./git2/github.com.ninja-build.ninja.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:03 exclude
+
+./git2/github.com.ninja-build.ninja.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 pack
+
+./git2/github.com.ninja-build.ninja.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/github.com.ninja-build.ninja.git/objects/pack:
+total 10548
+drwxr-xr-x 2 andrew andrew     4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 18:03 ..
+-r--r--r-- 1 andrew andrew   638828 May 26 18:03 pack-1e575c272b1f93c69edcbe2c0f36eaba90081b06.idx
+-r--r--r-- 1 andrew andrew 10153390 May 26 18:03 pack-1e575c272b1f93c69edcbe2c0f36eaba90081b06.pack
+
+./git2/github.com.ninja-build.ninja.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 tags
+
+./git2/github.com.ninja-build.ninja.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/github.com.ninja-build.ninja.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/github.com.openSUSE.libsolv.git:
+total 68
+drwxr-xr-x  7 andrew andrew  4096 May 27 10:48 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 27 10:47 branches
+-rw-r--r--  1 andrew andrew   170 May 27 10:47 config
+-rw-r--r--  1 andrew andrew    73 May 27 10:47 description
+-rw-r--r--  1 andrew andrew    23 May 27 10:48 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 27 10:47 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 27 10:47 info
+drwxr-xr-x  4 andrew andrew  4096 May 27 10:47 objects
+-rw-r--r--  1 andrew andrew 25265 May 27 10:48 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 27 10:47 refs
+
+./git2/github.com.openSUSE.libsolv.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:48 ..
+
+./git2/github.com.openSUSE.libsolv.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:48 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 10:47 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 10:47 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 10:47 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 10:47 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 10:47 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 10:47 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 10:47 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 10:47 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 10:47 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 10:47 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 10:47 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 10:47 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 10:47 update.sample
+
+./git2/github.com.openSUSE.libsolv.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:48 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 10:47 exclude
+
+./git2/github.com.openSUSE.libsolv.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:48 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:48 pack
+
+./git2/github.com.openSUSE.libsolv.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:47 ..
+
+./git2/github.com.openSUSE.libsolv.git/objects/pack:
+total 15808
+drwxr-xr-x 2 andrew andrew     4096 May 27 10:48 .
+drwxr-xr-x 4 andrew andrew     4096 May 27 10:47 ..
+-r--r--r-- 1 andrew andrew   576780 May 27 10:48 pack-0fabb2211517046fd745040f0dba4846395dc5a9.idx
+-r--r--r-- 1 andrew andrew 15598151 May 27 10:48 pack-0fabb2211517046fd745040f0dba4846395dc5a9.pack
+
+./git2/github.com.openSUSE.libsolv.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:48 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 tags
+
+./git2/github.com.openSUSE.libsolv.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:47 ..
+
+./git2/github.com.openSUSE.libsolv.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:47 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:47 ..
+
+./git2/github.com.rpm-software-management.rpm:
+total 140
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:01 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 branches
+-rw-r--r--  1 andrew andrew   177 May 26 18:00 config
+-rw-r--r--  1 andrew andrew    73 May 26 18:00 description
+-rw-r--r--  1 andrew andrew    23 May 26 18:01 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:00 info
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:00 objects
+-rw-r--r--  1 andrew andrew 99280 May 26 18:01 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:00 refs
+
+./git2/github.com.rpm-software-management.rpm/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:01 ..
+
+./git2/github.com.rpm-software-management.rpm/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:01 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:00 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:00 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:00 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:00 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:00 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:00 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:00 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:00 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:00 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:00 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:00 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:00 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:00 update.sample
+
+./git2/github.com.rpm-software-management.rpm/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:01 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:00 exclude
+
+./git2/github.com.rpm-software-management.rpm/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:01 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:01 pack
+
+./git2/github.com.rpm-software-management.rpm/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.rpm-software-management.rpm/objects/pack:
+total 87640
+drwxr-xr-x 2 andrew andrew     4096 May 26 18:01 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 18:00 ..
+-r--r--r-- 1 andrew andrew  4054268 May 26 18:01 pack-3ccb92b0cf1d4a868c051da18dac5e9bfb7dbca2.idx
+-r--r--r-- 1 andrew andrew 85678887 May 26 18:01 pack-3ccb92b0cf1d4a868c051da18dac5e9bfb7dbca2.pack
+
+./git2/github.com.rpm-software-management.rpm/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:01 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 tags
+
+./git2/github.com.rpm-software-management.rpm/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.rpm-software-management.rpm/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:00 ..
+
+./git2/github.com.thkukuk.libnsl:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:57 branches
+-rw-r--r--  1 andrew andrew  164 May 26 17:58 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:57 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:58 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:57 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:57 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:57 objects
+-rw-r--r--  1 andrew andrew 1257 May 26 17:58 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:57 refs
+
+./git2/github.com.thkukuk.libnsl/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:58 ..
+
+./git2/github.com.thkukuk.libnsl/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:58 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:57 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:57 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:57 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:57 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:57 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:57 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:57 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:57 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:57 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:57 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:57 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:57 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:57 update.sample
+
+./git2/github.com.thkukuk.libnsl/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:58 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:57 exclude
+
+./git2/github.com.thkukuk.libnsl/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:58 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 pack
+
+./git2/github.com.thkukuk.libnsl/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:57 ..
+
+./git2/github.com.thkukuk.libnsl/objects/pack:
+total 436
+drwxr-xr-x 2 andrew andrew   4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew   4096 May 26 17:57 ..
+-r--r--r-- 1 andrew andrew  13784 May 26 17:58 pack-70d251bbfe865fa2bd7dcf9981278d255ecff469.idx
+-r--r--r-- 1 andrew andrew 419088 May 26 17:58 pack-70d251bbfe865fa2bd7dcf9981278d255ecff469.pack
+
+./git2/github.com.thkukuk.libnsl/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:58 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 tags
+
+./git2/github.com.thkukuk.libnsl/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:57 ..
+
+./git2/github.com.thkukuk.libnsl/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:57 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:57 ..
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git:
+total 64
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:00 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 26 17:59 branches
+-rw-r--r--  1 andrew andrew   181 May 26 17:59 config
+-rw-r--r--  1 andrew andrew    73 May 26 17:59 description
+-rw-r--r--  1 andrew andrew    23 May 26 18:00 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 26 17:59 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 26 17:59 info
+drwxr-xr-x  4 andrew andrew  4096 May 26 17:59 objects
+-rw-r--r--  1 andrew andrew 22396 May 26 18:00 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 26 17:59 refs
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:59 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:59 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:59 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:59 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:59 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:59 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:59 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:59 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:59 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:59 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:59 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:59 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:59 update.sample
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:59 exclude
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:00 pack
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:59 ..
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/objects/pack:
+total 44588
+drwxr-xr-x 2 andrew andrew     4096 May 26 18:00 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 17:59 ..
+-r--r--r-- 1 andrew andrew  1592984 May 26 17:59 pack-350ae02a17b95245bb3b0528f5ee1718b61dcdbe.idx
+-r--r--r-- 1 andrew andrew 44053230 May 26 17:59 pack-350ae02a17b95245bb3b0528f5ee1718b61dcdbe.pack
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:00 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 tags
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:59 ..
+
+./git2/git.kernel.org.pub.scm.fs.ext2.e2fsprogs.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:59 ..
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 branches
+-rw-r--r--  1 andrew andrew  177 May 27 11:20 config
+-rw-r--r--  1 andrew andrew   73 May 27 11:20 description
+-rw-r--r--  1 andrew andrew   23 May 27 11:20 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 27 11:20 info
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:20 objects
+-rw-r--r--  1 andrew andrew 2449 May 27 11:20 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 27 11:20 refs
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 11:20 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 11:20 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 11:20 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 11:20 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 11:20 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 11:20 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 11:20 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 11:20 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 11:20 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 11:20 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 11:20 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 11:20 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 11:20 update.sample
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 11:20 exclude
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 pack
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/objects/pack:
+total 1520
+drwxr-xr-x 2 andrew andrew    4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew    4096 May 27 11:20 ..
+-r--r--r-- 1 andrew andrew  162408 May 27 11:20 pack-b379cc9961f70a2847b080ce3de37ebd55b8408e.idx
+-r--r--r-- 1 andrew andrew 1382086 May 27 11:20 pack-b379cc9961f70a2847b080ce3de37ebd55b8408e.pack
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:20 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 tags
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/git.kernel.org.pub.scm.utils.dtc.dtc.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:20 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:20 ..
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:06 branches
+-rw-r--r--  1 andrew andrew  186 May 26 18:06 config
+-rw-r--r--  1 andrew andrew   73 May 26 18:06 description
+-rw-r--r--  1 andrew andrew   23 May 26 18:06 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:06 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:06 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:06 objects
+-rw-r--r--  1 andrew andrew 2972 May 26 18:06 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:06 refs
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:06 ..
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:06 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:06 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:06 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:06 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:06 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:06 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:06 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:06 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:06 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:06 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:06 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:06 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:06 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:06 update.sample
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:06 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:06 exclude
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:06 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 pack
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:06 ..
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/objects/pack:
+total 6612
+drwxr-xr-x 2 andrew andrew    4096 May 26 18:06 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 18:06 ..
+-r--r--r-- 1 andrew andrew  208832 May 26 18:06 pack-506baaabeb8365c8d0a7ee83df113f554036c7cd.idx
+-r--r--r-- 1 andrew andrew 6552666 May 26 18:06 pack-506baaabeb8365c8d0a7ee83df113f554036c7cd.pack
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:06 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 tags
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:06 ..
+
+./git2/git.kernel.org.pub.scm.utils.kernel.kmod.kmod.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:06 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:06 ..
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 branches
+-rw-r--r--  1 andrew andrew  187 May 26 17:51 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:51 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:52 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:51 objects
+-rw-r--r--  1 andrew andrew 2954 May 26 17:52 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:51 refs
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:51 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:51 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:51 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:51 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:51 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:51 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:51 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:51 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:51 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:51 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:51 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:51 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:51 update.sample
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:51 exclude
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 pack
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/objects/pack:
+total 2836
+drwxr-xr-x 2 andrew andrew    4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 17:51 ..
+-r--r--r-- 1 andrew andrew   89804 May 26 17:52 pack-4c62d1bc39d1a22741271f43bd10874b6266ca0b.idx
+-r--r--r-- 1 andrew andrew 2804389 May 26 17:52 pack-4c62d1bc39d1a22741271f43bd10874b6266ca0b.pack
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 tags
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/gitlab.freedesktop.org.pkg-config.pkg-config.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git:
+total 60
+drwxr-xr-x  7 andrew andrew  4096 May 26 18:13 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:11 branches
+-rw-r--r--  1 andrew andrew   186 May 26 18:12 config
+-rw-r--r--  1 andrew andrew    73 May 26 18:11 description
+-rw-r--r--  1 andrew andrew    23 May 26 18:13 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:11 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 26 18:11 info
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:11 objects
+-rw-r--r--  1 andrew andrew 17431 May 26 18:13 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 26 18:11 refs
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:13 ..
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:13 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:11 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:11 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:11 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:11 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:11 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:11 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:11 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:11 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:11 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:11 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:11 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:11 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:11 update.sample
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:13 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:11 exclude
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:13 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:13 pack
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:11 ..
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/objects/pack:
+total 26764
+drwxr-xr-x 2 andrew andrew     4096 May 26 18:13 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 18:11 ..
+-r--r--r-- 1 andrew andrew   300252 May 26 18:12 pack-1f410a7e337bf1a0a732d0715b18290f10d1ba06.idx
+-r--r--r-- 1 andrew andrew 27091629 May 26 18:12 pack-1f410a7e337bf1a0a732d0715b18290f10d1ba06.pack
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:13 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 tags
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:11 ..
+
+./git2/gitlab.freedesktop.org.xdg.shared-mime-info.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:11 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:11 ..
+
+./git2/git.musl-libc.org.musl:
+total 48
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:59 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:58 branches
+-rw-r--r--  1 andrew andrew  159 May 26 17:58 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:58 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:59 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:58 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:58 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:58 objects
+-rw-r--r--  1 andrew andrew 4539 May 26 17:59 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:58 refs
+
+./git2/git.musl-libc.org.musl/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+
+./git2/git.musl-libc.org.musl/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:58 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:58 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:58 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:58 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:58 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:58 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:58 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:58 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:58 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:58 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:58 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:58 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:58 update.sample
+
+./git2/git.musl-libc.org.musl/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:58 exclude
+
+./git2/git.musl-libc.org.musl/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:59 pack
+
+./git2/git.musl-libc.org.musl/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/git.musl-libc.org.musl/objects/pack:
+total 6660
+drwxr-xr-x 2 andrew andrew    4096 May 26 17:59 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 17:58 ..
+-r--r--r-- 1 andrew andrew 1022624 May 26 17:58 pack-22afd25af1a6a3f1a13adbe197369a7ad3127fe6.idx
+-r--r--r-- 1 andrew andrew 5784596 May 26 17:58 pack-22afd25af1a6a3f1a13adbe197369a7ad3127fe6.pack
+
+./git2/git.musl-libc.org.musl/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:59 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 tags
+
+./git2/git.musl-libc.org.musl/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/git.musl-libc.org.musl/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:58 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:58 ..
+
+./git2/git.savannah.gnu.org.git.config.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 branches
+-rw-r--r--  1 andrew andrew  174 May 26 17:51 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:51 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:52 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:51 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:51 objects
+-rw-r--r--  1 andrew andrew  105 May 26 17:52 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:51 refs
+
+./git2/git.savannah.gnu.org.git.config.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+
+./git2/git.savannah.gnu.org.git.config.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:51 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:51 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:51 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:51 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:51 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:51 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:51 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:51 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:51 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:51 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:51 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:51 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:51 update.sample
+
+./git2/git.savannah.gnu.org.git.config.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:51 exclude
+
+./git2/git.savannah.gnu.org.git.config.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 pack
+
+./git2/git.savannah.gnu.org.git.config.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/git.savannah.gnu.org.git.config.git/objects/pack:
+total 1448
+drwxr-xr-x 2 andrew andrew    4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 17:51 ..
+-r--r--r-- 1 andrew andrew  152412 May 26 17:51 pack-538605b5aa1b8c96ff7832e8ea9bad72c739d8ba.idx
+-r--r--r-- 1 andrew andrew 1318669 May 26 17:51 pack-538605b5aa1b8c96ff7832e8ea9bad72c739d8ba.pack
+
+./git2/git.savannah.gnu.org.git.config.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 tags
+
+./git2/git.savannah.gnu.org.git.config.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/git.savannah.gnu.org.git.config.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:51 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:51 ..
+
+./git2/git.yoctoproject.org.linux-yocto.git:
+total 420
+drwxr-xr-x  7 andrew andrew   4096 May 26 20:07 .
+drwxr-xr-x 27 andrew andrew   4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 branches
+-rw-r--r--  1 andrew andrew    173 May 26 18:03 config
+-rw-r--r--  1 andrew andrew     73 May 26 18:03 description
+-rw-r--r--  1 andrew andrew     23 May 26 20:07 HEAD
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 hooks
+drwxr-xr-x  2 andrew andrew   4096 May 26 18:03 info
+drwxr-xr-x  4 andrew andrew   4096 May 26 18:03 objects
+-rw-r--r--  1 andrew andrew 385773 May 26 20:07 packed-refs
+drwxr-xr-x  4 andrew andrew   4096 May 26 18:03 refs
+
+./git2/git.yoctoproject.org.linux-yocto.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+
+./git2/git.yoctoproject.org.linux-yocto.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:03 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:03 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:03 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:03 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:03 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:03 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:03 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:03 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:03 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:03 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:03 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:03 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:03 update.sample
+
+./git2/git.yoctoproject.org.linux-yocto.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:03 exclude
+
+./git2/git.yoctoproject.org.linux-yocto.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 pack
+
+./git2/git.yoctoproject.org.linux-yocto.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.linux-yocto.git/objects/pack:
+total 2795996
+drwxr-xr-x 2 andrew andrew       4096 May 26 20:07 .
+drwxr-xr-x 4 andrew andrew       4096 May 26 18:03 ..
+-r--r--r-- 1 andrew andrew  318539032 May 26 20:06 pack-87ce1ee7154781d0453d7f1b11699ac0b8f015ff.idx
+-r--r--r-- 1 andrew andrew 2544543529 May 26 20:05 pack-87ce1ee7154781d0453d7f1b11699ac0b8f015ff.pack
+
+./git2/git.yoctoproject.org.linux-yocto.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 tags
+
+./git2/git.yoctoproject.org.linux-yocto.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.linux-yocto.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.pseudo:
+total 48
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:52 branches
+-rw-r--r--  1 andrew andrew  164 May 26 17:52 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:52 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:52 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:52 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:52 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:52 objects
+-rw-r--r--  1 andrew andrew 5448 May 26 17:52 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:52 refs
+
+./git2/git.yoctoproject.org.pseudo/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+
+./git2/git.yoctoproject.org.pseudo/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:52 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:52 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:52 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:52 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:52 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:52 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:52 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:52 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:52 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:52 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:52 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:52 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:52 update.sample
+
+./git2/git.yoctoproject.org.pseudo/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:52 exclude
+
+./git2/git.yoctoproject.org.pseudo/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 pack
+
+./git2/git.yoctoproject.org.pseudo/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:52 ..
+
+./git2/git.yoctoproject.org.pseudo/objects/pack:
+total 880
+drwxr-xr-x 2 andrew andrew   4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew   4096 May 26 17:52 ..
+-r--r--r-- 1 andrew andrew 116152 May 26 17:52 pack-7db852857211f45c481e9fd8c1b19fa1814a7469.idx
+-r--r--r-- 1 andrew andrew 773592 May 26 17:52 pack-7db852857211f45c481e9fd8c1b19fa1814a7469.pack
+
+./git2/git.yoctoproject.org.pseudo/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:52 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 tags
+
+./git2/git.yoctoproject.org.pseudo/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:52 ..
+
+./git2/git.yoctoproject.org.pseudo/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:52 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:52 ..
+
+./git2/git.yoctoproject.org.update-rc.d:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 27 10:34 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 27 10:33 branches
+-rw-r--r--  1 andrew andrew  169 May 27 10:34 config
+-rw-r--r--  1 andrew andrew   73 May 27 10:33 description
+-rw-r--r--  1 andrew andrew   23 May 27 10:34 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 27 10:33 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 27 10:33 info
+drwxr-xr-x  4 andrew andrew 4096 May 27 10:33 objects
+-rw-r--r--  1 andrew andrew  271 May 27 10:34 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 27 10:33 refs
+
+./git2/git.yoctoproject.org.update-rc.d/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:34 ..
+
+./git2/git.yoctoproject.org.update-rc.d/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:34 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 10:33 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 10:33 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 10:33 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 10:33 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 10:33 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 10:33 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 10:33 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 10:33 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 10:33 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 10:33 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 10:33 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 10:33 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 10:33 update.sample
+
+./git2/git.yoctoproject.org.update-rc.d/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:34 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 10:33 exclude
+
+./git2/git.yoctoproject.org.update-rc.d/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:34 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:34 pack
+
+./git2/git.yoctoproject.org.update-rc.d/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 ..
+
+./git2/git.yoctoproject.org.update-rc.d/objects/pack:
+total 20
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:34 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 ..
+-r--r--r-- 1 andrew andrew 1744 May 27 10:34 pack-656f0b5f0915854a8ac383e481f6de9f16bbc151.idx
+-r--r--r-- 1 andrew andrew 5733 May 27 10:34 pack-656f0b5f0915854a8ac383e481f6de9f16bbc151.pack
+
+./git2/git.yoctoproject.org.update-rc.d/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 10:34 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 tags
+
+./git2/git.yoctoproject.org.update-rc.d/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 ..
+
+./git2/git.yoctoproject.org.update-rc.d/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 10:33 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 10:33 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-cache:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 20:07 branches
+-rw-r--r--  1 andrew andrew  176 May 26 20:07 config
+-rw-r--r--  1 andrew andrew   73 May 26 20:07 description
+-rw-r--r--  1 andrew andrew   23 May 26 20:07 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 20:07 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 20:07 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 20:07 objects
+-rw-r--r--  1 andrew andrew 2035 May 26 20:07 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 20:07 refs
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 20:07 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 20:07 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 20:07 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 20:07 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 20:07 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 20:07 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 20:07 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 20:07 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 20:07 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 20:07 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 20:07 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 20:07 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 20:07 update.sample
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 20:07 exclude
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 pack
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 20:07 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/objects/pack:
+total 29204
+drwxr-xr-x 2 andrew andrew     4096 May 26 20:07 .
+drwxr-xr-x 4 andrew andrew     4096 May 26 20:07 ..
+-r--r--r-- 1 andrew andrew  1032620 May 26 20:07 pack-381c0b9b99e84ee3f7f75b05f4fc73d170189b22.idx
+-r--r--r-- 1 andrew andrew 28859969 May 26 20:07 pack-381c0b9b99e84ee3f7f75b05f4fc73d170189b22.pack
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 20:07 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 tags
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 20:07 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-cache/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 20:07 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 20:07 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:03 branches
+-rw-r--r--  1 andrew andrew  180 May 26 18:03 config
+-rw-r--r--  1 andrew andrew   73 May 26 18:03 description
+-rw-r--r--  1 andrew andrew   23 May 26 18:03 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:03 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:03 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:03 objects
+-rw-r--r--  1 andrew andrew 1017 May 26 18:03 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:03 refs
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:03 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:03 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:03 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:03 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:03 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:03 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:03 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:03 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:03 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:03 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:03 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:03 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:03 update.sample
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:03 exclude
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 pack
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/objects/pack:
+total 824
+drwxr-xr-x 2 andrew andrew   4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew   4096 May 26 18:03 ..
+-r--r--r-- 1 andrew andrew  55112 May 26 18:03 pack-ab4618219101fc57a615cebb8f1a1f6ab8ca8d4f.idx
+-r--r--r-- 1 andrew andrew 775573 May 26 18:03 pack-ab4618219101fc57a615cebb8f1a1f6ab8ca8d4f.pack
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:03 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 tags
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/git.yoctoproject.org.yocto-kernel-tools.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:03 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:03 ..
+
+./git2/salsa.debian.org.debian.ca-certificates.git:
+total 52
+drwxr-xr-x  7 andrew andrew 4096 May 26 18:19 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:18 branches
+-rw-r--r--  1 andrew andrew  182 May 26 18:19 config
+-rw-r--r--  1 andrew andrew   73 May 26 18:18 description
+-rw-r--r--  1 andrew andrew   23 May 26 18:19 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:18 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 18:18 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:18 objects
+-rw-r--r--  1 andrew andrew 8500 May 26 18:19 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 18:18 refs
+
+./git2/salsa.debian.org.debian.ca-certificates.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:19 ..
+
+./git2/salsa.debian.org.debian.ca-certificates.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:19 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 18:18 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 18:18 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 18:18 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 18:18 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 18:18 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 18:18 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 18:18 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 18:18 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 18:18 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 18:18 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 18:18 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 18:18 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 18:18 update.sample
+
+./git2/salsa.debian.org.debian.ca-certificates.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:19 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 18:18 exclude
+
+./git2/salsa.debian.org.debian.ca-certificates.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:19 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:19 pack
+
+./git2/salsa.debian.org.debian.ca-certificates.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:18 ..
+
+./git2/salsa.debian.org.debian.ca-certificates.git/objects/pack:
+total 1508
+drwxr-xr-x 2 andrew andrew    4096 May 26 18:19 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 18:18 ..
+-r--r--r-- 1 andrew andrew   67628 May 26 18:19 pack-09f4fc26309927a523c824bba61461a297352cae.idx
+-r--r--r-- 1 andrew andrew 1465618 May 26 18:19 pack-09f4fc26309927a523c824bba61461a297352cae.pack
+
+./git2/salsa.debian.org.debian.ca-certificates.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 18:19 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 tags
+
+./git2/salsa.debian.org.debian.ca-certificates.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:18 ..
+
+./git2/salsa.debian.org.debian.ca-certificates.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 18:18 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 18:18 ..
+
+./git2/salsa.debian.org.debian.debianutils.git:
+total 52
+drwxr-xr-x  7 andrew andrew  4096 May 27 11:04 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 May 27 11:04 branches
+-rw-r--r--  1 andrew andrew   178 May 27 11:04 config
+-rw-r--r--  1 andrew andrew    73 May 27 11:04 description
+-rw-r--r--  1 andrew andrew    23 May 27 11:04 HEAD
+drwxr-xr-x  2 andrew andrew  4096 May 27 11:04 hooks
+drwxr-xr-x  2 andrew andrew  4096 May 27 11:04 info
+drwxr-xr-x  4 andrew andrew  4096 May 27 11:04 objects
+-rw-r--r--  1 andrew andrew 10992 May 27 11:04 packed-refs
+drwxr-xr-x  4 andrew andrew  4096 May 27 11:04 refs
+
+./git2/salsa.debian.org.debian.debianutils.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+
+./git2/salsa.debian.org.debian.debianutils.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+-rwxr-xr-x 1 andrew andrew  478 May 27 11:04 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 27 11:04 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 27 11:04 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 27 11:04 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 27 11:04 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 27 11:04 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 27 11:04 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 27 11:04 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 27 11:04 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 27 11:04 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 27 11:04 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 27 11:04 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 27 11:04 update.sample
+
+./git2/salsa.debian.org.debian.debianutils.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+-rw-r--r-- 1 andrew andrew  240 May 27 11:04 exclude
+
+./git2/salsa.debian.org.debian.debianutils.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 info
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 pack
+
+./git2/salsa.debian.org.debian.debianutils.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:04 ..
+
+./git2/salsa.debian.org.debian.debianutils.git/objects/pack:
+total 892
+drwxr-xr-x 2 andrew andrew   4096 May 27 11:04 .
+drwxr-xr-x 4 andrew andrew   4096 May 27 11:04 ..
+-r--r--r-- 1 andrew andrew  56568 May 27 11:04 pack-700a83ec6d606ddc55b671c05b0b3cc0a053588d.idx
+-r--r--r-- 1 andrew andrew 847378 May 27 11:04 pack-700a83ec6d606ddc55b671c05b0b3cc0a053588d.pack
+
+./git2/salsa.debian.org.debian.debianutils.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 7 andrew andrew 4096 May 27 11:04 ..
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 heads
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 tags
+
+./git2/salsa.debian.org.debian.debianutils.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:04 ..
+
+./git2/salsa.debian.org.debian.debianutils.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 27 11:04 .
+drwxr-xr-x 4 andrew andrew 4096 May 27 11:04 ..
+
+./git2/salsa.debian.org.debian.ncurses.git:
+total 72
+drwxr-xr-x  7 andrew andrew  4096 Oct 23  2021 .
+drwxr-xr-x 27 andrew andrew  4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew  4096 Oct 23  2021 branches
+-rw-r--r--  1 andrew andrew   159 Oct 23  2021 config
+-rw-r--r--  1 andrew andrew    73 Oct 23  2021 description
+-rw-r--r--  1 andrew andrew 16328 Oct 23  2021 FETCH_HEAD
+-rw-r--r--  1 andrew andrew    23 Oct 23  2021 HEAD
+drwxr-xr-x  2 andrew andrew  4096 Oct 23  2021 hooks
+drwxr-xr-x  2 andrew andrew  4096 Oct 23  2021 info
+drwxr-xr-x  4 andrew andrew  4096 Oct 23  2021 objects
+-rw-r--r--  1 andrew andrew 14349 Oct 23  2021 packed-refs
+drwxr-xr-x  6 andrew andrew  4096 Oct 23  2021 refs
+
+./git2/salsa.debian.org.debian.ncurses.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 7 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/salsa.debian.org.debian.ncurses.git/hooks:
+total 48
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 7 andrew andrew 4096 Oct 23  2021 ..
+-rwxr-xr-x 1 andrew andrew  452 Oct 23  2021 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 Oct 23  2021 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew  189 Oct 23  2021 post-update.sample
+-rwxr-xr-x 1 andrew andrew  398 Oct 23  2021 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1704 Oct 23  2021 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew 1239 Oct 23  2021 prepare-commit-msg.sample
+-rw-r--r-- 1 andrew andrew 1348 Oct 23  2021 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4951 Oct 23  2021 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew 3611 Oct 23  2021 update.sample
+
+./git2/salsa.debian.org.debian.ncurses.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 7 andrew andrew 4096 Oct 23  2021 ..
+-rw-r--r-- 1 andrew andrew  240 Oct 23  2021 exclude
+
+./git2/salsa.debian.org.debian.ncurses.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 7 andrew andrew 4096 Oct 23  2021 ..
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 info
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 pack
+
+./git2/salsa.debian.org.debian.ncurses.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 4 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/salsa.debian.org.debian.ncurses.git/objects/pack:
+total 41364
+drwxr-xr-x 2 andrew andrew     4096 Oct 23  2021 .
+drwxr-xr-x 4 andrew andrew     4096 Oct 23  2021 ..
+-r--r--r-- 1 andrew andrew    21456 Oct 23  2021 pack-0e47e8e04dd05045c43490bbbfef3ab946781020.idx
+-r--r--r-- 1 andrew andrew  3987128 Oct 23  2021 pack-0e47e8e04dd05045c43490bbbfef3ab946781020.pack
+-r--r--r-- 1 andrew andrew   539652 Oct 23  2021 pack-2896d5ac626e02239fda5036ad8ab254c854f3c4.idx
+-r--r--r-- 1 andrew andrew 12253268 Oct 23  2021 pack-2896d5ac626e02239fda5036ad8ab254c854f3c4.pack
+-r--r--r-- 1 andrew andrew   143844 Oct 23  2021 pack-51600faf8eee6c5dba8ddcb336744eb00f47eb0e.idx
+-r--r--r-- 1 andrew andrew  9913806 Oct 23  2021 pack-51600faf8eee6c5dba8ddcb336744eb00f47eb0e.pack
+-r--r--r-- 1 andrew andrew    33188 Oct 23  2021 pack-90cfc0a5b2a6b5fc9da4a80638871ec88374e9fa.idx
+-r--r--r-- 1 andrew andrew  2782415 Oct 23  2021 pack-90cfc0a5b2a6b5fc9da4a80638871ec88374e9fa.pack
+-r--r--r-- 1 andrew andrew    22156 Oct 23  2021 pack-9707cc96519da00e04b9708371c1fe952c7306ec.idx
+-r--r--r-- 1 andrew andrew  2407128 Oct 23  2021 pack-9707cc96519da00e04b9708371c1fe952c7306ec.pack
+-r--r--r-- 1 andrew andrew    63540 Oct 23  2021 pack-b3779fcc1f5825ce4b19e9b89a5d498383cbab22.idx
+-r--r--r-- 1 andrew andrew  4394380 Oct 23  2021 pack-b3779fcc1f5825ce4b19e9b89a5d498383cbab22.pack
+-r--r--r-- 1 andrew andrew    66956 Oct 23  2021 pack-c1aa4fe1786e2d263667fc867ae8e9dfc9bf0656.idx
+-r--r--r-- 1 andrew andrew  5687152 Oct 23  2021 pack-c1aa4fe1786e2d263667fc867ae8e9dfc9bf0656.pack
+
+./git2/salsa.debian.org.debian.ncurses.git/refs:
+total 24
+drwxr-xr-x 6 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 7 andrew andrew 4096 Oct 23  2021 ..
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 heads
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 keep-around
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 merge-requests
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 tags
+
+./git2/salsa.debian.org.debian.ncurses.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 6 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/salsa.debian.org.debian.ncurses.git/refs/keep-around:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 6 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/salsa.debian.org.debian.ncurses.git/refs/merge-requests:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 6 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/salsa.debian.org.debian.ncurses.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Oct 23  2021 .
+drwxr-xr-x 6 andrew andrew 4096 Oct 23  2021 ..
+
+./git2/sourceware.org.git.bzip2-tests.git:
+total 44
+drwxr-xr-x  7 andrew andrew 4096 May 26 17:56 .
+drwxr-xr-x 27 andrew andrew 4096 May 27 12:49 ..
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:55 branches
+-rw-r--r--  1 andrew andrew  171 May 26 17:55 config
+-rw-r--r--  1 andrew andrew   73 May 26 17:55 description
+-rw-r--r--  1 andrew andrew   23 May 26 17:56 HEAD
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:55 hooks
+drwxr-xr-x  2 andrew andrew 4096 May 26 17:55 info
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:55 objects
+-rw-r--r--  1 andrew andrew  105 May 26 17:56 packed-refs
+drwxr-xr-x  4 andrew andrew 4096 May 26 17:55 refs
+
+./git2/sourceware.org.git.bzip2-tests.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:56 ..
+
+./git2/sourceware.org.git.bzip2-tests.git/hooks:
+total 68
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:56 ..
+-rwxr-xr-x 1 andrew andrew  478 May 26 17:55 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 May 26 17:55 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 4655 May 26 17:55 fsmonitor-watchman.sample
+-rwxr-xr-x 1 andrew andrew  189 May 26 17:55 post-update.sample
+-rwxr-xr-x 1 andrew andrew  424 May 26 17:55 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1643 May 26 17:55 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew  416 May 26 17:55 pre-merge-commit.sample
+-rwxr-xr-x 1 andrew andrew 1492 May 26 17:55 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1374 May 26 17:55 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 May 26 17:55 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew  544 May 26 17:55 pre-receive.sample
+-rwxr-xr-x 1 andrew andrew 2783 May 26 17:55 push-to-checkout.sample
+-rwxr-xr-x 1 andrew andrew 3650 May 26 17:55 update.sample
+
+./git2/sourceware.org.git.bzip2-tests.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:56 ..
+-rw-r--r-- 1 andrew andrew  240 May 26 17:55 exclude
+
+./git2/sourceware.org.git.bzip2-tests.git/objects:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:56 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 info
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:56 pack
+
+./git2/sourceware.org.git.bzip2-tests.git/objects/info:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:55 ..
+
+./git2/sourceware.org.git.bzip2-tests.git/objects/pack:
+total 3700
+drwxr-xr-x 2 andrew andrew    4096 May 26 17:56 .
+drwxr-xr-x 4 andrew andrew    4096 May 26 17:55 ..
+-r--r--r-- 1 andrew andrew    4180 May 26 17:56 pack-8e5c6c48ece11cc4b6446adef94fca68e56bae9b.idx
+-r--r--r-- 1 andrew andrew 3770289 May 26 17:56 pack-8e5c6c48ece11cc4b6446adef94fca68e56bae9b.pack
+
+./git2/sourceware.org.git.bzip2-tests.git/refs:
+total 16
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 7 andrew andrew 4096 May 26 17:56 ..
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 heads
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 tags
+
+./git2/sourceware.org.git.bzip2-tests.git/refs/heads:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:55 ..
+
+./git2/sourceware.org.git.bzip2-tests.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 May 26 17:55 .
+drwxr-xr-x 4 andrew andrew 4096 May 26 17:55 ..
+
+./git2/sourceware.org.git.glibc.git:
+total 388
+drwxr-xr-x   7 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x  27 andrew andrew   4096 May 27 12:49 ..
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 branches
+-rw-r--r--   1 andrew andrew    150 Apr 23 00:08 config
+-rw-r--r--   1 andrew andrew     73 Apr 23 00:08 description
+-rw-r--r--   1 andrew andrew 202154 Apr 23 00:08 FETCH_HEAD
+-rw-r--r--   1 andrew andrew     23 Apr 23 00:08 HEAD
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 hooks
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 info
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 objects
+-rw-r--r--   1 andrew andrew 150535 Apr 23 00:08 packed-refs
+drwxr-xr-x   6 andrew andrew   4096 Apr 23 00:08 refs
+
+./git2/sourceware.org.git.glibc.git/branches:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 7 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/hooks:
+total 48
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 7 andrew andrew 4096 Apr 23 00:08 ..
+-rwxr-xr-x 1 andrew andrew  452 Apr 23 00:08 applypatch-msg.sample
+-rwxr-xr-x 1 andrew andrew  896 Apr 23 00:08 commit-msg.sample
+-rwxr-xr-x 1 andrew andrew  189 Apr 23 00:08 post-update.sample
+-rwxr-xr-x 1 andrew andrew  398 Apr 23 00:08 pre-applypatch.sample
+-rwxr-xr-x 1 andrew andrew 1642 Apr 23 00:08 pre-commit.sample
+-rwxr-xr-x 1 andrew andrew 1239 Apr 23 00:08 prepare-commit-msg.sample
+-rwxr-xr-x 1 andrew andrew 1352 Apr 23 00:08 pre-push.sample
+-rwxr-xr-x 1 andrew andrew 4898 Apr 23 00:08 pre-rebase.sample
+-rwxr-xr-x 1 andrew andrew 3611 Apr 23 00:08 update.sample
+
+./git2/sourceware.org.git.glibc.git/info:
+total 12
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 7 andrew andrew 4096 Apr 23 00:08 ..
+-rw-r--r-- 1 andrew andrew  240 Apr 23 00:08 exclude
+
+./git2/sourceware.org.git.glibc.git/objects:
+total 452
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x   7 andrew andrew  4096 Apr 23 00:08 ..
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 04
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 07
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 09
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 0a
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 0c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 0e
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 10
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 11
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 15
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 17
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 19
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 1d
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 21
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 25
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 26
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 29
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 2a
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 2b
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 2c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 2f
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 30
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 34
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 3c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 3f
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 40
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 43
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 46
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 48
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 49
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 4b
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 4c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 50
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 51
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 53
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 56
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 57
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 5e
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 62
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 63
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 64
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 69
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 6b
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 6c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 71
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 73
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 76
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 79
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 7a
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 7b
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 7c
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 7d
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 7e
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 80
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 82
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 87
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 89
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 8d
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 8f
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 92
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 95
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 97
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 98
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 99
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 9b
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 9e
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a0
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a2
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a3
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a5
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a6
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a8
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 a9
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 ae
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 af
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 b0
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 b3
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 b4
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 b6
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 b7
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 bb
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 bc
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 bd
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 c0
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 c3
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 c4
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 c5
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 cc
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 cd
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 d3
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 d5
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 d8
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 da
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 dc
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 df
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e0
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e1
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e2
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e4
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e5
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 e7
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 ec
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 ef
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 f0
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 f1
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 f3
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 fa
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 fe
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 info
+drwxr-xr-x   2 andrew andrew 12288 Apr 23 00:08 pack
+
+./git2/sourceware.org.git.glibc.git/objects/04:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  289 Apr 23 00:08 55f251f494d30db4b52f11b5b0b7f285f775ef
+
+./git2/sourceware.org.git.glibc.git/objects/07:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  455 Apr 23 00:08 7caf61d867d4cab49b5aa42da1611868596fe7
+-r--r--r--   1 andrew andrew 7305 Apr 23 00:08 80178ac393970919cd717694df776bc1b1063f
+
+./git2/sourceware.org.git.glibc.git/objects/09:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1403 Apr 23 00:08 0c2d8c3ef9280887c95d71fe1cf853763ea1b9
+
+./git2/sourceware.org.git.glibc.git/objects/0a:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2709 Apr 23 00:08 576c291c1f833f2f676f45d893ad6dd8364a51
+
+./git2/sourceware.org.git.glibc.git/objects/0c:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  786 Apr 23 00:08 ba0764be6073944212f2f3d81ae2c824b942b5
+
+./git2/sourceware.org.git.glibc.git/objects/0e:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1914 Apr 23 00:08 50f38ef2cb16ebe2b71121055c726d331f3734
+
+./git2/sourceware.org.git.glibc.git/objects/10:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2823 Apr 23 00:08 21f9d416124a2588e8318433bfb1747d35f832
+-r--r--r--   1 andrew andrew  601 Apr 23 00:08 a2a73f02d7456930d7e6d86aad2395134ceb72
+-r--r--r--   1 andrew andrew 2709 Apr 23 00:08 d52fbce465b026ec02e51aa0af0b852405eedd
+
+./git2/sourceware.org.git.glibc.git/objects/11:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  547 Apr 23 00:08 aa852ed3c4686a5b0cf45a15f91b2de5f64bfb
+
+./git2/sourceware.org.git.glibc.git/objects/15:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  384 Apr 23 00:08 eab1e3e89129ab3ed03f5bdc3415b26e9caeb9
+
+./git2/sourceware.org.git.glibc.git/objects/17:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  667 Apr 23 00:08 568fb53612df02a36aaa40f8f9626204bab114
+
+./git2/sourceware.org.git.glibc.git/objects/19:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  206 Apr 23 00:08 6e62cbe4acdab22a95740b618c699863ed460c
+
+./git2/sourceware.org.git.glibc.git/objects/1d:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  199 Apr 23 00:08 62a403734b18367eb0aa47493d0de644edd00b
+-r--r--r--   1 andrew andrew  450 Apr 23 00:08 6633f782028b153422fdb34e34b6f0ead3e10c
+
+./git2/sourceware.org.git.glibc.git/objects/21:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  832 Apr 23 00:08 97618238cb22ebf31f459a4d9e5fd1f502aa08
+
+./git2/sourceware.org.git.glibc.git/objects/25:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  894 Apr 23 00:08 e825af6d02b6ed0e32ff6d2205407f1ac266d6
+
+./git2/sourceware.org.git.glibc.git/objects/26:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  113 Apr 23 00:08 0cda987e11e88b105caf6641868b3eb828a2a6
+
+./git2/sourceware.org.git.glibc.git/objects/29:
+total 124
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 116055 Apr 23 00:08 2fbc595a62f2d9e06777abd453894599118b27
+
+./git2/sourceware.org.git.glibc.git/objects/2a:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1021 Apr 23 00:08 7e56ad253e66b20d801f62dc2b0a244b3dfb52
+
+./git2/sourceware.org.git.glibc.git/objects/2b:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  422 Apr 23 00:08 5645ab0e9bdf4f14b68b586ed5dab583f9d40f
+
+./git2/sourceware.org.git.glibc.git/objects/2c:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  869 Apr 23 00:08 af06b77e861374937342efc29e9b2fc7061639
+-r--r--r--   1 andrew andrew  394 Apr 23 00:08 d01a1df2afc16ada1ce8479fbf888a803270ea
+
+./git2/sourceware.org.git.glibc.git/objects/2f:
+total 284
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 280260 Apr 23 00:08 ef13ec02c4f7fce25c8e870e5dd48a0d761cc6
+
+./git2/sourceware.org.git.glibc.git/objects/30:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1244 Apr 23 00:08 e074c1d0da57d7feb53614d20509a9a23f8637
+
+./git2/sourceware.org.git.glibc.git/objects/34:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2708 Apr 23 00:08 9c18d8bcf3a9bb81dd36e75346f3d7299eeb76
+
+./git2/sourceware.org.git.glibc.git/objects/3c:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  407 Apr 23 00:08 8639b02efcbc5e8087b0f9bc63da8aeb203549
+
+./git2/sourceware.org.git.glibc.git/objects/3f:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  896 Apr 23 00:08 e943d47c7f3265f8d2ab7ba9bd74271469111a
+
+./git2/sourceware.org.git.glibc.git/objects/40:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  263 Apr 23 00:08 31d7484ab3f6327184b5973d91f46978ebe8cf
+
+./git2/sourceware.org.git.glibc.git/objects/43:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  972 Apr 23 00:08 e4a3c978ea7de59ffacd82254e18728a69bfa4
+
+./git2/sourceware.org.git.glibc.git/objects/46:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  895 Apr 23 00:08 5d67aa841aab27c2f136afbcb8b8063f2dc99c
+
+./git2/sourceware.org.git.glibc.git/objects/48:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  190 Apr 23 00:08 44a8437f3e2133106a4a8639d2d1b186fa8c76
+
+./git2/sourceware.org.git.glibc.git/objects/49:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2709 Apr 23 00:08 7880c4a78614961fc0166f5292bbad43c73f1c
+
+./git2/sourceware.org.git.glibc.git/objects/4b:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1900 Apr 23 00:08 a3930a13aeee48a03bc68ff3e09756e6251ff4
+
+./git2/sourceware.org.git.glibc.git/objects/4c:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  533 Apr 23 00:08 4896f82238d09d464edec4a3a6f6d91e52857c
+-r--r--r--   1 andrew andrew 1021 Apr 23 00:08 6e8f9c30d7754fa90ef3675b456a2eb28c73fb
+
+./git2/sourceware.org.git.glibc.git/objects/50:
+total 80
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 70205 Apr 23 00:08 32723793cf008d1a0ddee2fbcdff759680f572
+
+./git2/sourceware.org.git.glibc.git/objects/51:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  292 Apr 23 00:08 77d85b0c050a2333a0c4165c938dd422013d05
+
+./git2/sourceware.org.git.glibc.git/objects/53:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2710 Apr 23 00:08 3626a2adbf4ce776a29919150d21d1b5925126
+
+./git2/sourceware.org.git.glibc.git/objects/56:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  736 Apr 23 00:08 9ed11c9cbb49a91ac906e8485bb9940478eb3a
+
+./git2/sourceware.org.git.glibc.git/objects/57:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew   47 Apr 23 00:08 14df8fdb8f7bf6d19c3aa15e742b29e4aaeda5
+
+./git2/sourceware.org.git.glibc.git/objects/5e:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2709 Apr 23 00:08 f9cc8050f63da1e83683b703918f0c52931c9f
+
+./git2/sourceware.org.git.glibc.git/objects/62:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  924 Apr 23 00:08 e9ce308cc0afbd3011681a06257f4e17773d4b
+
+./git2/sourceware.org.git.glibc.git/objects/63:
+total 24
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  306 Apr 23 00:08 5d6fae03257129b4672591b700a495cb6cb6c7
+-r--r--r--   1 andrew andrew 2706 Apr 23 00:08 62ccb02eccc6303ab96a69c2db071aff01b0b2
+-r--r--r--   1 andrew andrew  484 Apr 23 00:08 6e971264292110f353ba07d446ed71bf0256db
+-r--r--r--   1 andrew andrew 1021 Apr 23 00:08 7f247f55a55ecb0c31060e6f4abc6d412fc6e6
+
+./git2/sourceware.org.git.glibc.git/objects/64:
+total 140
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew    895 Apr 23 00:08 217c41c803618ef26590ba13ea235c5ca986f0
+-r--r--r--   1 andrew andrew 114237 Apr 23 00:08 282d451513a3628f17e00e03ad1c0ec9c7ca81
+-r--r--r--   1 andrew andrew  12990 Apr 23 00:08 a982f820012bacbfbdd7da1d57ed8535810b33
+
+./git2/sourceware.org.git.glibc.git/objects/69:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2710 Apr 23 00:08 f0505e6d95f9c605742a78048eb6b623ac9857
+
+./git2/sourceware.org.git.glibc.git/objects/6b:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  543 Apr 23 00:08 bfc5c09fc5b5e3d4a0cddbbd4e2e457767dae7
+
+./git2/sourceware.org.git.glibc.git/objects/6c:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 3565 Apr 23 00:08 619a3584d82dd534c870c64ce6162e4af01c1c
+-r--r--r--   1 andrew andrew  946 Apr 23 00:08 9bba06f58d09df3974a214f71b75ea74c29781
+
+./git2/sourceware.org.git.glibc.git/objects/71:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  189 Apr 23 00:08 1416872d59eb592921962db2a832243ba765b2
+
+./git2/sourceware.org.git.glibc.git/objects/73:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1036 Apr 23 00:08 f65a139f3f853681aac75447abb6f9bceec513
+
+./git2/sourceware.org.git.glibc.git/objects/76:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  932 Apr 23 00:08 7d55c156d5b7b951a5f19aeae4499c768519a4
+-r--r--r--   1 andrew andrew 2708 Apr 23 00:08 a9748f3fca3e40c3551fd74b204199821ae0db
+
+./git2/sourceware.org.git.glibc.git/objects/79:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  208 Apr 23 00:08 1a08cf378db8cc99baa8c63746c9d2885e7f9a
+-r--r--r--   1 andrew andrew 1081 Apr 23 00:08 4ad0c745feaa39afe7620ba681fb067f487b10
+-r--r--r--   1 andrew andrew 2711 Apr 23 00:08 5d2244b683dc9e8c027146a239951542d01d7d
+
+./git2/sourceware.org.git.glibc.git/objects/7a:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  922 Apr 23 00:08 1c7895c37a847deee5396043a323d05d5c4436
+
+./git2/sourceware.org.git.glibc.git/objects/7b:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  169 Apr 23 00:08 c5b9f376038baabfddac70204d58163234985f
+
+./git2/sourceware.org.git.glibc.git/objects/7c:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  895 Apr 23 00:08 7c2e9c92accefc7c6652365f6d7569fb6b6d23
+
+./git2/sourceware.org.git.glibc.git/objects/7d:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1108 Apr 23 00:08 ae1d1721d8daeae4756b8a47c69bc50e6ff7f7
+
+./git2/sourceware.org.git.glibc.git/objects/7e:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  191 Apr 23 00:08 f9556328fd5c2fe1c2d9203a209895b5156a33
+
+./git2/sourceware.org.git.glibc.git/objects/80:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 7610 Apr 23 00:08 4fe8fe1db33af1f910129e4902502f5842ebe7
+
+./git2/sourceware.org.git.glibc.git/objects/82:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  282 Apr 23 00:08 5b58f3fb04781e559858510fe83a8c4bf28425
+
+./git2/sourceware.org.git.glibc.git/objects/87:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2725 Apr 23 00:08 0ea6314a4cb90d4db2b91eca8f100c6cf6b688
+
+./git2/sourceware.org.git.glibc.git/objects/89:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2729 Apr 23 00:08 1f998913622e9578bedf7dc922551b63669e6d
+-r--r--r--   1 andrew andrew 2707 Apr 23 00:08 688d95e56f04e55f9061dcb4747c5b8930b900
+
+./git2/sourceware.org.git.glibc.git/objects/8d:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew   47 Apr 23 00:08 fbdb4c134b00a9c2bf5f7b837bfd9073972d7d
+
+./git2/sourceware.org.git.glibc.git/objects/8f:
+total 24
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 14779 Apr 23 00:08 99626082500fc7a7c52e251ee4a163213d3185
+
+./git2/sourceware.org.git.glibc.git/objects/92:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  896 Apr 23 00:08 5aab885da696bf1ec99f6572ab724894f576f5
+
+./git2/sourceware.org.git.glibc.git/objects/95:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2731 Apr 23 00:08 5a159fecbcbd37e3d54de624326618f036cac4
+
+./git2/sourceware.org.git.glibc.git/objects/97:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 3567 Apr 23 00:08 8c42c6cce46349a37c4151dfe2b761de117229
+
+./git2/sourceware.org.git.glibc.git/objects/98:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2025 Apr 23 00:08 ac907bb374547fd55d1f197cfb9f97337b2206
+
+./git2/sourceware.org.git.glibc.git/objects/99:
+total 296
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 280501 Apr 23 00:08 339f46059db73d278c16e5a837280d6ecde967
+-r--r--r--   1 andrew andrew   1408 Apr 23 00:08 957beb2369aef7a416453312fc8d67cbb8c623
+-r--r--r--   1 andrew andrew   7611 Apr 23 00:08 fa814046e3eb5c12311467e8ba56f768a0dc2d
+
+./git2/sourceware.org.git.glibc.git/objects/9b:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  607 Apr 23 00:08 aa46aa7b1aa56c8fb313013bb9aecf4ed96504
+
+./git2/sourceware.org.git.glibc.git/objects/9e:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  904 Apr 23 00:08 9df5d9e1d2eb5142fddac084c3dd9936ffeee3
+-r--r--r--   1 andrew andrew  210 Apr 23 00:08 a3686266dca3f004ba874745a4087a89682617
+
+./git2/sourceware.org.git.glibc.git/objects/a0:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  604 Apr 23 00:08 d0e3a98f9958475264b0cec0b28276cec622a1
+
+./git2/sourceware.org.git.glibc.git/objects/a2:
+total 52
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 38705 Apr 23 00:08 9e8ad1ff3253f5578cf2712709287a32a096a5
+-r--r--r--   1 andrew andrew  2707 Apr 23 00:08 bcecbb270509ca98dcd63c0621fecea9e4b4d7
+
+./git2/sourceware.org.git.glibc.git/objects/a3:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  469 Apr 23 00:08 32bd1518af518c984fad73eba6f46dc5b2b2d4
+
+./git2/sourceware.org.git.glibc.git/objects/a5:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2708 Apr 23 00:08 9268e3d40a9d1a2a5ad12e3b4b3ee9d2802d6e
+
+./git2/sourceware.org.git.glibc.git/objects/a6:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1092 Apr 23 00:08 e787083daa437830f555b1d58adbb1c260c3d9
+
+./git2/sourceware.org.git.glibc.git/objects/a8:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  230 Apr 23 00:08 f0fc4e5fbad300d524a3339d503c41e3182ed0
+-r--r--r--   1 andrew andrew 2708 Apr 23 00:08 f79a0962516c0b9f33a5b3be219e1ee653a196
+
+./git2/sourceware.org.git.glibc.git/objects/a9:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2707 Apr 23 00:08 244be977ebb0a529eaf0ffdff9a3ecec5f4c3d
+-r--r--r--   1 andrew andrew  622 Apr 23 00:08 6e52dedfd7d6261089eac7a383c08d688af17e
+
+./git2/sourceware.org.git.glibc.git/objects/ae:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  215 Apr 23 00:08 793cc20d80eec6ccffc31612b635b8c1b82e89
+
+./git2/sourceware.org.git.glibc.git/objects/af:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 1322 Apr 23 00:08 0154538ab1b7b6cf05508946455f82ea1df3e9
+-r--r--r--   1 andrew andrew 1350 Apr 23 00:08 fe7cdf53a652f632fdcdd459f614ca361c99c5
+
+./git2/sourceware.org.git.glibc.git/objects/b0:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2709 Apr 23 00:08 3a653dccd35b45f2cc7779e6df7e3fc1bf3bb4
+
+./git2/sourceware.org.git.glibc.git/objects/b3:
+total 120
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 114281 Apr 23 00:08 2280d51c20518c000c836d3fb7b1f7b100f5af
+
+./git2/sourceware.org.git.glibc.git/objects/b4:
+total 24
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 12709 Apr 23 00:08 528a1f3afba85b10ccddee502bd63bdf5d0247
+
+./git2/sourceware.org.git.glibc.git/objects/b6:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 6179 Apr 23 00:08 ff1e9b7b8d44d185cfda0efef4d66281f1815f
+
+./git2/sourceware.org.git.glibc.git/objects/b7:
+total 24
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 14779 Apr 23 00:08 d16ca5228db3683dc385bd8fde28d0ed98fb61
+
+./git2/sourceware.org.git.glibc.git/objects/bb:
+total 32
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 12989 Apr 23 00:08 4dde0bf32a289d02a7a4db150ff9117adaef80
+-r--r--r--   1 andrew andrew   604 Apr 23 00:08 c7b87990b27d3c1d31583006e4b30279ede95b
+-r--r--r--   1 andrew andrew   302 Apr 23 00:08 fc0f0f8e30680437d1c5b90563018bcd403881
+
+./git2/sourceware.org.git.glibc.git/objects/bc:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  323 Apr 23 00:08 487d714191e91789ad420de274e789f710cac3
+
+./git2/sourceware.org.git.glibc.git/objects/bd:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  902 Apr 23 00:08 3f3a4390aac301673860892947ab74f4e88756
+
+./git2/sourceware.org.git.glibc.git/objects/c0:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew   47 Apr 23 00:08 e2156ac009c7eac041fbdfb2a8efbf964070fe
+
+./git2/sourceware.org.git.glibc.git/objects/c3:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  922 Apr 23 00:08 10ffdd17eb746119707ca02b3b7b919162433b
+
+./git2/sourceware.org.git.glibc.git/objects/c4:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  895 Apr 23 00:08 80e2d5e82b743ec153867118b6ffcda6d5a9bb
+
+./git2/sourceware.org.git.glibc.git/objects/c5:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  125 Apr 23 00:08 6474c605be9db81a6a61910c5f278b93ec2302
+-r--r--r--   1 andrew andrew  815 Apr 23 00:08 9bd8a3f5ba43bfa87a736310a18499884ac1d1
+
+./git2/sourceware.org.git.glibc.git/objects/cc:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  909 Apr 23 00:08 da7fdfe288fe944cbc7f21406836d2bc455e70
+
+./git2/sourceware.org.git.glibc.git/objects/cd:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  896 Apr 23 00:08 d6b01058a1f1bb828943721e1421d3551d8343
+
+./git2/sourceware.org.git.glibc.git/objects/d3:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 8195 Apr 23 00:08 6ded799b9e339a106380e8211e7512e8c530b8
+
+./git2/sourceware.org.git.glibc.git/objects/d5:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2704 Apr 23 00:08 dff22537a00b82c0e73286ec1cc959c8584367
+
+./git2/sourceware.org.git.glibc.git/objects/d8:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  199 Apr 23 00:08 775136b5830394d50c98997983b96a236629bf
+
+./git2/sourceware.org.git.glibc.git/objects/da:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2708 Apr 23 00:08 7c0e750084fa2e22e6814636bf40772f3764c1
+
+./git2/sourceware.org.git.glibc.git/objects/dc:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 8195 Apr 23 00:08 1e3b08962e67327b95563e4cf50b9e901e86b0
+
+./git2/sourceware.org.git.glibc.git/objects/df:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  237 Apr 23 00:08 5919dfeb5424c90a1f623315abd67e87bad6a3
+-r--r--r--   1 andrew andrew 2822 Apr 23 00:08 cac2fd985a25e8c4681101a3f0c34166e0e908
+
+./git2/sourceware.org.git.glibc.git/objects/e0:
+total 284
+drwxr-xr-x   2 andrew andrew   4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew   4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 280329 Apr 23 00:08 e7a74011acd31cafb16f179198c9dfefbaada0
+
+./git2/sourceware.org.git.glibc.git/objects/e1:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  930 Apr 23 00:08 6c441b05244ae391b8594eac628ff3399c2c4d
+
+./git2/sourceware.org.git.glibc.git/objects/e2:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2707 Apr 23 00:08 98585e88d0c9ace436cc534257c20d74e38d53
+
+./git2/sourceware.org.git.glibc.git/objects/e4:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  266 Apr 23 00:08 04be33feaa586231fe30e3bdf6d380a79c2679
+-r--r--r--   1 andrew andrew  895 Apr 23 00:08 e829c23c56dd93d33bafb4574439484d67995b
+
+./git2/sourceware.org.git.glibc.git/objects/e5:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  972 Apr 23 00:08 3a55f0ac698337c6663e2fb6f50de0597e3276
+
+./git2/sourceware.org.git.glibc.git/objects/e7:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  191 Apr 23 00:08 daa7fcf70543b063ce0311fbdfb259d187d314
+
+./git2/sourceware.org.git.glibc.git/objects/ec:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2706 Apr 23 00:08 c4e57a3c54be4be9217114e9ba38bc25e31cca
+
+./git2/sourceware.org.git.glibc.git/objects/ef:
+total 20
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2712 Apr 23 00:08 02c45ea164e876225c0ee5824f938372517dab
+-r--r--r--   1 andrew andrew  244 Apr 23 00:08 202e530c2384d6a47951ed1c6b63ed945e462f
+-r--r--r--   1 andrew andrew  121 Apr 23 00:08 9879bdf36041d2d3a5791d03ce96c815d24c11
+
+./git2/sourceware.org.git.glibc.git/objects/f0:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  117 Apr 23 00:08 9e29f35c9013d2c6fdc15613c96c2dc33dabed
+-r--r--r--   1 andrew andrew 3567 Apr 23 00:08 c6e4f7297c07d77909ef1a1f6739dbdedde360
+
+./git2/sourceware.org.git.glibc.git/objects/f1:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  348 Apr 23 00:08 bb5499d12e0175ca69cb72e7e7471fd02457b8
+
+./git2/sourceware.org.git.glibc.git/objects/f3:
+total 64
+drwxr-xr-x   2 andrew andrew  4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew  4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 54921 Apr 23 00:08 8dad74d50a072eac265ff2f536661cfc71c09b
+
+./git2/sourceware.org.git.glibc.git/objects/fa:
+total 16
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew 2706 Apr 23 00:08 94bea918c6ce99212161143aa65683560e2e78
+-r--r--r--   1 andrew andrew   64 Apr 23 00:08 c0f1d457bddb2f87bee919d6b53b8a4e3aa0a3
+
+./git2/sourceware.org.git.glibc.git/objects/fe:
+total 12
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew  627 Apr 23 00:08 46f5ccb1ac0d7fbdc0af512c7ec8c9a09d559f
+
+./git2/sourceware.org.git.glibc.git/objects/info:
+total 8
+drwxr-xr-x   2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/objects/pack:
+total 644440
+drwxr-xr-x   2 andrew andrew     12288 Apr 23 00:08 .
+drwxr-xr-x 111 andrew andrew      4096 Apr 23 00:08 ..
+-r--r--r--   1 andrew andrew    148352 Apr 23 00:08 pack-0982d26bcc32ea4520b3d0673778a73aa3bc9498.idx
+-r--r--r--   1 andrew andrew   5817863 Apr 23 00:08 pack-0982d26bcc32ea4520b3d0673778a73aa3bc9498.pack
+-r--r--r--   1 andrew andrew    168484 Apr 23 00:08 pack-1ba8d595e120132d9b2e589a6112b9198ed543ca.idx
+-r--r--r--   1 andrew andrew  10889443 Apr 23 00:08 pack-1ba8d595e120132d9b2e589a6112b9198ed543ca.pack
+-r--r--r--   1 andrew andrew     62616 Apr 23 00:08 pack-200eb2b78220d14bcfa8f47719638e4c6436ce0d.idx
+-r--r--r--   1 andrew andrew   1715135 Apr 23 00:08 pack-200eb2b78220d14bcfa8f47719638e4c6436ce0d.pack
+-r--r--r--   1 andrew andrew    338248 Apr 23 00:08 pack-21f7ac3369d57a3545ee192433a5d65bfb0393ba.idx
+-r--r--r--   1 andrew andrew  15403206 Apr 23 00:08 pack-21f7ac3369d57a3545ee192433a5d65bfb0393ba.pack
+-r--r--r--   1 andrew andrew     66172 Apr 23 00:08 pack-28e53e297a2cbb95112edcc689d46220d9656325.idx
+-r--r--r--   1 andrew andrew   4263808 Apr 23 00:08 pack-28e53e297a2cbb95112edcc689d46220d9656325.pack
+-r--r--r--   1 andrew andrew     38200 Apr 23 00:08 pack-28ef51f50c23d9ed87bc6310ea3ae9ad15b7efa0.idx
+-r--r--r--   1 andrew andrew   2564378 Apr 23 00:08 pack-28ef51f50c23d9ed87bc6310ea3ae9ad15b7efa0.pack
+-r--r--r--   1 andrew andrew     73228 Apr 23 00:08 pack-2f10e98ad3c4a1d059302011a7b237d445982e02.idx
+-r--r--r--   1 andrew andrew   5237372 Apr 23 00:08 pack-2f10e98ad3c4a1d059302011a7b237d445982e02.pack
+-r--r--r--   1 andrew andrew     21456 Apr 23 00:08 pack-38dc166693df6c550981b5c32009bb33f8695151.idx
+-r--r--r--   1 andrew andrew    936277 Apr 23 00:08 pack-38dc166693df6c550981b5c32009bb33f8695151.pack
+-r--r--r--   1 andrew andrew  12656708 Apr 23 00:08 pack-3bca2c04f8e7c587127e44993ade881186117b82.idx
+-r--r--r--   1 andrew andrew 127499836 Apr 23 00:08 pack-3bca2c04f8e7c587127e44993ade881186117b82.pack
+-r--r--r--   1 andrew andrew    118756 Apr 23 00:08 pack-3f4322535a30137ab2a41c4452b9a9d02960fc08.idx
+-r--r--r--   1 andrew andrew   7051551 Apr 23 00:08 pack-3f4322535a30137ab2a41c4452b9a9d02960fc08.pack
+-r--r--r--   1 andrew andrew     53180 Apr 23 00:08 pack-49c9907e3ca1234061631b75b076778f3d5df657.idx
+-r--r--r--   1 andrew andrew   2754259 Apr 23 00:08 pack-49c9907e3ca1234061631b75b076778f3d5df657.pack
+-r--r--r--   1 andrew andrew     15548 Apr 23 00:08 pack-4aa5a628045b93edd0f330f12a9aa8b9e6e5961e.idx
+-r--r--r--   1 andrew andrew   4266120 Apr 23 00:08 pack-4aa5a628045b93edd0f330f12a9aa8b9e6e5961e.pack
+-r--r--r--   1 andrew andrew      9052 Apr 23 00:08 pack-51b9951c3bcedce7379d4eb27613a8e151291e4e.idx
+-r--r--r--   1 andrew andrew    296988 Apr 23 00:08 pack-51b9951c3bcedce7379d4eb27613a8e151291e4e.pack
+-r--r--r--   1 andrew andrew    353004 Apr 23 00:08 pack-5b71a299e9d338ede9bd16e70a5be8446397c9aa.idx
+-r--r--r--   1 andrew andrew  13548368 Apr 23 00:08 pack-5b71a299e9d338ede9bd16e70a5be8446397c9aa.pack
+-r--r--r--   1 andrew andrew    211240 Apr 23 00:08 pack-5fdb9e3585513f3531e01a6a6c3da04d76f24942.idx
+-r--r--r--   1 andrew andrew   3610409 Apr 23 00:08 pack-5fdb9e3585513f3531e01a6a6c3da04d76f24942.pack
+-r--r--r--   1 andrew andrew     49316 Apr 23 00:08 pack-6220915f33f3249c50d41bae6f39bea78a8b41c6.idx
+-r--r--r--   1 andrew andrew   2617184 Apr 23 00:08 pack-6220915f33f3249c50d41bae6f39bea78a8b41c6.pack
+-r--r--r--   1 andrew andrew     59256 Apr 23 00:08 pack-627562ee5fd4ee667702cdcc5a5ceb68dce4af77.idx
+-r--r--r--   1 andrew andrew   3165073 Apr 23 00:08 pack-627562ee5fd4ee667702cdcc5a5ceb68dce4af77.pack
+-r--r--r--   1 andrew andrew    204548 Apr 23 00:08 pack-64173d984ed890b7d8c4d684122cf0ad710ac95c.idx
+-r--r--r--   1 andrew andrew   5454725 Apr 23 00:08 pack-64173d984ed890b7d8c4d684122cf0ad710ac95c.pack
+-r--r--r--   1 andrew andrew    527556 Apr 23 00:08 pack-684848980f52f03f593c827c6dfd46e539429f0c.idx
+-r--r--r--   1 andrew andrew  19034465 Apr 23 00:08 pack-684848980f52f03f593c827c6dfd46e539429f0c.pack
+-r--r--r--   1 andrew andrew    504960 Apr 23 00:08 pack-76b1e9be0bd3b50793b62218e4b77c57ca1c3de7.idx
+-r--r--r--   1 andrew andrew  24035497 Apr 23 00:08 pack-76b1e9be0bd3b50793b62218e4b77c57ca1c3de7.pack
+-r--r--r--   1 andrew andrew     41420 Apr 23 00:08 pack-8490a864df7ef507fb37c073f5d8d9dfca2eedb5.idx
+-r--r--r--   1 andrew andrew   3066198 Apr 23 00:08 pack-8490a864df7ef507fb37c073f5d8d9dfca2eedb5.pack
+-r--r--r--   1 andrew andrew    223168 Apr 23 00:08 pack-863470880ae45691c3a7ddd167fbad9b69bbc38d.idx
+-r--r--r--   1 andrew andrew  13184975 Apr 23 00:08 pack-863470880ae45691c3a7ddd167fbad9b69bbc38d.pack
+-r--r--r--   1 andrew andrew    169268 Apr 23 00:08 pack-886a92a927934a9c2b8fe51ec4216cec8699e145.idx
+-r--r--r--   1 andrew andrew   6935525 Apr 23 00:08 pack-886a92a927934a9c2b8fe51ec4216cec8699e145.pack
+-r--r--r--   1 andrew andrew     33272 Apr 23 00:08 pack-8dc01a7ae9e996bee987f1199d4a780b7ccaf478.idx
+-r--r--r--   1 andrew andrew   2865262 Apr 23 00:08 pack-8dc01a7ae9e996bee987f1199d4a780b7ccaf478.pack
+-r--r--r--   1 andrew andrew     75020 Apr 23 00:08 pack-8fb3634f775a85da1d4b63dfc632f1c9d59ddd2a.idx
+-r--r--r--   1 andrew andrew   4228055 Apr 23 00:08 pack-8fb3634f775a85da1d4b63dfc632f1c9d59ddd2a.pack
+-r--r--r--   1 andrew andrew   1001344 Apr 23 00:08 pack-9e5aee1091d0e4df7f9d2f8d0cade5738b943649.idx
+-r--r--r--   1 andrew andrew  28211543 Apr 23 00:08 pack-9e5aee1091d0e4df7f9d2f8d0cade5738b943649.pack
+-r--r--r--   1 andrew andrew    130432 Apr 23 00:08 pack-a0806e48192c7e0056d8b2e37d33b22bb1b6930c.idx
+-r--r--r--   1 andrew andrew  10544863 Apr 23 00:08 pack-a0806e48192c7e0056d8b2e37d33b22bb1b6930c.pack
+-r--r--r--   1 andrew andrew     76924 Apr 23 00:08 pack-a591d72f22e94f09d202fc8cd6efacd5c84a8734.idx
+-r--r--r--   1 andrew andrew   5409339 Apr 23 00:08 pack-a591d72f22e94f09d202fc8cd6efacd5c84a8734.pack
+-r--r--r--   1 andrew andrew    507368 Apr 23 00:08 pack-a739daa205d3aa5408e23f87d94229846bc40a35.idx
+-r--r--r--   1 andrew andrew   6643441 Apr 23 00:08 pack-a739daa205d3aa5408e23f87d94229846bc40a35.pack
+-r--r--r--   1 andrew andrew    140008 Apr 23 00:08 pack-aa961ff575b7ff6f8d6a71ad8401cc857ac23836.idx
+-r--r--r--   1 andrew andrew   6830243 Apr 23 00:08 pack-aa961ff575b7ff6f8d6a71ad8401cc857ac23836.pack
+-r--r--r--   1 andrew andrew    770092 Apr 23 00:08 pack-aabac8b7fc40aaa2b4cdbc23099ede35dc5a586d.idx
+-r--r--r--   1 andrew andrew  25738287 Apr 23 00:08 pack-aabac8b7fc40aaa2b4cdbc23099ede35dc5a586d.pack
+-r--r--r--   1 andrew andrew     11432 Apr 23 00:08 pack-ab100c62250de4c577cc3ff256019b3c61acbc9a.idx
+-r--r--r--   1 andrew andrew    584591 Apr 23 00:08 pack-ab100c62250de4c577cc3ff256019b3c61acbc9a.pack
+-r--r--r--   1 andrew andrew    659268 Apr 23 00:08 pack-af3ea3e1b9f7b4a5dd5d60f71795973d0f227254.idx
+-r--r--r--   1 andrew andrew  28070968 Apr 23 00:08 pack-af3ea3e1b9f7b4a5dd5d60f71795973d0f227254.pack
+-r--r--r--   1 andrew andrew    118756 Apr 23 00:08 pack-b86a144293a740e838d88f0893965a8e7831c6f9.idx
+-r--r--r--   1 andrew andrew   2316322 Apr 23 00:08 pack-b86a144293a740e838d88f0893965a8e7831c6f9.pack
+-r--r--r--   1 andrew andrew    121920 Apr 23 00:08 pack-c66c8312044621cec128dd73ce3380ada49d7614.idx
+-r--r--r--   1 andrew andrew   4643597 Apr 23 00:08 pack-c66c8312044621cec128dd73ce3380ada49d7614.pack
+-r--r--r--   1 andrew andrew    143256 Apr 23 00:08 pack-cd4e2dea7f8ef6494047ebad0e3645181595cc19.idx
+-r--r--r--   1 andrew andrew   5590812 Apr 23 00:08 pack-cd4e2dea7f8ef6494047ebad0e3645181595cc19.pack
+-r--r--r--   1 andrew andrew    580952 Apr 23 00:08 pack-cea641af7e6c80ed638797b195903b7790c6feca.idx
+-r--r--r--   1 andrew andrew  20507081 Apr 23 00:08 pack-cea641af7e6c80ed638797b195903b7790c6feca.pack
+-r--r--r--   1 andrew andrew     21428 Apr 23 00:08 pack-d44de0851482cc7b9ea5578ccbe40f753e574f60.idx
+-r--r--r--   1 andrew andrew   1303125 Apr 23 00:08 pack-d44de0851482cc7b9ea5578ccbe40f753e574f60.pack
+-r--r--r--   1 andrew andrew  13521040 Apr 23 00:08 pack-da3f178326a26ae33c56afbdb1c59ba0f6ab0a68.idx
+-r--r--r--   1 andrew andrew 144377393 Apr 23 00:08 pack-da3f178326a26ae33c56afbdb1c59ba0f6ab0a68.pack
+-r--r--r--   1 andrew andrew    282864 Apr 23 00:08 pack-e95eca59dd76bfe155a9a380305049f296529905.idx
+-r--r--r--   1 andrew andrew  18087907 Apr 23 00:08 pack-e95eca59dd76bfe155a9a380305049f296529905.pack
+-r--r--r--   1 andrew andrew    310752 Apr 23 00:08 pack-eb20f5bb066d5e63faa5d889e6cc768f45acb558.idx
+-r--r--r--   1 andrew andrew  14968222 Apr 23 00:08 pack-eb20f5bb066d5e63faa5d889e6cc768f45acb558.pack
+-r--r--r--   1 andrew andrew    145244 Apr 23 00:08 pack-f7781980015497e1edfe9f2a4ed5ea5ecf7be9ab.idx
+-r--r--r--   1 andrew andrew   7210135 Apr 23 00:08 pack-f7781980015497e1edfe9f2a4ed5ea5ecf7be9ab.pack
+-r--r--r--   1 andrew andrew     24424 Apr 23 00:08 pack-fb185d43a634b80e2888bb23a3c6fe154d31ac27.idx
+-r--r--r--   1 andrew andrew   3448289 Apr 23 00:08 pack-fb185d43a634b80e2888bb23a3c6fe154d31ac27.pack
+
+./git2/sourceware.org.git.glibc.git/refs:
+total 24
+drwxr-xr-x 6 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 7 andrew andrew 4096 Apr 23 00:08 ..
+drwxr-xr-x 5 andrew andrew 4096 Apr 23 00:08 heads
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 meta
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 remotes
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 tags
+
+./git2/sourceware.org.git.glibc.git/refs/heads:
+total 20
+drwxr-xr-x  5 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x  6 andrew andrew 4096 Apr 23 00:08 ..
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 hjl
+drwxr-xr-x  3 andrew andrew 4096 Apr 23 00:08 origin
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 sthibaul
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl:
+total 68
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x  5 andrew andrew 4096 Apr 23 00:08 ..
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 benchtests
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 cet
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 cpuid
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 expf
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pie
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr19776
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr20139
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr21265
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr21609
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr21955
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr22362
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr22370
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 pr22715
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 setjmp
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 tunables
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/benchtests:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/cet:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/cpuid:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/expf:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pie:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr19776:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr20139:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr21265:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr21609:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr21955:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr22362:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr22370:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/pr22715:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/setjmp:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/hjl/tunables:
+total 8
+drwxr-xr-x  2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 17 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/origin:
+total 12
+drwxr-xr-x 3 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 5 andrew andrew 4096 Apr 23 00:08 ..
+drwxr-xr-x 3 andrew andrew 4096 Apr 23 00:08 ibm
+
+./git2/sourceware.org.git.glibc.git/refs/heads/origin/ibm:
+total 12
+drwxr-xr-x 3 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 3 andrew andrew 4096 Apr 23 00:08 ..
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 2.8
+
+./git2/sourceware.org.git.glibc.git/refs/heads/origin/ibm/2.8:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 3 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/heads/sthibaul:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 5 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/meta:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 6 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/remotes:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 6 andrew andrew 4096 Apr 23 00:08 ..
+
+./git2/sourceware.org.git.glibc.git/refs/tags:
+total 8
+drwxr-xr-x 2 andrew andrew 4096 Apr 23 00:08 .
+drwxr-xr-x 6 andrew andrew 4096 Apr 23 00:08 ..
+
+./uninative:
+total 20
+drwxr-xr-x 3 andrew andrew  4096 May 26 12:23 .
+drwxr-xr-x 4 andrew andrew 12288 May 27 13:07 ..
+drwxr-xr-x 2 andrew andrew  4096 May 26 12:23 9bfc4c970495b3716b2f9e52c4df9f968c02463a9a95000f6657fbc3fde1f098
+
+./uninative/9bfc4c970495b3716b2f9e52c4df9f968c02463a9a95000f6657fbc3fde1f098:
+total 5804
+drwxr-xr-x 2 andrew andrew    4096 May 26 12:23 .
+drwxr-xr-x 3 andrew andrew    4096 May 26 12:23 ..
+-rw-r--r-- 1 andrew andrew 5930276 Apr  9 16:02 x86_64-nativesdk-libc-3.6.tar.xz
+-rw-r--r-- 1 andrew andrew     463 May 26 12:23 x86_64-nativesdk-libc-3.6.tar.xz.done

@@ -1,0 +1,17 @@
+{
+        "cve_product": "gcc",
+        "license": "GPL-3.0-with-GCC-exception",
+        "summary": "Runtime libraries from GCC",
+        "homepage": "http://www.gnu.org/software/gcc/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "/home/andrew/poky/meta/recipes-devtools/gcc/gcc:/home/andrew/poky/meta/recipes-devtools/gcc/gcc/backport:__default:"
+        ],
+        "src_uri": [],
+        "cve_version": "11.2.0",
+        "sources": {
+                "patches": {}
+        },
+        "layer": "core",
+        "recipe": "recipes-devtools/gcc/gcc-runtime_11.2.bb"
+}

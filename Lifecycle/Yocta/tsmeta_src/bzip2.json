@@ -1,0 +1,34 @@
+{
+        "license": "bzip2-1.0.6 & GPL-3.0-or-later & Apache-2.0 & MS-PL & BSD-3-Clause & Zlib",
+        "summary": "Very high-quality data compression program",
+        "homepage": "https://sourceware.org/bzip2/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+                "git://sourceware.org/git/bzip2-tests.git;name=bzip2-tests;branch=master",
+                "file://configure.ac;subdir=bzip2-1.0.8",
+                "file://Makefile.am;subdir=bzip2-1.0.8",
+                "file://run-ptest"
+        ],
+        "cve_product": "bzip2",
+        "cve_version": "1.0.8",
+        "sources": {
+                "patches": {},
+                "https": [
+                        "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
+                ],
+                "git": [
+                        "git://sourceware.org/git/bzip2-tests.git;name=bzip2-tests;branch=master"
+                ],
+                "file": [
+                        "configure.ac",
+                        "Makefile.am",
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-extended/bzip2/bzip2_1.0.8.bb"
+}

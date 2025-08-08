@@ -1,0 +1,33 @@
+{
+        "cve_product": "openssl:openssl",
+        "license": "Apache-2.0",
+        "summary": "Secure Socket Layer",
+        "homepage": "http://www.openssl.org/",
+        "cve_check_whitelist": [],
+        "filesextrapaths": [
+                "__default:"
+        ],
+        "src_uri": [
+                "http://www.openssl.org/source/openssl-3.0.3.tar.gz",
+                "file://run-ptest",
+                "file://0001-buildinfo-strip-sysroot-and-debug-prefix-map-from-co.patch",
+                "file://afalg.patch",
+                "file://0001-Configure-do-not-tweak-mips-cflags.patch"
+        ],
+        "cve_version": "3.0.3",
+        "sources": {
+                "patches": {
+                        "0001-buildinfo-strip-sysroot-and-debug-prefix-map-from-co.patch": "/home/andrew/poky/meta/recipes-connectivity/openssl/openssl/0001-buildinfo-strip-sysroot-and-debug-prefix-map-from-co.patch",
+                        "afalg.patch": "/home/andrew/poky/meta/recipes-connectivity/openssl/openssl/afalg.patch",
+                        "0001-Configure-do-not-tweak-mips-cflags.patch": "/home/andrew/poky/meta/recipes-connectivity/openssl/openssl/0001-Configure-do-not-tweak-mips-cflags.patch"
+                },
+                "http": [
+                        "http://www.openssl.org/source/openssl-3.0.3.tar.gz"
+                ],
+                "file": [
+                        "run-ptest"
+                ]
+        },
+        "layer": "core",
+        "recipe": "recipes-connectivity/openssl/openssl_3.0.3.bb"
+}

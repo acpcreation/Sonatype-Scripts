@@ -1,0 +1,1661 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <!html lang="en">
+    <head xmlns="http://www.w3.org/1999/xhtml"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="preconnect" href="https://fonts.gstatic.com" /><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900" rel="stylesheet" /><title>AppScan Report</title><style type="text/css" media="all, print, screen">
+					@page {
+					margin: 3cm;
+					}
+					body, html {
+					font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					list-style: square;
+					font-size: 9pt;
+					margin: 1cm;
+					padding: 0;
+					color: #121212;
+					}
+
+					* {
+					word-wrap: break-word;
+					}
+
+					.nowordwrap *, .nowordwrap {
+					word-wrap: normal;
+					word-break: normal;
+					}
+
+					.noPageBreak {
+					page-break-inside: avoid;
+					}
+
+					/* SAST
+					.noPageBreak {
+					page-break-inside: auto;
+					}*/
+					/* DAST
+					pre {
+					margin: 0;
+					}*/
+
+					pre {
+					font-size: 90%;
+					background-color: #FFFFFF;
+					color: #002C53;
+					border: 1px solid #DDDDDD;
+					font-family: Lucida Console, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+
+					/*margin-bottom:2pt;
+					margin-top:2pt;*/
+
+					padding: 5pt;
+					/*
+					position:relative;
+					left: -3px;
+					*/
+
+					overflow: auto;
+					}
+
+					div {
+					text-overflow: ellipsis;
+					word-wrap: break-word;
+					}
+
+					ul {
+					list-style: square;
+					}
+
+					a {
+					color: #3087B3;
+					text-decoration: none;
+					}
+
+					a:hover {
+					text-decoration: underline;
+					}
+
+					h1 {
+					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Segoe UI Light", "Segoe UI", Arial, sans-serif;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-weight: 100;
+					margin-top: 64px;
+					margin-bottom: 0px;
+					page-break-before: auto;
+					page-break-inside: avoid;
+					font-size: 36pt;
+					}
+
+					.h1issue {
+					page-break-before: always;
+					}
+
+					h2, .h2group {
+					font-weight: normal;
+					font-size: 16pt;
+					margin-top: 28px;
+					margin-bottom: 12px;
+					page-break-inside: avoid;
+					}
+
+					.spacer {
+					margin-top: 12px;
+					}
+
+					.seperator {
+					border-bottom: 1px lightgrey solid;
+					margin-top: 12px;
+					}
+
+					/*#advisoriesDiv h2,#advisoriesDiv .h2group, #fixRecommendationsDiv h2, #fixRecommendationsDiv .h2group {
+					font-weight: bold;
+					font-size: 16pt;
+					margin-top: 0px;
+					page-break-inside: avoid;
+					}*/
+
+					.h2group, .h3group {
+					margin-bottom: 16px;
+					page-break-inside: avoid;
+					}
+
+					.h2group h2, .h3group h3 {
+					margin-top: 24px;
+					
+					page-break-inside: avoid;
+					}
+
+					h3, .h3group {
+					font-weight: normal;
+					margin-bottom: 5px;
+					font-size: 14pt;
+					page-break-inside: avoid;
+					}
+
+					/*
+					#fixRecommendationsDiv h3, #fixRecommendationsDiv .h3group {
+					font-weight: normal;
+					font-size: 14pt;
+					margin-top: 0px;
+					page-break-inside: avoid;
+					}*/
+
+					h4 {
+					/*color: #30758B;*/
+					font-weight: normal;
+					font-size: 12pt;
+					margin-top: 5px;
+					margin-bottom: 4px;
+					page-break-inside: avoid;
+					white-space: nowrap;
+					}
+
+					.issueDetailsSegmentHeader {
+					font-weight: normal;
+					font-size: 12pt;
+					margin-top: 10px;
+					margin-bottom: 4px;
+					page-break-inside: avoid;
+					white-space: nowrap;
+					}
+
+					/*
+					#advisoriesDiv h4, #fixRecommendationsDiv h4 {
+					font-weight: normal;
+					font-size: 12pt;
+					margin-top: 24px;
+					margin-bottom: 4px;
+					page-break-inside: avoid;
+					white-space: nowrap;
+					}
+					*/
+
+					h5 {
+					/*color: #30758B;*/
+					font-weight: normal;
+					font-size: 10pt;
+					margin-top: 16px;
+					page-break-inside: avoid;
+					}
+
+					.nomargin {
+					margin-top: 0px;
+					margin-bottom: 0px;
+					}
+
+					.headerUnderline {
+
+					}
+
+					hr {
+					border: 1px solid;
+					color: black;
+					margin-top: 2px;
+					margin-bottom: 24px;
+					}
+
+					.monospace {
+					font-family: 'Courier New', monospace, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					white-space: pre-wrap;
+					}
+
+					code {
+					font-family: Lucida Console, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-size: 110%;
+					/*font-style: italic;*/
+					/*font-weight:bold;*/
+					}
+
+					.code {
+					white-space: pre-wrap;
+					padding: 16px;
+					border: 1px dashed #cccccc;
+					margin-bottom: 10px;
+					margin-top: 8px;
+					font-family: 'Courier New', monospace, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					background-color: #eeeeee;
+					border-radius: 0px;
+					-moz-border-radius: 0px;
+					text-overflow: ellipsis;
+					font-size: 7pt;
+					word-wrap: break-word;
+					}
+
+					.code img {
+					width: 100%;
+					vertical-align: top;
+					}
+
+					.codeInline {
+					border: 1px dashed #cccccc;
+					font-family: 'Courier New', monospace, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+
+					background-color: #eeeeee;
+					display: inline-block;
+					font-size: 7pt;
+					word-wrap: break-word;
+					padding: 0 4px;
+					word-break: break-all;
+					}
+					.codeInline.original {
+					background-color: #c7c7c7;
+					margin: 2px 0;
+					font-size: 7pt;
+					}
+					.codeInline.test {
+					background-color: #fdc500;
+					margin: 2px 0;
+					font-size: 7pt;
+					}
+
+					.issueInfoValue {
+					font-size: 10pt;
+					}
+
+					.original {
+					background-color: #F8FBED;
+					}
+					.test {
+					background-color: #f4f4f4;
+					}
+					.variant {
+					margin: 0 32px;
+					}
+					.issueInformation .centerMark {
+					display: table-cell;
+					text-align: center;
+					font-size: 50px;
+					font-weight: bold;
+					color: #333333;
+					padding: 100px 8px 8px 8px;
+					}
+					.issueInformation {
+					position: relative;
+					}
+					.issueInformation .row {
+					page-break-inside: avoid;
+					}
+					.issueInformation .double {
+					display: table-cell;
+					width: 50%;
+					page-break-inside: avoid;
+					}
+					.issueInformation .double.name {
+					padding: 16px 0 4px 0;
+					page-break-inside: avoid;
+					}
+					.issueInformation .xssContainer {
+					position: absolute;
+					width: 200px;
+					left: 50%;
+					top: 100px;
+					}
+					.issueInformation .xssBlurb {
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAABCAIAAAAU3Xa1AAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAsSAAALEgHS3X78AAAAFnRFWHRDcmVhdGlvbiBUaW1lADA5LzE1LzA4jyDzAwAABBF0RVh0WE1MOmNvbS5hZG9iZS54bXAAPD94cGFja2V0IGJlZ2luPSIgICAiIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNC4xLWMwMzQgNDYuMjcyOTc2LCBTYXQgSmFuIDI3IDIwMDcgMjI6Mzc6MzcgICAgICAgICI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnhhcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+CiAgICAgICAgIDx4YXA6Q3JlYXRvclRvb2w+QWRvYmUgRmlyZXdvcmtzIENTMzwveGFwOkNyZWF0b3JUb29sPgogICAgICAgICA8eGFwOkNyZWF0ZURhdGU+MjAwOC0wOS0xNVQxMjozNToyMFo8L3hhcDpDcmVhdGVEYXRlPgogICAgICAgICA8eGFwOk1vZGlmeURhdGU+MjAwOC0wOS0xNVQxNToyOTo1OFo8L3hhcDpNb2RpZnlEYXRlPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9wbmc8L2RjOmZvcm1hdD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4e9sDQAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAADZJREFUKJFjvKfDpNgyi0FKkUFUikFAhIGLl4GNnWEUjAKSwK+fDN8+M3x4w/D6GcOz+/eqUwFfaw4L0nVo3wAAAABJRU5ErkJggg==) repeat-y;
+					padding-left: 10px;
+					padding-right: 10px;
+					color: #990000;
+					}
+					.issueInformation .xssAlert {
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAYAAADDhn8LAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8xNS8wOI8g8wMAAAQRdEVYdFhNTDpjb20uYWRvYmUueG1wADw/eHBhY2tldCBiZWdpbj0iICAgIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMS1jMDM0IDQ2LjI3Mjk3NiwgU2F0IEphbiAyNyAyMDA3IDIyOjM3OjM3ICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4YXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eGFwOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzM8L3hhcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhhcDpDcmVhdGVEYXRlPjIwMDgtMDktMTVUMTI6MzU6MjBaPC94YXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhhcDpNb2RpZnlEYXRlPjIwMDgtMDktMTVUMTU6Mjk6NThaPC94YXA6TW9kaWZ5RGF0ZT4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOHvbA0AAAAYdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3Jrc0+zH04AABDESURBVHic7Z17cFzVfcc/57727q6klfV+WH6BqSEQEHbSOEMKZCjQxk7HpCkUmkmnw4Rpy7T/daZl+ldmSKftpJMy6eBM22QmFFIKTBoPj05LcULBDME8/ICAsY1tWZItS7t6rLR7H+f0j7srrWVp5ZV3ZaM9n5mdlVb33r336vc9v8d5XKG2siSh5XRn46k/mfbDnYHvt/vTU91KIYQQaum9NZorAAF2PDlk2fZIwjb3JGfG/8kMvKEldysnED+W7M+Y7j9Oj49/wWxqHnU6eobcnr4z8e6+c1ZT84ywbFnNa9BoaoHyfcOfSCdywwOtuaGBjvzwQK+czLQkUs1vNIe5P7Pz2XcW23dRgaQb2p6cHJ+4J9bdd7x52y0HYn2bxkk2guOC7YBpgWHU6po0muohJYQB+B54OchOkjtxZE36rf+7yT9zel1jKvXsmqlz9y+06wUCCS2n+6xy9gfCcNtv+61X3E1bxki1QkMKkk3gJsCJgTC0QDSfDqQEJcHLQ24ashMwNQ7jo8x8/H7byN4Xv2wLsh3Cu9kMvOHSXc8TSGg53WeUs99IteTabv/K61b3uhwtHZBqhcbmSCSxeMF7mCDESl+qRlM5SoEMIy+Sn4nEMZmB8VEYO0swdCJ+9n/23MLUuN0pvK2lucl5AhkyGwZFqnWm8ytff1W094Ss6YDWzkggs97DBcsu7K0FovkUoAq1pMCPQqyiFxkfhdEzkD6LHDppDz//9G0iO2F1h1M9xV2t4g/phvYnFYbquGPnPtHeK2nvEbR2QnN75D3iyUgcphl5D9AC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);
+					width: 200px;
+					height: 100px;
+					}
+					.issueInformation .xssBottom {
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAA8CAYAAAAjW/WRAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8xNS8wOI8g8wMAAAQRdEVYdFhNTDpjb20uYWRvYmUueG1wADw/eHBhY2tldCBiZWdpbj0iICAgIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMS1jMDM0IDQ2LjI3Mjk3NiwgU2F0IEphbiAyNyAyMDA3IDIyOjM3OjM3ICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4YXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eGFwOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzM8L3hhcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhhcDpDcmVhdGVEYXRlPjIwMDgtMDktMTVUMTI6MzU6MjBaPC94YXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhhcDpNb2RpZnlEYXRlPjIwMDgtMDktMTVUMTU6Mjk6NThaPC94YXA6TW9kaWZ5RGF0ZT4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOHvbA0AAAAYdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3Jrc0+zH04AABDvSURBVHic7Z15kBPnlcBfd6tbLbW61a0LZobBgw9gwdgGc5tg7DGH7YTYSypbSW1VYieA16m9a7Oudap2tnazlWwq2aviBNuxk62tpLJbXjtsDAZzGIxhwF5zORiwMXhgLkmtvnV0q6X9o/vTSGJmADMzmqN/VWL4B6k/1fx433v9vtfYJ3fi5Vl/vw2guQ0g3gLAxwAYFoD0A2AYeHhMesplAKsAYGgAchog1Q3Qcwk++c4WwAHKAHYRoFgEKFrO320boFxy/mG53OjL9/AYHdDvd7nk/M7brgPFIoBdBAwD8GEAAJYJUMgNvCg/AEEA4AQAjgMA7ryhF1E8JgPoP/1yCaBUAijZTgSpdsAyAQMAH44BgJkHyOkAhgpAUgAY7rwJ6QfwkQA+HwC4cniSeExkKrui8sCuCW2vdMVxIKcDmHlHEAwArO5LQPoDAITPeZNSyQk3AQaAop2I4iO9aOIxcamPGkULwCy4wcFw5FAzTg6iyWB2XQAcAyCenT99q3y8k7XEJPhj0wAnCDcPKTpvVJ2HICmwyh+eKB7jmxox3DzDLADkswBZHUCTARTREUNOg919EaQ3XwXl7V0QjER7ie9H9R+S0biUk6Xlmbd3BcAyy3S8aSBhL9nOa7CE3RPFY7wymBiWCZDPOVsoXQHQJEcMKQUgpSCz49eQfvU/MLyQlwQ2+Awn930ZK9878J5GvPW7sqT8lY3hJP/gF0rc8gfLwPIAobDzCoYA6GDdtstN5DFv6+UxDhgsAa/eTqHIoSuuJDKonfswed92nCiXLV4I/4BJXX4W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) no-repeat;
+					width: 200px;
+					height: 60px;
+					}
+					.issueInformation .xssShadow {
+					background: url(data:image/png;base64,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) no-repeat;
+					width: 200px;
+					height: 116px;
+					}
+					.issueInformation .xssValue {
+					position: absolute;
+					left: 90px;
+					top: 47px;
+					color: #000000;
+					font-size: 11px;
+					}
+					.issueInformation .xssImage {
+					left: -175px;
+					top: -75px;
+					position: relative;
+					}
+					.issueInformation .malwareIcon {
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAK6wAACusBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDIvMDEvMDlIIimIAAAI6klEQVRYhcVXa3BV1RX+1trn3EdySSAhIYBEwZCABMGqRcRY8dUp0toWxwJCGhhatJMptVIRrUBBqwEfA2p1kLH4GKlTFESxMrYCyrSoGB4BAlghERmbBAkkIdzcs/da/XFyQ3TQin+6Z9acc8/dZ3/fenxr70Oqiv/n8ACAiL7R5Bm3/bqCIGNVXKm6oAiqCWMMq2qLF43/OxKJ7Y5lJjZWLZq38uvW6e40qerXErj8yqvzSkpK7pUgOcV4fpuJxg+RHztsOXI0sJqKJxt/1xHLXeFpqsCDPceoDGAiPzs379khQy5YNHXihKZvTWBS+fQKT+0jkXjmJ9yj96aTHdIey8hwWT1z2hPZvU5m9sg6dWjL2uVDr58yLdne5re3tsRPtjQnUieaiil5/HsMyc/rO2DW7+fcseKsCZRPn7FWgtTYRJ/C55Lqt8YyEx0DBhY3ZOX0PtV9Xs36P68cfsO0ii+8LIK2E8fijQe2X0MdLd+PxDLee/D+hdd9YwLl02esher5lMh7E37MDho64khOfkHrGcP0FUOdAGJx7PD+oW3/OThVlQ4+vPiBsi8T4DN6boNLkMhfV7P9g9n7drx/19mCAwAZxgtPPLjyjVdfmZM/+DuPkbrhd9w5910AmDlz5pkJ/OyWigqxwSjO7vcCR2LqR6IAgPfefuOysyUAdKqLCLt2bj83r2jEUoaU3lY564/d53QRKB1xUR5rsDTeu//Lu6vfn1Nb/d493wb0TCQO7N5x68urnp+X2bvf2uweGbMam45eko5CF4FhpcPv9aKxj9pTaPejUeAMwlBVhYpAxVE3Q2iiX9HV0pGo+6wpYC/SNKho8MLly5dHgc5GBABwqQqN5D6dmZXdNrny7mkfbN4wKgQVVXEgFffsIwueJ3QWkSIk2XklovCWGOW3zytXEE2ZdW9F9/SJKPLPK1l1tK52FoDSmTNnfugBwE9vnlyhKh2tpzqC4kHFDWyMjrp63FaICKBiGAoVUXEIfex0NO2vAgoKCZFi61uvffeya8dvZfZo1NXjtnZF0AXI9JmP1e+TGbf+ahrEhgQM01gvEq/1emRJTl5BMsQQR6RCqvLMkvmrVBWqEoKpfCFDac9BBJBi/873K/fv3FY5/c6Fk6EKEJtwpkFKRCKZPXbn5mpp1f2LBnGYIy21FDnYI6d3WxqcScVjdr5hJ+IgYZrT6YZzrstOP3cQZyEiUBVs+dua0YbJMcECoTSVDDKycmpj0Ug/APleGBpbnAqCf2Zl57akwQ3IQqwSkwsBBENKRy4RcQqoEoDamh1zAKBk+MgqgIjZEIho/56ds0EaOqLqhAAmsqLwDDESPXPrWxs/vRlAz5CASKI9mQp8308SVAyxg1j1DDkGWXEOUIG4wN0wYeImw0YI0D07ts0BALFWfjypfJOCCMS8r6Z6toYExBhyEJBAwcSOCCYjK6eBiOIAEl0qGNg74/aje97B0T3vAAAuHT91AoMsI118gr07P7xrz45tdwH6hXZaW1M9d1/N9rmd+CBisAFUnHjMDlBSp9ix/pkXv6RQPzwPMLfWN7W+dMUPJmzOL+ibYogzzI7UiWGyqmEKTl87CagCRKC0MQMCgAFxgDqnBBXD5EBEF/9o+iQi8qT5cGnjodpKoLMREXsfRT2Tl2xvMxrmWCBWGSriAp276KHriocMu0+cgzgH52xnsYVFF/4O/xNxGDLswvtLhl34gIhThoqK7ZSxqDqrJ483F7Ln1QMIOJQR7fZZCo9/3hgzTGLYCBMJMzmPjTNMbmL5tLfSagiB5LR1AncpxTm96ZZpf79x4tR/GMNi2IhhFgKEoa699dhQZ7UOQBsDQGDd26zu/IYj9YmgI6kEVYKKOAtjWKAihkI1iAjOLxp8T1HR4LnOhp4XDS6+u6i45J60WkScMEE9Dt9lghKgEKtGUjHbkRzY2NRUC+A4A8Da1X95lggmONlSmjx1UqCqzCHzUHKqqiLdPJZZt//29W5hl8rf3PGGSLpZpQskBGZmAVSjEV9OfFZ3kYozTyx79F8AGk7vBeytiIq98Ujdx+8899jiZ6SrqTgsXLy0zJDKQ8v+dOlTyx691tpAxAXu8SefHPLwkiXjxTn2PSPLnlpx8VOPLx2nUMPM8ofZlRvZeGBjQGxQOWfBxOONR64n47+K8DB0qOtEVDzkgtyRI4bXk5+xrmbXzkm+74fFJQ7FJUMXVMyY+SapcwwNDME6F9iY7wVkfGP8iGdFPSvqW4GnZIwV+PNmV25m4wFEYDYoKyvb0DMzcvnaNWt/UVOz6yNVre7ajg/s2/t5MuUqNTh1/SWjr7izcFBRVVd0iEjTPZ+Z/EgE0WiUyPgmGo8RiMj3IzDG0+7zgXDfKBl24eJRoy9/PhHhslPJVFVNzS4HYE+XDNNj3ZrVK4n5g44TjXP6n1O4N5VKpTVOAJGCSEBkRQ2xF3ru1AOYU9ayE0nvSJQ+aKoqemUl8nonouO9SGTLQ4sf3Adgm6p2AF9xKP3JTTdt8o1XnNu38L76uoN9Y/G4TJ32yw2kzhkmaww73zMCVfX9CFLWsoJYBJ4V9ZSM6UgFXuACs3H9msm9EvHxsXi8euGC+SsANKrqu12lhzOMNatXX2WdPdDccHhx3z75uVddN25j8/FmEzhlJ+o5US+w4llR/8WVT+9yop4IvEDEKDE7ESMqXL+7+oc5iVh5JBrdvnDB/CcANAB4tzuWdyYCAPDK6tVXjSm7cmHhAJq9bfOGa3IL+j3e/7yi7Xm5eYhEfHi+x+m4dXRYzzrHYOaOZEvs04MHLmv67NMpTChIpuz8qqqqgwCOA9jyZZz/+WmWk5M7cvSYMYtyemaPJeaT0Vh8ezyesT+jR9aBrF65n9Ttq1lXUDiw8lRba5ENUsNtkBpORDHj+S+vf/21DQf277cAPgRQl17zrL4NO0cEwLAxZVf+vKBP/gUZGZn9PcMDmDnTGMOi2mKM97FCDzU3n9j715dWVQMwAD5GWO2p7ot9GwLdx7kA+gDIBpAFwO98bgGc6LQGAPVftUB3Av8FiUo3CWlofskAAAAASUVORK5CYII=) no-repeat;
+					width: 32px;
+					height: 32px;
+					}
+					.issueInformationComment {
+					color: #666;
+					height: 32px;
+					padding: 8px 36px 0;
+					background-repeat: no-repeat;
+					background-image: url(data:image/png;base64,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);
+					}
+					.issueInfoData {
+					font-family: 'Courier New', monospace, Courier;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+
+					font-size: 10pt;
+					word-break: break-all;
+					}
+					.severity {
+					width: 24px;
+					text-align: center;
+					color: white;
+					border-radius: 0px;
+					-moz-border-radius: 0px;
+					}
+					.issueType {
+					display: table;
+					background-color: #aaaaaa;
+					margin: 82px 0 0 0;
+					width: 100%;
+					height: 32px;
+					page-break-inside: avoid;
+					border-radius: 0px;
+					}
+					#fixRecommendationsDiv .issueType {
+					display: table;
+					background-color: #3087B3;
+					margin: 0px;
+					width: 100%;
+					height: 32px;
+					border-radius: 0px;
+					-moz-border-radius: 0px;
+					page-break-inside: avoid;
+					}
+					.issueType h2 {
+					font-weight: bold;
+					font-size: 16px;
+					color: white;
+					margin: 0;
+					}
+					.issueType a {
+					color: white;
+					text-decoration: none;
+					}
+					.issueType a:hover {
+					color: white;
+					text-decoration: underline;
+					}
+					.issueType div {
+					font-weight: bold;
+					display: table-cell;
+					font-size: 16px;
+					padding: 8px;
+					}
+					.issueType table {
+					width: 99%;
+					}
+					.issueType td:last-child {
+					height: 28px;
+					text-align: right;
+					}
+					.issueType td {
+					height: 28px;
+					}
+					td .severity_0,
+					td .severity_1,
+					td .severity_2,
+					td .severity_3,
+					td .severity_4 {
+					height: 16px;
+					float: left;
+					}
+					
+					.severity_0 {
+					background-color: #93A2AD;
+					color: #000000;
+					border: 1px solid #BFBFBF;
+					}
+					
+					.severity_1 {
+					background-color: #FFC919;
+					color: #FFFFFF;
+					}
+					
+					.severity_2 {
+					background-color: #FF8A00;
+					color: #FFFFFF;
+					}
+					
+					.severity_3 {
+					background-color: #F95454;
+					color: #FFFFFF;
+					}
+					
+					.severity_4 {
+					background-color: #C10C0D;
+					color: #FFFFFF;
+					}
+					.severity_5 {
+					background-color: #009900;
+					color: #FFFFFF;
+					}
+
+					.issueHeader {
+					/*-moz-border-radius: 0px;
+					border-radius: 0px;*/
+					border: 1px solid #CCCCCC;
+					margin-bottom: 16px;
+					page-break-inside: avoid;
+					/*background-color: #F7F5E4;
+					background-repeat: repeat-x;
+					background-image: url(data:image/gif;base64,R0lGODlhAQAdAMQAAPLu0fHtzvDszO/rye/qx+7pxO3owu3nv+zmvevluurkuOrktenjs+jisejhrufgq+bfqebep+XdpOTcouPbn+PaneLZmuHYmODXk+HXld/WkN7Vjt7UjAAAAAAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNC4xLWMwMzQgNDYuMjcyOTc2LCBTYXQgSmFuIDI3IDIwMDcgMjI6Mzc6MzcgICAgICAgICI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnhhcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+CiAgICAgICAgIDx4YXA6Q3JlYXRvclRvb2w+QWRvYmUgRmlyZXdvcmtzIENTMzwveGFwOkNyZWF0b3JUb29sPgogICAgICAgICA8eGFwOkNyZWF0ZURhdGU+MjAwNy0wMS0wNFQyMjoxMDozMVo8L3hhcDpDcmVhdGVEYXRlPgogICAgICAgICA8eGFwOk1vZGlmeURhdGU+MjAwOS0xMC0wNlQxNDowMToyMlo8L3hhcDpNb2RpZnlEYXRlPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9naWY8L2RjOmZvcm1hdD4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgCjw/eHBhY2tldCBlbmQ9InciPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PAA6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQABwD/ACwAAAAAAQAdAAAFFSAnYqRlUZQkQZDjMHCSHEdRDEMQhAA7);*/
+					}
+					.issueHeader table {
+					border-collapse: collapse;
+					}
+					.issueHeader td {
+					font-size: 9pt;
+					}
+					.issueHeaderPale {
+					background-color: #F8F6E6;
+					background-repeat: repeat-x;
+					background-image: url(data:image/gif;base64,R0lGODlhAQAdALMAAPj25vf05Pb04fbz3vTy3PPx2fPw1vLu0/Lu0fHtz/DszO/rye7pxQAAAAAAAAAAACH5BAAHAP8ALAAAAAABAB0AAAQPkMmpqkIYmb2JJ0IoAEAEADs=);
+					}
+					.issueHeader .headerIssueType {
+					height: 28px;
+					border-bottom: 1px solid #CCCCCC;
+					padding-left: 8px;
+					line-height: 29px;
+					color: #121212;
+					font-size: 12pt;
+					font-weight: bold;
+					}
+					.issueHeader .headerIssueType a {
+					color: #3087B3;
+					font-size: 12pt;
+					font-weight: bold;
+					text-decoration: none;
+					}
+					.issueHeader .headerIssueType a:hover {
+					text-decoration: underline;
+					}
+					.issueHeader .row,
+					.variant .row,
+					.row {
+					display: table-row;
+					}
+					.row .name {
+					display: table-cell;
+					padding: 4px 8px 4px 0px;
+					vertical-align: top;
+					}
+					.row .value {
+					display: table-cell;
+					padding: 4px 0 4px 0;
+					width: 100%;
+					vertical-align: top;
+					}
+					.issueHeader .row .name {
+					display: table-cell;
+					padding: 4px 8px 4px 8px;
+					border-bottom: 1px solid #CCCCCC;
+					}
+					.issueHeader .row .value {
+					display: table-cell;
+					padding: 4px 0 4px 0;
+					border-bottom: 1px solid #CCCCCC;
+					width: 100%;
+					word-break: break-all;
+					}
+					.issueHeader .row:last-child .name,
+					.issueHeader .row:last-child .value {
+					border-bottom: none;
+					}
+					.issueHeader .value ul {
+					list-style: none;
+					}
+					.listStyleNone {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+					}
+					.issueHeader .datatable tr:last-child td {
+					border-bottom: none;
+					}
+					.variant .row td {
+					font-size: 9pt;
+					}
+					.variant .row .name,
+					.variant .row .value {
+					display: table-cell;
+					vertical-align: top;
+					}
+					.name {
+					color: #333333;
+					font-weight: bold;
+					padding-right: 16px;
+					white-space: nowrap;
+					}
+					.box {
+					border-radius: 0px;
+					-moz-border-radius: 0px;
+					display: inline-block;
+					padding: 2px 4px 0 4px;
+					font-weight: bold;
+					}
+					.toc li {
+					list-style: square;
+					color: #3087B3;
+					}
+					.toc a {
+					color: #3087B3;
+					text-decoration: none;
+					vertical-align: middle;
+					}
+					.toc a:hover {
+					color: #3087B3;
+					text-decoration: underline;
+					}
+					td,
+					.td {
+					word-wrap: break-word;
+					word-break: break-all;
+					}
+					td.breakNormal {
+					word-break: break-all;
+					}
+					img {
+					page-break-inside: avoid;
+					}
+					.datatable {
+					width: 100%;
+					border-collapse: collapse;
+					}
+					.dataTable th,
+					.dataTable td {
+					text-align: left;
+					padding: 4px 12px;
+					border-bottom: 1px solid #CCC;
+					border-top: 1px solid #CCC;
+					}
+					.datatable th,
+					.datatable .th {
+					padding: 2px 4px;
+					/*background-color: #3087B3;
+					color: white;*/
+					text-align: left;
+					font-weight: bold;
+					font-size: 10pt;
+					height: 30px;
+					page-break-inside: auto;
+					}
+					.datatable td,
+					.datatable .td {
+					border-bottom: 1px solid #cccccc;
+					border-top: 1px solid #cccccc;
+					padding: 2px 4px;
+					text-overflow: ellipsis;
+					font-size: 9pt;
+					word-wrap: break-word;
+					vertical-align: top;
+					}
+					.datatable .double td,
+					.datatable div.double {
+					border-bottom: 2px solid #3087B3;
+					}
+					.dataTable td:last-child {
+					width: 100%;
+					}
+					.datatable a {
+					color: #3087B3;
+					text-decoration: none;
+					}
+					.datatable a:hover {
+					text-decoration: underline;
+					}
+					.datatable .severity {
+					width: 24px;
+					text-align: center;
+					color: white;
+					border-radius: 0px;
+					-moz-border-radius: 0px;
+					}
+					.headerdatatable th {
+					background: none;
+					color: #333;
+					padding: 4px 8px;
+					}
+					.headerdatatable td {
+					padding: 4px 8px;
+					}
+					.toclink {
+					text-align: right;
+					float: right;
+					font-weight: normal;
+					font-size: 8pt;
+					color: #3087B3;
+					padding-top: 4px;
+					}
+					.severityLegend {
+					text-align: right;
+					float: right;
+					font-size: 10pt;
+					padding-top: 4px;
+					}
+					.issueType .toclink {
+					color: #FFFFFF;
+					float: none;
+					}
+					.count {
+					padding: 1px 4px;
+					margin: 0 4px;
+					font-weight: bold;
+					}
+					.issueType .count {
+					margin: 0;
+					}
+					.highlight {
+					background-color: yellow;
+					}
+					.mark {
+					color: red;
+					}
+					.chartContainer {
+					page-break-inside: avoid;
+					}
+					.chart {
+					position: relative;
+					height: 400px;
+					font-size: 18px;
+					color: #333;
+					overflow: hidden;
+					}
+					.chart .legendContainer {
+					left: 50%;
+					top: 8%;
+					position: absolute;
+					overflow: visible;
+					}
+					.chart .legend {
+					margin-left: -50%;
+					}
+					.chart .legend .icon {
+					display: table-cell;
+					width: 22px;
+					box-shadow: 1px -1px 2px 1px #999;
+					}
+					.chart .legend .label {
+					display: table-cell;
+					padding: 0 32px 0 8px;
+					}
+					.chart .stick {
+					position: absolute;
+					height: 64%;
+					width: 25%;
+					bottom: 0%;
+					z-index: 10;
+					overflow: hidden;
+					}
+					.chart .stick .label {
+					text-align: center;
+					padding-top: 8px;
+					color: #FFF;
+					text-shadow: #999999 0px -1px 0px;
+					}
+					.chart .stick .labelInfo {
+					font-size: 11px;
+					padding-top: 0px;
+					}
+					.chart .stick.severity_3 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #FF0000;
+					left: 0%;
+					height: 40%;
+					}
+					.chart .stick.severity_2 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #FFCC00;
+					left: 25%;
+					height: 30%;
+					}
+					.chart .stick.severity_1 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #FFEE00;
+					left: 50%;
+					height: 50%;
+					}
+					.chart .stick.severity_0 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #5BA2D6;
+					left: 75%;
+					height: 20%;
+					}
+					.chart .stick.stick_2 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #DA8F44;
+					left: 0%;
+					height: 20%;
+					}
+					.chart .stick.stick_1 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #43B443;
+					left: 38%;
+					height: 80%;
+					}
+					.chart .stick.stick_0 {
+					box-shadow: 1px -1px 2px 1px #999, inset 0px 50px 50px 0px #B1893B;
+					left: 75%;
+					height: 40%;
+					}
+					.chart .line {
+					border-bottom: 1px solid #aaa;
+					position: absolute;
+					bottom: 24%;
+					width: 90%;
+					left: 5%;
+					right: 5%;
+					overflow: visible;
+					}
+					.chart .line .label {
+					position: relative;
+					left: -5%;
+					top: 12px;
+					}
+					.chart .series1 {
+					position: absolute;
+					width: 38%;
+					left: 9%;
+					bottom: 16%;
+					height: 64%;
+					}
+					.chart .series2 {
+					position: absolute;
+					width: 38%;
+					left: 53%;
+					bottom: 16%;
+					height: 64%;
+					}
+					.chart .series3 {
+					position: absolute;
+					width: 82%;
+					left: 9%;
+					bottom: 16%;
+					height: 64%;
+					}
+					.chart .seriesLabel1 {
+					position: absolute;
+					height: 5%;
+					width: 50%;
+					left: 2%;
+					bottom: 0%;
+					text-align: center;
+					}
+					.chart .seriesLabel2 {
+					position: absolute;
+					height: 5%;
+					width: 50%;
+					left: 48%;
+					bottom: 0%;
+					text-align: center;
+					}
+					.chart .seriesLabel3 {
+					position: absolute;
+					height: 5%;
+					width: 96%;
+					left: 2%;
+					bottom: 0%;
+					text-align: center;
+					}
+					.chart .countersContainer1 {
+					bottom: 8%;
+					width: 100%;
+					position: absolute;
+					overflow: visible;
+					}
+					.chart .countersContainer1 .counters {
+					width: 92%;
+					padding: 0 0 0 4%;
+					}
+					.chart .countersContainer1 .counters .counter {
+					width: 33%;
+					display: table-cell;
+					text-align: center;
+					}
+					.chart .countersContainer2 {
+					bottom: 8%;
+					width: 50%;
+					position: absolute;
+					overflow: visible;
+					}
+					.chart .countersContainer2 .counters {
+					width: 76%;
+					}
+					.chart .countersContainer2 .counters .counter {
+					width: 25%;
+					display: table-cell;
+					text-align: center;
+					}
+					.stick_0 {
+					background-color: #754F00;
+					}
+					.stick_1 {
+					background-color: #009900;
+					}
+					.stick_2 {
+					background-color: #E67300;
+					}
+					.doubleScreen {
+					position: relative;
+					}
+					.doubleScreen .right {
+					width: 47%;
+					float: right;
+					position: relative;
+					height: 24px;
+					}
+					.doubleScreen .left {
+					width: 47%;
+					float: left;
+					position: relative;
+					height: 24px;
+					}
+					.doubleScreen .single {
+					position: relative;
+					height: 24px;
+					}
+					.doubleScreen .rightCode {
+					width: 46%;
+					float: right;
+					overflow: auto;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #eeeeee;
+					margin-bottom: 10px;
+					height: 250px;
+					padding: 1.1%;
+					}
+					.doubleScreen .leftCode {
+					width: 46%;
+					float: left;
+					overflow: auto;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #eeeeee;
+					margin-bottom: 10px;
+					height: 250px;
+					padding: 1.1%;
+					}
+					.doubleScreen .rightHeader {
+					width: 46%;
+					float: right;
+					overflow: auto;
+					overflow-y: hidden;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #ffffff;
+					margin-bottom: 10px;
+					padding: 1.1%;
+					}
+					.doubleScreen .leftHeader {
+					width: 46%;
+					float: left;
+					overflow: auto;
+					overflow-y: hidden;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #ffffff;
+					margin-bottom: 16px;
+					padding: 1.1%;
+					}
+
+					.doubleScreen .rightHeader3 {
+					width: 45%;
+					float: right;
+					overflow: auto;
+					overflow-y: hidden;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #ffffff;
+					margin-bottom: 10px;
+					padding: 1.1%;
+					}
+
+					.doubleScreen .leftHeader3 {
+					width: 45%;
+					float: left;
+					overflow: auto;
+					overflow-y: hidden;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #ffffff;
+					margin-bottom: 10px;
+					padding: 1.1%;
+					}
+
+					.doubleScreen .singleHeader {
+					overflow: auto;
+					overflow-y: hidden;
+					border-top: 1px solid #999999;
+					border-bottom: 1px solid #ffffff;
+					border-right: 1px solid #ffffff;
+					border-left: 1px solid #999999;
+					background-color: #ffffff;
+					padding: 1.1%;
+					padding-bottom: 2.5%;
+					}
+
+					.doubleScreen .rightImage {
+					width: 48%;
+					height: 36%;
+					overflow: hidden;
+					float: right;
+					position: relative;
+					border-top: 1px solid #666666;
+					border-bottom: 1px solid #cccccc;
+					border-left: 1px solid #666666;
+					border-right: 1px solid #cccccc;
+					margin-bottom: 10px;
+					}
+
+					.doubleScreen .leftImage {
+					width: 48%;
+					height: 36%;
+					overflow: hidden;
+					float: left;
+					border-top: 1px solid #666666;
+					border-bottom: 1px solid #cccccc;
+					border-left: 1px solid #666666;
+					border-right: 1px solid #cccccc;
+					position: relative;
+					margin-bottom: 10px;
+					}
+
+					.doubleScreen .rightImage3 {
+					width: 47%;
+					height: 36%;
+					overflow: hidden;
+					float: right;
+					position: relative;
+					border-top: 1px solid #666666;
+					border-bottom: 1px solid #cccccc;
+					border-left: 1px solid #666666;
+					border-right: 1px solid #cccccc;
+					margin-bottom: 10px;
+					}
+
+					.doubleScreen .leftImage3 {
+					width: 47%;
+					height: 36%;
+					overflow: hidden;
+					float: left;
+					border-top: 1px solid #666666;
+					border-bottom: 1px solid #cccccc;
+					border-left: 1px solid #666666;
+					border-right: 1px solid #cccccc;
+					position: relative;
+					margin-bottom: 10px;
+					}
+
+					.doubleScreen .centerImage3 {
+					position: absolute;
+					left: 0px;
+					right: 0px;
+					line-height: 210px;
+					text-align: center;
+					font-size: 50px;
+					font-weight: bold;
+					color: #333333;
+					}
+
+					.doubleScreen .singleImage {
+					border-top: 1px solid #666666;
+					border-bottom: 1px solid #cccccc;
+					border-left: 1px solid #666666;
+					border-right: 1px solid #cccccc;
+					margin-top: 10px;
+					clear: both;
+					overflow: visible;
+					background-color: #FFFFFF;
+					min-height: 350px;
+					}
+
+					.doubleScreen .singleImage .xssContainer {
+					position: absolute;
+					width: 200px;
+					left: 50%;
+					top: 100px;
+					}
+
+					.doubleScreen .singleImage .xssBlurb {
+					background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAA8CAYAAAAjW/WRAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwOS8xNS8wOI8g8wMAAAQRdEVYdFhNTDpjb20uYWRvYmUueG1wADw/eHBhY2tldCBiZWdpbj0iICAgIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMS1jMDM0IDQ2LjI3Mjk3NiwgU2F0IEphbiAyNyAyMDA3IDIyOjM3OjM3ICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4YXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eGFwOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzM8L3hhcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhhcDpDcmVhdGVEYXRlPjIwMDgtMDktMTVUMTI6MzU6MjBaPC94YXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhhcDpNb2RpZnlEYXRlPjIwMDgtMDktMTVUMTU6Mjk6NThaPC94YXA6TW9kaWZ5RGF0ZT4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOHvbA0AAAAYdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3Jrc0+zH04AABDvSURBVHic7Z15kBPnlcBfd6tbLbW61a0LZobBgw9gwdgGc5tg7DGH7YTYSypbSW1VYieA16m9a7Oudap2tnazlWwq2aviBNuxk62tpLJbXjtsDAZzGIxhwF5zORiwMXhgLkmtvnV0q6X9o/vTSGJmADMzmqN/VWL4B6k/1fx433v9vtfYJ3fi5Vl/vw2guQ0g3gLAxwAYFoD0A2AYeHhMesplAKsAYGgAchog1Q3Qcwk++c4WwAHKAHYRoFgEKFrO320boFxy/mG53OjL9/AYHdDvd7nk/M7brgPFIoBdBAwD8GEAAJYJUMgNvCg/AEEA4AQAjgMA7ryhF1E8JgPoP/1yCaBUAijZTgSpdsAyAQMAH44BgJkHyOkAhgpAUgAY7rwJ6QfwkQA+HwC4cniSeExkKrui8sCuCW2vdMVxIKcDmHlHEAwArO5LQPoDAITPeZNSyQk3AQaAop2I4iO9aOIxcamPGkULwCy4wcFw5FAzTg6iyWB2XQAcAyCenT99q3y8k7XEJPhj0wAnCDcPKTpvVJ2HICmwyh+eKB7jmxox3DzDLADkswBZHUCTARTREUNOg919EaQ3XwXl7V0QjER7ie9H9R+S0biUk6Xlmbd3BcAyy3S8aSBhL9nOa7CE3RPFY7wymBiWCZDPOVsoXQHQJEcMKQUgpSCz49eQfvU/MLyQlwQ2+Awn930ZK9878J5GvPW7sqT8lY3hJP/gF0rc8gfLwPIAobDzCoYA6GDdtstN5DFv6+UxDhgsAa/eTqHIoSuuJDKonfswed92nCiXLV4I/4BJXX4W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) repeat-y;
+					padding-left: 10px;
+					padding-right: 10px;
+					color: #990000;
+					}
+
+					.doubleScreen .singleImage .xssValue {
+					position: absolute;
+					left: 80px;
+					top: 47px;
+					color: #000000;
+					font-size: 11px;
+					}
+
+					.doubleScreen .singleImage .xssImage {
+					left: -175px;
+					top: -75px;
+					position: relative;
+					}
+
+					.doubleScreen .singleImage .xssImage {
+					left: -175px;
+					top: -75px;
+					position: relative;
+					}
+
+					.doubleScreen .image {
+					width: 100%;
+					}
+
+					.doubleScreen .title {
+					float: left;
+					color: #666666;
+					font-size: 18px;
+					font-weight: bold;
+					position: absolute;
+					left: 0px;
+					top: 0px;
+					z-index: 2;
+					}
+
+					.doubleScreen .titleHighlight {
+					font-size: 18px;
+					font-weight: bold;
+					color: White;
+					position: absolute;
+					left: 1px;
+					top: 1px;
+					z-index: 1;
+					}
+
+					.logos {
+					display: table;
+					width: 100%;
+					margin-bottom: 1.5em;
+					}
+
+					.logos .cell {
+					display: table-cell;
+					vertical-align: middle;
+					}
+
+					.logos .right {
+					text-align: right;
+					}
+
+					.logos img {
+					width: 96px;
+					}
+
+					.snippet {
+					padding: 0.5em;
+					background-color: white;
+					}
+
+					.snippet .lineNumber {
+					color: #888888;
+					width: 2.2em;
+					padding-right: 0.7em;
+					text-align: right;
+					vertical-align: top;
+					border-right: 3px solid #aaaaaa;
+					}
+
+					.snippet .lineNumberHighlight {
+					background-color: #aaaaaa;
+					color: White;
+					width: 2.2em;
+					padding-right: 0.7em;
+					text-align: right;
+					vertical-align: top;
+					border-right: 3px solid #aaaaaa;
+					}
+
+					.snippet .taintCount {
+					vertical-align: middle;
+					padding-left: 0.5em;
+					}
+
+					.snippet .taintCount .bullet {
+					background-color: #0099CC;
+					padding: 0 0.4em;
+					color: #ffffff;
+					font-size: 0.7em;
+					font-weight: bold;
+					text-align: center;
+					}
+
+					.snippet .code {
+					overflow: hidden;
+					border-top: 1px solid #DDDDDD;
+					color: #333333;
+					}
+
+					.snippet .fileName {
+					font-weight: bold;
+					padding-left: 1em;
+					padding-right: 1em;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					}
+
+					.snippet table {
+					border-collapse: collapse;
+					}
+
+					.snippet .nonhighlight {
+					white-space: pre-wrap;
+					padding-left: 1em;
+					}
+
+					.snippet .highlight {
+					background-color: #FFFF00;
+					font-weight: bold;
+					}
+
+					.snippet .comment {
+					color: Green;
+					}
+
+					.snippet .keyword {
+					color: DarkBlue;
+					font-weight: bold;
+					}
+
+					.watermark {
+					color: #f0f0f0;
+					font-size: 120pt;
+					
+					position: absolute;
+					width: 80%;
+					height: 80%;
+					
+					z-index: -1;
+					left: 100px;
+					
+					}
+
+					.s_issueType {
+					background-color: #474747;
+					}
+
+					.s_issueType h2 {
+					font-size: 18pt;
+					padding: 5px 15px;
+					}
+
+					.tag {
+					background-color: #00047A;
+					font-size: xx-small;
+					margin: 1px;
+					}
+
+					table.content {
+					border-collapse: collapse;
+					}
+
+					th.content {
+					background-color: #005288;
+					color: #DBE5F1;
+					border: 1px solid #005288;
+					padding: 4px;
+					font-weight: 300;
+					}
+
+					td.content {
+					color: #000000;
+					border: 1px solid #005288;
+					padding: 4px;
+					}
+
+					.sample {
+					border-color: #A0A0A0;
+					border-style: solid;
+					border-width: 1px;
+					border-left-width: 4px;
+					border-right-width: 4px;
+					margin-top: 10px;
+					margin-bottom: 10px;
+					page-break-inside: avoid;
+					}
+					/* header row */
+
+					.sample-header {
+					background-color: #E0E0E0;
+					padding: 5px;
+					font-size: 90%;
+					}
+					.sample-header-table {
+					width: 100%;
+					}
+					/* sample type label in upper left of sample box */
+
+					td.sample-type {
+					font-weight: bold;
+					}
+					/* sample file format label in upper right of sample box */
+
+					td.sample-format {
+					text-align: right;
+					font-style: italic;
+					}
+
+					.sample-body {
+					/*background-color:lightgray;
+					padding: 0 9px 9px 9px;      */
+
+					background-color: #EEEEEE;
+					}
+
+					.sample-body &gt; p {
+					margin-left: 9px;
+					}
+
+					.s_highlight {
+					color: darkred;
+					font-weight: bold;
+					word-break: break-all;
+					white-space: pre-wrap;
+					}
+
+					.trace {
+					font-size: 8pt;
+					font-family: Arial, Helvetica, sans-serif;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-weight: lighter;
+					border: 1px solid #afafaf;
+					background-color: #f9f9f9;
+					margin: 2px;
+					padding: 2px;
+					page-break-inside: avoid;
+					white-space: pre-wrap;
+					}
+
+					.traceborder {
+					border-left: medium solid #f9f9f9;
+					}
+
+					.traceborderfix {
+					border-left: medium solid cornflowerblue;
+					}
+
+					.traceborderalt {
+					border-left: medium solid lightblue;
+					}
+
+					.traceheader {
+					background-color: #444444;
+					border: 1px solid #fefefe;
+					color: white;
+					font-size: 9pt;
+					font-family: Arial, Helvetica, sans-serif;
+					font-family: 'Noto Sans', sans-serif;
+					font-family: 'Noto Sans JP', sans-serif;
+					font-weight: bold;
+					padding: 1px;
+					}
+
+					.iotsource_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAOMAAMDAwN9pXsgZKvz8/fb5/PP2+9BWSO2sp8giLdZdUezy+erv98k+OuVwaOTr9clHPiH5BAEAAAAALAAAAAAQABAAAARaEARBqw0gA+G6/4K2faQTalzpnVlKPo8put7TxMesLPzCNA2GcLhRGBWIgHK53BSeT0QigUAIqggn9CkwCAo5FGFMJlDMs4F6zWZt2PCBWxBviyaWPEbE72siADs=);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.methodTraceSink_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAKUAAP///99oX8giLv39/vv8/vv8/fz8/vz8/fn6/fn6/P3+/u2sp/b4+/f4/Pb5+/b5/Pf4+/b4/MgZKvP2+vT2+/P2+/T2+vT3+tBWSPD0+vH0+fH0+sgiLcgjLtdeUtZdUe3y+O3x+ezx+N9pX99pXskwNOnw9+nv9+rv98k+OuVwaOft9ubt9uft9clHPuTr9ePr9eLp9eLq9OLp9OHp9Mk+Ov///wAAAKurq+2spwAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAAAaPQEBAQCwaA4AkQEBrOp8C5fJJpUWVglhMtpXJZuCFVPAqv2Aws8s1Xq1YrFXrzXKp2EmB6YRCpf6AKiopeSAhISIBI4qMIyQlSxkaGRsCHEUdHh9XAhMUFaAWFxUWEhgSWAwNDg0PEBAOERKoWAi2Cba3CmJYBAUGBgQHBwXEV3kDycrLx0JGzwJIUtPUSkEAOw==);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.methodLostSink_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAKUAAP///99oX8giLv39/vz8/fv8/fn6/Pn7/Shilvb4/Pf5/MgZKqK70/T2+vP3++2sp/D0+sgjLtZdUV2JsWqSt+zy+d9pX99pXskwNOrv98k+OuVwaHmdvlCAqubt9uft9slHPl+KsWyUuJWyzOTr9UR2pNvk7uLp9OHp9Mk+Ov///wAAAKurq+2spwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAAAZ1QEBAIAgAjsjkUYBCCZRQANMZVQpOp2cVKSCRnqBkCUE2ST2fBwAUBoQQohFZmtHYNRsNgME5dhBSFRYBARYWFxhIEwgTUhBEAhESWgCLFEsNDmoLC0lzSwkKT51JDAxcBgeUnoBLBAWrVQIDA7FRQ0VbulVBADs=);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.methodNotValidator_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAKUAAP///3Cgwzpglv39/vv8/vv8/fz8/vz8/fn6/fn6/Pn7/fb4+/f4/Pb5+6urq/f4+/b4/Pf5/PP2+vT2+/P2+7u7u/T3+vT2+vP3+9jY2PDz+fD0+vD0+crKyuzy+e3x+Onv9+rv9+ft9ubt9uTr9ePr9eLp9eLq9OLp9OHp9Pv8/XCgw/b5+////wAAAKurq3BwcJubm5CQkNjY2MrKyru7uwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAAAZ7QAAgICgajwGhUJBqOp8CJYD5rEaVApPptD2dUODrkkR2OEpksngqEo0cGYd7JFoLzOZMHBQK2TuAHXodDh4fdnhwFQ4aGxx2EhMUDosWFBcYdgsMDWYPDw0QEXYIpQmlpgp2BAUGBgQHBwWydgO2t7hrREe8SVK/wEJBADs=);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.methodVirtualLostSink_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAKUAAP///99oX8giLv39/oSIj4KIj/z8/fv8/fr+//n6/Pn7/YWKkff9/9VWY4aKkvb4/Pf5/MgZKtjZ3PT8/+aiqoiNlvT2+vP3+/D7/4uSm/D0+sgjLtZdUeOTnI+Woezy+d9pX99pXskwNOGTnJScpurv98k+OuVwaO7L0OKhqt2DjZihrObt9uft9slHPu/7/92SnOW/xtBGVZylsOTr9d/i5+v5/+nq8dZzf9FVY+TM1J+nteLp9KGqt9Xz/+Hp9CH5BAEAAAAALAAAAAAQABAAAAajwIBAEAAYj0ij4PcTJJ+AZdPYq1qvAh7PCej5vuBvT0CjOV012w0XieR0tp2A1aIAXK4XLAKLyWQvMwIlJoUmJyYoKRMTKhETKwIfICABlCEiDAwjESMMJAIaQwIbHAIICB0RHageAhYXdm0YqA0NqAgZAg8QThESE6gUFLgVAgkKXAsMtbeoDgIGB1wFuNYIBQIDA1wEBQUE3t/hQkRQ5+hIQQA7);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.methodPropagator_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQAKUAAP///3Cgwzpglv39/vv8/vv8/fz8/oCgzvz8/fn6/fn6/Pn7/fb4+/f4/Pb5+/b5/Kurq/b4/Pf5/PP2+vT2+/P2+7u7u/T2+vP3+9jY2PD0+crKyurv9+ft9ubt9uTr9ePr9eLp9eLq9OLp9OHp9Onw9/P3+/b5/PT3+vn7/fv8/XCgw/b5+////wAAAKurq3BwcJCQkJubm9jY2Lu7u8rKyoCgzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAAAZ6QAAgICgajwGhUEBqOp8CJYDZPDybUaUgFBIdROCROLv8mA8gCMT8IU87HY+nA8lA5m6Bel+3c/IbgYIZGRsQeXxqGRYQGnkTFBWSEIwXGHkMDQ4HD2oOERJ5CaMHo6MKC3kEBQYHBAgIBbF5A7W2t25ER7tJUr6/QkEAOw==);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.method_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAQANUAAPz8/v39/vz8/ff4/Pn6/ff4+/T2++3x+fH0+vDz+fb4/PT2+vv8/vn6/O3x+OLp9eLp9Orv9/P2+/H0+TpgluTr9eft9vD0+vf5/Pb4++Hp9Onv9+ft9ezx+PP2+uPr9eLq9Obt9u3y+PD0+ezy+enw9/P3+/b5/PT3+vn7/fv8/XCgw/b5+////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAC0ALAAAAAAQABAAAAZ/wFZrRSkajyuhkKJpOp8UZYv5rEaVlMcDtAWBIODrskKufD7linhqsYRCFo4bvqaUNpHIBo+P1EUHBx2ADiIkDnUXExcIFyMXCY51HgYSlgsoEgsmdRkDLAMnBQUsChh1BKkNqaopdQwqAAAMAgIqtnUBuru8a0RHwElSw8RCQQA7);
+					background-repeat: no-repeat;
+					height: 16px;
+					width: 16px;
+					display: inline-block;
+					vertical-align: top;
+					}
+
+					.trace_tree_bottom_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAgAIAAAP///wAAACH5BAEAAAAALAAAAAAQACAAAAIjhB9xy+0PV4pS0YvhxDt731HhR2rWNgLoaZXuC8fyTNc2VgAAOw==);
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+					height: 32px;
+					width: 16px;
+					}
+
+					.trace_tree_middle_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAgAIAAAP///wAAACH5BAEAAAAALAAAAAAQACAAAAIphB9xy+0PV4pS0YvhxDt731HhR2rWNgLoaZVl+sDuLDf1TN4VziMtUwAAOw==);
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+					height: 32px;
+					width: 16px;
+					}
+
+					.trace_tree_spacer_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAgAIAAAP///wAAACH5BAEAAAAALAAAAAAQACAAAAIUhI+py+0Po5y02ouz3rz7D4biSBUAOw==);
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+					height: 32px;
+					width: 16px;
+					}
+
+					.trace_tree_extender_gif {
+					background-image: url(data:image/gif;base64,R0lGODlhEAAgAIAAAP///wAAACH5BAEAAAAALAAAAAAQACAAAAImhB9xy+0PV4pS0YvhxDt731HhR2rWNZZqlaXr6jrxS86MTbcnUwAAOw==);
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+					height: 32px;
+					width: 16px;
+					}
+
+				</style></head><body xmlns="http://www.w3.org/1999/xhtml">
+				 
+				
+				<input type="hidden" name="sectionstart" />
+				 
+				
+				<div></div><div xmlns="">
+			    
+			<svg width="468px" height="32px" viewBox="0 0 468 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>logos_hclTech_ASoC</title><g id="logos_hclTech_ASoC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="atoms/brand/logo-internal/AS_on_Cloud/dark" transform="translate(248.000000, 4.000000)" fill="#121920"><path d="M27.5656325,19.2136312 L30.7866814,19.2136312 L31.9118423,15.9054983 L37.2287792,15.9054983 L38.3760021,19.2136312 L41.685299,19.2136312 L36.1477423,3.89175258 L33.1031892,3.89175258 L27.5656325,19.2136312 Z M32.8825694,13.1197022 L34.5813418,8.15750286 L36.2580521,13.1197022 L32.8825694,13.1197022 Z M43.3178854,22.5 L46.4506864,22.5 L46.4506864,17.7119129 C47.1125458,18.5824742 48.0612109,19.4312715 49.6496733,19.4312715 C52.0103051,19.4312715 54.150317,17.5378007 54.150317,13.5549828 L54.150317,13.2067583 C54.150317,9.22394044 51.9882431,7.33046964 49.6496733,7.33046964 C48.0832728,7.33046964 47.1346077,8.1792669 46.4506864,9.15864834 L46.4506864,7.54810997 L43.3178854,7.54810997 L43.3178854,22.5 Z M48.7230702,16.7325315 C47.4214135,16.7325315 46.4065624,15.4702176 46.4065624,13.4896907 L46.4065624,13.2720504 C46.4065624,11.2915235 47.4214135,10.0292096 48.7230702,10.0292096 C50.024727,10.0292096 51.017516,11.2915235 51.017516,13.2720504 L51.017516,13.4896907 C51.017516,15.4702176 50.024727,16.7325315 48.7230702,16.7325315 Z M56.246205,22.5 L59.379006,22.5 L59.379006,17.7119129 C60.0408654,18.5824742 60.9895305,19.4312715 62.577993,19.4312715 C64.9386247,19.4312715 67.0786367,17.5378007 67.0786367,13.5549828 L67.0786367,13.2067583 C67.0786367,9.22394044 64.9165627,7.33046964 62.577993,7.33046964 C61.0115925,7.33046964 60.0629274,8.1792669 59.379006,9.15864834 L59.379006,7.54810997 L56.246205,7.54810997 L56.246205,22.5 Z M61.6513899,16.7325315 C60.3497331,16.7325315 59.3348821,15.4702176 59.3348821,13.4896907 L59.3348821,13.2720504 C59.3348821,11.2915235 60.3497331,10.0292096 61.6513899,10.0292096 C62.9530466,10.0292096 63.9458357,11.2915235 63.9458357,13.2720504 L63.9458357,13.4896907 C63.9458357,15.4702176 62.9530466,16.7325315 61.6513899,16.7325315 Z M74.050222,19.4095074 C76.9997964,19.4095074 79.1605141,17.7269058 79.2329114,14.9819836 L79.2347871,14.7955326 C79.2347871,12.4232532 77.7786964,11.2915235 75.087135,10.2468499 L74.6307887,10.0582154 C72.6621498,9.23049007 72.1757375,8.81589296 72.153691,8.04076215 L72.1528918,7.96162658 C72.1528918,7.17812142 72.8368132,6.63402062 73.9399121,6.63402062 C75.131259,6.63402062 76.2564199,7.26517755 77.227147,8.0486827 L79.0141673,5.65463918 C77.6022006,4.39232532 75.8372423,3.78293242 74.02816,3.78293242 C71.101144,3.78293242 69.047747,5.5275939 68.9778103,8.10798231 L68.9759669,8.28808706 C68.9759669,10.8495462 70.6100301,11.8827502 73.2537518,12.907097 L73.7137322,13.0832008 C75.609047,13.8216939 76.0368864,14.2858469 76.0570938,14.9809996 L76.0578621,15.056701 C76.0578621,15.9490263 75.3077548,16.5584192 74.072284,16.5584192 C72.5279455,16.5584192 71.2704127,15.731386 70.2334997,14.8390607 L68.3361695,17.1678121 C70.0349419,18.7348225 72.0867059,19.4095074 74.050222,19.4095074 Z M86.2063724,19.4747995 C88.0595786,19.4747995 89.2509255,18.7565865 90.2216526,17.6901489 L88.5670041,15.6443299 C87.9492687,16.2754868 87.3535953,16.7107675 86.4269922,16.7107675 C84.8961917,16.7107675 83.9975079,15.4220355 83.9574494,13.5555472 L83.9560505,13.3373425 C83.9560505,11.4438717 84.9267776,10.0945017 86.3608062,10.0945017 C87.3094713,10.0945017 87.9051448,10.5515464 88.4787562,11.1391753 L90.1775286,8.89747995 C89.1626776,7.89633448 88.0154547,7.33046964 86.3166823,7.33046964 C83.1176953,7.33046964 80.8453115,9.83333333 80.8453115,13.2938144 L80.8453115,13.5549828 C80.8453115,16.9936999 83.0735714,19.4747995 86.2063724,19.4747995 Z M94.8767301,19.4312715 C96.2666348,19.4312715 97.2373618,18.8654066 97.9433452,17.9513173 L97.9433452,19.2136312 L101.00996,19.2136312 L101.00996,12.1403207 C101.00996,10.6386025 100.612845,9.41981672 99.7965514,8.61454754 C99.0243821,7.85280641 97.8109733,7.41752577 96.2004488,7.41752577 C94.5016765,7.41752577 93.3103296,7.78751432 92.1631067,8.35337915 L93.0235239,10.7691867 C93.7515692,10.4644903 94.6340483,10.1162658 95.7371473,10.1162658 C97.1491139,10.1162658 97.9654071,10.8127148 97.9654071,12.1620848 L97.9654071,12.5103093 C97.2373618,12.2273769 96.4872546,12.0315006 95.4944655,12.0315006 C93.0676478,12.0315006 91.3688755,13.1849943 91.3688755,15.7531501 L91.3688755,15.8837342 C91.3688755,18.1471936 92.935276,19.4312715 94.8767301,19.4312715 Z M95.9136431,17.1678121 C95.009102,17.1460481 94.3913666,16.6672394 94.3913666,15.709622 L94.3913666,15.6660939 C94.3913666,14.5996564 95.1194119,14.0337915 96.2666348,14.0337915 C96.9064322,14.0337915 97.5462296,14.1861397 98.0095311,14.4037801 L98.0095311,15.3831615 C98.0095311,16.4495991 97.127052,17.1895762 95.9136431,17.1678121 Z M103.414716,19.2136312 L106.547517,19.2136312 L106.547517,12.1838488 C106.547517,10.8127148 107.231438,10.1162658 108.268351,10.1162658 C109.327326,10.1162658 109.945062,10.8127148 109.945062,12.1838488 L109.945062,19.2136312 L113.077863,19.2136312 L113.077863,11.2697595 C113.077863,8.85395189 111.798268,7.33046964 109.59207,7.33046964 C108.091855,7.33046964 107.231438,8.1792669 106.547517,9.11512027 L106.547517,7.54810997 L103.414716,7.54810997 L103.414716,19.2136312 Z M125.542881,19.4747995 C128.741868,19.4747995 131.102499,16.9719359 131.102499,13.5114548 L131.102499,13.2720504 C131.102499,9.78980527 128.76393,7.33046964 125.564943,7.33046964 C122.365956,7.33046964 119.983262,9.83333333 119.983262,13.2938144 L119.983262,13.5332188 C119.983262,17.0154639 122.343894,19.4747995 125.542881,19.4747995 Z M125.564943,16.7978236 C124.064728,16.7978236 123.071939,15.3396334 123.071939,13.4679267 L123.071939,13.3155785 C123.071939,11.4221077 123.97648,10.0074456 125.542881,10.0074456 C127.043095,10.0074456 128.013822,11.4438717 128.013822,13.3373425 L128.013822,13.4896907 C128.013822,15.3831615 127.109281,16.7978236 125.564943,16.7978236 Z M133.176325,19.2136312 L136.309126,19.2136312 L136.309126,12.1838488 C136.309126,10.8127148 136.993048,10.1162658 138.029961,10.1162658 C139.088936,10.1162658 139.706671,10.8127148 139.706671,12.1838488 L139.706671,19.2136312 L142.839472,19.2136312 L142.839472,11.2697595 C142.839472,8.85395189 141.559877,7.33046964 139.35368,7.33046964 C137.853465,7.33046964 136.993048,8.1792669 136.309126,9.11512027 L136.309126,7.54810997 L133.176325,7.54810997 L133.176325,19.2136312 Z M156.738519,19.4312715 C159.099151,19.4312715 160.577303,18.5607102 161.967208,17.1460481 L160.047816,14.9043528 C159.010903,15.9272623 158.106362,16.4931271 156.870891,16.4931271 C154.856432,16.4931271 153.28858,14.7098435 153.232233,11.7818253 L153.230664,11.5526919 C153.230664,8.59278351 154.752941,6.69931271 156.826767,6.69931271 C158.0843,6.69931271 159.055027,7.28694158 159.98163,8.22279496 L161.901022,5.78522337 C160.709675,4.5882016 159.231523,3.76116838 156.937077,3.76116838 C152.855611,3.76116838 149.943429,6.895189 149.943429,11.5091638 L149.943429,11.7050401 C149.943429,16.362543 152.679115,19.4312715 156.738519,19.4312715 Z M163.974848,19.2136312 L167.107649,19.2136312 L167.107649,3.5 L163.974848,3.5 L163.974848,19.2136312 Z M174.851404,19.4747995 C178.050391,19.4747995 180.411022,16.9719359 180.411022,13.5114548 L180.411022,13.2720504 C180.411022,9.78980527 178.072453,7.33046964 174.873466,7.33046964 C171.674479,7.33046964 169.291785,9.83333333 169.291785,13.2938144 L169.291785,13.5332188 C169.291785,17.0154639 171.652417,19.4747995 174.851404,19.4747995 Z M174.873466,16.7978236 C173.373251,16.7978236 172.380462,15.3396334 172.380462,13.4679267 L172.380462,13.3155785 C172.380462,11.4221077 173.285003,10.0074456 174.851404,10.0074456 C176.351618,10.0074456 177.322345,11.4438717 177.322345,13.3373425 L177.322345,13.4896907 C177.322345,15.3831615 176.417804,16.7978236 174.873466,16.7978236 Z M185.904455,19.4312715 C187.382608,19.4312715 188.265087,18.5824742 188.926946,17.6466208 L188.926946,19.2136312 L192.059747,19.2136312 L192.059747,7.54810997 L188.926946,7.54810997 L188.926946,14.5778923 C188.926946,15.9490263 188.265087,16.6454754 187.206112,16.6454754 C186.147137,16.6454754 185.529401,15.9490263 185.529401,14.5778923 L185.529401,7.54810997 L182.418662,7.54810997 L182.418662,15.4919817 C182.418662,17.9077892 183.676195,19.4312715 185.904455,19.4312715 Z M198.656279,19.4312715 C200.222679,19.4312715 201.171344,18.5824742 201.855266,17.6030928 L201.855266,19.2136312 L204.988067,19.2136312 L204.988067,3.5 L201.855266,3.5 L201.855266,9.04982818 C201.171344,8.1792669 200.244741,7.33046964 198.656279,7.33046964 C196.295647,7.33046964 194.155635,9.22394044 194.155635,13.2067583 L194.155635,13.5549828 C194.155635,17.5378007 196.317709,19.4312715 198.656279,19.4312715 Z M199.582882,16.7325315 C198.281225,16.7325315 197.288436,15.4702176 197.288436,13.4896907 L197.288436,13.2720504 C197.288436,11.2915235 198.281225,10.0292096 199.582882,10.0292096 C200.884539,10.0292096 201.89939,11.2915235 201.89939,13.2720504 L201.89939,13.4896907 C201.89939,15.4702176 200.884539,16.7325315 199.582882,16.7325315 Z" id="HCLAppScanonCloud"></path><g id="atoms/icons/16x16/appScan/dark"><path d="M12.0286396,0 C18.667416,0 24.0572792,5.37703026 24.0572792,12 C24.0572792,18.6229813 18.667416,24 12.0286396,24 C5.3898517,24 0,18.6229813 0,12 C0,5.37703026 5.3898517,0 12.0286396,0 Z M12.8826477,21.3071344 C12.8826477,21.3071344 11.9262697,19.3687448 14.6716344,18.2549 C20.9049796,15.7259326 18.4979561,8.73000029 18.5080196,9.35071979 C18.5740685,13.4500303 13.7442901,13.6195482 15.1622004,13.056481 C18.1926971,11.8529845 19.0034438,2.61593053 9.55903749,2.6933618 C9.18236244,2.69647751 12.6093142,4.18359634 11.546379,7.59576494 C10.9700652,9.44546058 8.92273611,10.3405937 7.89290624,8.84655108 C7.38369395,8.10778063 7.95491813,6.52003577 7.89290624,6.51784323 C6.72952121,6.47676197 1.8632483,13.2922251 8.58188475,17.886161 C9.57231666,18.5633788 6.90497285,15.4799411 12.2831185,11.9937686 C12.7375947,11.6989297 6.77480689,16.6475839 12.8826477,21.3071344 Z" id="shape"></path></g></g><text id="|" font-family="Roboto-Regular, Roboto" font-size="32" font-weight="normal" fill="#121920"><tspan x="232" y="26">|</tspan></text><g id="atoms/brand/logo/hcl_software/dark" transform="translate(8.000000, 6.000000)"><g id="Group-1211"></g><g id="Combined-Shape" fill="#121212"><path d="M38.0183333,8.04833333 L32.8766667,20 L25.97,20 L31.1116667,8.04833333 L38.0183333,8.04833333 Z M87.3016667,2.66666667 C87.8583333,2.66666667 88.44,2.70666667 89.0466667,2.78833333 L89.0466667,14.785 L94.9983333,14.785 C95.045,15.0133333 95.0766667,15.2316667 95.0933333,15.4416667 C95.1083333,15.6516667 95.1166667,15.85 95.1166667,16.0383333 C95.1166667,16.255 95.1083333,16.4666667 95.0933333,16.6766667 C95.0766667,16.885 95.045,17.1033333 94.9983333,17.3333333 L85.605,17.3333333 L85.605,2.78833333 C86.195,2.70666667 86.76,2.66666667 87.3016667,2.66666667 Z M79.05,2.66666667 C79.7116667,2.66666667 80.3183333,2.70666667 80.8766667,2.785 C81.4333333,2.86333333 82.035,3.02833333 82.6816667,3.27833333 C82.655,3.67333333 82.5716667,4.05833333 82.4333333,4.43333333 C82.2966667,4.80833333 82.145,5.18666667 81.98,5.56833333 C81.4983333,5.41 81.0716667,5.29833333 80.7016667,5.23333333 C80.33,5.16666667 79.89,5.135 79.3816667,5.135 C78.06,5.135 77.0466667,5.545 76.3383333,6.36833333 C75.63,7.19 75.2766667,8.41 75.2766667,10.03 C75.2766667,13.24 76.6983333,14.8466667 79.5466667,14.8466667 C80.055,14.8466667 80.5016667,14.8133333 80.8866667,14.7483333 C81.2716667,14.6816667 81.705,14.57 82.1866667,14.4116667 C82.365,14.78 82.5133333,15.1583333 82.63,15.5466667 C82.7466667,15.935 82.8333333,16.3266667 82.8883333,16.7216667 C82.1733333,16.9716667 81.53,17.135 80.9583333,17.215 C80.3883333,17.2933333 79.7733333,17.3333333 79.1116667,17.3333333 C77.9433333,17.3333333 76.92,17.1533333 76.04,16.79 C75.1583333,16.4283333 74.42,15.9216667 73.8216667,15.27 C73.2233333,14.6183333 72.7733333,13.845 72.47,12.95 C72.1683333,12.0566667 72.0166667,11.0833333 72.0166667,10.03 C72.0166667,8.97666667 72.175,8 72.4916667,7.09833333 C72.8083333,6.19666667 73.265,5.41666667 73.8633333,4.75833333 C74.4616667,4.1 75.1966667,3.58833333 76.07,3.22 C76.9433333,2.85 77.9366667,2.66666667 79.05,2.66666667 Z M66.4366667,2.66666667 C66.925,2.66666667 67.425,2.70666667 67.94,2.78666667 L67.94,17.2133333 C67.425,17.2933333 66.9316667,17.3333333 66.4566667,17.3333333 C65.9566667,17.3333333 65.455,17.2933333 64.9533333,17.2133333 L64.9533333,11.3883333 L60.0566667,11.3883333 L60.0566667,17.2133333 C59.5416667,17.2933333 59.0483333,17.3333333 58.575,17.3333333 C58.0733333,17.3333333 57.5716667,17.2933333 57.07,17.2133333 L57.07,2.78666667 C57.5716667,2.70666667 58.0666667,2.66666667 58.5533333,2.66666667 C59.0416667,2.66666667 59.5416667,2.70666667 60.0566667,2.78666667 L60.0566667,8.86 L64.9533333,8.86 L64.9533333,2.78666667 C65.455,2.70666667 65.95,2.66666667 66.4366667,2.66666667 Z M107.89,2.66666667 C108.66,2.66666667 109.38,2.725 110.051667,2.84333333 C110.725,2.96166667 111.43,3.13333333 112.17,3.35666667 C112.08,4.12 111.838333,4.87166667 111.445,5.60833333 C111.218333,5.52833333 110.988333,5.45 110.755,5.37 C110.52,5.29166667 110.271667,5.22666667 110.006667,5.17333333 C109.743333,5.12 109.445,5.07833333 109.111667,5.045 C108.78,5.01333333 108.403333,4.99666667 107.98,4.99666667 C107.723333,4.99666667 107.463333,5.015 107.198333,5.055 C106.935,5.095 106.696667,5.16666667 106.485,5.27166667 C106.273333,5.37833333 106.1,5.53166667 105.965,5.73666667 C105.828333,5.94 105.76,6.20666667 105.76,6.535 C105.76,6.79833333 105.813333,7.01833333 105.92,7.19666667 C106.025,7.375 106.168333,7.52666667 106.35,7.65 C106.53,7.77666667 106.735,7.88166667 106.96,7.96666667 C107.188333,8.05166667 107.413333,8.135 107.64,8.21333333 L109,8.66666667 C109.573333,8.865 110.093333,9.06833333 110.561667,9.28 C111.03,9.49 111.426667,9.75 111.751667,10.06 C112.075,10.3683333 112.328333,10.7433333 112.51,11.185 C112.691667,11.625 112.781667,12.1683333 112.781667,12.8133333 C112.781667,13.4833333 112.641667,14.0966667 112.363333,14.6483333 C112.083333,15.2016667 111.68,15.675 111.15,16.07 C110.621667,16.465 109.97,16.775 109.191667,16.9983333 C108.415,17.2216667 107.52,17.3333333 106.508333,17.3333333 C106.01,17.3333333 105.563333,17.32 105.171667,17.2933333 C104.78,17.2683333 104.405,17.225 104.05,17.165 C103.695,17.1066667 103.345,17.0316667 102.996667,16.9383333 C102.65,16.8466667 102.286667,16.735 101.911667,16.6033333 C101.955,16.2216667 102.038333,15.8233333 102.16,15.4083333 C102.28,14.995 102.423333,14.5766667 102.59,14.155 C103.225,14.3783333 103.82,14.5466667 104.378333,14.6583333 C104.938333,14.77 105.533333,14.8266667 106.168333,14.8266667 C107.12,14.8266667 107.866667,14.6716667 108.41,14.3616667 C108.953333,14.0533333 109.226667,13.5833333 109.226667,12.9516667 C109.226667,12.635 109.161667,12.3716667 109.033333,12.1616667 C108.905,11.9516667 108.738333,11.7733333 108.535,11.6283333 C108.331667,11.485 108.1,11.3616667 107.845,11.2633333 C107.586667,11.165 107.323333,11.07 107.051667,10.9766667 L105.67,10.5233333 C105.156667,10.3516667 104.696667,10.165 104.288333,9.96 C103.881667,9.75666667 103.533333,9.51333333 103.246667,9.23 C102.96,8.94666667 102.736667,8.60833333 102.578333,8.21333333 C102.42,7.81833333 102.34,7.345 102.34,6.79166667 C102.34,6.12166667 102.473333,5.52833333 102.736667,5.015 C103.001667,4.50166667 103.375,4.07166667 103.858333,3.72166667 C104.341667,3.37333333 104.923333,3.11 105.601667,2.93333333 C106.281667,2.755 107.043333,2.66666667 107.89,2.66666667 Z M120.935,2.66666667 C122.11,2.66666667 123.126667,2.85166667 123.983333,3.22 C124.84,3.58833333 125.543333,4.1 126.095,4.75833333 C126.646667,5.41666667 127.056667,6.19666667 127.325,7.09833333 C127.593333,8 127.728333,8.97666667 127.728333,10.03 C127.728333,11.0816667 127.593333,12.0533333 127.325,12.9416667 C127.056667,13.83 126.646667,14.6 126.095,15.25 C125.543333,15.9016667 124.84,16.4116667 123.983333,16.7816667 C123.126667,17.15 122.11,17.3333333 120.935,17.3333333 C119.758333,17.3333333 118.741667,17.15 117.885,16.7816667 C117.03,16.4116667 116.325,15.9016667 115.773333,15.25 C115.221667,14.6 114.811667,13.83 114.543333,12.9416667 C114.275,12.0533333 114.14,11.0816667 114.14,10.03 C114.14,8.97666667 114.275,8 114.543333,7.09833333 C114.811667,6.19666667 115.221667,5.41666667 115.773333,4.75833333 C116.325,4.1 117.03,3.58833333 117.885,3.22 C118.741667,2.85166667 119.758333,2.66666667 120.935,2.66666667 Z M141.178333,2.66666667 C141.27,3.07166667 141.316667,3.48333333 141.316667,3.9 C141.316667,4.345 141.27,4.77 141.178333,5.175 L135.158333,5.175 L135.158333,8.59333333 L139.936667,8.59333333 C140.03,9.025 140.075,9.44333333 140.075,9.84833333 C140.075,10.28 140.03,10.705 139.936667,11.1216667 L135.158333,11.1216667 L135.158333,17.2116667 C134.576667,17.2916667 134.025,17.3333333 133.505,17.3333333 C132.938333,17.3333333 132.371667,17.2916667 131.805,17.2116667 L131.805,2.66666667 L141.178333,2.66666667 Z M153.42,2.66666667 C153.503333,3.07166667 153.545,3.48333333 153.545,3.90166667 C153.545,4.34833333 153.503333,4.77333333 153.42,5.17833333 L149.656667,5.17833333 L149.656667,17.2316667 C149.403333,17.26 149.151667,17.2833333 148.9,17.3033333 C148.646667,17.3233333 148.401667,17.3333333 148.163333,17.3333333 C147.925,17.3333333 147.668333,17.3266667 147.395,17.3133333 C147.121667,17.3 146.845,17.2716667 146.565,17.2316667 L146.565,5.17833333 L142.801667,5.17833333 C142.716667,4.77333333 142.675,4.34833333 142.675,3.90166667 C142.675,3.48333333 142.716667,3.07166667 142.801667,2.66666667 L153.42,2.66666667 Z M173.663333,2.66666667 C173.948333,2.66666667 174.226667,2.68 174.496667,2.70666667 C174.766667,2.73333333 175.031667,2.76 175.286667,2.78666667 L171.593333,17.2116667 C171.08,17.2933333 170.546667,17.3333333 169.991667,17.3333333 C169.451667,17.3333333 168.86,17.2933333 168.22,17.2116667 L165.765,7.60166667 L163.116667,17.2116667 C162.775,17.24 162.473333,17.2666667 162.21,17.2933333 C161.946667,17.3183333 161.658333,17.3333333 161.345,17.3333333 C160.903333,17.3333333 160.426667,17.2933333 159.915,17.2116667 L156.263333,2.78666667 C156.775,2.70666667 157.358333,2.66666667 158.015,2.66666667 C158.27,2.66666667 158.53,2.67333333 158.793333,2.68666667 C159.056667,2.7 159.316667,2.73333333 159.573333,2.78666667 L161.771667,13.6416667 L164.418333,2.78666667 C164.705,2.74666667 164.966667,2.71666667 165.208333,2.69666667 C165.451667,2.67666667 165.7,2.66666667 165.956667,2.66666667 C166.383333,2.66666667 166.846667,2.70666667 167.343333,2.78666667 L170.098333,13.9216667 L172.298333,2.78666667 C172.738333,2.70666667 173.195,2.66666667 173.663333,2.66666667 Z M182.113333,2.66666667 C182.408333,2.66666667 182.695,2.67666667 182.975,2.69666667 C183.255,2.71666667 183.565,2.74666667 183.903333,2.78666667 L188.875,17.2116667 C188.27,17.2933333 187.681667,17.3333333 187.106667,17.3333333 C186.546667,17.3333333 186.003333,17.2933333 185.471667,17.2116667 L184.588333,14.3233333 L179.33,14.3233333 L178.423333,17.2116667 C177.893333,17.2933333 177.385,17.3333333 176.9,17.3333333 C176.355,17.3333333 175.816667,17.2933333 175.286667,17.2116667 L180.301667,2.78666667 C180.611667,2.74666667 180.906667,2.71666667 181.186667,2.69666667 C181.465,2.67666667 181.775,2.66666667 182.113333,2.66666667 Z M200.34,6.795 C200.463333,8.68 199.405,10.1566667 197.971667,10.705 L201.103333,17.2 C200.213333,17.4116667 198.798333,17.34 197.886667,17.2 L194.47,10.065 C195.466667,9.84833333 197.433333,9.33333333 197.463333,7.405 C197.495,5.41833333 195.033333,4.75333333 193.32,5.025 L193.32,17.22 C193.066667,17.2466667 192.813333,17.27 192.56,17.29 C192.305,17.31 192.058333,17.32 191.82,17.32 C191.58,17.32 191.326667,17.3133333 191.058333,17.3 C190.79,17.2866667 190.516667,17.26 190.233333,17.22 L190.233333,2.775 C193.551667,2.64 200.023333,1.97 200.34,6.795 Z M213.046667,2.67333333 C213.135,3.07666667 213.178333,3.48666667 213.178333,3.90333333 C213.178333,4.34833333 213.135,4.77166667 213.046667,5.175 L207.256667,5.175 L207.256667,8.32333333 L211.853333,8.32333333 C211.941667,8.755 211.985,9.17166667 211.985,9.575 C211.985,10.005 211.941667,10.4283333 211.853333,10.8466667 L207.256667,10.8466667 L207.256667,14.6816667 L213.201667,14.6816667 C213.29,15.085 213.333333,15.4933333 213.333333,15.9116667 C213.333333,16.3566667 213.29,16.78 213.201667,17.1833333 L204.031667,17.1833333 L204.031667,2.67333333 L213.046667,2.67333333 Z M12.23,-3.22171919e-12 L7.01166667,12 L21.7416667,12 L19.9433333,16 L5.44833333,16 L5.44833333,15.9983333 L1.8533323e-13,12 L5.21833333,-3.22171919e-12 L12.23,-3.22171919e-12 Z M120.955,5.135 C118.676667,5.135 117.536667,6.765 117.536667,10.03 C117.536667,13.2933333 118.67,14.925 120.935,14.925 C123.185,14.925 124.31,13.2933333 124.31,10.03 C124.31,8.39833333 124.036667,7.17333333 123.493333,6.35833333 C122.948333,5.54166667 122.103333,5.135 120.955,5.135 Z M182.003,5.837 L180.08,11.895 L183.836667,11.895 L182.003,5.837 Z M32.6,4 L32.6,4.00166667 L38.0466667,8 L16.305,8 L18.1033333,4 L32.6,4 Z"></path></g></g></g></svg>
+			    
+		</div><h1 style="margin: 20px;" xmlns="">Security Report</h1><h2 style="margin: 20px;" xmlns="">Scan Name: Static_WebGoat-Legacy-master_2023-05-17_19-52-03</h2><h2 style="margin: 20px;" xmlns="">Technology: SAST</h2><br xmlns="" /><h4 style="margin: 20px;" xmlns="">Report Name: WebGoat-Legacy-master_Open Source Scan Only</h4><h4 style="margin: 20px;" xmlns="">Report created at: Wednesday, May 17, 2023</h4><h4 style="margin: 20px;" xmlns=""></h4><br xmlns="" /><h3 style="padding-left:20px" xmlns="">Summary of security issues</h3><table style="padding-left:20px" xmlns=""><tr><td>High severity issues:</td><td style="text-align: right">5</td></tr><tr><td>Medium severity issues:</td><td style="text-align: right">10</td></tr><tr style="font-weight:bold; font-size:20;"><td style="font-weight:bold; font-size:20; border-top: 1px solid black;">Total security issues:</td><td style="text-align: right; border-top: 1px solid black;">15</td></tr></table><br xmlns="" /><br xmlns="" /><br xmlns="" /><br xmlns="" /><div style="padding-left:20px" xmlns=""><h2>Scan Information</h2><p><div class="row"><div class="name">Scan started: </div><div class="value">Wednesday, May 17, 2023 2:27:05 PM (UTC)</div></div><br /></p></div><h1 id="toc"><a name="toc"></a>Table of Contents</h1><hr style="noshade" /><div class="toc" xmlns=""><h2><a href="#executiveSummary">Summary</a></h2><ul><li><a href="#issueTypes">Issues</a></li></ul><h2><a href="#issuesByFixGroups">Fix-Groups</a></h2><ul><li><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">Common Open Source: Open Source Component: <string style="color: #555555">angular.min.js</string></a></li><li><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">Common Open Source: Open Source Component: <string style="color: #555555">bootstrap.min.js</string></a></li></ul><h2><a href="#Articles">How to Fix</a></h2><ul><li><a href="#article-OpenSource">Open Source Component</a></li></ul></div>
+					 
+					
+					<input type="hidden" name="sectionstart" />
+					 
+					
+
+					<h1 id="executiveSummary"><a name="executiveSummary"></a>Summary</h1><hr style="noshade" /><div id="executiveSummary" class="h2group" xmlns=""><h3>Total security issues:<span class="count">15</span></h3></div><br xmlns="" /><div id="issueTypes" class="h2group" xmlns=""><h3><a name="issueTypes"></a>Issue Types:<span class="count">1</span></h3><table class="datatable nowordwrap"><tr><th></th><th></th><th colspan="2">Number of Issues</th></tr><tr><td style="width:66%">Open Source Component</td><td>15</td><td style="width:33%"><span style="width:33.333333333333336%; height:16px;" class="severity_3" title="5"></span><span style="width:66.66666666666667%; height:16px;" class="severity_2" title="10"></span></td></tr></table><table class="severityLegend"><tr><td><div style="width:16px; height:16px" class="severity_4"></div></td><td>Critical</td><td><div style="width:16px; height:16px" class="severity_3"></div></td><td>High</td><td><div style="width:16px; height:16px" class="severity_2"></div></td><td>Medium</td><td><div style="width:16px; height:16px" class="severity_1"></div></td><td>Low</td><td><div style="width:16px; height:16px" class="severity_0"></div></td><td>Informational</td></tr></table></div><br xmlns="" /><br xmlns="" />
+					 
+					
+					<input type="hidden" name="sectionstart" />
+					 
+					
+					<h1 id="issuesByFixGroups" xmlns=""><a name="issuesByFixGroups"></a>Issues - By Fix Groups:</h1><hr style="noshade" xmlns="" /><div id="a7320d6f-bcf4-ed11-800f-14cb65723612" class="issueType" xmlns=""><a name="fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612"></a><div class="severity severity_3">H</div><div><h2 class="nowordwrap">Common Open Source: Open Source Component: angular.min.js</h2></div></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Fix Group ID:</div><div class="value">a7320d6f-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Status:</div><div class="value">Open</div></div><div class="row"><div class="name">Date:</div><div class="value">2023-05-17 14:09:36Z</div></div><div class="row"><div class="name">Library name:</div><div class="value">angular.min.js</div></div><div class="row"><div class="name">Notes: </div><div class="value"></div></div><div class="row"><div class="name">How to Fix:</div><div class="value"><a href="#article-OpenSource">Open Source Component</a>   See also issue-details 'Resolution' section below.</div></div></div><div class="h3group" xmlns=""><h2>Issue
+				 
+				1
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">d6c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_3">High</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">7.5</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-10768</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						1
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2019-10768</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In AngularJS before 1.7.9 the function `merge()` could be tricked into adding or modifying properties of `Object.prototype` using a `__proto__` payload.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 1.7.9</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-10768</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				2
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">cdc01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_3">High</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">7.5</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26117</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						2
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2023-26117</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the $resource service due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than 1.8.3</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26117</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				3
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">d0c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_3">High</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">7.5</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26118</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						3
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2023-26118</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the &lt;input type="url"&gt; element due to the usage of an insecure regular expression in the input[url] functionality. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than 1.8.3</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26118</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				4
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">d3c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_3">High</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">7.5</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26116</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						4
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2023-26116</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">All versions of the package angular are vulnerable to Regular Expression Denial of Service (ReDoS) via the angular.copy() utility function due to the usage of an insecure regular expression. Exploiting this vulnerability is possible by a large carefully-crafted input, which can result in catastrophic backtracking.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than 1.8.3</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2023-26116</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				5
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">cac01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_3">High</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">7.5</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2022-25844</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						5
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2022-25844</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">The package angular after 1.7.0 are vulnerable to Regular Expression Denial of Service (ReDoS) by providing a custom locale rule that makes it possible to assign the parameter in posPre: ' '.repeat() of NUMBER_FORMATS.PATTERNS[1].posPre with a very high value. **Note:** 1) This package has been deprecated and is no longer maintained. 2) The vulnerable versions are 1.7.0 and higher.</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2022-25844</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				6
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">c1c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2022-25869</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						6
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2022-25869</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">All versions of package angular are vulnerable to Cross-site Scripting (XSS) due to insecure page caching in the Internet Explorer browser, which allows interpolation of &lt;textarea&gt; elements.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than 1.8.3</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2022-25869</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				7
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">c7c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">5.4</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-14863</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						7
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2019-14863</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">There is a vulnerability in all angular versions before 1.5.0-beta.0, where after escaping the context of the web application, the web application delivers data to its users along with other trusted dynamic content, without validating it.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 1.5.0-beta.1</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-14863</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				8
+				 
+				of
+				 
+				8</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">c4c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a7320d6f-bcf4-ed11-800f-14cb65723612">a7320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">5.4</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2020-7676</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/src/main/webapp/js/angular/angular.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						8
+						 
+						of
+						 
+						8
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2020-7676</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one. Wrapping "&lt;option&gt;" elements in "&lt;select&gt;" ones changes parsing behavior, leading to possibly unsanitizing code.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 1.8.0</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2020-7676</div></div></div></div><br xmlns="" /><div id="a3320d6f-bcf4-ed11-800f-14cb65723612" class="issueType" xmlns=""><a name="fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612"></a><div class="severity severity_2">M</div><div><h2 class="nowordwrap">Common Open Source: Open Source Component: bootstrap.min.js</h2></div></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Fix Group ID:</div><div class="value">a3320d6f-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Status:</div><div class="value">Open</div></div><div class="row"><div class="name">Date:</div><div class="value">2023-05-17 14:09:37Z</div></div><div class="row"><div class="name">Library name:</div><div class="value">bootstrap.min.js</div></div><div class="row"><div class="name">Notes: </div><div class="value"></div></div><div class="row"><div class="name">How to Fix:</div><div class="value"><a href="#article-OpenSource">Open Source Component</a>   See also issue-details 'Resolution' section below.</div></div></div><div class="h3group" xmlns=""><h2>Issue
+				 
+				1
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">bec01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14040</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						1
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2018-14040</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 4.1.2, XSS is possible in the collapse data-parent attribute.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 4.1.2</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14040</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				2
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">afc01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2016-10735</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						2
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2016-10735</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap 3.x before 3.4.0 and 4.x-beta before 4.0.0-beta.2, XSS is possible in the data-target attribute, a different vulnerability than CVE-2018-14041.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than 4.0.0</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2016-10735</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				3
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">bbc01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14041</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						3
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2018-14041</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 4.1.2, XSS is possible in the data-target property of scrollspy.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 4.1.2</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14041</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				4
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">b5c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-20677</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						4
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2018-20677</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 3.4.0, XSS is possible in the affix configuration target property.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 3.4.0</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-20677</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				5
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">b8c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14042</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						5
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2018-14042</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 4.1.2, XSS is possible in the data-container property of tooltip.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 4.1.2</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-14042</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				6
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">c8320d6f-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-8331</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						6
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2019-8331</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 3.4.1 and 4.3.x before 4.3.1, XSS is possible in the tooltip or popover data-template attribute.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 4.3.1</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2019-8331</div></div></div></div><br xmlns="" /><div class="h3group" xmlns=""><h2>Issue
+				 
+				7
+				 
+				of
+				 
+				7</h2></div><div class="issueHeader" xmlns=""><div class="row"><div class="name">Issue ID:</div><div class="value">b2c01375-bcf4-ed11-800f-14cb65723612</div></div><div class="row"><div class="name">Severity:</div><div class="value"><span class="box severity_2">Medium</span></div></div><div class="row"><div class="name">Status</div><div class="value">Open</div></div><div class="row"><div class="name">Fix Group ID:</div><div class="value"><a href="#fix-group-a3320d6f-bcf4-ed11-800f-14cb65723612">a3320d6f-bcf4-ed11-800f-14cb65723612</a></div></div><div class="row"><div class="name">Location</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">Source File</div><div class="value">C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</div></div><div class="row"><div class="name">CVSS</div><div class="value">6.1</div></div><div class="row"><div class="name">CVSS Version</div><div class="value">None</div></div><div class="row"><div class="name">Date Created</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Updated</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">Last Found</div><div class="value">Wednesday, May 17, 2023</div></div><div class="row"><div class="name">CVE</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-20676</div></div><div class="row"><div class="name">CWE:</div><div class="value" style="word-break: normal"><ul style="margin:0; padding:0">829</ul></div></div><div class="row"><div class="name">File:</div><div class="value"><table><tr><td>C:/Users/C-VBEW897/Documents/Gitbub App Folder/WebGoat-Legacy-master/WebGoat-Legacy-master/newDesign/assets/plugins/bootstrap/js/bootstrap.min.js</td></tr></table></div></div></div><div class="h3group seperator" xmlns=""><h3>Issue
+						 
+						7
+						 
+						of
+						 
+						7
+						 
+						 - Details</h3></div><div class="name" xmlns=""><div class="issueInformation"><div class="row"><div class="name">Name:</div><div class="value">CVE-2018-20676</div></div><div class="row"><div class="name">Description:</div><div class="value" style="white-space: pre-wrap">In Bootstrap before 3.4.0, XSS is possible in the tooltip data-viewport attribute.</div></div><div class="row"><div class="name">Resolution:</div><div class="value" style="white-space: pre-wrap">Upgrade package to version greater than or equal to 3.4.0</div></div><div class="row"><div class="name">URL:</div><div class="value">https://www.cve.org/CVERecord?id=CVE-2018-20676</div></div></div></div><br xmlns="" />
+
+					 
+					
+					<input type="hidden" name="sectionstart" />
+					 
+					
+
+					<h1 id="Articles"><a name="Articles"></a>How to Fix</h1><hr style="noshade" /><a name="article-OpenSource" xmlns=""></a><div class="issueType" xmlns=""><div class="severity severity_3">H</div><div><h2 class="nowordwrap">Open Source Component
+           
+        </h2></div></div><br xmlns="" /><br xmlns="" /><h4 xmlns="">Cause</h4><br xmlns="" /><div xmlns="">A vulnerable version of third party software component is installed in the tested application.<br /></div><br xmlns="" /><h4 xmlns="">Risk</h4><br xmlns="" /><div xmlns="">A vulnerable third party software component may introduce all manner of vulnerabilities into the application<br /><br /></div><br xmlns="" /><h4 xmlns="">Fix recommendation</h4><br xmlns="" /><div xmlns="">Upgrade to the latest version of the third party software component. We highly recommend contacting the vendor of this product to see if a patch or fix has recently been made available.<br /><br /></div><br xmlns="" /><h4 xmlns="">CWE</h4><br xmlns="" /><div xmlns=""><a href="https://cwe.mitre.org/data/definitions/829">829</a></div><br xmlns="" /><h4 xmlns="">External references</h4><br xmlns="" /><div xmlns=""><li><a href="http://www.cert.org">CERT coordination center</a></li><li><a href="https://www.cve.org">Common Vulnerabilities and Exposures (CVE)</a></li></div><a class="toclink" href="#toc" xmlns="">Go to Table of Contents</a><br xmlns="" /><br xmlns="" /></body>
