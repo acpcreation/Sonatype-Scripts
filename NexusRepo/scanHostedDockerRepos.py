@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 #      into the iq_organization_id field. Ex: https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
 
 
-# Environment Variables
+################ USER INPUT ################
 iq_app_name = "Docker-Hosted-NXRM"
 iq_organization_id = "98acec7545f74c408e7086c7ab6d0fb4" #https://help.sonatype.com/iqserver/integrations/nexus-iq-cli#NexusIQCLI-organizationLocatingtheorganizationID
 
@@ -30,7 +30,7 @@ iq_username = "admin"
 iq_password = "admin!23"
 path_to_cli_jar = 'nexus-iq-cli-*.jar'
 cache_file_name = "container-scan-cache.json"
-##### END OF USER INPUT #####
+################ END OF USER INPUT ################
 
 page_number = 0
 cont_token = None
@@ -68,7 +68,8 @@ def initial_comp_list():
         if nxrm_image_to_scan not in scan_cache[repo_name]:
             #Trigger IQ scan
             print('\nThe IQ scanning CLI command to be invoked is:')
-            iq_cli_cmd = "java -jar "+path_to_cli_jar+" -a \'"+iq_username+":"+iq_password+"\' -i "+iq_app_name+"-"+items['name']+" -s "+ iq_url + " -t source -O "+iq_organization_id +" container:" +nxrm_image_to_scan
+            cont_name = items['name'].replace("/", "-")
+            iq_cli_cmd = "java -jar "+path_to_cli_jar+" -a \""+iq_username+":"+iq_password+"\" -i "+iq_app_name+"-"+cont_name+" -s "+ iq_url + " -t source -O "+iq_organization_id +" container:" +nxrm_image_to_scan
             print("\t"+iq_cli_cmd)
             # print("Scanning...")
             subprocess.call([iq_cli_cmd], shell=True)
